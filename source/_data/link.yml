@@ -214,11 +214,11 @@ class4:
 class5:
   class_name: FEM 阵亡名单
   link_list:
-    1:
-      name: （暂无）
-      link: /
-      avatar: /
-      descr: （暂无，大家都有好好地维护自己的网页呢！）
+    # 1:
+    #   name: （暂无）
+    #   link: /
+    #   avatar: /
+    #   descr: （暂无，大家都有好好地维护自己的网页呢！）
     1:
       name: 白渃の导航站
       link: https://bairuo.top/
