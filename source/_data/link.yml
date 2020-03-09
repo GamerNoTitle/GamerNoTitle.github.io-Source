@@ -229,13 +229,11 @@ class5:
     #   link: https://www.xyz.blue
     #   avatar: https://www.xyz.blue/logo.png
     #   descr: 
-  6:
-    name: Forex Trading
-    link: https://www.fi-forex.com
-    avatar: https://www.fi-forex.com/favicon.ico
-    descr: 
-    
-    
+    6:
+      name: Forex Trading
+      link: https://www.fi-forex.com
+      avatar: https://www.fi-forex.com/favicon.ico
+      descr: 
 
 class6:
   class_name: LIU 特别链接
