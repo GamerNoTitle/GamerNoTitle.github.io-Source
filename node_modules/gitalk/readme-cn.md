@@ -1,6 +1,12 @@
 # Gitalk
 
-[![NPM][npm-version-image]][npm-version-url] [![CDNJS][cdnjs-version-image]][cdnjs-version-url] [![david-dm][david-dm-image]][david-dm-url] [![travis][travis-image]][travis-url] [![coveralls][coveralls-image]][coveralls-url] [![gzip][gzip-size]][gzip-url]
+[![NPM][npm-version-image]][npm-version-url] 
+[![CDNJS][cdnjs-version-image]][cdnjs-version-url] 
+[![jsdelivr](https://data.jsdelivr.com/v1/package/npm/gitalk/badge)](https://www.jsdelivr.com/package/npm/gitalk)
+[![david-dm][david-dm-image]][david-dm-url] 
+[![travis][travis-image]][travis-url] 
+[![coveralls][coveralls-image]][coveralls-url] 
+[![gzip-size][gzip-size]][gzip-url]
 
 Gitalk 是一个基于 GitHub Issue 和 Preact 开发的评论插件。
 
@@ -67,6 +73,24 @@ gitalk.render('gitalk-container')
 ```
 
 需要 **GitHub Application**，如果没有 [点击这里申请](https://github.com/settings/applications/new)，`Authorization callback URL` 填写当前使用插件页面的域名。
+
+### 在React使用
+
+使用以下代码引入Gitalk组件
+
+```jsx
+import GitalkComponent from "gitalk/dist/gitalk-component";
+```
+
+按以下方式在React中使用Gitalk组件
+
+```jsx
+<GitalkComponent options={{
+  clientID: "...",
+  // ...
+  // 设置项
+}} />
+```
 
 ## 设置
 
@@ -183,6 +207,10 @@ gitalk.render('gitalk-container')
 
   初始化渲染并挂载插件。
 
+## TypeScript
+
+已经包括了配置项和Gitalk类的类型定义，不包括React组件的类型定义。
+
 ## 贡献
 
 1. [Fork 代码仓库](https://github.com/gitalk/gitalk/fork) 并从 master 创建你的分支
@@ -211,5 +239,5 @@ MIT
 [travis-url]: https://travis-ci.org/gitalk/gitalk
 [coveralls-image]: https://img.shields.io/coveralls/gitalk/gitalk/master.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/github/gitalk/gitalk
-[gzip-size]: http://img.badgesize.io/https://unpkg.com/gitalk/dist/gitalk.min.js?compression=gzip&style=flat-square
+[gzip-size]: https://img.badgesize.io/https://unpkg.com/gitalk/dist/gitalk.min.js?compression=gzip&style=flat-square
 [gzip-url]: https://unpkg.com/gitalk/dist/gitalk.min.js

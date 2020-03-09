@@ -161,13 +161,13 @@ $ ./objs/srs -c conf/srs.conf
 
 此时可以使用VLC Media Player来检测是否推流成功，打开VLC Media Player，选择“媒体”->“打开网络串流”，在URL里面填写你的rtmp地址（包括密钥）例如我的OBS配置如下
 
-![OBS-Config](https://raw.githubusercontent.com/GamerNoTitle/Picture-repo/master/srs/OBS-Conf.png)
+![OBS-Config](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/srs/OBS-Conf.png)
 
 那么我就应该填写``rtmp://172.52.5.100:1935/home/live``
 
 点击确定，可以看到我推流出来的内容
 
-![VLC](https://raw.githubusercontent.com/GamerNoTitle/Picture-repo/master/srs/VLC-Media-Player-Success.png)
+![VLC](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/srs/VLC-Media-Player-Success.png)
 
 这样就证明我推流成功了！
 
@@ -229,7 +229,7 @@ video:'http://172.52.5.100:8080/home/live.flv' //视频地址
 
 然后保存刷新，打开里面的视频播放器（都9102年了还用Flash？？？），就可以看到直播画面了
 
-![Website](https://raw.githubusercontent.com/GamerNoTitle/Picture-repo/master/srs/live.png)
+![Website](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/srs/live.png)
 
 如果你看到了直播画面，就证明你成功了~
 
