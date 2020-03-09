@@ -168,11 +168,11 @@ class3:
 class4:
   class_name: NE 友人帐
   link_list:
-    1:
-      name: 白渃の导航站
-      link: https://bairuo.top/
-      avatar: https://file.bairuo.top/logo.jpg
-      descr: 一个部署了很多没有用的东西的导航站
+    # 1:
+    #   name: 白渃の导航站
+    #   link: https://bairuo.top/
+    #   avatar: https://file.bairuo.top/logo.jpg
+    #   descr: 一个部署了很多没有用的东西的导航站
     2:
       name: NEKKOOOOOOOOOOOO~
       link: http://thisnekko.tk/
@@ -193,11 +193,11 @@ class4:
       link: https://tnrzy.github.io
       avatar: https://tnrzy.github.io/images/1.jpg
       descr: tnrzy’s blog
-    6:
-      name: Forex Trading
-      link: https://www.fi-forex.com
-      avatar: https://www.fi-forex.com/favicon.ico
-      descr: 
+    # 6:
+    #   name: Forex Trading
+    #   link: https://www.fi-forex.com
+    #   avatar: https://www.fi-forex.com/favicon.ico
+    #   descr: 
     7:
       name: Soulxyzの日常
       link: http://blog.yyqiang.top/
@@ -219,16 +219,21 @@ class5:
       link: /
       avatar: /
       descr: （暂无，大家都有好好地维护自己的网页呢！）
-    # 1:
-    #   name: 白渃の导航站
-    #   link: https://bairuo.top/
-    #   avatar: https://file.bairuo.top/logo.jpg
-    #   descr: 一个部署了很多没有用的东西的导航站
+    1:
+      name: 白渃の导航站
+      link: https://bairuo.top/
+      avatar: https://file.bairuo.top/logo.jpg
+      descr: 一个部署了很多没有用的东西的导航站
     # 4:
     #   name: Kylin’s Blog
     #   link: https://www.xyz.blue
     #   avatar: https://www.xyz.blue/logo.png
     #   descr: 
+  6:
+    name: Forex Trading
+    link: https://www.fi-forex.com
+    avatar: https://www.fi-forex.com/favicon.ico
+    descr: 
     
     
 
