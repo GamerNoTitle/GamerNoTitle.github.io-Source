@@ -31,6 +31,7 @@
     "hexo-server": "^1.0.0",
     "hexo-util": "^1.9.0",
     "hexo-wordcount": "^6.0.1",
-    "live2d-widget-model-tororo": "^1.0.5"
+    "live2d-widget-model-tororo": "^1.0.5",
+    "node-snackbar": "^0.1.16"
   }
 }
