@@ -535,7 +535,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 2020.3.14 近期正在申请Github Pages的HTTPS服务，网站可能会出现无法访问的问题，将持续最多5天
+  content: 本站已经申请完HTTPS证书，将开启强制HTTPS访问；网站主题已升级，从butterfly@2.0.0升级到了butterfly@2.1.0
 
 # busuanzi count for PV / UV in site
 # 訪問人數
