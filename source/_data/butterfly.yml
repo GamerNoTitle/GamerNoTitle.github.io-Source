@@ -1,3 +1,4 @@
+
 # Main menu navigation
 # ---------------
 # format: xxx: 連結 || icon
@@ -29,7 +30,10 @@ menu:
   #dev网站: http://dev.bili33.top||fa fa-globe
   #RSS: /atom.xml||fa fa-rss
   #Donate: /Donate/||fa fa-credit-card-alt
-  Bangumi: /bangumis/||fa fa-youtube-play
+  Entertainment||fa fa-gamepad:
+    - Bangumi || /bangumis/ || fa fa-youtube-play
+    - Steam || /steamgames/ || fa fa-steam
+  #Bangumi: /bangumis/||fa fa-youtube-play
   Link: /link/||fa fa-link
   About: /About/||fa fa-heart
 #   #XXX: /xxx
@@ -494,7 +498,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: Onedrive出现了点同步问题，把我之前的某些数据覆盖掉了，现在正在逐渐恢复……
+  content: 2020.3.14 近期正在申请Github Pages的HTTPS服务，网站可能会出现无法访问的问题，将持续最多5天
 
 # busuanzi count for PV / UV in site
 # 訪問人數

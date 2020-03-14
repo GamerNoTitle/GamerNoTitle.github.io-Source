@@ -120,3 +120,16 @@ bangumi:
   quote: 'TECH OTAKUS SAVE THE WORLD —— MiHoYo'
   show: 1
   loading: 'http://bili33.top/img/bangumi-loading.gif'
+
+# Steam游戏页面
+steam:
+  enable: true
+  steamId: '76561198309889674' #steam 64位Id
+  title: Steam游戏库
+  quote: '今天G胖又赚了多少？'
+  tab: recent
+  length: 1000
+  imgUrl: 
+  proxy:
+    host: 127.0.0.1
+    port: 10809

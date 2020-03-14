@@ -164,6 +164,11 @@ class3:
       link: https://www.hojun.cn
       avatar: https://cdn.jsdelivr.net/gh/honjun/ImageHosting/sina/006bYVyvgy1ftand2qurdj303c03cdfv.jpg
       descr: 一个好奇的博客
+    3:
+      name: HCLonely
+      link: https://blog.hclonely.com/
+      avatar: https://blog.hclonely.com/img/avatar.jpg
+      descr: 一个懒人的博客
 
 class4:
   class_name: NE 友人帐
