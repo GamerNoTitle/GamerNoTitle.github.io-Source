@@ -169,6 +169,11 @@ class3:
       link: https://blog.hclonely.com/
       avatar: https://blog.hclonely.com/img/avatar.jpg
       descr: 一个懒人的博客
+    4:
+      name: 火喵酱
+      link: https://dorcandy.cn
+      avatar: https://hexo-1251213061.cos.ap-beijing.myqcloud.com/image/kasa.jpg
+      descr: 一喵一世界
 
 class4:
   class_name: NE 友人帐
@@ -245,11 +250,11 @@ class6:
   link_list:
     1:
       name: 5 A.M. Studio
-      link: https://www.5am.website
+      link: https://5amstd.github.io
       avatar: https://avatars2.githubusercontent.com/u/54062596?s=200&v=4
       descr: 这是一个由9人创建的小团体哦~
-    2:
-      name: 鸡场钉|Airding
-      link: http://ssr.airding.top
-      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@airding/img/airding/airding.jpg
-      descr: 白嫖、快速、实惠！
+    # 2:
+    #   name: 鸡场钉|Airding
+    #   link: http://ssr.airding.top
+    #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@airding/img/airding/airding.jpg
+    #   descr: 白嫖、快速、实惠！
