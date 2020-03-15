@@ -1,5 +1,6 @@
 class:
   class_name: EIN 个人项目
+  class_descr: 个人部署在不同地方的项目，稳定性？不存在的╭(╯^╰)╮
   link_list:
     # 1:
     #   name: Pixel Minecraft Skin Server
@@ -119,6 +120,7 @@ class:
 
 class2:
   class_name: DOS 私人服务
+  class_descr: 我个人在使用的不同网络服务，在这里列出(＾Ｕ＾)ノ~ＹＯ
   link_list:
     1:
       name: CloudFlare
@@ -153,6 +155,7 @@ class2:
 
 class3:
   class_name: TROIS 大佬之家
+  class_descr: 各有所长的大佬（真好呀，我什么时候也能成为大佬）∠( °ω°)／ 
   link_list:
     1:
       name: さくら荘の白猫
@@ -177,12 +180,38 @@ class3:
 
 class4:
   class_name: NE 友人帐
+  class_descr: 小伙伴们你们好鸭~ヾ(◍°∇°◍)ﾉﾞ
   link_list:
-    # 1:
-    #   name: 白渃の导航站
-    #   link: https://bairuo.top/
-    #   avatar: https://file.bairuo.top/logo.jpg
-    #   descr: 一个部署了很多没有用的东西的导航站
+    1:
+      name: Kylin’s Blog
+      link: https://www.xyz.blue
+      avatar: https://www.xyz.blue/logo.png
+      descr: 
+    2:
+      name: 童年如作业的博客
+      link: https://tnrzy.github.io
+      avatar: https://tnrzy.github.io/images/1.jpg
+      descr: tnrzy’s blog
+    # 3:
+    #   name: Forex Trading
+    #   link: https://www.fi-forex.com
+    #   avatar: https://www.fi-forex.com/favicon.ico
+    #   descr: 
+    4:
+      name: Ruby の いえ
+      link: https://wangzhongqing.xyz/
+      avatar: https://cdn.jsdelivr.net/gh/Amethyst-Ruby/myCDN/img/login.png
+      descr: Ruby 的随心记~
+
+class5:
+  class_name: FEM 线下后宫
+  class_descr: 家伙们海底捞约起！ヾ(^Д^*)/
+  link_list:
+    1:
+      name: 白渃の导航站
+      link: https://bairuo.top/
+      avatar: https://file.bairuo.top/logo.jpg
+      descr: 一个部署了很多没有用的东西的导航站
     2:
       name: NEKKOOOOOOOOOOOO~
       link: http://thisnekko.tk/
@@ -194,59 +223,35 @@ class4:
       avatar: http://github.yuleng.top/images/me.jpg
       descr: 欢迎来到yuleng的天地！
     4:
-      name: Kylin’s Blog
-      link: https://www.xyz.blue
-      avatar: https://www.xyz.blue/logo.png
-      descr: 
-    5:
-      name: 童年如作业的博客
-      link: https://tnrzy.github.io
-      avatar: https://tnrzy.github.io/images/1.jpg
-      descr: tnrzy’s blog
-    # 6:
-    #   name: Forex Trading
-    #   link: https://www.fi-forex.com
-    #   avatar: https://www.fi-forex.com/favicon.ico
-    #   descr: 
-    7:
       name: Soulxyzの日常
       link: http://blog.yyqiang.top/
       avatar: https://cdn.jsdelivr.net/gh/soulxyz/soulxyz.github.io@1.0/statics/img/head.png
       descr: 不要让时代的悲哀 成为你的悲哀
-    8:
-      name: Ruby の いえ
-      link: https://wangzhongqing.xyz/
-      avatar: https://cdn.jsdelivr.net/gh/Amethyst-Ruby/myCDN/img/login.png
-      descr: Ruby 的随心记~
 
-    
 
-class5:
-  class_name: FEM 阵亡名单
+class6:
+  class_name: LIU 阵亡名单
+  class_descr: 怎么Server Down了呢？赶紧回来吧，我好想你们呀 ヽ(。>д<)ｐ
   link_list:
     # 1:
     #   name: （暂无）
     #   link: /
     #   avatar: /
     #   descr: （暂无，大家都有好好地维护自己的网页呢！）
-    1:
-      name: 白渃の导航站
-      link: https://bairuo.top/
-      avatar: https://file.bairuo.top/logo.jpg
-      descr: 一个部署了很多没有用的东西的导航站
-    # 4:
+    # 1:
     #   name: Kylin’s Blog
     #   link: https://www.xyz.blue
     #   avatar: https://www.xyz.blue/logo.png
     #   descr: 
-    6:
+    3:
       name: Forex Trading
       link: https://www.fi-forex.com
       avatar: https://www.fi-forex.com/favicon.ico
       descr: 
 
-class6:
-  class_name: LIU 特别链接
+class7:
+  class_name: NANA 特别链接
+  class_descr: 特别的东西，特别的链接(*❦ω❦)
   link_list:
     1:
       name: 5 A.M. Studio

@@ -30,6 +30,12 @@ cover: https://www.cloudflare.com/resources/images/slt3lc6tev37/2Q8pCVxYreoikOqs
 2、使用了Google Recaptcha之类的验证码用于网站保护的网站可能会因为Redirect URL不一致而导致无法访问（如Google自带的Recaptcha保护机制将导致无法进行搜索，这种情况下更换被反代的Google地区即可）
 
 ---
+{% note primary %}
+#### 2020.3.14 更新
+今天给我的博客上SSL，然后临时把CloudFlare自带的SSL关掉了，代理Google旗下网站出现了重定向次数过多的问题，把SSL调回Flexible就可以了，目前只发现Google旗下产品会出现此问题，其他暂未发现
+{% endnote %}
+
+---
 
 题外话：
 

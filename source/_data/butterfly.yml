@@ -40,7 +40,7 @@ menu:
 
 # Favicon
 # ---------------
-favicon: /img/favicon.png
+favicon: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -99,7 +99,7 @@ algolia_search:
 # Please see doc for more details: https://jerryc.me/posts/21cfbf15/#本地搜索
 # ---------------
 local_search:
-  enable: false
+  enable: true
   labels:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
@@ -273,7 +273,7 @@ valine:
   placeholder: 你要留下你的足迹嘛？喵~ # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header inf
   bg: /img/comment_bg.png # valine background
-  count: false # top_img顯示評論數
+  count: true # top_img顯示評論數
 
 #####     Footer Settings    ####
 # ------------------------------------
@@ -314,8 +314,15 @@ Flink:
   address: Blog 地址： https://bili33.top
   avatar: Blog 头像： https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png
   info: Blog 标语： 一个在懵懂无知中成长的高中生程序员^V^
-  PS: PS：本文所有的数字表示方式来自Mili - world.execute(me);
-  comment: 想和我交换友链吗？请在网页下方留言或发送邮件到admin@bili33.top哦~
+  PS: PS：本文所有的数字表示方式来自Mili - world.execute(me); # PS内容，在flink自加的
+  require_headline: A Few Requirements
+  requirement1: GamerNoTitle表示不接受商业性网站、下载站、视频站等
+  requirement2: HTTP和HTTPS均可，不强制性要求小绿锁，但是只有一个IP或者带端口的不接受哦
+  requirement3: 网站要有维护，定期或不定期均可，线下朋友请忽略这一条
+  requirement4: 可以先在自己的网站加上我的友链，我处理的速度也会快一些呢~
+  requirement5: 大佬可以无视上面的要求，并加入“大佬之家”行列
+  requirement6: 如果你想联系我，在About页面中有我的相关联系方式
+  comment: 如果想与我交换友链，在下方留言或发邮件到admin@bili33.top即可~
 
 # 打賞按鈕
 reward:
@@ -437,7 +444,7 @@ canvas_nest:
 activate_power_mode:
   enable: true
   colorful: true # 冒光特效
-  shake: true # 抖動特效
+  shake: false # 抖動特效
 
 # 鼠標點擊效果
 # 避免卡頓，建議只開啓一個
@@ -477,9 +484,9 @@ display_mode: light
 
 # 美化post頁顯示
 post_beautify:
-  enable: false
-  title-prefix-icon: '\f0c1'
-  title-prefix-icon-color: "#F47466"
+  enable: true
+  title-prefix-icon: '\f192'
+  title-prefix-icon-color: "#8e8cd8"
 
 # 全局字體
 font:

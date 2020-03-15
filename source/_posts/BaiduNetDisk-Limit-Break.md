@@ -6,6 +6,14 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Aria2c-Break-Ba
 keywords: 'aria2c,baidu,百度网盘,百度网盘不限速'
 ---
 
+{% note danger %}
+
+### 本教程可能已经过时
+
+鉴于Pandownload网页端经常服务器维护，本页面教程可能已经过时！
+
+{% endnote %}
+
 ### 辣鸡百度云，又限我速！
 
 ![百度云限速（真实）](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Aria2c-Break-BaiduNetDisk/limited-speeds.png)
