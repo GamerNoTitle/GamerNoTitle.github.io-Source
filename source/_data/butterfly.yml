@@ -484,7 +484,7 @@ display_mode: light
 
 # 美化post頁顯示
 post_beautify:
-  enable: true
+  enable: false
   title-prefix-icon: '\f192'
   title-prefix-icon-color: "#8e8cd8"
 
@@ -539,6 +539,7 @@ aside:
   card_tags: false
   card_archives: true
   card_webinfo: true
+  card_dynamics: true
 
 # 網站公告
 announcement:
