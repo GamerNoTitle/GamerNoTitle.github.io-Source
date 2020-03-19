@@ -2,6 +2,7 @@
 title: 日常吐槽01
 date: 2019-11-05 13:35:58
 tags: diary
+categories: diary
 cover: https://cn.bing.com/th?id=OHR.MtDiablo_EN-CN8573731609_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
 sage: false
 ---

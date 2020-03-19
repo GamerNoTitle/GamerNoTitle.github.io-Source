@@ -2,6 +2,7 @@
 title: 别再问我怎么装系统了，再问我就把这边文章丢到你脸上！
 date: 2019-07-09 23:00:00
 tags: Software
+categories: Software
 cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Windows-Setup/cover1.jpg
 keywords: 'Windows,Windows Setup,Windows Install,Windows Installation'
 ---

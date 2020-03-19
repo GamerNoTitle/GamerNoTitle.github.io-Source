@@ -2,6 +2,7 @@
 title: jsDelivr的正确打开方式
 date: 2020-02-08 21:09:35
 tags: Software
+categories: Software
 cover: https://fileem.com/storage/2018/11/9bb6c0999a6bb6dfa9594aa562926dc2.png
 ---
 

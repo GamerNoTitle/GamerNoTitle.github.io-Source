@@ -2,6 +2,7 @@
 title: 日常吐槽03 - 聊一聊WARFRAME COINCIDANCE的制作
 date: 2020-01-22 22:00:00
 tags: diary
+categories: diary
 cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Diary/Coincidance.png
 sage: false
 ---
@@ -15,11 +16,9 @@ sage: false
 哔哩哔哩播放：[【WARFRAME 抖肩舞】星 际 仓 鼠 再来亿遍！打三傻不如跳舞！每天一遍，防止抑郁~ WARFRAME版 Coincidance 自制](https://www.bilibili.com/video/av84462179/)
 
 <iframe src="//player.bilibili.com/player.html?aid=84462179&cid=144465868&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
 YouTube播放：
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aA3QgQMm4FE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 这是[bilibili@GamerNoTitle](https://space.bilibili.com/44666814)（也就是我自己）和[bilibili@ThisNEKKO_xd](https://space.bilibili.com/49835313/)、[bilibili@MI-rice-json](https://space.bilibili.com/22267745/)和[bilibili@毁天灭地的GEnX](https://space.bilibili.com/49914186/)四人一起合作完成的视频，这算是2019（农历）的最后一个视频，也是第一个视频。至于这个发布日期也是特意挑的，因为是我农历生日……
 
 一开始想做这个是因为看到了这个[【命运2 抖肩舞】再来亿遍！打游戏不如跳舞！每天一遍，防止抑郁~命运2版Coincidance 自制](https://www.bilibili.com/video/av80351178)

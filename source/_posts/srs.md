@@ -1,7 +1,8 @@
 ---
 title: 手把手教你怎么搭建属于自己的直播服务器~
 date: 2019-09-19 13:23:16
-tags: Software
+tags: Tech
+categories: Tech
 cover: https://cdn2.f-cdn.com/contestentries/1465340/30196593/5c4eb91aab7ff_thumb900.jpg
 ---
 

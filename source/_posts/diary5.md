@@ -2,6 +2,7 @@
 title: 日常吐槽05 - 【阿里云限时活动】免费领取6个月ESC服务器，到期前一个月还能免费续费多半年
 date: 2020-03-08 20:23:09
 tags: diary
+categories: diary
 cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@diary5/img/Diary5/Website.png
 ---
 

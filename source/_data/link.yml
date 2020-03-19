@@ -202,6 +202,11 @@ class4:
       link: https://wangzhongqing.xyz/
       avatar: https://cdn.jsdelivr.net/gh/Amethyst-Ruby/myCDN/img/login.png
       descr: Ruby 的随心记~
+    5:
+      name: i-info
+      link: https://www.i-info.xyz
+      avatar: https://www.i-info.xyz/wp-content/uploads/2020/01/1square.png
+      descr: "一个有梦想的Programmer : )"
 
 class5:
   class_name: FEM 线下后宫

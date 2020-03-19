@@ -2,6 +2,7 @@
 title: 白嫖Office365？这种好事我当然要来！
 date: 2019-08-30 19:40:19
 tags: Software
+categories: Software
 cover: https://ausdroid.net/wp-content/uploads/2019/09/office365-1024x488.jpg
 keywords: 'Office,Office 365,Office365,Office 365 Free,Microsoft Office'
 ---

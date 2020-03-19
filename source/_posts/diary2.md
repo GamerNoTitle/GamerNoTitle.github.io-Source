@@ -2,6 +2,7 @@
 title: 日常吐槽02
 date: 2019-11-17 19:10:42
 tags: diary
+categories: diary
 cover: https://cn.bing.com/th?id=OHR.VelvetRevolution_EN-CN6536020339_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
 sage: false
 ---

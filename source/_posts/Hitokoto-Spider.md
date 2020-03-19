@@ -2,6 +2,7 @@
 title: Hitokoto-Spider 一言库爬虫开发日记
 date: 2020-02-11 14:17:37
 tags: Tech
+categories: Tech
 cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.12/img/Hitokoto-spider/hitokoto.png
 sage: false
 ---

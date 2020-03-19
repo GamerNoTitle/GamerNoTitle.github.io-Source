@@ -2,6 +2,7 @@
 title: 最全面的Hexo部署方法，交给你了~
 date: 2019-09-07 20:00:00
 tags: Software
+categories: Software
 cover: https://qcloud.coding.net/u/vincentqin/p/blogResource/git/raw/master/build-a-website-using-hexo/hexo-cover.png
 keywords: 'hexo,github,Github Pages,coding Pages,hexo deploy'
 ---

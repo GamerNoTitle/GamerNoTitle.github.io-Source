@@ -2,6 +2,7 @@
 title: Windows10美化笔记
 date: 2020-03-06 10:42:33
 tags: Software
+categories: Software
 cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Windows10-Beautify/img/Windows10-Beautify/Result.jpg
 ---
 

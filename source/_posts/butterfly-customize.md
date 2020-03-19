@@ -2,6 +2,7 @@
 title: hexo-theme-butterfly主题美化小笔记
 date: 2020-03-19 17:51:19
 tags: Tech
+categories: Tech
 cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@butterfly-customize-cover/img/butterfly-customize/cover.png
 sage: true
 ---

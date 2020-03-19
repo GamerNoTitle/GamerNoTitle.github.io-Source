@@ -2,6 +2,7 @@
 title: 日常吐槽04
 date: 2020-02-06 20:00:00
 tags: diary
+categories: diary
 cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Diary/04/cover.jpg
 sage: false
 ---

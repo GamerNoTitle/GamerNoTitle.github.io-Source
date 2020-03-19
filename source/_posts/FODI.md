@@ -2,6 +2,7 @@
 title: Onedrive分享型网盘搭建 - FODI
 date: 2020-02-09 09:58:43
 tags: Software
+categories: Software
 cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.9-2/img/FODI/cover.jpg
 ---
 

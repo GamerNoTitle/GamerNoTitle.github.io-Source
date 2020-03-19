@@ -2,6 +2,7 @@
 title: Cmd的互替软件，让Cmder来帮助你更好地使用控制台！
 date: 2019-07-05 12:00:00
 tags: Software
+categories: Software
 cover: https://cmder.net/img/main.png
 keywords: 'cmd,cmder'
 ---
