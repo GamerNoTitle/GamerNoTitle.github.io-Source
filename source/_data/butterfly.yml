@@ -577,7 +577,7 @@ subtitle:
   # 打字效果
   effect: true
   # 循環或者只打字一次
-  loop: false
+  loop: true
   # source調用第三方服務
   # source: false 關閉調用 
   # source: 1  調用金山詞霸的每日一句（簡體）
