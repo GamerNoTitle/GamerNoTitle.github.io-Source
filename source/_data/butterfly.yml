@@ -125,7 +125,7 @@ katex:
 ####   Analysis    ####
 # ---------------
 # Tencent_analytics ID
-tencent_analytics:
+tencent_analytics: 
 
 # Ads
 # ---------------
@@ -148,6 +148,8 @@ avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-m
 
 # the banner image of index
 top_img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
+  #- https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
+  #- https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Top-img/img/Top-img/77329543_p0.png
 # 以下鏈接是動態壁紙，每次刷新會更換
 # https://source.unsplash.com/collection/collectionid/1600x900
 # https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
@@ -158,7 +160,7 @@ top_img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-
 default_top_img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
 
 # the default cover of the post
-default_cover: https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png
+default_cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
 
 # the banner image of archive page
 archive_img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
@@ -170,7 +172,7 @@ tag_img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-
 category_img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
 
 # 如果你有使用hexo-douban去生成movie界面，可配置這個
-movies_img: https://cdn.jsdelivr.net/gh/jerryc127/CDN/Photo/movie.jpg
+movies_img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
 
 # if the photo link cannot connect,it will show that
 lodding_bg:
