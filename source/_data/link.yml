@@ -10,7 +10,7 @@ class:
     2:
       name: Aria2c网页可视化下载管理器
       link: http://aria2c.bili33.top
-      avatar: https://cdn.pixabay.com/photo/2016/12/18/13/45/download-1915753_960_720.png
+      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/aria2.webp
       descr: aria2c的管理界面，不会用Aria2c？来我教你！
     # 3:
     #   name: ArkNights-UI
@@ -25,7 +25,7 @@ class:
     5:
       name: XPEnology Serial Generator
       link: http://synology.bili33.top
-      avatar: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEX///+npKYAAAAiHx+joKIXExOkoaOhnaDIx8f7+/sfHBxtbGz4+Pj19fXv7+/z8vOQj4/d3N28ubsTDg6sq6scGRmcm5vo5+jj4uLQzs8QCgpaWVkIAADX1tYWEhJ9fHxiYWEuKyvBwcGysbFSUFB3dnZGRESrqqo9OjqUk5M0MTJoZ2c6ODhycXGJiIhDQED9tpV8AAAIMElEQVR4nO2a63abOhCFYQCBCWCDjQEH4gtu3CRN+v5vd3QDhJO0dYxXe9ba348WZJC1NaOZkRzLAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8K8RxX97BLelfKt3f3sMN2R2ONJmefe3hyGIkrSpmqacT9rrwiHPcbx/QGGaMd8V+P4pK6brNyhKL/wHFBa2z+we5rdTRoanzd9XmPr2GMaS6XpvaUKFURTNZxe/lfi9sMGSl3fzGYcJFUbZ07qKLn7tpH3zlGXZylUiWTbRmCZVGFlvlvVqXRoMS2lCN1OOGR9cKdGdLKYGUypcPG1b69IldBBWY4dhRFKi20wzKKnwYUIbBpl1aRxcCUG+MS8Tu+mECq1ozWPzxcnMPld48EVqXEVzgbGsZ7IhHprjtKqqYhSToqLhbaU5y++8NC6T8l20KMriT0Y+m8fxxUGwZWcmmxdFkSTRQej0jfaAK/f9yubtfsBDcCtrBN8OhmHqusH328HJzxSejhsi2t+vTHnbZ95GP7Zp37BQvH3Tuhdv4nb7pbUTyOjptudTqJIIG2ZMRaBI/ltZVV8kuLYyWZQZdYNrd/2NFGY1Pbpt+0pL8vqZWRAt5la8og29bDnfWLTe04ZDT4G2dtNuNvXD1/J04XfZIihGztNK901Hz7HWYlJhYFQJTNpjbht1kfGmqfCNSNkuffZCYqrxpWus+JNLYUyHT9fP3HGWb8ZwFhv6ajnZdiNjPmurYZYad+S+0tZ82EzbiPkcdeOXfIXoTCq8dGi1RpFmTfSke0vy0KFWXD1R/r2bAF7gvdruWrSXFDqbtTHMbf/uxcxNc7g+O+ipimTaYJ1dtZNqhTyB8sfmmdsF3ky2M7sqy6ZVPfqxVqht2FD+3H8rb3aoFEqcmnWyyQmd7oF17eRHY5jL+uulZOGP/ItX3mr2M2Y4m3JSLkWbSq8iJezU1w2qteqFmwof89owyjF3vHvhfA5VRhv1mZkbkcyA9fJlgXzuVuca5fhL3x7cVDlpqRWytntVxSMdkbtWHoek4LmpkF8MWmQ1JxQ85kbrdukst90NN6KRSF/Md79AyUO/KdKXMykt4asnlOUsrdDtA5CU4ifq0aHUk3WEW5kK7z2HjFow5h7J5TyHhkKx0+pNFfOdJfX5g75bVzKvMp7pxpFQFnBKjLQVCzqFQ4WgbtNxVOrCVGsNkSbiNluawZorDvfWs2lDuzYUCgdevurrNbnXKuTMimDVixQdJsO4K+mkRS+pT5Pq4QPrTKbpvHewYSDCiFmPcAEOiaVXn7omtza8VAQeh/RU7mmqXXnUtO5gRLm6XDHx0utk2mKG63YK7dXYdflsreVj0aDwVJ8pbIWAYm2a7W1pRBqZPbTgA32bSKBABUIZLKWvCa3SJMpGH9lQm91QGPvdY51CLmXspTLUlIkImZ19jnm+N54YjHh/RZwp0yrI2tFusO1DfdS5qVStAslHCln7zoYfKiQzpVVq/DY5G127pBTSqPL8tlSfJdfEGR5eGPNTs6nqo4RKdzzpr4Zc8OE6DH6/Dk+144zG3wiFlihqQpIrsdhvKLBMeDkQbhJRua6sL5ONE5kgGJpknndTGXL0pvgjhb+JpV2k0XWahtsw/ykv9kTHU8uL1vvybHR3D079ZM329RVHDo3KZGZRqxzv0OthmVqPs88VFmrtDvGu7Y3aKYy5wodX42sy7p4LcbGi4PS6292dRp6kRiftHND23Sd/TqS3FsMKyVgfS7szDduw0IcK49V4l9moZTiqaUT+y42Yz1ODKEy5l/4iiuw8p3Z39F77BeiSmelTuqLLFurTpFeotwofK4yUJFeH+nRcl6qQL93UWE8vnrezRNK4/8XohBFz77p6pjsudd1VlrXd6bffzWu/t7KtXyiMddZwV02RpJnq0u32Fnqfd/SMrYM1c2TgTEjq/BRet46X7xdo+t3TcCTM+rlutBH707hPFOqJ4tsvf7w/5MvtQaXrgqe+ut/UMr6zt0Q55mzuV4eqScsy+aBuEaVQePkh8Jjq/FTfdk99n5FW2MeiTxRa5ah0H7ZdvDDJH7vRhr2fVkQ78f+Cu6FHCs95/r41ahrJMV9eE2cUqTsaHfMzo7pS69TujfqZwtEejLlMz0hRh2FY67cPtAzplds24dt9ZdgkXzod/Ml8ScdxZjjQdXFGU62Ec3HE4dlhdB6iznGGbP6pQj5TrerF9U/68e0zLR84FP6U2bS4k8aqeQLsOoxeVFO92Sy9POdbquEgQL7yy0h0AfOyCjhVmpydR+oKs18ikcT6+DbmNeAhaPrUkwzobov2bbfbnozUfr8t0qp13ae37cvxcU/eOLAsro0zv8Wo4W7C6350G6XH0T5itqebfbX+BhV6JvsZ45wtnXcdjU5kMhlxb8lBFQTXxuvPaOnHedMsN48NHyeJMx+TpEWRqgrHPQ/hUxHTqFSVNKamho7nn09H4rt98r7Vn/wsauf8eGLuKCdVken7lUdsvyTuCwH/Zt/yunTyH6Pe0/1erIjgx/5xXTZHVRbciKgXON1P3uc0vMrJ+eYwlfklKrI7epaX5IU5z5oPNOHfTLzHlr+v+avbLXUeyPKaa+RaeGWTi8yvMwXJIserbxbDJXPxC2g67R9JvSNehLTxQr519DZU7zpFd9y4Hv083/P/P4mDxW7PHfK4NX7DnD2FdH/rYgYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4f/AfR+t1EZPQQD8AAAAASUVORK5CYII=
+      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/Synology.png
       descr: 还在担心没有白群晖序列号吗？我来帮你一把！
     # 6:
     #   name: 星辰短域|密语!
@@ -65,7 +65,7 @@ class:
     13:
       name: Wiki百科镜像站
       link: https://wikipedia.bili33.top
-      avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/300px-Wikipedia-logo-v2.svg.png
+      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/wiki.webp
       descr: 需要wiki？点这里！
     14:
       name: ShadowRocket
@@ -90,7 +90,7 @@ class:
     18:
       name: 3D Solar System
       link: http://solar.bili33.top/
-      avatar: https://cdn3.iconfinder.com/data/icons/science-116/64/solar-system-space-astronomy-512.png
+      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/soloar.webp
       descr: WallPaper Engine上的一个项目
     # 19:
     #   name: ShareList - OneDrive
@@ -105,7 +105,7 @@ class:
     21:
       name: 沙盒（雾
       link: http://sandbox.bili33.top
-      avatar: https://previews.123rf.com/images/alexpokusay/alexpokusay1707/alexpokusay170700113/82264608-sandpit-for-children-pop-art-retro-vector-illustration-sandbox-with-toys-plastic-bucket-shovel-and-r.jpg
+      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/sandbox.jpg
       descr: 在沙盒中访问网页
     # 22:
     #   name: SoundCloud
@@ -115,7 +115,7 @@ class:
     23:
       name: FODI
       link: http://drive.bili33.top/
-      avatar: https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/d0/a3/a4/d0a3a459-c375-5b88-ec21-1237b964d433/OneDrive.png/1200x630bb.png
+      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/fodi.png
       descr: 用于分享文件的Onedrive
 
 class2:
@@ -135,7 +135,7 @@ class2:
     3:
       name: Github
       link: https://www.github.com/
-      avatar: https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png
+      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/Github.webp
       descr: 全球最大的代码仓库
     4:
       name: vultr
@@ -145,12 +145,12 @@ class2:
     5:
       name: Leancloud
       link: https://leancloud.app/
-      avatar: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAMFBMVEUsl+j///8OkOchlOeAu++82vbZ6votmOgkleihzPNvs+5Kourf7vuDvfB/uu/c7PtDR5hWAAABCUlEQVR4nO3YS27CUBBFQWI7xOQD+99txkRyBsjS84GqFdyjnvXpBAAAAAAAAAAAwF/rvGn0tH2sn8t1w/I1etwupu+3TT9PccXpvF24KExQ2KewT2Gfwj6FfQr7FPYp7FPYp7BPYZ/CPoV9CvsU9insU9insE9hn8I+hX0K+xT2KexT2KewT2Gfwj6FfQr7FPYp7FPYp7BPYZ/CPoV9CvsU9insU9insE9hn8I+hX0K+xT2KexT2Kew77ULr89fuH48ZHTTvf8KH3SeRkfdUahQ4XgKFSocT6FCheMpVKhwPIUKFY73AoW33QtvxyqcL+97uxzskTxPeztYIAAAAAAAAAAAAABwEL/kGh+G6VsrnQAAAABJRU5ErkJggg==
+      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/leancloud.png
       descr: 评论系统的后端，用的国际版
     6:
       name: jsDelivr
       link: https://www.jsdelivr.com/
-      avatar: https://avatars1.githubusercontent.com/u/6191378?s=400&v=4
+      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/jsdelivr.png
       descr: 图片CDN服务提供商
 
 class3:

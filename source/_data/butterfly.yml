@@ -614,7 +614,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: （事故现场）一不小心用了git rm -f 删掉了魔改后的Butterfly@2.1.0，花了几个小时来魔改Butterfly@2.2.0，哭了……
+  content: 近期Github正在遭受中间人的攻击，可能导致本网页无法访问
 
 # busuanzi count for PV / UV in site
 # 訪問人數
