@@ -25,7 +25,7 @@ menu:
     - Tech || /tags/Tech/ || fa fa-terminal
   #Tags: /tags/||fa fa-tags
   #Categories: /categories/||fa fa-folder-open
-  Github: https://github.com/GamerNoTitle/||fa fa-github
+  # Github: https://github.com/GamerNoTitle/||fa fa-github
   #MCSkin: http://skin.bili33.top:8080/||fa fa-cloud
   #dev网站: http://dev.bili33.top||fa fa-globe
   #RSS: /atom.xml||fa fa-rss
@@ -33,9 +33,17 @@ menu:
   Entertainment||fa fa-gamepad:
     - Bangumi || /bangumis/ || fa fa-youtube-play
     - Steam || /steamgames/ || fa fa-steam
+    - Gallery || /Gallery/ || fa fa-picture-o
   #Bangumi: /bangumis/||fa fa-youtube-play
   Link: /link/||fa fa-link
   About: /About/||fa fa-heart
+  #About||fa fa-heart: 
+  #  - Myself || /About/ || fa fa-user
+   # - Github || https://github.com/GamerNoTitle/ ||fa fa-github
+  #  - Anime || /bangumis/ || fa fa-youtube-play
+  #  - Steam || /steamgames/ || fa fa-steam
+    
+  # /About/||fa fa-heart
 #   #XXX: /xxx
 
 # Favicon
@@ -76,9 +84,7 @@ copy:
 # ---------------
 social:
   fa fa-github: https://github.com/GamerNoTitle
-  #fa fa-cloud: http://skin.bili33.top:8080/
   fa fa-television: https://space.bilibili.com/44666814
-  #fa fa-cogs: http://bili33.tk
   fa fa-rss: /atom.xml
   fa fa-envelope: mailto:admin@bili33.top
 
@@ -614,7 +620,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 近期Github正在遭受中间人的攻击，可能导致本网页无法访问
+  content: 再次被Onedrive坑了，Onedrive再次覆盖了我的网站数据，不过有了上一次的教训我已经备份过了，所以损失不大
 
 # busuanzi count for PV / UV in site
 # 訪問人數

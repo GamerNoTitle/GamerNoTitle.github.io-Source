@@ -15,6 +15,32 @@
                 .md-links-title= item.name 
                 .md-links-des= item.descr
     != page.content
+  hr
+  div 
+    p(style="font-size:15px;font-weight:bold")= theme.Flink.info_headline
+    ul
+      li= theme.Flink.name
+      li= theme.Flink.address
+      li= theme.Flink.avatar 
+      li= theme.Flink.info
+    
+  hr
+  div
+    p(style="font-size:15px;font-weight:bold")= theme.Flink.require_headline
+    ul
+      li= theme.Flink.requirement1
+      li= theme.Flink.requirement2
+      li= theme.Flink.requirement3
+      li= theme.Flink.requirement4
+      li= theme.Flink.requirement5
+      li= theme.Flink.requirement6
+  
+  hr
+  div
+    p(style="font-size:15px;font-weight:bold")= theme.Flink.comment
+    ul
+      li= theme.Flink.PS
+
   if page.comments !== false
     include includes/comments/index.pug
 
