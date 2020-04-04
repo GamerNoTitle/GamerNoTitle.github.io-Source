@@ -259,6 +259,77 @@ aside:
 
 {% note info %}
 
+2020.4.4更新
+
+{% endnote %}
+
+### 为网站加上全局黑白效果
+
+为什么加这个效果呢？我一开始加是4.4为了纪念为抗争新冠肺炎而牺牲的各位烈士们，所以加了全局的黑白效果。先放两张图给你们看看加入后的效果
+
+![黑白首页](http://cdnjs.bili33.top/v1@blackandwhite/img/butterfly-customize/blackandwhite-home.png)
+
+![黑白友链](http://cdnjs.bili33.top/v1@blackandwhite/img/butterfly-customize/blackandwhite-link.png)
+
+就是像这样的全局黑白效果，加起来其实也不难，一开始[@yuleng](https://yuleng.top)给我分享了全局黑白的html代码，告诉我要加就加载header或者是body里面（下面先放html代码）
+
+```html
+<!-- 黑白色 -->
+<style>
+html{
+filter: grayscale( 100%);
+-webkit-filter: grayscale( 100%);
+-moz-filter: grayscale( 100%);
+-ms-filter: grayscale( 100%);
+-o-filter: grayscale( 100%);
+filter: url( "data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+-webkit-filter: grayscale( 1);
+}
+</style>
+```
+
+但是我们的butterfly后端是使用的pug文件作为网站样式的编写方式，所以我们要先把它转成pug形式的，转出来就是像下面这样
+
+```jade
+html
+  body
+    // 黑白色
+    style.
+      html{
+      filter: grayscale( 100%);
+      -webkit-filter: grayscale( 100%);
+      -moz-filter: grayscale( 100%);
+      -ms-filter: grayscale( 100%);
+      -o-filter: grayscale( 100%);
+      filter: url( "data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+      filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+      -webkit-filter: grayscale( 1);
+      }
+
+```
+
+然后我把这一串代码存到一个名为``blackandwhite.pug``的文件，将它放在主题目录下的``layout/includes/addons``里面，然后就要在``layout.pug``里面引入文件。在原文件的``include ./head.pug``下面加入一行来引入我们的文件
+
+```jade
+if theme.blackandwhite
+  include ./addons/blackandwhite.pug
+```
+
+加个if判断是为了下次要使用的时候还能够用，不用再次修改。
+
+接着我们到``butterfly.yml``文件内加多一行
+
+```yaml
+blackandwhite: true
+```
+
+这样就开启了我们的黑白效果
+
+为了方便大家，我将文件放出来[blackandwhite.pug](http://cdnjs.bili33.top/v1@blackandwhite.pug/file/blackandwhite.pug)，大家只需要将文件放在对应的位置，加上对应的配置项即可！
+
+{% note info %}
+
 ### 不定期更新
 
 {% endnote %}
