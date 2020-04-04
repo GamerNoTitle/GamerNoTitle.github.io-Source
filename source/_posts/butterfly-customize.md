@@ -259,13 +259,13 @@ aside:
 
 {% note info %}
 
-2020.4.4更新
+2020.4.4更新	主题版本butterfly@2.2.5
 
 {% endnote %}
 
 ### 为网站加上全局黑白效果
 
-为什么加这个效果呢？我一开始加是4.4为了纪念为抗争新冠肺炎而牺牲的各位烈士们，所以加了全局的黑白效果。先放两张图给你们看看加入后的效果
+为什么加这个效果呢？我一开始加是[2020.4.4](https://mp.weixin.qq.com/s/S0-s4V1Gg443a-vyMmaOKA)为了纪念为抗争新冠肺炎而牺牲的各位烈士们，所以加了全局的黑白效果。先放两张图给你们看看加入后的效果
 
 ![黑白首页](http://cdnjs.bili33.top/v1@blackandwhite/img/butterfly-customize/blackandwhite-home.png)
 
