@@ -18,9 +18,9 @@ cover: /img/Cover/cover1.png
 
 #### **BOSS职业：**貌似是一个高中学生~
 
-#### **BOSS能力：**写代码、做视频、建服务器 etc.
+#### **BOSS能力：**会做网站 会做程序 会剪片子 会服务器维护……
 
-#### **BOSS沟通语言：**C++、Python、Batch etc.
+#### **BOSS沟通语言：**C++、Python，还会一点nodejs、html、pug
 
 #### **BOSS出没时间**：工作日~~12:00-14:00 16:30-18:40~~不出现  周末：整天  假期：整天
 
@@ -46,7 +46,7 @@ cover: /img/Cover/cover1.png
 
 ###### 2、暴雪战网（国服）搜索：喵呜初音#5400（SUP同上）
 
-###### 3、steam链接：[点我添加BOSS为好友！](https://steamcommunity.com/id/bili33/)
+###### 3、steam链接：[@GamerNoTitle](https://steamcommunity.com/id/bili33/)
 
 ###### 4、Origin平台搜索：GamerNoTitle（来玩战地一呀~）
 
@@ -62,13 +62,9 @@ cover: /img/Cover/cover1.png
 
 #### **BOSS据点（关于本站）：**
 
-本站是搭建在Github上的一个基于hexo的网站[地址点我！](https://www.github.com/GamerNoTitle/GamerNoTitle.github.io)，经过了两周的调试才弄懂了这个网站是怎么运行的，也是挺累的，建立这个网站主要是想分享一些内容，以及就是我的MC服务器的更新日志（会写在这个网站上面）。本站的所有图片使用Github作为图床，所以有的时候图片加载慢并不是我的问题，是Github的问题:D（没错，就是Github的锅！）
+本站是搭建在Github上的一个基于hexo的网站[地址点我！](https://www.github.com/GamerNoTitle/GamerNoTitle.github.io)，经过了两周的调试才弄懂了这个网站是怎么运行的，也是挺累的，建立这个网站主要是想分享一些内容。本站的所有图片使用Github作为图床（也有用coding），所以有的时候图片加载慢并不是我的问题，是Github的问题:D（没错，就是Github的锅！）
 
-我的域名有[bili33.top](http://bili33.top)和bili33.tk（暂无网站），记住了哦(✧∇✧)╯╰(✧∇✧)̣
+我的域名有[bili33.top](http://bili33.top)和airding.top（闲置域名，需要可以私信我，未备案），记住了哦(✧∇✧)╯╰(✧∇✧)̣
 
-本站使用主题：[Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)
-
-#### 需要服务器吗？
-
-<a href="https://www.vultr.com/?ref=8224422-4F"><img src="https://www.vultr.com/media/banners/banner_728x90.png" width="728" height="90"></a>
+本站使用主题：[Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)</a>
 

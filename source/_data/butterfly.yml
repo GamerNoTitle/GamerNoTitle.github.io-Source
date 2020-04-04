@@ -34,6 +34,7 @@ menu:
     - Bangumi || /bangumis/ || fa fa-youtube-play
     - Steam || /steamgames/ || fa fa-steam
     - Gallery || /Gallery/ || fa fa-picture-o
+  #  - Comment || /comment/ || fa-pencil-square-o
   #Bangumi: /bangumis/||fa fa-youtube-play
   Link: /link/||fa fa-link
   About: /About/||fa fa-heart
@@ -423,8 +424,8 @@ photofigcaption: false
 ####    美化/效果    ####
 #--------------------------------
 
-# 黑白效果（纪念日用）
-blackandwhite: true
+# 黑白效果
+blackandwhite: false
 
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
