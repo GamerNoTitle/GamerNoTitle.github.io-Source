@@ -423,6 +423,9 @@ photofigcaption: false
 ####    美化/效果    ####
 #--------------------------------
 
+# 黑白效果（纪念日用）
+blackandwhite: true
+
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 # ---------------
@@ -633,7 +636,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 再次被Onedrive坑了，Onedrive再次覆盖了我的网站数据，不过有了上一次的教训我已经备份过了，所以损失不大
+  content: 向英雄致敬，向逝者致哀!
 
 # busuanzi count for PV / UV in site
 # 訪問人數

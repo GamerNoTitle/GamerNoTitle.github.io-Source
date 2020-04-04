@@ -4,6 +4,8 @@ doctype html
 html(lang=config.language data-theme=theme.display_mode)
   head
     include ./head.pug
+    if theme.blackandwhite
+      include ./addons/blackandwhite.pug
   body
     if theme.fireworks && theme.fireworks.enable
       canvas.fireworks
