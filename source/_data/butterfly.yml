@@ -334,7 +334,7 @@ valine:
   lang: zh-cn # i18n: zh-cn/en/tw
   placeholder: 你要留下你的足迹嘛？喵~ # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header inf
-  recordIP: false # Record reviewer IP
+  recordIP: true # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: /img/comment_bg.png # valine background
   count: true # top_img顯示評論數
