@@ -267,9 +267,9 @@ aside:
 
 为什么加这个效果呢？我一开始加是[2020.4.4](https://mp.weixin.qq.com/s/S0-s4V1Gg443a-vyMmaOKA)为了纪念为抗争新冠肺炎而牺牲的各位烈士们，所以加了全局的黑白效果。先放两张图给你们看看加入后的效果
 
-![黑白首页](http://cdnjs.bili33.top/v1@blackandwhite/img/butterfly-customize/blackandwhite-home.png)
+![黑白首页](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@blackandwhite/img/butterfly-customize/blackandwhite-home.png)
 
-![黑白友链](http://cdnjs.bili33.top/v1@blackandwhite/img/butterfly-customize/blackandwhite-link.png)
+![黑白友链](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@blackandwhite/img/butterfly-customize/blackandwhite-link.png)
 
 就是像这样的全局黑白效果，加起来其实也不难，一开始[@yuleng](https://yuleng.top)给我分享了全局黑白的html代码，告诉我要加就加载header或者是body里面（下面先放html代码）
 
@@ -326,7 +326,7 @@ blackandwhite: true
 
 这样就开启了我们的黑白效果
 
-为了方便大家，我将文件放出来[blackandwhite.pug](http://cdnjs.bili33.top/v1@blackandwhite.pug/file/blackandwhite.pug)，大家只需要将文件放在对应的位置，加上对应的配置项即可！
+为了方便大家，我将文件放出来[blackandwhite.pug](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@blackandwhite.pug/file/blackandwhite.pug)，大家只需要将文件放在对应的位置，加上对应的配置项即可！
 
 {% note info %}
 
