@@ -67,16 +67,16 @@ class:
       link: https://wikipedia.bili33.top
       avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/wiki.webp
       descr: 需要wiki？点这里！
-    14:
-      name: ShadowRocket
-      link: http://shadowrocket.bili33.top
-      avatar: http://shadowrocket.bili33.top/assets/images/icon.jpg
-      descr: iOS坐火箭请点这里！
-    15:
-      name: PotatsoLite
-      link: http://potatso-lite.bili33.top
-      avatar: http://potatso-lite.bili33.top/assets/images/icon.png
-      descr: iOS代理工具点这里！
+    # 14:
+    #   name: ShadowRocket
+    #   link: http://shadowrocket.bili33.top
+    #   avatar: http://shadowrocket.bili33.top/assets/images/icon.jpg
+    #   descr: iOS坐火箭请点这里！
+    # 15:
+    #   name: PotatsoLite
+    #   link: http://potatso-lite.bili33.top
+    #   avatar: http://potatso-lite.bili33.top/assets/images/icon.png
+    #   descr: iOS代理工具点这里！
     16:
       name: 文章生成器
       link: http://bili33.top/BullshitGenerator/

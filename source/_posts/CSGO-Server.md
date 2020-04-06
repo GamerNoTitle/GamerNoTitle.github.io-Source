@@ -2,6 +2,7 @@
 title: CSGO服务器架设指南
 date: 2020-04-05 12:48:50
 tags: Software
+categories: Software
 cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@CSGO/img/CSGO-Server/cover.jpg
 ---
 
