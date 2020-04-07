@@ -259,7 +259,7 @@ aside:
 
 {% note info %}
 
-2020.4.4更新	主题版本butterfly@2.2.5
+2020.4.4更新 主题版本butterfly@2.2.5
 
 {% endnote %}
 
@@ -327,6 +327,156 @@ blackandwhite: true
 这样就开启了我们的黑白效果
 
 为了方便大家，我将文件放出来[blackandwhite.pug](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@blackandwhite.pug/file/blackandwhite.pug)，大家只需要将文件放在对应的位置，加上对应的配置项即可！
+
+{% note info %}
+
+2020.4.7更新 主题版本butterfly@2.2.5
+
+{% endnote %}
+
+### 为文章加上投票评分功能
+
+按照群友的要求，我又来更新啦，这次我们给文章加上投票评分功能，具体的效果像下面那样（Donate按键是主题自带的，不是我加入的）
+
+![Rating UI](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@rating/img/butterfly-customize/rating-rated.png)
+
+那么废话不多说，让我们直接开始！（如果你想直接使用我做好的只需要替换id的预设文件，那你可以点击[这里](#评分预设文档使用)直接跳到文档，而不必看我是如何做的）注册一个你自己的账号，注册过程相信我不用说你也会。注册完以后，会把我们导到安装界面，我们选择最右边的Rating widget，获取我们自己的引入代码，等待下一步使用，我这里获取到的引入代码如下（为保证信息准确性，我将自己的id替换成了xxxxx）
+
+首先你得去[widgetpack](https://widgetpack.com/)注册一个你自己的账号，注册过程相信我不用说你也会。注册完以后，会把我们导到安装界面，我们选择最右边的``Rating widget``，获取我们自己的引入代码，等待下一步使用，我这里获取到的引入代码如下（为保证信息准确性，我将自己的id替换成了xxxxx）
+
+```html
+<div id="wpac-rating"></div>
+<script type="text/javascript">
+wpac_init = window.wpac_init || [];
+wpac_init.push({widget: 'Rating', id: xxxxx});
+(function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = 'https://embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+})();
+</script>
+<a href="https://widgetpack.com" class="wpac-cr">Star Rating WIDGET PACK</a>
+```
+
+接着，我们要在对应的地方引用它，但是butterfly是使用pug和stylus的组合来进行渲染的，所以我们要先把上面的这一串代码转成pug形式的
+
+```jade
+html
+  body
+    #wpac-rating
+    script(type="text/javascript").
+      wpac_init = window.wpac_init || [];
+      wpac_init.push({widget: 'Rating', id: xxxxx});
+      (function() {
+      if ('WIDGETPACK_LOADED' in window) return;
+      WIDGETPACK_LOADED = true;
+      var mc = document.createElement('script');
+      mc.type = 'text/javascript';
+      mc.async = true;
+      mc.src = 'https://embed.widgetpack.com/widget.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+      })();
+    a.wpac-cr(href="https://widgetpack.com") Star Rating WIDGET PACK
+```
+
+然后将其保存成``rating.pug``，放到``./layout/includes/addons``里面去。不过在这代码里面，投票UI不是居中的就让我很不上，而且最后一行有一串a标签，然而我并不是很喜欢它，我将代码改成了下面这个样子
+
+```jade
+html
+  body
+    #wpac-rating(align="center")	//- 对对象进行居中处理
+    script(type="text/javascript").
+      wpac_init = window.wpac_init || [];
+      wpac_init.push({widget: 'Rating', id: xxxxx}); 
+      (function() {
+      if ('WIDGETPACK_LOADED' in window) return;
+      WIDGETPACK_LOADED = true;
+      var mc = document.createElement('script');
+      mc.type = 'text/javascript';
+      mc.async = true;
+      mc.src = 'https://embed.widgetpack.com/widget.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+      })();
+      //- 对字进行居中处理
+    #copy(align="center")
+      | Rating addon based on 
+      a(herf="https://widgetpack.com/") widgetpack
+      | , made by 
+      a(href="https://bili33.top") GamerNoTitle
+
+```
+
+保存完成后，我们进入``./layout/post.pug``里面对我们的文件进行引入，在合适的位置添加引入代码，我这里是在打上的下面进行了添加
+
+```jade
+    if theme.reward.enable
+      !=partial('includes/post/reward', {}, {cache:theme.fragment_cache})
+    //- 上面是打赏功能，下面是添加的投票功能
+    if theme.rating.enable
+      include includes/addons/rating.pug
+```
+
+接着，我们到``butterfly.yml``里面加入新的配置项
+
+```yaml
+rating:
+	enable: true
+```
+
+这样就加入了一个开关（不过是全局的），可以控制rating功能是否开启（讲真我觉得这个功能我自己用的很少，我自己应该会关掉）
+
+接着我们就可以部署自己的应用啦，看看是不是可以开始投票了呢？
+
+关于投票的设定，默认是需要社交账号登录的，但是看着这几个图标，又有几个是在国内能够使用的呢？
+
+![社交账号登录方式](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@rating/img/butterfly-customize/rating-social.png)
+
+我们需要更改这个设定，让其不需要社交账号登录也能够进行投票
+
+点开左上角的三条横线，选择``Rating``，然后点击里面的``Setting``，在这里面就有我们需要的设置
+
+![Rating设置](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@rating/img/butterfly-customize/rating-default-settings.png)
+
+我们可以看到左边的框选择的是Social，我们可以选择``IP address``或者``Cookies``的任意一个，这取决于你要怎么计算你的文章投票，如果选择IP的话，那么同公网IP下的一个人进行了投票，剩下的人就不能够投票了（会怎么点都没反应）；选择Cookie的话，可能会存在刷票的问题（因为cookie是可以清理的，但是谁这么无聊呢？）
+
+至于右边，可以选择星星的颜色，我这里选择的是淡蓝色；你还可以设置星星上限，默认是5星满分，你可以把它改成你想要的数字，而另一个输入框是设定星星的大小，取决于你自己的审美吧
+
+![最终效果图](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@rating/img/butterfly-customize/rating-result.png)
+
+#### 评分预设文档使用
+
+首先你需要点击[这里](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@rating/file/rating.pug)下载预设文件
+
+在这文档里面，你需要修改的是id。如何获取id，你可以查看下面这张图片
+
+![获取自己的应用id](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@rating/img/butterfly-customize/rating-id.png)
+
+```jade
+      wpac_init.push({widget: 'Rating', id: xxxxx});  //- 这里将xxxxx改成自己的id
+```
+
+将自己的id填入第六行的对应位置后，把文件放入``./layout/includes/addons``（若不存在则自己建立文件夹）
+
+打开自己的``butterfly.yml``文件，在任意一行加入以下内容：
+
+```yaml
+# 投票评分功能
+rating: 
+  enable: true
+```
+
+然后去到``./layout/post.pug``里面，在你想要加入投票功能的位置加入以下代码（推荐加载打赏即reward后面）
+
+```jade
+    if theme.rating.enable
+      include includes/addons/rating.pug
+```
+
+然后对网站进行部署即可！
 
 {% note info %}
 

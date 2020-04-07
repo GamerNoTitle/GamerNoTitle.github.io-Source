@@ -13,6 +13,9 @@ block content
         
     if theme.reward.enable
       !=partial('includes/post/reward', {}, {cache:theme.fragment_cache})
+    
+    if theme.rating.enable
+      include includes/addons/rating.pug
 
     //- ad
     if theme.ad && theme.ad.post

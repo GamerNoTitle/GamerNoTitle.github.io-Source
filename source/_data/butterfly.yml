@@ -402,14 +402,18 @@ Flink:
 
 # 打賞按鈕
 reward:
-  enable: false
+  enable: true
   QR_code:
     - itemlist:
-        img: /img/wechat.jpg
+        img: http://bili33.top/Picture-repo/img/Donate/WeChatPay.png
         text: 微信
     - itemlist:
-        img: /img/alipay.jpg
-        text: 支付寶
+        img: http://bili33.top/Picture-repo/img/Donate/AliPay.jpg
+        text: 支付宝
+
+# 投票评分功能
+rating: 
+  enable: false
 
 # 推薦文章
 related_post:
