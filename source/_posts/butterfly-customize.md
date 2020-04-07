@@ -259,7 +259,7 @@ aside:
 
 {% note info %}
 
-2020.4.4更新 主题版本butterfly@2.2.5
+2020.4.4更新 主题版本[butterfly@2.2.5](https://github.com/jerryc127/hexo-theme-butterfly/releases/tag/2.2.5)
 
 {% endnote %}
 
@@ -330,7 +330,7 @@ blackandwhite: true
 
 {% note info %}
 
-2020.4.7更新 主题版本butterfly@2.2.5
+2020.4.7更新 主题版本[butterfly@2.2.5](https://github.com/jerryc127/hexo-theme-butterfly/releases/tag/2.2.5)
 
 {% endnote %}
 
