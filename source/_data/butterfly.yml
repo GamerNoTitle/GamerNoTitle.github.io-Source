@@ -405,10 +405,10 @@ reward:
   enable: true
   QR_code:
     - itemlist:
-        img: http://bili33.top/Picture-repo/img/Donate/WeChatPay.png
+        img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@payments/img/Payments/WeChat.png
         text: 微信
     - itemlist:
-        img: http://bili33.top/Picture-repo/img/Donate/AliPay.jpg
+        img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@payments/img/Payments/AliPay.jpg
         text: 支付宝
 
 # 投票评分功能
