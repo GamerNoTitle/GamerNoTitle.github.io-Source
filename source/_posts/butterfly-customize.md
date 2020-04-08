@@ -4,12 +4,18 @@ date: 2020-03-19 17:51:19
 tags: Tech
 categories: Tech
 cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@butterfly-customize-cover/img/butterfly-customize/cover.png
-sage: true
+sage: false
 ---
 
 {% note info %}
 
 在正式讲博客的美化之前，我想先感谢[@jerryc](https://jerryc.me/)能够带来这么棒的主题~如果你同样想使用butterfly主题，你可以去查看[安装文档](https://jerryc.me/posts/21cfbf15/)
+
+{% endnote %}
+
+{% note warning %}
+
+如果你想让我在butterfly中添加新功能，你可以直接在本文章下方留言，我会尽量满足
 
 {% endnote %}
 
@@ -477,6 +483,157 @@ rating:
 ```
 
 然后对网站进行部署即可！
+
+{% note info %}
+
+2020.4.5更新 主题版本[butterfly@2.2.5](https://github.com/jerryc127/hexo-theme-butterfly/releases/tag/2.2.5)
+
+{% endnote %}
+
+### 为网站加入实时对话功能
+
+与其说是实时对话，怎么感觉像客服系统？（某群友想弄然后我先给搞出来了，接着他自己在我发文前弄好了）这次使用的是[Daovoice](https://daocloud.io)，照例我们先上一张效果图（如果想直接使用预设文档的话你可以点[这里](#实时对话预设文档使用)）（注：本站未开启此功能）
+
+![按钮效果图](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-result-button.png)
+
+![展开效果图](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-result-chatting.png)
+
+是不是很像客服系统？然而你就是可以把它玩成聊天软件，话不多说，让我们开始吧！
+
+首先我们需要在[Daovoice](https://daocloud.io)上面注册一个账号，添加我们自己的应用。添加完了以后，daocloud会给我们一些代码，需要我们加入到head中，并使用script调用才能出现右下角的那个按钮![对话按钮](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-button.png)
+
+Daocloud提供给我的代码是下面这样的，正常来说除了那个js的名字不一样其他都是一样的（这里的js名字为了保证隐私安全我用了``xxxxxxxx``代替）
+
+```html
+<script>(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/xxxxxxxx.js","daovoice")</script>
+```
+
+按照思路，首先我们需要把daovoice提供的代码都转换成pug形式，转换后就像下面这样
+
+```jade
+html
+  body
+    script.
+      (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/xxxxxxxx.js","daovoice")
+```
+
+接着我们把这串代码放到``daovoice-head.pug``文件中，并把这个文件放到``./layout/includes/addons``里面（没有这个文件夹可以自己建立，也可以把我下面教程中的路径替换成你自己的），接着，我们打开``./layout/includes/head.pug``里面，加入以下代码
+
+```jade
+if theme.daovoice.enable	//- 如果你不想在butterfly.yml中加入开关，想直接引入的话可以不用这一行
+    include ./addons/daovoice-head.pug
+```
+
+![在head.pug中加入代码](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-head-include.png)
+
+这样，head的引入就完成了
+
+剩下的工作就是用一个script调用这个功能。根据daovoice提供给我们的代码（然而并没有把``<script></script>``加进去，差评哼）
+
+```html
+daovoice('init', {
+  app_id: "xxxxxxxx"
+});
+daovoice('update');
+```
+
+我们需要给它的头和尾加入手动加入\<script>\</script>才能正确调用，所以加了以后就是
+
+```html
+<script>
+daovoice('init', {
+  app_id: "xxxxxxxx"
+});
+daovoice('update');
+</script>
+```
+
+接着仍然要把它转成pug文件，转出来以后就是这样
+
+```jade
+html
+  body
+    script.
+      daovoice('init', {
+      app_id: "xxxxxxxx",
+      });
+      daovoice('update');
+```
+
+然后我们把这串代码保存到一个名为``daocloud-anonymous.pug``的文件，放到``./layout/includes/addons``里面，接着我们打开``./layout/index.pug``文件，在里面加入以下内容
+
+```jade
+if theme.daovoice.enable	//- 这里同样，不需要的话可以删掉
+	include includes/addons/daovoice-anonymous.pug
+```
+
+![在index.pug中加入代码](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-index-include.png)
+
+然后保存，到butterfly.yml里面在任意一个位置加入以下内容
+
+```yaml
+daovoice:
+    enable: true
+```
+
+加入完成后保存，开始部署本地调试，看看右下角是不是多了一个小按钮啦？（按钮的样式需要在Daovoice后台更改）
+
+#### 实时对话预设文档使用
+
+首先，你还是需要一个Daovoice账号，注册完了以后，点击下面的链接下载所需要的两个文件
+
+[Daovoice的Head预设文件](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/file/daovoice-head.pug) | [Daovoice的调用Script](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/file/daovoice-anonymous.pug) 
+
+然后打开下载的``daovoice-head.pug``，在里面的第四行，把链接中的8个``x``改成你自己的应用id
+
+```jade
+html
+  body
+    script.
+      (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/xxxxxxxx.js","daovoice")
+```
+
+打开下载的``daovoice-anonymous.pug``文件，同样将里面的``app_id``改为自己的应用id
+
+```jade
+html
+  body
+    script.
+      daovoice('init', {
+      app_id: "xxxxxxxx",
+      });
+      daovoice('update');
+```
+
+保存，把这两个文件放进``./layout/includes/addons``里面
+
+接着打开``./layout/includes/head.pug``文件，在里面加入引入代码如下图
+
+```jade
+if theme.daovoice.enable
+    include ./addons/daovoice-head.pug
+```
+
+![在head.pug中加入代码](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-head-include.png)
+
+保存，打开``./layout/index.pug``，在里面加入引入代码如下图
+
+```jade
+if theme.daovoice.enable
+  include includes/addons/daovoice-anonymous.pug
+```
+
+![在index.pug中加入代码](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-index-include.png)
+
+保存，打开``butterfly.yml``，在任意一行加入以下内容
+
+```yaml
+# Daovoice实时客服功能
+daovoice:
+    enable: true
+```
+
+然后保存即可！
 
 {% note info %}
 

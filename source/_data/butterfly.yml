@@ -415,6 +415,10 @@ reward:
 rating: 
   enable: false
 
+# Daovoice实时客服功能
+daovoice:
+  enable: false
+
 # 推薦文章
 related_post:
   enable: true

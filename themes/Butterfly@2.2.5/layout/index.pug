@@ -4,3 +4,5 @@ block content
   #recent-posts.recent-posts
     include includes/recent-posts.pug  
     include includes/pagination.pug
+    if theme.daovoice.enable
+      include includes/addons/daovoice-anonymous.pug
