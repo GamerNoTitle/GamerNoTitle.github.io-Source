@@ -417,7 +417,7 @@ rating:
 
 # Daovoice实时客服功能
 daovoice:
-  enable: true
+  enable: false
 
 # 推薦文章
 related_post:
