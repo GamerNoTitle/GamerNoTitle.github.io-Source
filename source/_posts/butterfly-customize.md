@@ -492,7 +492,7 @@ rating:
 
 ### 为网站加入实时对话功能
 
-与其说是实时对话，怎么感觉像客服系统？（某群友想弄然后我先给搞出来了，接着他自己在我发文前弄好了）这次使用的是[Daovoice](https://daocloud.io)，照例我们先上一张效果图（如果想直接使用预设文档的话你可以点[这里](#实时对话预设文档使用)）（注：本站未开启此功能）
+与其说是实时对话，怎么感觉像客服系统？（某群友想弄然后我先给搞出来了，接着他自己在我发文前弄好了）这次使用的是[Daovoice](https://daocloud.io)，照例我们先上一张效果图（如果想直接使用预设文档的话你可以点[这里](#新办法实时对话预设文档使用)）（注：本站未开启此功能）
 
 ![按钮效果图](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-result-button.png)
 
@@ -501,6 +501,92 @@ rating:
 是不是很像客服系统？然而你就是可以把它玩成聊天软件，话不多说，让我们开始吧！
 
 首先我们需要在[Daovoice](https://daocloud.io)上面注册一个账号，添加我们自己的应用。添加完了以后，daocloud会给我们一些代码，需要我们加入到head中，并使用script调用才能出现右下角的那个按钮![对话按钮](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-button.png)
+#### 新办法
+{% note info %}
+这里感谢[@GarveyZhong](http://garveyzhong.gitee.io)提供的新方法思路
+{% endnote %}
+
+预设文档点[这里](#实时对话预设文档使用)
+
+我们先把daovoice给我们的两串代码整合一下
+
+```html
+<script>
+    (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/xxxxxxxx.js","daovoice")
+daovoice('init', {
+  app_id: "xxxxxxxx"
+});
+daovoice('update');
+</script>
+```
+
+接着把它转成pug形式
+
+```jade
+html
+  body
+    script.
+      (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/xxxxxxxx.js","daovoice")
+      daovoice('init', {
+      app_id: "xxxxxxxx"
+      });
+      daovoice('update');
+```
+
+然后将这串代码保存到``./layout/includes/addons/daovoice.pug``中，注意将里面的``xxxxxxxx``换成自己的应用id
+
+然后我们打开``./layout/index.pug``文件，在里面加入以下内容
+
+```jade
+if theme.daovoice.enable
+  include includes/addons/daovoice.pug
+```
+
+然后我们再打开``butterfly.yml``，在里面加入以下内容
+
+```yaml
+# Daovoice实时客服功能
+daovoice:
+  enable: true
+```
+
+接着保存，部署，发现右下角的按钮出来了吧~
+
+##### 实时对话预设文档使用
+
+先点击这个链接下载预设文档→[daovoice.pug](http://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice-new/file/daovoice.pug)
+
+打开后内容如下
+
+```jade
+html
+  body
+    script.
+      (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/xxxxxxxx.js","daovoice")
+      daovoice('init', {
+      app_id: "xxxxxxxx",
+      });
+      daovoice('update');
+```
+
+将里面的``xxxxxxxx``都换成你的应用ID，放入``./layout/includes/addons``文件夹内，接着打开``./layout/index.pug``，在里面加入以下内容
+
+```jade
+if theme.daovoice.enable
+  include includes/addons/daovoice.pug
+```
+
+然后打开``butterfly.yml``，加入以下内容
+
+```yaml
+# Daovoice实时客服功能
+daovoice:
+  enable: true
+```
+
+接着部署即可！
+
+#### 旧办法
 
 Daocloud提供给我的代码是下面这样的，正常来说除了那个js的名字不一样其他都是一样的（这里的js名字为了保证隐私安全我用了``xxxxxxxx``代替）
 
@@ -578,7 +664,7 @@ daovoice:
 
 加入完成后保存，开始部署本地调试，看看右下角是不是多了一个小按钮啦？（按钮的样式需要在Daovoice后台更改）
 
-#### 实时对话预设文档使用
+##### 旧办法实时对话预设文档使用
 
 首先，你还是需要一个Daovoice账号，注册完了以后，点击下面的链接下载所需要的两个文件
 
