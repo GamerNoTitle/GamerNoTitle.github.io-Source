@@ -237,6 +237,11 @@ class4:
       link: https://www.kylin.show/
       avatar: https://www.kylin.show/img/avatar.jpg
       descr: 学习不易，努力努力~
+    12:
+      name: 云玩家
+      link: https://blog.zplayer.cloud
+      avatar: https://cdn.jsdelivr.net/gh/yunwanjia-cloud/blog/img/logo/icon.png
+      descr: 尝试制造人工智障
 class5:
   class_name: FEM 线下后宫
   class_descr: 家伙们海底捞约起！ヾ(^Д^*)/
