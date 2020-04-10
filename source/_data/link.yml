@@ -236,7 +236,7 @@ class4:
       name: Kylin
       link: https://www.kylin.show/
       avatar: https://www.kylin.show/img/avatar.jpg
-      desrc: 学习不易，努力努力~
+      descr: 学习不易，努力努力~
 class5:
   class_name: FEM 线下后宫
   class_descr: 家伙们海底捞约起！ヾ(^Д^*)/
