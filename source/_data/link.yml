@@ -117,6 +117,11 @@ class:
       link: http://drive.bili33.top/
       avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/fodi.png
       descr: 用于分享文件的Onedrive
+    24:
+      name: 服务监控
+      link: https://stats.bili33.top/
+      avatar: https://uptimerobot.com/assets/ico/favicon.ico
+      descr: 各项服务的监控啦~
 
 class2:
   class_name: DOS 私人服务
@@ -242,6 +247,16 @@ class4:
       link: https://blog.zplayer.cloud
       avatar: https://cdn.jsdelivr.net/gh/yunwanjia-cloud/blog/img/logo/icon.png
       descr: 尝试制造人工智障
+    13:
+      name: 雪曦
+      link: https://xiabor.com
+      avatar: https://xiabor.com/img/avatar.png
+      descr: 君浅吟，叹落笔
+    14:
+      name: 年轻没有梦
+      link: http://sgyat.cn/
+      avatar: http://sgyat.cn/img/avatar.png
+      descr: Nobody can tell who is the winner until the last second.
 class5:
   class_name: FEM 线下后宫
   class_descr: 家伙们海底捞约起！ヾ(^Д^*)/
