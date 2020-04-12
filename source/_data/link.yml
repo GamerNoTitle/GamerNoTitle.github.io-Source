@@ -257,6 +257,11 @@ class4:
       link: http://sgyat.cn/
       avatar: http://sgyat.cn/img/avatar.png
       descr: Nobody can tell who is the winner until the last second.
+    15:
+      name: Bu 弃
+      link: http://blog.zyzling.top
+      avatar: https://zyzling.gitee.io/img/avatar.jpeg
+      descr: 一个乐于分享自己所学知识的精神小伙~
 class5:
   class_name: FEM 线下后宫
   class_descr: 家伙们海底捞约起！ヾ(^Д^*)/
