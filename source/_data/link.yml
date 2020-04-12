@@ -262,6 +262,11 @@ class4:
       link: http://blog.zyzling.top
       avatar: https://zyzling.gitee.io/img/avatar.jpeg
       descr: 一个乐于分享自己所学知识的精神小伙~
+    16:
+      name: Zkpeace
+      link: https://zkpeace.com
+      avatar: https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/public/avatar.jpg
+      descr: 一个在懵懂无知中成长的想成为工程师的研究生程序员 …
 class5:
   class_name: FEM 线下后宫
   class_descr: 家伙们海底捞约起！ヾ(^Д^*)/
