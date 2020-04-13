@@ -68,3 +68,7 @@ cover: /img/Cover/cover1.png
 
 本站使用主题：[Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)</a>
 
+---
+#### 去过的地方（需要科学上网查看）
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1VBWJT5IHWm7S51ouzJKXJvr67XdO6apd" width="640" height="480"></iframe>
