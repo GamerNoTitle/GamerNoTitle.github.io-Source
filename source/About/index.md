@@ -71,4 +71,4 @@ cover: /img/Cover/cover1.png
 ---
 #### 去过的地方（需要科学上网查看）
 
-<iframe src="https://www.google.com/maps/d/embed?mid=1VBWJT5IHWm7S51ouzJKXJvr67XdO6apd" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1VBWJT5IHWm7S51ouzJKXJvr67XdO6apd" width="900" height="480"></iframe>
