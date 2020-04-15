@@ -276,7 +276,12 @@ class4:
       name: 刘训灼的AI人生
       link: https://liuxunzhuo.tech/
       avatar: https://picreso.oss-cn-beijing.aliyuncs.com/avatar.jpeg
-      descr: 
+      descr: 分享 Machine Learning、Deep Learning、NLP相关内容
+    19:
+      name: 惑
+      link: https://huohuohuohuohuohuo.github.io/
+      avatar: http://q8rorzm33.bkt.clouddn.com/huo.png
+      descr: 楼下我老婆( •̀ .̫ •́ )✧
 class5:
   class_name: FEM 线下后宫
   class_descr: 家伙们海底捞约起！ヾ(^Д^*)/
