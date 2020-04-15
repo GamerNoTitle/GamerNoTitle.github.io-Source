@@ -34,6 +34,7 @@ menu:
     - Bangumi || /bangumis/ || fa fa-youtube-play
     - Steam || /steamgames/ || fa fa-steam
     - Gallery || /Gallery/ || fa fa-picture-o
+    - Music || /Music/ || fa fa-music
   #  - Comment || /comment/ || fa-pencil-square-o
   #Bangumi: /bangumis/||fa fa-youtube-play
   Link: /link/||fa fa-link
@@ -85,6 +86,7 @@ copy:
 # ---------------
 social:
   fa fa-github: https://github.com/GamerNoTitle || Github
+  fa fa-code-fork: https://projects.bili33.top || Projects
   fa fa-television: https://space.bilibili.com/44666814 || bilibili
   fa fa-rss: /atom.xml || RSS
   fa fa-envelope: mailto:admin@bili33.top || Email
@@ -645,7 +647,7 @@ aside:
 
 # 網站公告
 announcement:
-  content: 向英雄致敬，向逝者致哀!
+  content: 沉迷MC，无法自拔……
 
 # busuanzi count for PV / UV in site
 # 訪問人數

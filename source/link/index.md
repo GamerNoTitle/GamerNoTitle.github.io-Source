@@ -31,4 +31,5 @@ type: "link"
 
 - PS：本文大部分的数字表示方式来自[Mili - world.execute(me);](https://music.163.com/#/song?id=435278010)
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=435278010&auto=0&height=66"></iframe>
+{% aplayer "world.execute (me) ;" "Mili" "https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@world.execute(me)/audio/Mili%20-%20world.execute%20(me)%20;.mp3" "https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@world.execute(me)/img/Album/Miracle Milk.jpg" "lrc:https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/lrc/world.execute (me) %3B.txt"%}
+
