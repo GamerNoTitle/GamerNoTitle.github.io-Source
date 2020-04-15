@@ -267,6 +267,16 @@ class4:
       link: https://zkpeace.com
       avatar: https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/public/avatar.jpg
       descr: 一个在懵懂无知中成长的想成为工程师的研究生程序员 …
+    17:
+      name: 特爱瞎折腾
+      link: https://hkjjsgdd.gitee.io/blog/
+      avatar: https://i.loli.net/2020/04/11/1loHVZL5iYOQaby.jpg
+      descr: 人生苦短，生命渺若尘埃。
+    18:
+      name: 刘训灼的AI人生
+      link: https://liuxunzhuo.tech/
+      avatar: https://picreso.oss-cn-beijing.aliyuncs.com/avatar.jpeg
+      descr: 
 class5:
   class_name: FEM 线下后宫
   class_descr: 家伙们海底捞约起！ヾ(^Д^*)/
