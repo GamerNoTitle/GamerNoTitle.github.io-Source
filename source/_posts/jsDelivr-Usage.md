@@ -62,6 +62,12 @@ jsDelivr是一个比较好的CDN平台，官方号称``jsDelivr – Open Source 
 
 所以说还是要尽量减少自己每个release的大小，如果说太大了建议分成几个仓库放哦~
 
+{% note success %}
+
+从群友那里学来的：当你的版本号写为master时，只需要第一次发布release即可，后面直接用master分支的文件，也没有50MB的文件包大小限制
+
+{% endnote %}
+
 ---
 
 {% note info %}

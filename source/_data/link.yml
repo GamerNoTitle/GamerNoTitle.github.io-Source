@@ -342,3 +342,8 @@ class7:
     #   link: http://ssr.airding.top
     #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@airding/img/airding/airding.jpg
     #   descr: 白嫖、快速、实惠！
+    3:
+      name: Hexo中文站
+      link: https://www.hexocn.cn/
+      avatar: https://cdn.jsdelivr.net/gh/kjhuanhao/thecdn/hexocn/h128.png
+      descr: Hexo中文站，看不懂英文的可以看看这个
