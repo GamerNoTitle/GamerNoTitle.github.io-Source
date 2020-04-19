@@ -645,7 +645,7 @@ aside:
   card_webinfo: true
   card_dynamics: true
 
-# 網站公告
+# 網站公告 <br />来换行
 announcement:
   content: 沉迷MC，无法自拔……
 

@@ -65,25 +65,33 @@ Linux (Fedora, Red Hat, CentOS)：sudo yum install git-core
 
 当你确定你已经安装完了Node.js和Git，就可以使用npm安装hexo了，使用
 
-<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ npm install -g hexo-cli
-</span></figure>
+```bash
+$ npm install -g hexo-cli
+```
 
 或（**安装了cnpm国内镜像的情况下，下面所有的npm命令均可换为cnpm命令，下面不再说明**）
 
-<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ cnpm install -g hexo-cli
-</span></figure>
+```bash
+$ cnpm install -g hexo-cli
+```
+
+
 
 ##### 初始化Hexo文件夹
 
 在你认为合适的地方新建一个文件夹，文件夹名字自拟，然后使用
 
-<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ hexo init
-</span></figure>
+```bash
+$ hexo init
+```
 
 来初始化你的文件夹（文件夹必须是空的），并且使用
 
-<figure class="highlight bash"><table><tbody><tr><td class="code"><pre><span class="line">$ npm install
-</span></figure>
+```bash
+$ npm install
+```
+
+
 
 来安装相关的依赖库！
 
@@ -351,4 +359,3 @@ mailto:<Email Address>
 ### 结尾
 
 Hexo的教程我就写了这么多，可能有些没写到的或者我没想到的，有可能在将来会偶尔更新一下这篇文章，当然，如果你有什么问题，欢迎发邮件到[admin@bili33.top](mailto:admin@bili33.top)来与我探讨，我非常欢迎！如果你想与我交换友链，请到[友情链接网页](/link)的评论区留言，我有时间会看评论的\~商业网站勿扰哦~
-
