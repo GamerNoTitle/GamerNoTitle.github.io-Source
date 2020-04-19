@@ -644,10 +644,14 @@ aside:
   card_archives: true
   card_webinfo: true
   card_dynamics: true
+  card_music: false
 
 # 網站公告 <br />来换行
 announcement:
   content: 沉迷MC，无法自拔……
+
+music:
+  content: https://music.163.com/#/song?id=26126820
 
 # busuanzi count for PV / UV in site
 # 訪問人數

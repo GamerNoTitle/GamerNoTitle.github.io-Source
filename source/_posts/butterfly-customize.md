@@ -723,6 +723,66 @@ daovoice:
 
 {% note info %}
 
+### 加入网易云音乐小部件
+
+{% note info %}
+
+应私信请求所写，本站未开启本功能！
+
+{% endnote %}
+
+按照惯例，我们先上图片
+
+![成果图](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/butterfly-customize/Netease-Result.png)
+
+没错，就是那个小音乐窗口
+
+我们先打开网易云的一首歌，点击生成外联播放器，要求是这首歌不需要VIP进行下载，否则会二话不说给你弹出下面这个窗
+
+![版 权 保 护](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/butterfly-customize/Netease-not-allow.png)
+
+正常情况下，会给你打开外联播放器的生成页面，在下面选择合适的参数，其中宽度我稍微试了一下，推荐为`230`，太小会观感体验不好，太大会直接超出框，设定好宽度我们就复制代码（宽度也可以直接在`width=`后面进行修改哦）
+
+![外链播放器生成页面](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/butterfly-customize/Netease-Player-Gen.png)
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26126820&auto=0&height=66"></iframe>
+
+↑我这里选择的音乐
+
+然后我们复制一份butterfly/layout/includes/widget文件夹里面的`card_announcement.pug`文件~~（主要是因为公告是最好进行修改的东西了）~~ ，改名为`card_music.pug`，把里面改成以下内容
+
+```jade
+.card-widget.music
+  .card-content
+    .item-headline
+      i.fa.fa-music(aria-hidden="true")
+      span= _p('Music')
+      |
+```
+
+然后在|那一行，把你刚刚获得的网易云链接放进去（保留前面的`|`）
+
+然后保存，接着我们打开同目录下的index.pug
+
+在里面你认为合适的位置加上以下内容
+
+```jade
+if theme.aside.card_music
+	include ./card_music.pug
+```
+
+如果你不需要开关可以不加if判断
+
+接着打开butterfly.yml文件，在`aside`设置中加上一行
+
+```yaml
+card_music: true
+```
+
+如果想关掉的时候设置成false即可
+
+这样我们就成功把网易云的音乐加入自己的侧边小部件了！
+
 ### 不定期更新
 
 {% endnote %}
