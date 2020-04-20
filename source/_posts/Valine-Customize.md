@@ -146,7 +146,7 @@ if (t.get("mail").indexOf("@qq.com") >= 0) {
 
 啦啦啦！终于引入B站表情包啦！
 
-新建了一个Github项目在这https://github.com/GamerNoTitle/Valine-Magic-BQB
+新建了一个Github项目在这https://github.com/GamerNoTitle/Valine-Magic
 
 以后新的表情包就丢在这里啦！更新日志也写在这里，你可以通过Issue或者PR提交新的表情包
 

@@ -18,7 +18,7 @@ categories: Tech
 
 {% endnote %}
 
-仓库地址：https://github.com/GamerNoTitle/Valine-Magic-BQB
+仓库地址：https://github.com/GamerNoTitle/Valine-Magic
 
 第一版的表情包不包含在里面，第一版的表情包在[这里](https://github.com/GamerNoTitle/Picture-repo-v1/tree/master/img/BQB)
 
