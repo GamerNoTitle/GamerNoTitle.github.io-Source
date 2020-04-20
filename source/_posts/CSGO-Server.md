@@ -415,6 +415,24 @@ $ screen ./srcds_run
 
 等到最后一行提示``GC Connection established for server version xxxx, instance idx 1``的时候就是开完了（xxxx是版本号）
 
+{% note warning %}
+
+根据CSDN@Summer.LICY的反馈，启动时可能会出现`Failed to open dedicated.so (libstdc++.so.6: cannot open shared object file: No such file or directory)`的情况，这种情况下我们需要使用
+
+```bash
+$ apt-get install libstdc++.so.6
+```
+
+或者
+
+```bash
+$ yum install libstdc++.so.6
+```
+
+来安装这个依赖库
+
+{% endnote %}
+
 关于模式，这里有一份较详细的表格（来源：Steam Developers官网）
 
 <table class="standard-table">
