@@ -492,7 +492,7 @@ rating:
 
 ### 为网站加入实时对话功能
 
-与其说是实时对话，怎么感觉像客服系统？（某群友想弄然后我先给搞出来了，接着他自己在我发文前弄好了）这次使用的是[Daovoice](https://daocloud.io)，照例我们先上一张效果图（如果想直接使用预设文档的话你可以点[这里](#新办法实时对话预设文档使用)）（注：本站未开启此功能）
+与其说是实时对话，怎么感觉像客服系统？（某群友想弄然后我先给搞出来了，接着他自己在我发文前弄好了）这次使用的是[Daovoice](http://daovoice.io/)，照例我们先上一张效果图（如果想直接使用预设文档的话你可以点[这里](#新办法实时对话预设文档使用)）（注：本站未开启此功能）
 
 ![按钮效果图](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-result-button.png)
 
@@ -500,7 +500,7 @@ rating:
 
 是不是很像客服系统？然而你就是可以把它玩成聊天软件，话不多说，让我们开始吧！
 
-首先我们需要在[Daovoice](https://daocloud.io)上面注册一个账号，添加我们自己的应用。添加完了以后，daocloud会给我们一些代码，需要我们加入到head中，并使用script调用才能出现右下角的那个按钮![对话按钮](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-button.png)
+首先我们需要在[Daovoice](http://daovoice.io/)上面注册一个账号，添加我们自己的应用。添加完了以后，daocloud会给我们一些代码，需要我们加入到head中，并使用script调用才能出现右下角的那个按钮![对话按钮](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-button.png)
 #### 新办法
 {% note info %}
 这里感谢[@GarveyZhong](http://garveyzhong.gitee.io)提供的新方法思路
@@ -744,7 +744,6 @@ daovoice:
 ![外链播放器生成页面](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/butterfly-customize/Netease-Player-Gen.png)
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26126820&auto=0&height=66"></iframe>
-
 ↑我这里选择的音乐
 
 然后我们复制一份butterfly/layout/includes/widget文件夹里面的`card_announcement.pug`文件~~（主要是因为公告是最好进行修改的东西了）~~ ，改名为`card_music.pug`，把里面改成以下内容
