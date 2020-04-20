@@ -8,6 +8,8 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Valin
 
 {% note warning %}
 
+本篇为我的修改思路，如果你想直接使用我修改过后的版本，可以直接将[https://github.com/GamerNoTitle/Valine-Magic](https://github.com/GamerNoTitle/Valine-Magic)更新日志中的最新版js链接引入
+
 在看本篇之前，请确保：
 
 - 你有一定的代码基础
