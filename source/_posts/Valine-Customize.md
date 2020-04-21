@@ -153,6 +153,8 @@ if (t.get("mail").indexOf("@qq.com") >= 0) {
 
 新建了一个Github项目在这https://github.com/GamerNoTitle/Valine-Magic
 
-以后新的表情包就丢在这里啦！更新日志也写在这里，你可以通过Issue或者PR提交新的表情包
+~~以后新的表情包就丢在这里啦！更新日志也写在这里，你可以通过Issue或者PR提交新的表情包~~
 
-有会修改ValineUI的大佬请联系我！我想做分类标签！！！
+~~有会修改ValineUI的大佬请联系我！我想做分类标签！！！~~
+
+**Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Magic](https://github.com/GamerNoTitle/Valine-Magic)将不再提供修改的js，改为提供Valine的表情列表**
