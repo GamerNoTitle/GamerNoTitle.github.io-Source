@@ -16,6 +16,9 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Valin
 - 你能够看懂Python代码和JavaScript
 - 你精通Valine的使用
 
+Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Magic](https://github.com/GamerNoTitle/Valine-Magic)将不再提供修改的js，改为提供Valine的表情列表
+
+
 {% endnote %}
 
 我们本篇要做的事情有两个

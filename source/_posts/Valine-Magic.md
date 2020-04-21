@@ -6,6 +6,12 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Valin
 categories: Tech
 ---
 
+{% note warning %}
+
+Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Magic](https://github.com/GamerNoTitle/Valine-Magic)将不再提供修改的js，改为提供Valine的表情列表
+
+{% endnote %}
+
 这是一个魔改版的Valine，加入了B站的表情包，并且会根据QQ邮箱将头像替换为用户的QQ头像（使用了腾讯官方的接口，参考[https://blog.csdn.net/cungudafa/article/details/104638730](https://blog.csdn.net/cungudafa/article/details/104638730)）
 
 {% note info %}
