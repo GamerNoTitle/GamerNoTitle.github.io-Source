@@ -287,6 +287,16 @@ class4:
       link: https://blog.coor.top
       avatar: https://blog.coor.top/avatar
       descr: write code is love, write the world full of love!
+    21:
+      name: 𝑵𝑲’𝒔 𝑩𝒍𝒐𝒈
+      link: https://nkupp.com
+      avatar: https://nkupp.com/images/avatar.png
+      descr: 山不向我走来,我便向山走去
+    22:
+      name: 折纸少年
+      link: https://1620993037.github.io/
+      avatar: https://1620993037.github.io/img/avatar.png
+      descr: 活着不一定要鲜:但一定要有自己的颜色
 class5:
   class_name: FEM 线下后宫
   class_descr: 家伙们海底捞约起！ヾ(^Д^*)/
