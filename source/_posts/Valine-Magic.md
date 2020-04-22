@@ -8,7 +8,7 @@ categories: Tech
 
 {% note warning %}
 
-Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Magic](https://github.com/GamerNoTitle/Valine-Magic)将不再提供修改的js，改为提供Valine的表情列表
+Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Magic](https://github.com/GamerNoTitle/Valine-Magic)将不再提供修改的js，改为提供Valine的表情列表，在使用列表之前，请将你的ValineCDN修改为`https://valinecdn.bili33.top/`
 
 {% endnote %}
 
