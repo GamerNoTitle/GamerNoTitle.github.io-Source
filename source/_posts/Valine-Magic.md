@@ -15,9 +15,6 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 ### 表情分类
 
 
-### 表情分类
-
-
 |    ![](https://valinecdn.bili33.top/bilibiliHotKey/7.jpg)    |  ![](https://valinecdn.bili33.top/bilibilitv/[tv_doge].png)  | ![](https://valinecdn.bili33.top/bilibili2233/[2233娘_第一].png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | [哔哩哔哩热词系列](https://github.com/GamerNoTitle/Valine-Magic/tree/master/bilibili/hotkey热词系列) | [哔哩哔哩小电视系列](https://github.com/GamerNoTitle/Valine-Magic/tree/master/bilibili/tv小电视系列) | [哔哩哔哩2233娘系列](https://github.com/GamerNoTitle/Valine-Magic/tree/master/bilibili/2233娘系列) |
@@ -30,9 +27,16 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 | <img src='https://valinecdn.bili33.top/HONKAI3-MEI/bf68423446465d396d3cbd8856882b5e9fb1c0c7.gif' width=120 height=120> | <img src='https://valinecdn.bili33.top/HONKAI3-NEWYEAR-2019/dc1a2b2032fad29373fe8460d4ad89ca848355a9.jpg' width=120 height=120> | ![](https://valinecdn.bili33.top/Tsuri-me-ju_mimi/10753793_key@2x.png) |
 | [HONKAI崩坏3 芽衣的剑道修行](https://github.com/GamerNoTitle/Valine-Magic/tree/master/HONKAI3/HONKAI3-MEI) | [HONKAI崩坏3 2019新年](https://github.com/GamerNoTitle/Valine-Magic/tree/master/HONKAI3/HONKAI3-NEWYEAR-2019) | [つり目獣耳スタンプ(Sticker of the slant eyes & cat girl)](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Tsuri-me-ju-mimi) |
 
+### 免责声明
+本仓库内所有图片均来源于网络，仅供学习交流使用。若用户违反相关法律法规造成损失，将由用户自行承担，本仓库所有者和PR提交者不承担一切责任！
+
 ---
 
 ## 更新日志
+
+### 2020/4/26 V2.0.5
+
+现在在每个分类的列表获取页面下面有表情包所含的所有表情的预览了！
 
 ### 2020/4/24 V2.0.4
 
@@ -58,7 +62,7 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 
 修改本仓库发布方式，因为Valine在今日下午进行了更新，支持了自定义表情，那么本项目最初的目标就不需要使用修改JS的方式来实现了，所以我改变了发布方式，将来在这个仓库会发布各表情包的List，是按照Valine所需要的格式写好的List，加入到Valine的表情列表就可以立即使用的那种
 
-表情更新：哔哩哔哩热词系列、哔哩哔哩小电视系列、哔哩哔哩2233娘系列、阿鲁alu系列
+表情更新：[哔哩哔哩热词系列](https://github.com/GamerNoTitle/Valine-Magic/tree/master/bilibili/hotkey热词系列) | [哔哩哔哩小电视系列](https://github.com/GamerNoTitle/Valine-Magic/tree/master/bilibili/tv小电视系列) | [哔哩哔哩2233娘系列](https://github.com/GamerNoTitle/Valine-Magic/tree/master/bilibili/2233娘系列) | [阿鲁alu系列](https://github.com/GamerNoTitle/Valine-Magic/tree/master/alu)
 
 ### 2020/4/21 V1.0.1
 
@@ -80,7 +84,7 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 
 启动Valine-Magic项目，将原本Valine的表情替换为B站现有的表情包，加入判断为QQ邮箱则显示QQ头像的功能（参考[https://blog.csdn.net/cungudafa/article/details/104638730](https://blog.csdn.net/cungudafa/article/details/104638730)）
 
-第一批表情包[在此仓库](https://github.com/GamerNoTitle/Picture-repo-v1/tree/master/img/BQB)
+第一批表情包[在此仓库](https://github.com/GamerNoTitle/Picture-repo-v1/tree/master/img/BQB)https://github.com/GamerNoTitle/Picture-repo-v1/tree/master/img/BQB)
 
 ---
 
