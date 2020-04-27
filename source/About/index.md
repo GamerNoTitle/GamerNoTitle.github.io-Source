@@ -4,6 +4,7 @@ date: 2019-07-01 18:00:00
 tags: 
 	- AboutMe
 cover: /img/Cover/cover1.png
+keywords: [GamerNoTitle,About,关于我]
 ---
 
 ### 你发现了秘密！这里是BOSS的详细信息！

@@ -6,7 +6,7 @@
 title: GamerNoTitle
 subtitle: 永远相信 美好的事情 即将发生 Always believe that good things will happen!
 description: 欢迎来到GamerNoTitle的网站！如果你喜欢本网站，请支持我！^_^
-keywords: [GamerNoTitle,Blog,喵呜初音,bili33,个人博客,程序员,高中生,Python,batch,Github]
+keywords: GamerNoTitle,Blog,bili33,个人博客,程序员,高中生,Python,Github
 author: GamerNoTitle
 language: zh-cn
 timezone:
@@ -74,7 +74,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Butterfly@2.2.5
+theme: Butterfly@2.3.0
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
