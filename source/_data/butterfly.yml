@@ -341,7 +341,7 @@ valine:
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   emojiCDN: https://valinecdn.bili33.top/ # emoji CDN
   enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
-  requiredFields: # nick,mail # required fields nick/mail/link
+  requiredFields: [] # nick,mail # required fields nick/mail/link
 
   bg: /img/comment_bg.png # valine background
   count: true # top_img顯示評論數
