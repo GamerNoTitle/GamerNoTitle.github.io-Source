@@ -3,12 +3,12 @@ title: Office365开发者订阅保命计划
 date: 2020-04-27 14:23:46
 tags: Software
 categories: Software
-cover:
+cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Office365-Renew-Project/cover.png
 ---
 
 上次有一篇[文章](/2019/08/30/Office365/)教大家怎么白嫖了Office365 E3 Subscription for Developers（现在是E5），近期我重新申请了一次（之前的过期了），在这里教大家怎么增大微软续费的机会
 
-{% note error %}
+{% note warning %}
 
 只是增大机会，并不是一定会续费！！！
 
@@ -86,3 +86,48 @@ Office365的E5订阅附带了5T的Onedrive（如果你是1T可以去[Onedrive后
 
 ### Github Action法
 
+这里我们使用的是一个Github项目[AutoApiSecret](https://github.com/wangziyingwen/AutoApiSecret)，进入这个项目我们先把它fork一份到自己的账户下
+
+同样，我们还是要先注册一个应用，获取应用ID和应用机密，怎么注册看[自动续订程序法](#自动续订程序法)
+
+唯一不同的是，我们需要的权限变为以下权限：
+
+`Files.Read.All` `Files.ReadWrite.All` `Sites.Read.All` `Sites.ReadWrite.All`
+
+`User.Read.All` `User.ReadWrite.All` `Directory.Read.All ` `Directory.ReadWrite.All`
+
+`Mail.Read` `Mail.ReadWrite` `MailboxSettings.Read ` `MailboxSettings.ReadWrite`
+
+勾选完下面的权限保存，别忘了要点允许！！！
+
+我们使用rclone来获取我们的refresh_token，你可以点击这里下载[rclone](http://file.heimu.ltd/rclone.exe)
+
+在命令行里，输入
+
+```bash
+rclone authorize "onedrive" "之前保存的应用id" "之前保存的应用秘钥"
+```
+
+来打开登录窗口，在窗口内登录后，在命令行里面找到`refresh_token:`并把后面的内容直到`,"expiry"`的部分复制下来备用
+
+接着我们回到我们的仓库，打开里面的1.txt文件，把刚刚获取的refresh_token贴进去
+
+打开仓库设置，点击Secret，我们添加两个东西
+
+第一个是`CONFIG_ID`，里面的内容写为`id=r'你的应用id'`，第二个是`CONFIG_KEY`，里面的内容写作`secret=r'你的应用机密'`
+
+接着打开仓库里面的1.txt，把你的refresh_token贴进去
+
+打开右上角自己头像下的Settings，选到Developer Settings，再点到Personal access tokens，在这里我们新建一个token，名字随便填，但是权限我们需要勾一下内容
+
+`admin:repo_hook` `repo` `workflow`
+
+然后保存即可，回到我们的仓库，点击顶上的Action，如果你没有开过Action，那么这里会需要让你打开同意条例来打开Action，打开后，我们给自己的这个仓库点个Star，来手动触发我们的Action
+
+在Action界面我们可以看到我们的Workflow是否运行正常，如果运行后打绿色的勾就说明成功了，这个时候就不需要再管它了，直接把这个仓库放着就好了，每一小时就会自动调用一次API，达到微软要求的开发（伪）目的
+
+---
+
+### 题外话
+
+我今天重新开了一个E5的订阅，如果需要账户又不想折腾，你可以在下面留言，我看到了会回复你的，名额有限。另，从我这里拿了账户的各位请使用本文中提到的任意方法进行API的调用来保命，因微软未续费而导致的数据丢失我不进行负责！
