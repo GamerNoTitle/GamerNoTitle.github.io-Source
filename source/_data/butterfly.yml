@@ -17,12 +17,12 @@
 #     - Movie || /movies/ || fa fa-film
 
 menu:
-  Home: /||fa fa-home
-  Archives: /archives/||fa fa-archive
-  Tags||fa fa-tags:
-    - Software || /tags/Software/ || fa fa-tags
-    - Diary || /tags/diary/ || fa fa-sticky-note
-    - Tech || /tags/Tech/ || fa fa-terminal
+  Home: /||fas fa-home
+  Archives: /archives/||fas fa-archive
+  Tags||fas fa-tags:
+    - Software || /tags/Software/ || fas fa-tags
+    - Diary || /tags/diary/ || fas fa-sticky-note
+    - Tech || /tags/Tech/ || fas fa-terminal
   #Tags: /tags/||fa fa-tags
   #Categories: /categories/||fa fa-folder-open
   # Github: https://github.com/GamerNoTitle/||fa fa-github
@@ -31,14 +31,14 @@ menu:
   #RSS: /atom.xml||fa fa-rss
   #Donate: /Donate/||fa fa-credit-card-alt
   Entertainment||fa fa-gamepad:
-    - Bangumi || /bangumis/ || fa fa-youtube-play
-    - Steam || /steamgames/ || fa fa-steam
-    - Gallery || /Gallery/ || fa fa-picture-o
-    - Music || /Music/ || fa fa-music
+    - Bangumi || /bangumis/ || fab fa-youtube
+    - Steam || /steamgames/ || fab fa-steam
+    - Gallery || /Gallery/ || fas fa-image
+    - Music || /Music/ || fas fa-music
   #  - Comment || /comment/ || fa-pencil-square-o
   #Bangumi: /bangumis/||fa fa-youtube-play
-  Link: /link/||fa fa-link
-  About: /About/||fa fa-heart
+  Link: /link/||fas fa-link
+  About: /About/||fas fa-heart
   #About||fa fa-heart: 
   #  - Myself || /About/ || fa fa-user
    # - Github || https://github.com/GamerNoTitle/ ||fa fa-github
@@ -85,11 +85,11 @@ copy:
 #   icon: link || the description
 # ---------------
 social:
-  fa fa-github: https://github.com/GamerNoTitle || Github
-  fa fa-code-fork: https://projects.bili33.top || Projects
-  fa fa-television: https://space.bilibili.com/44666814 || bilibili
-  fa fa-rss: /atom.xml || RSS
-  fa fa-envelope: mailto:admin@bili33.top || Email
+  fab fa-github: https://github.com/GamerNoTitle || Github
+  fas fa-code-branch: https://projects.bili33.top || Projects
+  fas fa-tv: https://space.bilibili.com/44666814 || bilibili
+  fas fa-rss: /atom.xml || RSS
+  fas fa-envelope: mailto:admin@bili33.top || Email
 
 ####    search    ####
 # Algolia search
@@ -624,7 +624,7 @@ subtitle:
 # fontawesome圖標
 # 默認使用的是 fontawesome v4版本的圖標
 fontawesome_v5:
-  enable: false
+  enable: true
 
 # 加載動畫 Loading Animation
 preloader: true
