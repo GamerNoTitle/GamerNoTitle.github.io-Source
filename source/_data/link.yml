@@ -230,7 +230,7 @@ class4:
     8:
       name: 阿四の爱生活
       link: https://www.51ish.com/
-      avatar: https://www.51ish.com/wp-content/uploads/2020/03/tx-150x150.jpg
+      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/a4.jpg
       descr: 捡拾冲浪资讯，热爱生活，发现美好
     9:
       name: GarveyZhong
@@ -317,6 +317,11 @@ class4:
       link: https://hangblog.ga
       avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
       descr: 没有什么困难是战胜不了我的
+    26:
+      name: Code Young
+      link: https://wujizun.top
+      avatar: http://thirdqq.qlogo.cn/g?b=qq&nk=750837279&s=5
+      descr: Not every moment will be remembered
 
 class5:
   class_name: FEM 线下后宫
