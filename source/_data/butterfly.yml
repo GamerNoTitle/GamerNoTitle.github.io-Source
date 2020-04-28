@@ -218,7 +218,7 @@ cover:
 
 # if the photo link cannot connect,it will show that
 lodding_bg:
-  flink: /img/friend_404.gif
+  flink: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/Akarin.webp
   post_page: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/404/404.png
   #  post: /img/loading.gif ##加載動畫
 
@@ -627,7 +627,7 @@ fontawesome_v5:
   enable: true
 
 # 加載動畫 Loading Animation
-preloader: true
+preloader: false
 
 ####    側邊欄    ####
 #-------------------------------------
