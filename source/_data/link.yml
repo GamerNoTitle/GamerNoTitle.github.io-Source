@@ -124,7 +124,7 @@ class:
       descr: 各项服务的监控啦~
     25:
       name: MC服务器状态面板
-      link: https://mcstats.bili33.top
+      link: http://mcstats.bili33.top:8880
       avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/Minecraft.png
       descr: 可以看到MC服务器的状态
 
