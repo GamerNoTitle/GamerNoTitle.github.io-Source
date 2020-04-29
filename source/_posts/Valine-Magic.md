@@ -26,6 +26,8 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 | [HONKAI崩坏3 史丹](https://github.com/GamerNoTitle/Valine-Magic/tree/master/HONKAI3/HONKAI3-Stan) | [HONKAI崩坏3 爱酱](https://github.com/GamerNoTitle/Valine-Magic/tree/master/HONKAI3/HONKAI3-AIChan) | [HONKAI崩坏3 目标！幽兰黛尔](https://github.com/GamerNoTitle/Valine-Magic/tree/master/HONKAI3/HONKAI3-Durandal-Search) |
 | <img src='https://valinecdn.bili33.top/HONKAI3-MEI/bf68423446465d396d3cbd8856882b5e9fb1c0c7.gif' width=120 height=120> | <img src='https://valinecdn.bili33.top/HONKAI3-NEWYEAR-2019/dc1a2b2032fad29373fe8460d4ad89ca848355a9.jpg' width=120 height=120> | ![](https://valinecdn.bili33.top/Tsuri-me-ju_mimi/10753793_key@2x.png) |
 | [HONKAI崩坏3 芽衣的剑道修行](https://github.com/GamerNoTitle/Valine-Magic/tree/master/HONKAI3/HONKAI3-MEI) | [HONKAI崩坏3 2019新年](https://github.com/GamerNoTitle/Valine-Magic/tree/master/HONKAI3/HONKAI3-NEWYEAR-2019) | [つり目獣耳スタンプ(Sticker of the slant eyes & cat girl)](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Tsuri-me-ju-mimi) |
+|    ![](https://valinecdn.bili33.top/Arcaea/184064198.png)    |   ![](https://valinecdn.bili33.top/Mafumafu/199749477.png)   |                                                              |
+| [Arcaea](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Arcaea) | [動く！まふまふスタンプ（ねこ）Mafumafu Animation sticker (cat)](https://github.com/GamerNoTitle/Valine-Magic/tree/master/MafuMafu) |                                                              |
 
 ### 免责声明
 本仓库内所有图片均来源于网络，仅供学习交流使用。若用户违反相关法律法规造成损失，将由用户自行承担，本仓库所有者和PR提交者不承担一切责任！
@@ -33,6 +35,14 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 ---
 
 ## 更新日志
+
+### 2020/4/28 V2.0.7
+
+**旧版本（用我修改的JS的版本）将在2020/4/30停止进行301转发，请使用js版本的用户升级到最新版的Valine，使用emojiCDN和emojiMaps的方式使用Valine-Magic项目**
+
+### 2020/4/27 V2.0.6
+
+加入来自まふまふ(Mafumafu)的[動く！まふまふスタンプ（ねこ）Mafumafu Animation sticker (cat)](https://github.com/GamerNoTitle/Valine-Magic/tree/master/MafuMafu)和来自lowiro的[Arcaea](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Arcaea)表情包
 
 ### 2020/4/26 V2.0.5
 
@@ -84,15 +94,15 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 
 启动Valine-Magic项目，将原本Valine的表情替换为B站现有的表情包，加入判断为QQ邮箱则显示QQ头像的功能（参考[https://blog.csdn.net/cungudafa/article/details/104638730](https://blog.csdn.net/cungudafa/article/details/104638730)）
 
-第一批表情包[在此仓库](https://github.com/GamerNoTitle/Picture-repo-v1/tree/master/img/BQB)https://github.com/GamerNoTitle/Picture-repo-v1/tree/master/img/BQB)
+第一批表情包[在此仓库](https://github.com/GamerNoTitle/Picture-repo-v1/tree/master/img/BQB)
 
 ---
 
-这是一个魔改版的Valine，加入了B站的表情包，并且会根据QQ邮箱将头像替换为用户的QQ头像（使用了腾讯官方的接口，参考[https://blog.csdn.net/cungudafa/article/details/104638730](https://blog.csdn.net/cungudafa/article/details/104638730)）
+~~这是一个魔改版的Valine，加入了B站的表情包，并且会根据QQ邮箱将头像替换为用户的QQ头像（使用了腾讯官方的接口，参考[https://blog.csdn.net/cungudafa/article/details/104638730~~](https://blog.csdn.net/cungudafa/article/details/104638730)）
 
 {% note info %}
 
-预览图
+~~预览图~~
 
 ![预览图——QQ头像](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Valine-Magic/Result.png)
 
@@ -100,12 +110,12 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 
 {% endnote %}
 
-仓库地址：https://github.com/GamerNoTitle/Valine-Magic
+~~仓库地址：https://github.com/GamerNoTitle/Valine-Magic~~
 
-第一版的表情包不包含在里面，第一版的表情包在[这里](https://github.com/GamerNoTitle/Picture-repo-v1/tree/master/img/BQB)
+~~第一版的表情包不包含在里面，第一版的表情包在[这里](https://github.com/GamerNoTitle/Picture-repo-v1/tree/master/img/BQB)~~
 
-使用方式：将Valine的CDN改为仓库里面提供的地址即可
+~~使用方式：将Valine的CDN改为仓库里面提供的地址即可~~
 
-如果要提出issue请遵循issue模板，欢迎通过Issue或者PR提交新的表情包！
+~~如果要提出issue请遵循issue模板，欢迎通过Issue或者PR提交新的表情包！~~
 
 ~~如果你有能力修改Valine的UI请与我联系，我的联系方式在About页面，建议QQ联系~~

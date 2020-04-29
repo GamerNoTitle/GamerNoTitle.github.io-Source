@@ -791,6 +791,7 @@ fragment_cache: true
 inject:
   head:
   # - <link rel="stylesheet" href="xxxxx">
+  # - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/css/main.css" />
   bottom:
     # - <script src="xxxx"></script>
 
