@@ -332,6 +332,11 @@ class4:
       link: https://zhouyunfei.club
       avatar: https://img-blog.csdnimg.cn/2020043009205871.jpg
       descr: 严于律己，宽以待人。
+    29:
+      name: XDER
+      link: https://xder.me/
+      avatar: https://xder.me/favicon/android-chrome-512x512.png
+      descr: 用记录替代记忆
 
 class5:
   class_name: FEM 线下后宫
