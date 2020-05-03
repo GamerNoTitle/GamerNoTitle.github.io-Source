@@ -1,0 +1,23 @@
+<head>  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@gitalk-css-dorcandy/css/gitalk-dorcandy.css">
+<script src="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@gitalk/js/gitalk.min.js"></script>
+
+</head>
+<body>
+<div id="gitalk-container"></div>
+<script>
+    var gitalk = new Gitalk({
+    id: 'Dynamics',
+    clientID: '1972021bd74c96cc5f29',
+    clientSecret: '12aa4da040dd892277e17e3cc9cfd694757dc51f',
+    repo: 'GamerNoTitle.Github.io',
+    owner: 'GamerNoTitle',//github用户名
+    admin: ['GamerNoTitle'],//github用户名
+    // number: 1,
+    title: 'Dynamics',
+    pagerDirection: 'last',
+    perPage: 5,
+    })
+    gitalk.render('gitalk-container')
+</script>
+</body>
