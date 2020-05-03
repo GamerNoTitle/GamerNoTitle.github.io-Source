@@ -27,6 +27,14 @@ sage: false
 
 ### 友链界面加入更多的自定义文字
 
+{% note warning %}
+
+#### Butterfly@2.2.0以后此方法不再适用！
+
+详情请看https://github.com/jerryc127/hexo-theme-butterfly/releases/tag/2.2.0
+
+{% endnote %}
+
 关于友链界面，我加入了很多内容，如``A Few Requirements``和下面的``PS``就是我加入的。
 
 ![更多的内容](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@butterfly-customize/img/butterfly-customize/Link-text.png)
@@ -784,4 +792,4 @@ card_music: true
 
 ### 不定期更新
 
-{% endnote %}
+{% endnote %}t
