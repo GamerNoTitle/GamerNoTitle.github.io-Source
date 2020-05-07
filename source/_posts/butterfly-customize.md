@@ -729,19 +729,101 @@ daovoice:
 
 然后保存即可！
 
-### 加入网易云音乐小部件
+### 加入音乐小部件
 
-{% note info %}
+这里有两种做法，Aplayer方法和网易云自带播放器的方法，请根据自己的需要进行修改，预览图在每个方法的开头就有
 
-应私信请求所写，本站未开启本功能！
+#### Aplayer法
 
-{% endnote %}
+![]()
 
-按照惯例，我们先上图片
+Aplayer是一个音乐播放器，官方文档在[这里](https://aplayer.js.org/)，这里我着重讲怎么添加，而不是aplayer的用法（已经配置好的文件在下面，可以直接下载使用）
+
+首先，按照我的个人习惯，在`layout/includes/addons`文件夹里面复制粘贴一个``layout/includes/widget/card_announcement.pug``的副本，修改一下里面的内容，把公告的内容删掉，改成了下面这个样子
+
+```jade
+.card-widget.card-aplayer
+  .card-content
+    .item-headline
+      i.fa.fa-music(aria-hidden="true")
+      span= _p('Music')
+```
+
+接着，就要开始调用Aplayer了，按照官方的做法，我们要调用一个js和一个css文件，这里我保存了一份副本，并且修改了一下css，把进度条和循环按钮隐藏了，上传到github，通过jsdelivr调用
+
+因为我们是内嵌一个html网页，所以我们这里要先用html写法写完，然后转成pug
+
+```jade
+html
+body
+	link(rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/css/APlayer.min.css")	//- 引用修改的CSS
+	#aplayer	//- 相当于<div>
+	script(src="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/js/APlayer.min.js")		//- 引用js文件
+```
+
+然后我们要给aplayer一些我们要放的音乐的信息，这里的写法是用`<script></script>`来赋值，至于怎么写请看官方文档，写好后记得转换成pug，下面我放出我的例子
+
+```jade
+script.
+  const ap = new APlayer({
+  container: document.getElementById('aplayer'),
+  audio: [{
+  name: 'world.execute (me) ;',
+  artist: 'Mili',
+  url: 'https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@world.execute(me)/audio/Mili%20-%20world.execute%20(me)%20;.mp3',
+  cover: 'https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@world.execute(me)/img/Album/Miracle Milk.jpg',
+  theme: "#8e8cd8",
+  lrc: "https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/lrc/world.execute (me) %3B.txt"
+  }]
+  });
+
+```
+
+通过const给Aplayer一些信息，让它能够播放我们的音乐
+
+接着打开`layout/includes/widget/index.pug`在你认为合适的地方添加（注意缩进）
+
+```jade
+if theme.aside.card_aplayer
+	include ../addons/card_aplayer.pug
+```
+
+然后我们打开`butterfly.yml`，在aside的侧边栏显示设置里面添加
+
+```yaml
+	card_webinfo: true
+	# 上面是原来就有的
+	card_aplayer: true	# 添加个开关，可以控制打开关闭
+```
+
+然后就可以啦！
+
+##### 预设文档使用
+
+首先先[下载](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/file/card_aplayer.pug)预设文档，放到主题目录下的`layout/includes/addons`文件夹内（如果不存在请自己创建）
+
+打开文件，修改里面的变量，关于变量请查看[官方文档](https://aplayer.js.org/#/zh-Hans/?id=参数)
+
+修改完后保存，打开`layout/includes/widget/index.pug`，在你认为合适的位置加上以下内容（注意缩进）
+
+```jade
+if theme.aside.card_aplayer
+	include ../addons/card_aplayer.pug
+```
+
+打开`butterfly.yml`，在aside的侧边栏设置加入以下内容
+
+```yaml
+	card_webinfo: true
+	# 上面是原来就有的
+	card_aplayer: true	# 添加个开关，可以控制打开关闭
+```
+
+然后保存即可！
+
+#### 网易云音乐官方部件法
 
 ![成果图](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/butterfly-customize/Netease-Result.png)
-
-没错，就是那个小音乐窗口
 
 我们先打开网易云的一首歌，点击生成外联播放器，要求是这首歌不需要VIP进行下载，否则会二话不说给你弹出下面这个窗
 
@@ -792,4 +874,4 @@ card_music: true
 
 ### 不定期更新
 
-{% endnote %}t
+{% endnote %}
