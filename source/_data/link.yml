@@ -342,6 +342,11 @@ class4:
       link: https://xder.me/
       avatar: https://xder.me/favicon/android-chrome-512x512.png
       descr: 用记录替代记忆
+    31:
+      name: Maple
+      link: https://www.hongmaple.xyz
+      avatar: https://www.hongmaple.xyz/img/favicon.png
+      descr: 一个菜得不能再菜的程序员，做了些电商网站，erp等
 
 class5:
   class_name: FEM 线下后宫
