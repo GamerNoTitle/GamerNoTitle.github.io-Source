@@ -796,7 +796,7 @@ fragment_cache: true
 inject:
   head:
   # - <link rel="stylesheet" href="xxxxx">
-  # - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/css/main.css" />
+    - <script async defer src="https://buttons.github.io/buttons.js"></script>
   bottom:
     # - <script src="xxxx"></script>
 

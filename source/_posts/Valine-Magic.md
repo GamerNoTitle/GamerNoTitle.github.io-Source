@@ -9,10 +9,14 @@ categories: Tech
 {% note warning %}
 
 Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Magic](https://github.com/GamerNoTitle/Valine-Magic)将不再提供修改的js，改为提供Valine的表情列表，在使用列表之前，请将你的ValineCDN修改为`https://valinecdn.bili33.top/`
+<a class="github-button" href="https://github.com/GamerNoTitle/Valine-Magic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star GamerNoTitle/Valine-Magic on GitHub">Star</a>
 
 {% endnote %}
 
 **因本人是一名准高三学生，在2020/5/11开学后将专注于学习，所以可能我就不会有太多的时间去收集更多的表情，你当然可以提交issue给我，issue我会尽量一周之内回复并实装，回复慢请大家见谅！望大家多多包涵，Thanks♪(･ω･)ﾉ**
+
+
+
 
 点击对应的表情名可以直接到达表情列表，请注意：你在使用本仓库内的表情时请将Valine的CDN设置为`https://valinecdn.bili33.top/`	[#2](https://github.com/GamerNoTitle/Valine-Magic/issues/2)
 
