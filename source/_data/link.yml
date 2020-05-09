@@ -312,16 +312,16 @@ class4:
       link: https://drinkmoon.github.io/drimoon-blog/
       avatar: https://res.cloudinary.com/drimoon-assets/image/upload/v1587748747/avatar1_qwyzn8.png
       descr: 
-    25:
-      name: 保温杯の小破栈
-      link: https://hangblog.ga
-      avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
-      descr: 没有什么困难是战胜不了我的
-    26:
-      name: Code Young
-      link: https://wujizun.top
-      avatar: http://thirdqq.qlogo.cn/g?b=qq&nk=750837279&s=5
-      descr: Not every moment will be remembered
+    # 25:
+    #   name: 保温杯の小破栈
+    #   link: https://hangblog.ga
+    #   avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
+    #   descr: 没有什么困难是战胜不了我的
+    # 26:
+    #   name: Code Young
+    #   link: https://wujizun.top
+    #   avatar: http://thirdqq.qlogo.cn/g?b=qq&nk=750837279&s=5
+    #   descr: Not every moment will be remembered
     27:
       name: Yunen’s Blog
       link: https://www.0x002.com/
@@ -393,6 +393,18 @@ class6:
       link: https://www.xyz.blue
       avatar: https://www.xyz.blue/logo.png
       descr: ERR_CERT_DATE_INVALID
+    25:
+      name: 保温杯の小破栈
+      link: https://hangblog.ga
+      avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
+      descr: 网站为空白 - 没有什么困难是战胜不了我的
+    26:
+      name: Code Young
+      link: https://wujizun.top
+      avatar: http://thirdqq.qlogo.cn/g?b=qq&nk=750837279&s=5
+      descr: 网站样式错乱 - Not every moment will be remembered
+
+
 
 
 class7:
