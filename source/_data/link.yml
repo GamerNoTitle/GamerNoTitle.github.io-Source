@@ -347,6 +347,22 @@ class4:
       link: https://www.hongmaple.xyz
       avatar: https://www.hongmaple.xyz/img/favicon.png
       descr: 一个菜得不能再菜的程序员，做了些电商网站，erp等
+    32:
+      name: 四季夏目天下第一
+      link: https://ssyximmlove.me/
+      avatar: https://i.loli.net/2020/04/24/pADyi12KEcV7Yb4.png
+      descr: Pr-Ac-Ti-Ce
+    33:
+      name: 四次元科技
+      link: https://yojigen.tech/
+      avatar: https://www.yojigen.tech/images/avatar.jpg
+      descr: 有关二次元、三次元、科技以及一切
+    34:
+      name: 我本纯真的小破站
+      link: https://wbczblog.postach.io/
+      avatar: https://cdn-static.postach.io/987a18b1f524814df49451a72d493868
+      descr: emmm,说点啥好呢
+
 
 class5:
   class_name: FEM 线下后宫
