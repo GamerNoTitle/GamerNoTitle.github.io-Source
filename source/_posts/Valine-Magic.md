@@ -1,5 +1,5 @@
 ---
-title: Valine-Magic魔改版Valine评论系统
+title: Valine-Magic - Valine表情仓库
 date: 2020-04-19 19:01:30
 tags: Tech
 cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Valine-Magic/Cover.png
