@@ -1,0 +1,21 @@
+html
+  body
+    #wpac-rating(align="center")
+    script(type="text/javascript").
+      wpac_init = window.wpac_init || [];
+      wpac_init.push({widget: 'Rating', id: !{theme.rating.id}});  //- 这里将xxxxx改成自己的id
+      (function() {
+      if ('WIDGETPACK_LOADED' in window) return;
+      WIDGETPACK_LOADED = true;
+      var mc = document.createElement('script');
+      mc.type = 'text/javascript';
+      mc.async = true;
+      mc.src = 'https://embed.widgetpack.com/widget.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+      })();
+      //- 下面的那行小字 如果你不需要可以把17~21行注释掉
+    #copy(align="center")
+      | Rating addon based on 
+      a(herf="https://widgetpack.com/") widgetpack
+      | , by 
+      a(href="https://bili33.top") GamerNoTitle

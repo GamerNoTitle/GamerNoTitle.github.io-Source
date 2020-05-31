@@ -68,3 +68,5 @@ keywords: [GamerNoTitle,About,关于我]
 我的域名有[bili33.top](http://bili33.top)和airding.top（闲置域名，需要可以私信我，未备案），记住了哦(✧∇✧)╯╰(✧∇✧)̣
 
 本站使用主题：[Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)</a>
+
+![Github Contribution](https://ghchart.rshah.org/8e8cd8/GamerNoTitle)

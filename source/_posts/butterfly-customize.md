@@ -397,15 +397,15 @@ html
     a.wpac-cr(href="https://widgetpack.com") Star Rating WIDGET PACK
 ```
 
-然后将其保存成``rating.pug``，放到``./layout/includes/addons``里面去。不过在这代码里面，投票UI不是居中的就让我很不上，而且最后一行有一串a标签，然而我并不是很喜欢它，我将代码改成了下面这个样子
+然后将其保存成``rating.pug``，放到``./layout/includes/addons``里面去。不过在这代码里面，投票UI不是居中的就让我很不上，而且最后一行有一串a标签，然而我并不是很喜欢它，我将代码改成了下面这个样子(这里把id改成了变量，可以在butterfly.yml里面修改)
 
 ```jade
 html
   body
-    #wpac-rating(align="center")	//- 对对象进行居中处理
+    #wpac-rating(align="center")
     script(type="text/javascript").
       wpac_init = window.wpac_init || [];
-      wpac_init.push({widget: 'Rating', id: xxxxx}); 
+      wpac_init.push({widget: 'Rating', id: !{theme.rating.id}});  //- 这里将xxxxx改成自己的id
       (function() {
       if ('WIDGETPACK_LOADED' in window) return;
       WIDGETPACK_LOADED = true;
@@ -415,11 +415,11 @@ html
       mc.src = 'https://embed.widgetpack.com/widget.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
       })();
-      //- 对字进行居中处理
+      //- 下面的那行小字 如果你不需要可以把17~21行注释掉
     #copy(align="center")
       | Rating addon based on 
       a(herf="https://widgetpack.com/") widgetpack
-      | , made by 
+      | , by 
       a(href="https://bili33.top") GamerNoTitle
 
 ```
@@ -439,6 +439,7 @@ html
 ```yaml
 rating:
 	enable: true
+	id: 00000
 ```
 
 这样就加入了一个开关（不过是全局的），可以控制rating功能是否开启（讲真我觉得这个功能我自己用的很少，我自己应该会关掉）
@@ -463,17 +464,13 @@ rating:
 
 #### 评分预设文档使用
 
-首先你需要点击[这里](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@rating/file/rating.pug)下载预设文件
+首先你需要点击[这里](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@File-Update/file/rating.pug)下载预设文件
 
 在这文档里面，你需要修改的是id。如何获取id，你可以查看下面这张图片
 
 ![获取自己的应用id](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@rating/img/butterfly-customize/rating-id.png)
 
-```jade
-      wpac_init.push({widget: 'Rating', id: xxxxx});  //- 这里将xxxxx改成自己的id
-```
-
-将自己的id填入第六行的对应位置后，把文件放入``./layout/includes/addons``（若不存在则自己建立文件夹）
+把文件放入``./layout/includes/addons``（若不存在则自己建立文件夹）
 
 打开自己的``butterfly.yml``文件，在任意一行加入以下内容：
 
@@ -481,6 +478,7 @@ rating:
 # 投票评分功能
 rating: 
   enable: true
+  id: 00000	# 请改成你自己的ID
 ```
 
 然后去到``./layout/post.pug``里面，在你想要加入投票功能的位置加入以下代码（推荐加载打赏即reward后面）
@@ -528,20 +526,20 @@ daovoice('update');
 </script>
 ```
 
-接着把它转成pug形式
+接着把它转成pug形式（这里已经将appid作为一个变量，感谢[@青苏](https://tsingsu.gitee.io/)告诉我pug变量的正确写法）
 
 ```jade
 html
   body
     script.
-      (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/xxxxxxxx.js","daovoice")
+      (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/!{theme.daovoice.appid}.js","daovoice")
       daovoice('init', {
-      app_id: "xxxxxxxx"
+      app_id: "!{theme.daovoice.appid}",
       });
       daovoice('update');
 ```
 
-然后将这串代码保存到``./layout/includes/addons/daovoice.pug``中，注意将里面的``xxxxxxxx``换成自己的应用id
+然后将这串代码保存到``./layout/includes/addons/daovoice.pug``中
 
 然后我们打开``./layout/index.pug``文件，在里面加入以下内容
 
@@ -556,28 +554,16 @@ if theme.daovoice.enable
 # Daovoice实时客服功能
 daovoice:
   enable: true
+  appid: xxxxxxxx
 ```
 
 接着保存，部署，发现右下角的按钮出来了吧~
 
 ##### 实时对话预设文档使用
 
-先点击这个链接下载预设文档→[daovoice.pug](http://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice-new/file/daovoice.pug)
+先点击这个链接下载预设文档→[daovoice.pug](http://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@File-Update/file/daovoice.pug)
 
-打开后内容如下
-
-```jade
-html
-  body
-    script.
-      (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/xxxxxxxx.js","daovoice")
-      daovoice('init', {
-      app_id: "xxxxxxxx",
-      });
-      daovoice('update');
-```
-
-将里面的``xxxxxxxx``都换成你的应用ID，放入``./layout/includes/addons``文件夹内，接着打开``./layout/index.pug``，在里面加入以下内容
+将文件放入``./layout/includes/addons``文件夹内，接着打开``./layout/index.pug``，在里面加入以下内容
 
 ```jade
 if theme.daovoice.enable
@@ -590,6 +576,7 @@ if theme.daovoice.enable
 # Daovoice实时客服功能
 daovoice:
   enable: true
+  appid: xxxxxxxx
 ```
 
 接着部署即可！

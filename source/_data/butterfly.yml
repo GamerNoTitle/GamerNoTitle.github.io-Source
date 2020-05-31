@@ -371,7 +371,7 @@ facebook_comments:
 # ------------------------------------
 since: 2018
 
-footer_custom_text: All articles in this blog are licensed under CC BY-NC-SA 4.0 unless stating additionally.
+footer_custom_text: All articles in this blog are licensed under CC BY-NC-SA 4.0 unless stating additionally.<br /><img src="https://ghchart.rshah.org/GamerNoTitle">
 
 footer_copyright:
   enable: true
@@ -413,10 +413,12 @@ reward:
 # 投票评分功能 需要自己加 更新后没加上
 rating: 
   enable: false
+  id: 24433
 
 # Daovoice实时客服功能 需要自己加 更新后没加上
 daovoice:
   enable: false
+  appid: 7539d61f
 
 # 推薦文章
 related_post:
@@ -646,7 +648,7 @@ aside:
     description:
   card_announcement:  # 使用<br />来换行，可以用html语法
     enable: true
-    content: 因本人是一名准高三学生，在2020/5/11开学后将专注于学习，可能到明年的高考完前都没什么时间更新本博客，但是本博客会一直陪伴着大家，评论我会尽量一周之内回复，回复慢请大家见谅！望大家多多包涵，Thanks♪(･ω･)ﾉ
+    content: 因本人是一名准高三学生，在2020/5/11开学后将专注于学习，可能到明年的高考完前都没什么时间更新本博客，但是本博客会一直陪伴着大家，评论我会尽量一周之内回复，回复慢请大家见谅！望大家多多包涵，Thanks♪(･ω･)ﾉ 
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
