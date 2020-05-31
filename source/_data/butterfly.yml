@@ -371,7 +371,7 @@ facebook_comments:
 # ------------------------------------
 since: 2018
 
-footer_custom_text: All articles in this blog are licensed under CC BY-NC-SA 4.0 unless stating additionally.<br /><img src="https://ghchart.rshah.org/GamerNoTitle">
+footer_custom_text: All articles in this blog are licensed under CC BY-NC-SA 4.0 unless stating additionally.
 
 footer_copyright:
   enable: true
