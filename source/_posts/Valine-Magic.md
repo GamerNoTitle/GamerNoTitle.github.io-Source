@@ -51,20 +51,27 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 | [HONKAI崩坏3 史丹](https://github.com/GamerNoTitle/Valine-Magic/tree/master/HONKAI3/HONKAI3-Stan) | [HONKAI崩坏3 爱酱](https://github.com/GamerNoTitle/Valine-Magic/tree/master/HONKAI3/HONKAI3-AIChan) | [HONKAI崩坏3 目标！幽兰黛尔](https://github.com/GamerNoTitle/Valine-Magic/tree/master/HONKAI3/HONKAI3-Durandal-Search) |
 | <img src='https://valinecdn.bili33.top/HONKAI3-MEI/bf68423446465d396d3cbd8856882b5e9fb1c0c7.gif' width=120 height=120> | <img src='https://valinecdn.bili33.top/HONKAI3-NEWYEAR-2019/dc1a2b2032fad29373fe8460d4ad89ca848355a9.jpg' width=120 height=120> | ![](https://valinecdn.bili33.top/Tsuri-me-ju_mimi/10753793_key@2x.png) |
 | [HONKAI崩坏3 芽衣的剑道修行](https://github.com/GamerNoTitle/Valine-Magic/tree/master/HONKAI3/HONKAI3-MEI) | [HONKAI崩坏3 2019新年](https://github.com/GamerNoTitle/Valine-Magic/tree/master/HONKAI3/HONKAI3-NEWYEAR-2019) | [つり目獣耳スタンプ(Sticker of the slant eyes & cat girl)](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Tsuri-me-ju-mimi) |
-|    ![](https://valinecdn.bili33.top/Arcaea/184064198.png)    |   ![](https://valinecdn.bili33.top/Mafumafu/199749477.png)   |     ![](https://valinecdn.bili33.top/weibo/d_jiyan.png)      |
+| <img src="https://valinecdn.bili33.top/Arcaea/184064198.png" style="zoom:50%;" /> | <img src="https://valinecdn.bili33.top/Mafumafu/199749477.png" style="zoom:50%;" /> |     ![](https://valinecdn.bili33.top/weibo/d_jiyan.png)      |
 | [Arcaea](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Arcaea) | [動く！まふまふスタンプ（ねこ）Mafumafu Animation sticker (cat)](https://github.com/GamerNoTitle/Valine-Magic/tree/master/MafuMafu) | [微博原生表情包](https://github.com/GamerNoTitle/Valine-Magic/tree/master/weibo) |
-|      ![](https://valinecdn.bili33.top/Tieba/i_f02.png)       |  ![](https://valinecdn.bili33.top/Snow-Miku/3583066@2x.png)  | ![](https://valinecdn.bili33.top/Sweetie-Bunny/12311679.png) |
+|      ![](https://valinecdn.bili33.top/Tieba/i_f02.png)       | <img src="https://valinecdn.bili33.top/Snow-Miku/3583066@2x.png" style="zoom:50%;" /> | <img src="https://valinecdn.bili33.top/Sweetie-Bunny/12311679.png" style="zoom:50%;" /> |
 | [百度贴吧原生表情包](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Tieba) | [Snow Miku雪初音表情包（LINE）](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Snow-Miku) | [うさみみ少女（SWEETIE BUNNY）](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Sweetie-Bunny) |
-| ![](https://valinecdn.bili33.top/Little-Bad/我们一起做坏坏的事.jpg) |                                                              |                                                              |
-| [小坏坏表情包](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Little-Bad) |                                                              |                                                              |
+| <img src="https://valinecdn.bili33.top/Little-Bad/我们一起做坏坏的事.jpg" style="zoom:50%;" /> | <img src="https://valinecdn.bili33.top/Yurui-Neko/029.png" style="zoom:50%;" /> | <img src="https://valinecdn.bili33.top/Cute-Emoji/010.png" style="zoom:50%;" /> |
+| [小坏坏表情包](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Little-Bad) | [Yurui-Neko](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Yurui-Neko) | [Cute-Emoji](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Cute-Emoji) |
+| <img src="https://valinecdn.bili33.top/Set667/032.png" style="zoom:50%;" /> | <img src="https://valinecdn.bili33.top/Marup/038.png" style="zoom:50%;" /> |                                                              |
+| [Set667](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Set667) | [Marup](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Marup) |                                                              |
 
 ### 免责声明
-
 本仓库内所有图片均来源于网络，仅供学习交流使用。若用户违反相关法律法规造成损失，将由用户自行承担，本仓库所有者和PR提交者不承担一切责任！
 
 ---
 
 ## 更新日志
+
+### 2020/6/6 V2.1.3
+
+加入四套LINE的表情包
+
+[Yurui-Neko](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Yurui-Neko) | [Cute-Emoji](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Cute-Emoji) | [Set667](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Set667) | [Marup](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Marup)
 
 ### 2020/5/23 V2.1.2
 
@@ -148,7 +155,7 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 
 启动Valine-Magic项目，将原本Valine的表情替换为B站现有的表情包，加入判断为QQ邮箱则显示QQ头像的功能（参考[https://blog.csdn.net/cungudafa/article/details/104638730](https://blog.csdn.net/cungudafa/article/details/104638730)）
 
-第一批表情包[在此仓库](https://github.com/GamerNoTitle/Picture-repo-v1/tree/master/img/BQB)https://github.com/GamerNoTitle/Picture-repo-v1/tree/master/img/BQB)
+第一批表情包[在此仓库](https://github.com/GamerNoTitle/Picture-repo-v1/tree/master/img/BQB)
 
 ---
 
