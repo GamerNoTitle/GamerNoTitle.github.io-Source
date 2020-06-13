@@ -8,6 +8,8 @@ date: 2020-06-13 18:27:00
 
 在学校做的各种化学实验的照片，一起观察奇妙的化学现象吧！
 
+设备：CANON EOS 800D
+
 {% endnote %}
 
 {% gallery %}
@@ -18,3 +20,4 @@ date: 2020-06-13 18:27:00
 ![甲基苯的重结晶](https://gamernotitle.coding.net/p/assets1/d/assets1/git/raw/master/img/Chemistry-Experiments/Recrystallization-of-methylbenzene.JPG)
 ![乙醛与银氨溶液的银镜反应](https://gamernotitle.coding.net/p/assets1/d/assets1/git/raw/master/img/Chemistry-Experiments/Silver-mirror-reaction-of-acetaldehyde.JPG)
 {% endgallery %}
+

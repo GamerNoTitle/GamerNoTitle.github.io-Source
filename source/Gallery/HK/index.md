@@ -10,6 +10,8 @@ date: 2020-03-29 12:15:22
 
 设备：CANON EOS 77D
 
+稳定器：DJI RONIN S
+
 {% endnote %}
 
 {% gallery %}
