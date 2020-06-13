@@ -9,8 +9,8 @@ keywords: [GamerNoTitle,Gallery,相册]
 {% endnote %}
 
 <div class="gallery-group-main">
-{% galleryGroup "A trip to Hong Kong" '2019.4.17~2019.4.18香港行' ''/Gallery/HK' "https://asset1.bili33.top/img/HK/HK-C.JPG" %}
-<!--{% galleryGroup "Pixiv: 純白可憐" "画工又好，热爱游戏，关键人家还是个妹子" "/Gallery/PID20778107" "https://asset1.bili33.top/img/Pixiv/20778107/75108400_p0.png" %}
- {% galleryGroup name description link img-url %} -->
+{% galleryGroup "A trip to Hong Kong" '2019.4.17~2019.4.18香港行' ''/Gallery/HK' "https://gamernotitle.coding.net/p/assets1/d/assets1/git/raw/master/img/HK/HK-C.JPG" %}
+{% galleryGroup "Chemistry Experiments" '在学校做的各种化学实验' '/Gallery/Chemistry-Experiments' 'https://gamernotitle.coding.net/p/assets1/d/assets1/git/raw/master/img/Chemistry-Experiments/Silver-mirror-reaction-of-acetaldehyde.JPG'}
+<!-- {% galleryGroup name description link img-url %} -->
 </div>
 
