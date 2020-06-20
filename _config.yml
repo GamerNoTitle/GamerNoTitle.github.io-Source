@@ -74,13 +74,14 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Butterfly@2.3.5
+theme: Butterfly@3.0.0-rc1
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
-  type: git
+- type: git
   repo: git@github.com:GamerNoTitle/GamerNoTitle.github.io.git
+- type: baidu_url_submitter
 
 Plugins:
 - hexo-generator-baidu-sitemap
@@ -138,3 +139,10 @@ steam:
 # 音乐播放器
 aplayer:
   meting: true
+
+#设置百度主动推送
+baidu_url_submit:
+  count: 10000  #比如200，代表提交最新的200个链接
+  host: www.bili33.top # 在百度站长平台中注册的域名，这个改为你自己的域名
+  token: 7l6C3M9GqkMItUAt # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里，这个默认

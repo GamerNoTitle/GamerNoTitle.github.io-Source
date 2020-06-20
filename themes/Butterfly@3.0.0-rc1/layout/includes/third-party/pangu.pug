@@ -1,0 +1,12 @@
+script(src=url_for(theme.CDN.pangu))
+if theme.pangu.field === 'post' && is_post()
+  script.
+    document.addEventListener('DOMContentLoaded', function() {
+      pangu.autoSpacingPage()
+    })
+else if theme.pangu.field === 'site'
+  script.
+    document.addEventListener('DOMContentLoaded', function() {
+      pangu.autoSpacingPage()
+    })
+

@@ -48,29 +48,13 @@ menu:
   # /About/||fa fa-heart
 #   #XXX: /xxx
 
-# Favicon
-# ---------------
-favicon: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png
+# Code Blocks (代碼相關)
+# --------------------------------------
 
-# PWA
-# See https://github.com/JLHwung/hexo-offline
-# ---------------
-# pwa:
-#   enable: true
-#   manifest: /img/pwa/manifest.json
-#   theme_color: "#fff"
-#   apple_touch_icon: /img/pwa/apple-touch-icon.png
-#   favicon_32_32: /img/pwa/32.png
-#   favicon_16_16: /img/pwa/16.png
-#   mask_icon: /img/pwa/safari-pinned-tab.svg
-
-# Highlight theme
-# ---------------
-highlight_theme: light
-highlight_copy: true #代碼複製按鈕
-highlight_lang: true #代碼語言顯示
-highlight_shrink: false #代碼框不展開，需點擊 '>' 打開
-
+highlight_theme: mac # default / darker / pale night / light / ocean / mac / false
+highlight_copy: true # copy button
+highlight_lang: true # show the code language
+highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 code_word_wrap: false
 
 # copy setting
@@ -78,7 +62,7 @@ code_word_wrap: false
 # copyright 複製的内容後面加上版權信息
 copy:
   enable: true # true 開啓 / false 禁止
-  copyright: false
+  copyright: true
 
 # social settings
 # formal:
@@ -113,36 +97,30 @@ local_search:
     input_placeholder: Search for Posts
     hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
 
+# Math (數學)
+# --------------------------------------
+# About the per_page
+# if you set it to true, it will load mathjax/katex script in each page (true 表示每一頁都加載js)
+# if you set it to false, it will load mathjax/katex script according to your setting (add the 'mathjax: true' in page's front-matter)
+# (false 需要時加載，須在使用的 Markdown Front-matter 加上 mathjax: true)
+
 # MathJax
-# Please see doc for more details: https://docs.jerryc.me/config.html#mathjax
-# ---------------
 mathjax:
   enable: false
-  # true 表示每一頁都加載mathjax.js
-  # false 需要時加載，須在使用的Markdown Front-matter 加上 mathjax: true
   per_page: false
 
 # KaTeX
-# ---------------
 katex:
   enable: false
-  # true 表示每一頁都加載katex.js
-  # false 需要時加載，須在使用的Markdown Front-matter 加上 katex: true
   per_page: false
   hide_scrollbar: true
 
-# mermaid
-# see https://github.com/knsv/mermaid
-# -------------------------------
-mermaid:
-  enable: false
-  # built-in themes: default/forest/dark/neutral
-  theme: default
+# Image (圖片設置)
+# --------------------------------------
 
-####   Analysis    ####
-# ---------------
-# Tencent_analytics ID
-tencent_analytics: 66548841
+# Favicon（網站圖標）
+favicon: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png
+
 
 # Ads
 # ---------------
@@ -159,11 +137,6 @@ google_adsense:
 #   index:
 #   aside:
 #   post:
-
-baidu_analytics: 1a9dfff1b560a523701cb01384373c75
-
-#Google Analytics
-google_analytics: UA-138072700-2
 
 # Post info settings
 # ---------------
@@ -216,17 +189,16 @@ cover:
   default_cover:
     - https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
 
-# if the photo link cannot connect,it will show that
-lodding_bg:
-  flink: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/Akarin.webp
-  post_page: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/404/404.png
-  #  post: /img/loading.gif ##加載動畫
-
 # A simple 404 page
 error_404:
   enable: false
   subtitle: "Page Not Found"
   background:
+
+# Replace Broken Images (替換無法顯示的圖片)
+error_img:
+  flink: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/Akarin.webp
+  post_page: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/404/404.png
 
 post_meta:
   page:
@@ -245,13 +217,15 @@ wordcount:
   min2read: true
   total_wordcount: false
 
+# Post
+# --------------------------------------
+
+# toc (目錄)
+
 toc:
   enable: true
   number: true
-
-# auto open the sidebar in 'post'
-auto_open_sidebar:
-  enable: false
+  auto_open: false # auto open the sidebar
 
 post_copyright:
   enable: true
@@ -259,21 +233,53 @@ post_copyright:
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-# 自動節選
-auto_excerpt:
+# Sponsor/reward
+reward:
   enable: true
-  length: 150
+  QR_code:
+    - img: /img/wechat.jpg
+      link:
+      text: wechat
+    - img: /img/alipay.jpg
+      link:
+      text: alipay
 
-####    Share System    ####
-# -----------------------------------------
+# Related Articles
+related_post:
+  enable: true
+  limit: 6 # Number of posts displayed
+  date_type: created # or created or updated 文章日期顯示創建日或者更新日
+
+# figcaption (圖片描述文字)
+photofigcaption: true
+
+# anchor
+# when you scroll in post, the URL will update according to header id.
+anchor: false
+
+# Display the article introduction on homepage
+# 1: description
+# 2: both (if the description exists, it will show description. or show the auto_excerpt)
+# 3: auto_excerpt (default)
+index_post_content:
+  method: 3
+  length: 500 # if you set method to 2 or 3, the length need to config
+# Share System (分享功能)
+# --------------------------------------
+
+# AddThis
+# https://www.addthis.com/
 addThis:
   enable: false
   pubid:
 
+# Share.js
+# https://github.com/overtrue/share.js
 sharejs:
   enable: true
   sites: facebook,twitter,wechat,weibo,qq
 
+# AddToAny
 # https://www.addtoany.com/
 addtoany:
   enable: false
@@ -286,28 +292,33 @@ addtoany:
     - email
     - copy_link
 
-####   Comments System    ####
-# ------------------------------------
-# Disqus 官方版評論系統
+# Comments System
+# --------------------------------------
+
+# disqus
+# https://disqus.com/
 disqus:
   enable: false
   shortname:
-  count: false # top_img顯示評論數
+  count: false # dispaly comment count in top_img
 
-# Disqus.js 版評論系統，應對大陸長城的折中方案，兼容原版：https://github.com/SukkaW/DisqusJS 
-# API 申請地址：https://disqus.com/api/applications/
-# 與 disqus 共用樣式
+# Alternative Disqus - Render comments with Disqus API
+# DisqusJS評論系統，可以實現在網路審查地區載入 Disqus 評論列表，兼容原版
+# https://github.com/SukkaW/DisqusJS
 disqusjs:
-  enable: false #開啓改爲 true
-  shortname: 
-  siteName: 
-  apikey: 
-  api: https://disqus.skk.moe/disqus/ #一般情況下無需修改 API 地址
+  enable: false
+  shortname:
+  siteName:
+  apikey:
+  api:
+  nocomment: # display when a blog post or an article has no comment attached
   admin:
   adminLabel:
-  count: true # top_img顯示評論數
+  count: false # dispaly comment count in top_img
 
-laibili:
+# livere(來必力)
+# https://www.livere.com/
+livere:
   enable: false
   uid:
 
@@ -335,7 +346,7 @@ valine:
   pageSize: 20 # comment list page size
   avatar: mp # gravatar style https://valine.js.org/#/avatar
   lang: zh-cn # i18n: zh-cn/en/tw
-  placeholder: 你要留下你的足迹嘛？喵~ # valine comment input placeholder(like: Please leave your footprints )
+  placeholder: 📌昵称可以填写QQ号来自动补全QQ信息啦~\n👨‍🔧本站已启用Akismet反垃圾评论~\n🚀评论和回复支持M↓~ # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header inf
   recordIP: true # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
@@ -365,6 +376,40 @@ facebook_comments:
   order_by: social # social/time/reverse_time
   lang: en_US # Language en_US/zh_CN/zh_TW and so on
   count: false
+# Chat Services
+# --------------------------------------
+
+# Chat Button [recommend]
+# It will create a button in the bottom right corner of website, and hide the origin button
+chat_btn: false
+
+# The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
+chat_hide_show: false
+
+# chatra
+# https://chatra.io/
+chatra:
+  enable: false
+  id:
+
+# tidio
+# https://www.tidio.com/
+tidio:
+  enable: false
+  public_key:
+
+# daovoice
+# http://daovoice.io/
+daovoice:
+  enable: false
+  app_id:
+
+# gitter
+# https://gitter.im/
+gitter:
+  enable: false
+  room:
+
 
 #####     Footer Settings    ####
 # ------------------------------------
@@ -381,7 +426,30 @@ ICP:
   text:
   icon: /img/icp.png
 
-####    站長驗證    ####
+# Analysis
+# --------------------------------------
+
+
+baidu_analytics: 1a9dfff1b560a523701cb01384373c75
+
+#Google Analytics
+google_analytics: UA-138072700-2
+
+# Tencent Analytics ID
+tencent_analytics: 66548841
+
+# Advertisement
+# --------------------------------------
+
+# Insert ads manually (手動插入廣告)
+# ad:
+#   index:
+#   aside:
+#   post:
+
+# Verification (站長驗證)
+# --------------------------------------
+
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
 google_site_verification: Qr-YUMsmamacGjibQoqgCXMSotasUgUprPmP525d0Ls
@@ -398,40 +466,12 @@ baidu_site_verification: guIHZVGwux
 # see http://zhanzhang.so.com/
 qihu_site_verification:
 
-# 打賞按鈕
-reward:
-  enable: true
-  QR_code:
-    - itemlist:
-        img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@payments/img/Payments/WeChat.png
-        text: 微信
-    - itemlist:
-        img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@payments/img/Payments/AliPay.jpg
-        text: 支付宝
 
 # 投票评分功能 需要自己加 更新后没加上
 rating: 
   enable: false
   id: 24433
 
-# Daovoice实时客服功能 需要自己加 更新后没加上
-daovoice:
-  enable: false
-  appid: 7539d61f
-
-# 推薦文章
-related_post:
-  enable: true
-  limit: 6 # 顯示推薦文章數目
-  date_type: created # or created or updated 文章日期顯示创建日或者更新日
-
-# figcaption
-# 圖片描述文字
-photofigcaption: false
-
-# anchor
-# when you scroll in post, the url will update according to header id.
-anchor: false
 
 ####    美化/效果    ####
 #--------------------------------
@@ -457,8 +497,9 @@ theme_color:
   code_foreground: "#F47466"
   code_background: "rgba(27, 31, 35, .05)"
   toc_color: "#00c4b6"
-  blockquote_padding_color: "#49b1f5"
-  blockquote_background_color: "#49b1f5"
+  blockquote_padding_color: "#8e8cd8"
+  blockquote_background_color: "#8e8cd8"
+
 # 原配置文件的配色
 # theme_color:
 #   enable: true
@@ -469,8 +510,11 @@ theme_color:
 #   link_color: "#99a9bf"
 #   meta_color: '#858585'
 #   hr_color: "#A4D8FA"
-#   read-mode-bg_color: '#FAF9DE'
-#   inline-code-color: '#F47466'
+#   code_foreground: "#F47466"
+#   code_background: "rgba(27, 31, 35, .05)"
+#   toc_color: "#00c4b6"
+#   blockquote_padding_color: "#49b1f5"
+#   blockquote_background_color: "#49b1f5"
 
 # 哔哩哔哩配色（感觉很奇怪，先不使用吧……）
 # theme_color:
@@ -512,6 +556,10 @@ background:
 # footer是否顯示圖片背景(與top_img一致)
 footer_bg: false
 
+# the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
+rightside-bottom:
+
+
 # 背景特效
 # 避免卡頓，建議只開啓一個
 # canvas_ribbon 禁止彩帶背景
@@ -539,7 +587,8 @@ canvas_nest:
   count: 99 # the number of lines, default: 99.
   mobile: false # false 手機端不顯示 true 手機端顯示
 
-# 打字效果
+# Typewriter Effect (打字效果)
+# https://github.com/disjukr/activate-power-mode
 activate_power_mode:
   enable: true
   colorful: true # 冒光特效
@@ -550,10 +599,10 @@ activate_power_mode:
 # 點擊烟火特效
 fireworks:
   enable: true
+  zIndex: 9999 # -1 or 9999
 
 # 點擊出現愛心
-click_heart:
-  enable: false
+click_heart: false
 
 # 點擊出現文字，文字可自行修改
 ClickShowText:
@@ -588,11 +637,11 @@ beautify:
   title-prefix-icon: '\f192'
   title-prefix-icon-color: "#8e8cd8"
 
-# 全局字體
+# Global font settings
+# Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  enable: false
-  font-family: Lato, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, MicrMicrosoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif
-  code-font: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace, Helvetica Neue For Number
+  font-family:
+  code-font:
 
 # 網站名字字體
 # 左上角網站名字 主頁居中網站名字
@@ -600,11 +649,16 @@ blog_title_font:
   font_link: https://fonts.googleapis.com/css?family=Titillium+Web #字體鏈接
   font-family: Titillium Web, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif
 
-# 水平分隔綫
+# The setting of divider icon (水平分隔線圖標設置)
 hr:
   enable: false
   icon: '\f21c' #fontawesome上圖標的Unicode
   icon-top: -20px
+
+hr_icon:
+  enable: true
+  icon: '\f0c4' #fontawesome上圖標的Unicode
+  icon-top:
 
 # 主頁subtitle
 # 打字效果
@@ -626,11 +680,6 @@ subtitle:
   sub:
     - 永远相信 美好的事情 即将发生
     - Always believe that good things will happen
-
-# fontawesome圖標
-# 默認使用的是 fontawesome v4版本的圖標
-fontawesome_v5:
-  enable: true
 
 # 加載動畫 Loading Animation
 preloader: false
@@ -676,34 +725,30 @@ busuanzi:
   site_pv: true
   page_pv: true
 
-# 網頁開通時間
-# 格式: 月/日/年 時間
-# 也可以寫成 年/月/日 時間
+# Time difference between publish date and now (網頁運行時間)
+# Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  start_date: 7/1/2019 00:00:00 #m/d/y h:m:s
+  publish_date: 7/1/2019 00:00:00
 
 ####   右下角按鈕  ####
 #----------------------------------------------
 # 簡繁轉換
 translate:
   enable: true
-  # 默認按鈕顯示文字
+  # The text of a button
   default: 繁
-  #网站默认语言，1: 繁體中文, 2: 简体中文
+  # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
   defaultEncoding: 2
-  #延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
+  # Time delay
   translateDelay: 0
-  #博客网址
-  cookieDomain: "http://bili33.top"
-  #當文字是簡體時，按鈕顯示的文字
-  msgToTraditionalChinese: "繁"
-  #當文字是繁體時，按鈕顯示的文字
-  msgToSimplifiedChinese: "简"
+  # The text of the button when the language is Simplified Chinese
+  msgToTraditionalChinese: '繁'
+  # The text of the button when the language is Traditional Chinese
+  msgToSimplifiedChinese: '簡'
 
-#閲讀模式
-readmode:
-  enable: true
+# Read Mode (閲讀模式)
+readmode: true
 
 # 夜間模式
 darkmode:
@@ -724,12 +769,10 @@ darkmode:
 # 只選一個 或者 兩個都不選
 #--------------------------------------------
 # medium_zoom https://github.com/francoischalifour/medium-zoom
-medium_zoom:
-  enable: false
+medium_zoom: false
 
 # fancybox http://fancyapps.com/fancybox/3/
-fancybox:
-  enable: true
+fancybox: true
 
 # Snackbar 彈窗
 # https://github.com/polonel/SnackBar
@@ -742,8 +785,7 @@ snackbar:
   bg_dark: '#2d3035' #dark mode時彈窗背景
 
 #百度推送
-baidu_push:
-  enable: false
+baidu_push: false
 
 # https://instant.page/
 # prefetch預加載
@@ -754,7 +796,18 @@ instantpage:
 # 中英文之間添加空格
 pangu:
   enable: false
-  field: page # page/post
+  field: site # site/post
+
+# Tag Plugins settings (標籤外掛)
+# --------------------------------------
+
+# mermaid
+# see https://github.com/knsv/mermaid
+mermaid:
+  enable: false
+  # built-in themes: default/forest/dark/neutral
+  theme: default
+
 
 # Note (Bootstrap Callout)
 # https://muse.theme-next.org/docs/tag-plugins/note
@@ -771,19 +824,12 @@ note:
   # Offset also applied to label tag variables. This option can work with disabled note tag.
   light_bg_offset: 0
 
-# 圖片懶加載
-# https://github.com/ApoorvSaxena/lozad.js
-lazyload: false
+lazyload:
+  enable: false
+  post: /img/loading.gif
 
-# 避免重複網址分散seo
-canonical: true
-
-# 禁止百度轉碼
+# Disable Baidu transformation on mobile devices (禁止百度轉碼)
 disable_baidu_transformation: true
-
-# twitter分享自動帶上樣式
-# https://i.loli.net/2019/09/08/qm3RfvUCKbct1Wz.png
-twitter_meta: true
 
 # facebook QQ 等 分享自動帶上樣式
 # https://i.loli.net/2019/09/08/2wbFJEKloisRvhj.png
@@ -815,8 +861,8 @@ CDN:
   gitalk: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
   gitalk_css: https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
   valine: https://unpkg.com/valine/dist/Valine.min.js
-  disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1.2/dist/disqus.js
-  disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1.2/dist/disqusjs.css
+  disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
+  disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
 
   # share
@@ -845,10 +891,9 @@ CDN:
   canvas_ribbon_piao: /js/third-party/piao.js
   canvas_nest: /js/third-party/canvas-nest.js
 
-  lazyload: https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js
-  instantpage: https://cdn.jsdelivr.net/npm/instant.page@3/instantpage.min.js # https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js
+  lazyload: https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js
+  instantpage: https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js
   typed: https://cdn.jsdelivr.net/npm/typed.js
-  js_cookies: https://cdn.jsdelivr.net/npm/js-cookie/dist/js.cookie.min.js
   pangu: https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js
 
   # photo
@@ -868,8 +913,16 @@ CDN:
   ClickShowText: /js/third-party/ClickShowText.js
 
   # fontawesome
-  fontawesome_v4: https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
-  fontawesome_v5: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
+  fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
 
   # 簡繁轉換
   translate: /js/tw_cn.js
+
+  # justifiedGallery
+  justifiedGallery_js: https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
+  justifiedGallery_css: https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css
+
+  # aplayer
+  aplayer_css: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
+  aplayer_js: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
+  meting_js: https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js

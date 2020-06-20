@@ -1,0 +1,88 @@
+#post-info
+  #post-title
+    .posttitle= page.title || _p('no_title')
+    
+  #post-meta
+    .meta-firstline
+      if (theme.post_meta.post.date_type)
+        if (theme.post_meta.post.date_type === 'both')
+          time.post-meta__date
+            span.post-meta__date-created(title= _p('post.created')+' '+full_date(page.date))
+              i.far.fa-calendar-alt.fa-fw
+              =' '+_p('post.created')+' '+date(page.date, config.date_format)
+            span.post-meta__separator |
+            span.post-meta__date-updated(title= _p('post.updated')+' '+full_date(page.updated))
+              i.fas.fa-history.fa-fw
+              =' '+_p('post.updated')+' '+date(page.updated, config.date_format)
+        else
+          - var data_type_update = theme.post_meta.post.date_type === 'updated'
+          - var date_type = data_type_update ? 'updated' : 'date'
+          - var date_icon = data_type_update ? 'fas fa-history' :'far fa-calendar-alt'
+          - var data_info = data_type_update ? _p('post.updated') : _p('post.created')
+          time.post-meta__date(title=data_info + ' ' + full_date(page[date_type]))
+            i.fa-fw(class=date_icon)
+            =' ' + data_info + ' ' + date(page[date_type], config.date_format)
+                
+      if (theme.post_meta.post.categories && page.categories.data.length > 0)
+        span.post-meta__categories
+          if (theme.post_meta.post.date_type)
+            span.post-meta__separator |
+
+          each item, index in page.categories.data
+            i.fas.fa-inbox.fa-fw.post-meta__icon
+            a(href=url_for(item.path)).post-meta__categories #[=item.name]
+            if (index < page.categories.data.length - 1)
+              i.fas.fa-angle-right.post-meta__separator
+
+    .meta-secondline  
+      - let postWordcount = theme.wordcount.enable && (theme.wordcount.post_wordcount || theme.wordcount.min2read)
+      if (postWordcount)
+        span.post-meta-wordcount
+          if theme.wordcount.post_wordcount
+            i.far.fa-file-word.fa-fw.post-meta__icon
+            span= _p('post.wordcount') + ':'
+            span.word-count= wordcount(page.content)
+            if theme.wordcount.min2read
+              span.post-meta__separator |
+          if theme.wordcount.min2read
+            i.far.fa-clock.fa-fw.post-meta__icon
+            span= _p('post.min2read', min2read(page.content, {cn: 350, en: 160}))
+    
+    .meta-thirdline
+      span.post-meta-pv-cv
+        if (postWordcount && theme.busuanzi.page_pv)
+          span.post-meta__separator |
+        if theme.busuanzi.page_pv
+          i.far.fa-eye.fa-fw.post-meta__icon
+          span=_p('post.page_pv') + ':'
+          span#busuanzi_value_page_pv
+
+      span.post-meta-commentcount
+        if ((theme.disqus && theme.disqus.enable && theme.disqus.count && page.comments !== false) || (theme.disqusjs && theme.disqusjs.enable && theme.disqusjs.count && page.comments !== false))
+          if (postWordcount || theme.busuanzi.page_pv)
+            span.post-meta__separator |
+          i.far.fa-comments.fa-fw.post-meta__icon
+          span= _p('post.comments') + ':'
+          span.disqus-comment-count.comment-count
+            a(href=full_url_for(page.path) + '#disqus_thread')
+        else if (theme.valine && theme.valine.enable && theme.valine.count && page.comments !== false)
+          if (postWordcount || theme.busuanzi.page_pv)
+            span.post-meta__separator |
+          i.far.fa-comments.fa-fw.post-meta__icon
+          span= _p('post.comments') + ':'
+          a(href=url_for(page.path) + '#post-comment' itemprop="discussionUrl")
+            span.valine-comment-count.comment-count(data-xid=url_for(page.path) itemprop="commentCount")
+        else if (theme.gitalk && theme.gitalk.enable && theme.gitalk.count && page.comments !== false)
+          if (postWordcount || theme.busuanzi.page_pv)
+            span.post-meta__separator |
+          i.far.fa-comments.fa-fw.post-meta__icon
+          span= _p('post.comments') + ':'
+          a(href=url_for(page.path) + '#post-comment')
+            span.gitalk-comment-count.comment-count
+        else if theme.facebook_comments.enable && theme.facebook_comments.count && page.comments !== false
+          if (postWordcount || theme.busuanzi.page_pv)
+            span.post-meta__separator |
+          i.far.fa-comments.fa-fw.post-meta__icon
+          span= _p('post.comments') + ':'
+          a.comment-count(href=url_for(page.path) + '#post-comment')
+            span.fb-comments-count(data-href=urlNoIndex())
