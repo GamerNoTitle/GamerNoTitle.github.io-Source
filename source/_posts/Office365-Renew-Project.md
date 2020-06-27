@@ -12,6 +12,8 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Offic
 
 只是增大机会，并不是一定会续费！！！
 
+我已经续费成功一次了，截图在底部
+
 {% endnote %}
 
 ---
@@ -131,3 +133,9 @@ rclone authorize "onedrive" "之前保存的应用id" "之前保存的应用秘�
 ### 题外话
 
 我今天重新开了一个E5的订阅，如果需要账户又不想折腾，你可以在下面留言，我看到了会回复你的，名额有限。另，从我这里拿了账户的各位请使用本文中提到的任意方法进行API的调用来保命，因微软未续费而导致的数据丢失我不进行负责！
+
+{% note success %}
+
+![续费成功图](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Office365-Renew-Project/Success-Renewed.png)
+
+{% endnote %}
