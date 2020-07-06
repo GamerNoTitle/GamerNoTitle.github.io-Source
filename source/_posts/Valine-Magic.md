@@ -15,7 +15,12 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 
 **因本人是一名准高三学生，在2020/5/11开学后将专注于学习，所以可能我就不会有太多的时间去收集更多的表情，你当然可以提交issue给我，issue我会尽量一周之内回复并实装，回复慢请大家见谅！望大家多多包涵，Thanks♪(･ω･)ﾉ**
 
-点击对应的表情名可以直接到达表情列表，请注意：你在使用本仓库内的表情时请将Valine的CDN设置为`https://valinecdn.bili33.top/` [#2](https://github.com/GamerNoTitle/Valine-Magic/issues/2) jsdelivr线 或者`https://mirrorcdn.bili33.top` [#5](https://github.com/GamerNoTitle/Valine-Magic/issues/5) coding线
+| CDN服务器 | CDN链接                                                      |     优势     |                       劣势                        |
+| :-------: | :----------------------------------------------------------- | :----------: | :-----------------------------------------------: |
+|  Github   | https://valinecdn.bili33.top/                                |  链接短，快  |    有CloudFlare的301跳转作为统计，有可能会崩服    |
+|  Github   | https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/   |    非常快    |                   有可能会崩服                    |
+|  Coding   | https://mirrorcdn.bili33.top                                 | 链接短，较快 | 有CloudFlare的301跳转作为统计，Coding服务器总是崩 |
+|  Coding   | https://gamernotitle.coding.net/p/ValineCDN/d/ValineCDN/git/raw/master/ |     较快     |                Coding服务器总是崩                 |
 
 复制的列表可以直接复制到例如[butterfly](https://github.com/jerryc127/hexo-theme-butterfly)主题的`valine.json`内，或者是各种用于放Valine表情配置的地方
 
