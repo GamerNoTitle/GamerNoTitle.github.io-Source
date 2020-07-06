@@ -262,11 +262,11 @@ class4:
       link: https://xiabor.com
       avatar: https://xiabor.com/img/avatar.png
       descr: 君浅吟，叹落笔
-    14:
-      name: 年轻没有梦
-      link: http://sgyat.cn/
-      avatar: http://sgyat.cn/img/avatar.png
-      descr: Nobody can tell who is the winner until the last second.
+    # 14:
+    #   name: 年轻没有梦
+    #   link: http://sgyat.cn/
+    #   avatar: http://sgyat.cn/img/avatar.png
+    #   descr: Nobody can tell who is the winner until the last second.
     15:
       name: Bu 弃
       link: http://blog.zyzling.top
@@ -317,11 +317,11 @@ class4:
       link: https://drinkmoon.github.io/drimoon-blog/
       avatar: https://res.cloudinary.com/drimoon-assets/image/upload/v1587748747/avatar1_qwyzn8.png
       descr: 
-    25:
-      name: 保温杯の小破栈
-      link: https://hangblog.ga
-      avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
-      descr: 没有什么困难是战胜不了我的
+    # 25:
+    #   name: 保温杯の小破栈
+    #   link: https://hangblog.ga
+    #   avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
+    #   descr: 没有什么困难是战胜不了我的
     # 26:
     #   name: Code Young
     #   link: https://wujizun.top
@@ -382,11 +382,11 @@ class4:
       link: https://www.impdx.vip/
       avatar: https://www.impdx.vip/img/avatar.png
       descr: 越学习，越发现自己的无知——笛卡尔
-    38:
-      name: Zyue
-      link: https://lyuan.co/
-      avatar: https://lyuan.co/img/avatar.jpg
-      descr: 折月煮酒，落梅成诗
+    # 38:
+    #   name: Zyue
+    #   link: https://lyuan.co/
+    #   avatar: https://lyuan.co/img/avatar.jpg
+    #   descr: 折月煮酒，落梅成诗
     39:
       name: 初辰の博客
       link: https://chuchendjs.github.io
@@ -449,16 +449,27 @@ class6:
     #   link: https://www.xyz.blue
     #   avatar: https://www.xyz.blue/logo.png
     #   descr: ERR_CERT_DATE_INVALID
-    # 25:
-    #   name: 保温杯の小破栈
-    #   link: https://hangblog.ga
-    #   avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
-    #   descr: 网站为空白 - 没有什么困难是战胜不了我的
+    14:
+      name: 年轻没有梦
+      link: http://sgyat.cn/
+      avatar: http://sgyat.cn/img/avatar.png
+      descr: 去掉了本站（哭） - Nobody can tell who is the winner until the last second.
+    25:
+      name: 保温杯の小破栈
+      link: https://hangblog.ga
+      avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
+      descr: 找不到IP地址 - 没有什么困难是战胜不了我的
     26:
       name: Code Young
       link: https://wujizun.top
       avatar: http://thirdqq.qlogo.cn/g?b=qq&nk=750837279&s=5
       descr: 网站样式错乱 - Not every moment will be remembered
+    38:
+      name: Zyue
+      link: https://lyuan.co/
+      avatar: https://lyuan.co/img/avatar.jpg
+      descr: 网站被暂停？？？ - 折月煮酒，落梅成诗
+
 
 
 
@@ -474,7 +485,7 @@ class7:
       descr: 这里是第二代网站
     2:
       name: 5 A.M. Studio
-      link: http://5amstudio.top
+      link: https://5amstudio.top
       avatar: https://avatars2.githubusercontent.com/u/54062596?s=200&v=4
       descr: 这是一个由9人创建的小团体哦~
     3:
