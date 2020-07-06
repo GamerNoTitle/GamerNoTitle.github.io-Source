@@ -468,15 +468,15 @@ class7:
   class_desc: 特别的东西，特别的链接(*❦ω❦)
   link_list:
     1:
-      name: 5 A.M. Studio
+      name: 5 A.M. 旧站
       link: https://5amstd.github.io
       avatar: https://avatars2.githubusercontent.com/u/54062596?s=200&v=4
+      descr: 这里是第二代网站
+    2:
+      name: 5 A.M. Studio
+      link: http://5amstudio.top
+      avatar: https://avatars2.githubusercontent.com/u/54062596?s=200&v=4
       descr: 这是一个由9人创建的小团体哦~
-    # 2:
-    #   name: 鸡场钉|Airding
-    #   link: http://ssr.airding.top
-    #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@airding/img/airding/airding.jpg
-    #   descr: 白嫖、快速、实惠！
     3:
       name: Hexo中文站
       link: https://www.hexocn.cn/
