@@ -322,11 +322,11 @@ class4:
     #   link: https://hangblog.ga
     #   avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
     #   descr: 没有什么困难是战胜不了我的
-    # 26:
-    #   name: Code Young
-    #   link: https://wujizun.top
-    #   avatar: http://thirdqq.qlogo.cn/g?b=qq&nk=750837279&s=5
-    #   descr: Not every moment will be remembered
+    26:
+      name: Code Young
+      link: https://wujizun.top
+      avatar: http://thirdqq.qlogo.cn/g?b=qq&nk=750837279&s=5
+      descr: Not every moment will be remembered
     27:
       name: Yunen’s Blog
       link: https://www.0x002.com/
@@ -403,7 +403,6 @@ class4:
       avatar: https://wx2.sbimg.cn/2020/06/22/61f01c309c2e21665cdb993dafa63e6e.th.jpg
       descr: 享受学习，享受生活，早日上岸！
 
-
 class5:
   class_name: FEM 线下后宫
   class_desc: 家伙们海底捞约起！ヾ(^Д^*)/
@@ -428,7 +427,6 @@ class5:
       link: http://blogs.yyqiang.top/
       avatar: https://cdn.jsdelivr.net/gh/soulxyz/soulxyz.github.io@1.0/statics/img/head.png
       descr: 不要让时代的悲哀 成为你的悲哀
-
 
 class6:
   class_name: LIU 阵亡名单
@@ -459,20 +457,16 @@ class6:
       link: https://hangblog.ga
       avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
       descr: 找不到IP地址 - 没有什么困难是战胜不了我的
-    26:
-      name: Code Young
-      link: https://wujizun.top
-      avatar: http://thirdqq.qlogo.cn/g?b=qq&nk=750837279&s=5
-      descr: 网站样式错乱 - Not every moment will be remembered
+    # 26:
+    #   name: Code Young
+    #   link: https://wujizun.top
+    #   avatar: http://thirdqq.qlogo.cn/g?b=qq&nk=750837279&s=5
+    #   descr: 网站样式错乱 - Not every moment will be remembered
     38:
       name: Zyue
       link: https://lyuan.co/
       avatar: https://lyuan.co/img/avatar.jpg
       descr: 网站被暂停？？？ - 折月煮酒，落梅成诗
-
-
-
-
 
 class7:
   class_name: NANA 特别链接
