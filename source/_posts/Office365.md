@@ -83,13 +83,7 @@ keywords: 'Office,Office 365,Office365,Office 365 Free,Microsoft Office'
 
 {% endnote %}
 
-今天我再次开了Office的开发者订阅，现在有账户可以分配（15个），需要可以评论区留言，有以下几点注意事项
-
-1、确定你有能够调用API的能力（保命需要，[教程在这](/2020/04/27/Office365-Renew-Project/)）
-
-2、因微软未续费造成的数据损失我不负责
-
-
+保命需要，[教程在这](/2020/04/27/Office365-Renew-Project/)
 
 ### 题外话：
 
