@@ -1,6 +1,6 @@
 ---
 title: “陪伴是最长情的告白”
-date: 2020-07-15 18:27:01
+date: 2021-06-10 23:59:59
 tags: diary
 categories: diary
 cover: https://cdn.jsdelivr.net/gh/GamerNoTItle/Picture-repo-v1@master/img/diary6/YESICAN.jpg
@@ -32,5 +32,5 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTItle/Picture-repo-v1@master/img/diary
 
 GamerNoTitle
 
-2020年7月15日
+2020-07-15 18:27:01
 

@@ -696,7 +696,7 @@ aside:
     description:
   card_announcement:  # 使用<br />来换行，可以用html语法
     enable: true
-    content: 高三啦~要专注学习了，<a href='/2020/07/15/diary6/'>为高考而奋斗！</a>
+    content: 高三啦~要专注学习了，<a href='/2021/06/10/diary6/'>为高考而奋斗！</a>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
