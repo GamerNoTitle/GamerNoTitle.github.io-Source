@@ -132,6 +132,16 @@ class:
       link: http://s.bili33.top
       avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/startdash.jpg
       descr: 从这里开始！
+    27:
+      name: TypingCat
+      link: https://typingcat.bili33.top/
+      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/typingcat.png
+      descr: WallPaper Engine上的打字猫
+    28:
+      name: 让我帮你百度一下
+      link: https://baidu.bili33.top/
+      avatar: https://www.baidu.com/favicon.ico
+      descr: 你可能百度一下就知道
 
 class2:
   class_name: DOS 私人服务
