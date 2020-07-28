@@ -125,6 +125,12 @@ PS: PS：本文所有的数字表示方式来自Mili - world.execute(me); # PS�
 
 ### 友链链接区块加入一行小字
 
+{% note warning %}
+
+#### Butterfly忘了哪个版本（我发现的时候是2.3.5）后不再需要此方法！
+
+{% endnote %}
+
 效果就像图片里面的那样
 
 ![小字效果图](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@butterfly-customize/img/butterfly-customize/Link-Class-Descr.png)
@@ -498,6 +504,12 @@ rating:
 
 ### 为网站加入实时对话功能
 
+{% note warning %}
+
+#### Butterfly@3.0.0-rc1以后自带此功能
+
+{% endnote %}
+
 与其说是实时对话，怎么感觉像客服系统？（某群友想弄然后我先给搞出来了，接着他自己在我发文前弄好了）这次使用的是[Daovoice](http://daovoice.io/)，照例我们先上一张效果图（如果想直接使用预设文档的话你可以点[这里](#新办法实时对话预设文档使用)）（注：本站未开启此功能）
 
 ![按钮效果图](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-result-button.png)
@@ -717,6 +729,12 @@ daovoice:
 然后保存即可！
 
 ### 加入音乐小部件
+
+{% note warning %}
+
+#### Butterfly@dev-pjax分支不推荐
+
+{% endnote %}
 
 这里有两种做法，Aplayer方法和网易云自带播放器的方法，请根据自己的需要进行修改，预览图在每个方法的开头就有
 
