@@ -179,8 +179,8 @@ class2:
       descr: 图片CDN服务提供商
 
 class3:
-  class_name: TROIS 大佬之家
-  class_desc: 各有所长的大佬（真好呀，我什么时候也能成为大佬）∠( °ω°)／ 
+  class_name: TROIS 友人帐
+  class_desc: 小伙伴们你们好鸭~ヾ(◍°∇°◍)ﾉﾞ
   link_list:
     1:
       name: さくら荘の白猫
@@ -193,26 +193,11 @@ class3:
       avatar: https://cdn.jsdelivr.net/gh/honjun/ImageHosting/sina/006bYVyvgy1ftand2qurdj303c03cdfv.jpg
       descr: 一个好奇的博客
     3:
-      name: HCLonely
-      link: https://blog.hclonely.com/
-      avatar: https://blog.hclonely.com/img/avatar.jpg
-      descr: 一个懒人的博客
-    4:
-      name: 火喵酱
-      link: https://dorcandy.cn
-      avatar: https://hexo-1251213061.cos.ap-beijing.myqcloud.com/image/kasa.jpg
-      descr: 一喵一世界
-
-class4:
-  class_name: NE 友人帐
-  class_desc: 小伙伴们你们好鸭~ヾ(◍°∇°◍)ﾉﾞ
-  link_list:
-    1:
       name: Kylin’s Blog
       link: https://www.xyz.blue
       avatar: https://www.xyz.blue/logo.png
       descr: 
-    2:
+    4:
       name: 童年如作业的博客
       link: https://tnrzy.github.io
       avatar: https://tnrzy.github.io/images/1.jpg
@@ -222,204 +207,214 @@ class4:
     #   link: https://www.fi-forex.com
     #   avatar: https://www.fi-forex.com/favicon.ico
     #   descr: 
-    4:
+    5:
+      name: HCLonely
+      link: https://blog.hclonely.com/
+      avatar: https://blog.hclonely.com/img/avatar.jpg
+      descr: 一个懒人的博客
+    6:
+      name: 火喵酱
+      link: https://dorcandy.cn
+      avatar: https://hexo-1251213061.cos.ap-beijing.myqcloud.com/image/kasa.jpg
+      descr: 一喵一世界
+    7:
       name: Ruby の いえ
       link: https://wangzhongqing.xyz/
       avatar: https://cdn.jsdelivr.net/gh/Amethyst-Ruby/myCDN/img/login.png
       descr: Ruby 的随心记~
-    5:
+    8:
       name: i-info
       link: https://iinfo.ink
       avatar: https://www.i-info.xyz/wp-content/uploads/2020/01/1square.png
       descr: To Be Simple and Professional
-    6:
+    9:
       name: F4n9X
       link: https://fanqxu.github.io/
       avatar: https://avatars0.githubusercontent.com/u/40891670?s=400
       descr: 君子藏器于身，待时而动。
-    7:
+    10:
       name: ruogu
       link: https://ruogu-alter.github.io/
       avatar: https://ruogu-alter.github.io/img/meltryllis.jpg
       descr: 一个蒟蒻
-    8:
+    11:
       name: 阿四の爱生活
       link: https://www.51ish.com/
       avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/a4.jpg
       descr: 捡拾冲浪资讯，热爱生活，发现美好
-    9:
+    12:
       name: GarveyZhong
       link: http://garveyzhong.gitee.io
       avatar: https://garveyzhong.gitee.io/img/avatar.png
       descr: 记录生活
-    10:
+    13:
       name: XJHui’s Blog
       link: https://plushine.cn
       avatar: https://cdn.jsdelivr.net/gh/xingjiahui/CDN/touxiang.jpg
       descr: 这个博主想骗访客^_^
-    11:
+    14:
       name: Kylin
       link: https://www.kylin.show/
       avatar: https://www.kylin.show/img/avatar.jpg
       descr: 学习不易，努力努力~
-    12:
+    15:
       name: 云玩家
       link: https://blog.clouder.im
       avatar: https://cdn.jsdelivr.net/gh/yunwanjia-cloud/blog/img/logo/icon.png
       descr: 尝试制造人工智障
-    13:
+    16:
       name: 雪曦
       link: https://xiabor.com
       avatar: https://xiabor.com/img/avatar.png
       descr: 君浅吟，叹落笔
-    # 14:
+    # 17:
     #   name: 年轻没有梦
     #   link: http://sgyat.cn/
     #   avatar: http://sgyat.cn/img/avatar.png
     #   descr: Nobody can tell who is the winner until the last second.
-    15:
+    18:
       name: Bu 弃
       link: http://blog.zyzling.top
       avatar: https://zyzling.gitee.io/img/avatar.jpeg
       descr: 一个乐于分享自己所学知识的精神小伙~
-    16:
+    19:
       name: Zkpeace
       link: https://zkpeace.com
       avatar: https://img-1253324855.cos.ap-chengdu.myqcloud.com/myweb/public/avatar.jpg
       descr: 一个在懵懂无知中成长的想成为工程师的研究生程序员 …
-    17:
+    20:
       name: 特爱瞎折腾
       link: https://hkjjsgdd.gitee.io/blog/
       avatar: https://i.loli.net/2020/05/03/TmeYGBZy1dxOgfh.png
       descr: 人生苦短，生命渺若尘埃。
-    18:
+    21:
       name: 刘训灼的AI人生
       link: https://liuxunzhuo.tech/
       avatar: https://picreso.oss-cn-beijing.aliyuncs.com/avatar.jpeg
       descr: 分享 Machine Learning、Deep Learning、NLP相关内容
-    19:
+    22:
       name: 惑
       link: https://huohuohuohuohuohuo.github.io/
       avatar: http://q8rorzm33.bkt.clouddn.com/huo.png
       descr: 楼下我老婆( •̀ .̫ •́ )✧
-    20:
+    23:
       name: 弥枳
       link: https://blog.coor.top
       avatar: https://blog.coor.top/avatar
       descr: write code is love, write the world full of love!
-    21:
+    24:
       name: 𝑵𝑲’𝒔 𝑩𝒍𝒐𝒈
       link: https://nkupp.com
       avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/nkupp.png
       descr: 山不向我走来,我便向山走去
-    22:
+    25:
       name: 折纸少年
       link: https://zzsnn.github.io/
       avatar: https://zzsnn.github.io/img/avatar.png
       descr: 活着不一定要鲜:但一定要有自己的颜色
-    23:
+    26:
       name: 小康博客
       link: https://www.antmoe.com/
       avatar: https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg
       descr: 一个收藏回忆与分享技术的地方！
-    24:
+    27:
       name: Drimoon
       link: https://drinkmoon.github.io/drimoon-blog/
       avatar: https://res.cloudinary.com/drimoon-assets/image/upload/v1587748747/avatar1_qwyzn8.png
       descr: 
-    # 25:
+    # 28:
     #   name: 保温杯の小破栈
     #   link: https://hangblog.ga
     #   avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
     #   descr: 没有什么困难是战胜不了我的
-    26:
+    29:
       name: Code Young
       link: https://wujizun.top
       avatar: http://thirdqq.qlogo.cn/g?b=qq&nk=750837279&s=5
       descr: Not every moment will be remembered
-    27:
+    30:
       name: Yunen’s Blog
       link: https://www.0x002.com/
       avatar: https://p.pstatp.com/origin/ff850000903c9c0b30d2
       descr: Just A Websafe Lover.
-    28:
+    31:
       name: 黑白蓝的Blog
       link: https://zhouyunfei.club
       avatar: https://img-blog.csdnimg.cn/2020043009205871.jpg
       descr: 严于律己，宽以待人。
-    29:
+    32:
       name: Uncleacc
       link: http://www.fezhu.top
       avatar: https://cdn.jsdelivr.net/gh/uncleacc/cdn/img/custom/avatar.jpg
       descr: 一只努力学习的蒟蒻仔
-    30:
+    33:
       name: XDER
       link: https://xder.me/
       avatar: https://xder.me/favicon/android-chrome-512x512.png
       descr: 用记录替代记忆
-    31:
+    34:
       name: Maple
       link: https://www.hongmaple.xyz
       avatar: https://www.hongmaple.xyz/img/favicon.png
       descr: 一个菜得不能再菜的程序员，做了些电商网站，erp等
-    32:
+    35:
       name: 鬼鬼的小站
       link: https://ssyximmlove.me/
       avatar: https://i.loli.net/2020/04/24/pADyi12KEcV7Yb4.png
       descr: Pr-Ac-Ti-Ce
-    33:
+    36:
       name: 四次元科技
       link: https://yojigen.tech/
       avatar: https://www.yojigen.tech/images/avatar.jpg
       descr: 有关二次元、三次元、科技以及一切
-    34:
+    37:
       name: 我本纯真的小破站
       link: https://wbczblog.postach.io/
       avatar: https://cdn-static.postach.io/987a18b1f524814df49451a72d493868
       descr: emmm,说点啥好呢
-    35:
+    38:
       name: HE-SB-技术栈
       link: https://tech.he-sb.top/
       avatar: https://tech.he-sb.top/icons/apple-touch-icon.png
       descr: 阻碍进步的不是无知，是傲慢
-    36:
+    39:
       name: 幕光倾城-Linfeng Mei
       link: https://www.meilinfeng.top
       avatar: https://s1.ax1x.com/2020/05/15/YymjXQ.jpg
       descr: 钝学累功-勤能补拙
-    37:
+    40:
       name: impdx-忧郁的派大星
       link: https://www.impdx.vip/
       avatar: https://www.impdx.vip/img/avatar.png
       descr: 越学习，越发现自己的无知——笛卡尔
-    38:
+    41:
       name: Zyue
       link: https://lyuan.co/
       avatar: https://lyuan.co/img/avatar.jpg
       descr: 折月煮酒，落梅成诗
-    39:
+    42:
       name: 初辰の博客
       link: https://chuchendjs.github.io
       avatar: https://cdn.jsdelivr.net/gh/chuchendjs/picgo/picgo/bt-sonny.jpg
       descr: 成功是努力的另一个名字！^V^
-    40:
+    43:
       name: Kongerの万事屋
       link: https://blog.ninglans.top
       avatar: https://cdn.jsdelivr.net/gh/konghuaiqing/img-cdn@master/img/20200425212350.png
       descr: 咕咕咕~咕咕咕~我是咕咕小行家~
-    41:
+    44:
       name: 北方の柿子
       link: https://bfsz.pub
       avatar: https://wx2.sbimg.cn/2020/06/22/61f01c309c2e21665cdb993dafa63e6e.th.jpg
       descr: 享受学习，享受生活，早日上岸！
-    42:
+    45:
       name: Lete乐特
       link: https://www.lete114.top/
       avatar: https://cdn.jsdelivr.net/gh/lete114/lete114.github.io/img/Lete.png
       descr: 人生只有一次，大胆的生活！！
 
-class5:
-  class_name: FEM 线下后宫
+class4:
+  class_name: NE 线下后宫
   class_desc: 家伙们海底捞约起！ヾ(^Д^*)/
   link_list:
     # 1:
@@ -448,8 +443,8 @@ class5:
       avatar: https://cdn.jsdelivr.net/gh/soulxyz/soulxyz.github.io@1.0/statics/img/head.png
       descr: 不要让时代的悲哀 成为你的悲哀
 
-class6:
-  class_name: LIU 阵亡名单
+class5:
+  class_name: FEM 阵亡名单
   class_desc: 怎么Server Down了呢？赶紧回来吧，我好想你们呀 ヽ(。>д<)ｐ
   link_list:
     # 1:
@@ -488,8 +483,8 @@ class6:
     #   avatar: https://lyuan.co/img/avatar.jpg
     #   descr: 网站被暂停？？？ - 折月煮酒，落梅成诗
 
-class7:
-  class_name: NANA 特别链接
+class6:
+  class_name: LIU 特别链接
   class_desc: 特别的东西，特别的链接(*❦ω❦)
   link_list:
     1:

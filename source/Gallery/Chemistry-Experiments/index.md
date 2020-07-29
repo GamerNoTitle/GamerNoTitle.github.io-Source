@@ -12,6 +12,8 @@ date: 2020-06-13 18:27:00
 
 {% endnote %}
 
+
+
 {% gallery %}
 ![苯酚的溶解](https://gamernotitle.coding.net/p/assets1/d/assets1/git/raw/master/img/Chemistry-Experiments/Dissolution-of-phenol.JPG)
 ![乙醇的蒸馏提纯](https://gamernotitle.coding.net/p/assets1/d/assets1/git/raw/master/img/Chemistry-Experiments/Distillation-and-purification-of-ethanol.JPG)
