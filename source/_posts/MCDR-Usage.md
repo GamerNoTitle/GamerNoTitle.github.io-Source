@@ -20,6 +20,8 @@ MCDReforged！不要998，不要888，只要……！@#￥%……&*（）
 
 [MCDReforged](https://github.com/Fallen-Breath/MCDReforged/)是一个不需要修改MC服务端的情况下，使用自定义的插件系统提供服务器的管理等功能的一个工具，由[@Fallen_Breath](https://github.com/Fallen-Breath)开发，使用Python作为运行环境（拒绝PY2从我做起）
 
+[这里有一个第三方的MCDR官网，你可以参阅一下](http://mcdr.cc/)
+
 本篇我们来讲讲它的用法和我开发的插件的用法
 
 ### 如何使用
@@ -155,59 +157,6 @@ $ python3 MCDReforged.py	# Linux用户
 将`xxx.py`文件放入`plugins`文件夹，将`xxx.json`放入`config`文件夹即可
 
 如果你的服务器正在运行，可以使用`!!MCDR reload plugin`来重载插件
-
-#### 部分插件使用
-
-##### QuickBackupM
-
-没错，这就是注明的`!!qb`（大叔来啦，QB一下！）
-
-当你把QB安装完后，输入`!!qb`就能够弹出QB的使用指南
-
-`!!qb` 显示帮助信息
-
-`!!qb make []` 创建一个储存至槽位 `1` 的备份，并将后移已有槽位。`<comment>` 为可选存档注释
-
-`!!qb back []` 回档为槽位 `<slot>` 的存档。
-
-`!!qb del []` 删除槽位 `<slot>` 的存档。
-
-`!!qb confirm` 在执行 `back` 后使用，再次确认是否进行回档
-
-`!!qb abort` 在任何时候键入此指令可中断回档
-
-`!!qb list` 显示各槽位的存档信息
-
-当 `<slot>`未被指定时默认选择槽位 `1`
-
-在 MCDR 环境下，默认配置下 `!!qb back` 以及 `!!qb share` 需要权限等级 `helper`
-
-##### MCDR-WikiSearcher
-
-安装完成后，在游戏内使用`!!wiki <content>`来搜索，然后点击返回的信息就可以得到内容了，是不是很简单！
-
-##### MCDR-Mirror-Server
-
-这可是重头戏，虽然我的README写的挺完整的了，但是我还是说一下？
-
-首先，你当然要安装插件先呀，赶紧去下载！！！
-
-然后我们打开这个`mirror.json`，配置里面的变量
-
-```json
-{
-    "system": 0,
-    "folder": "./mirror/",
-    "language": "zh-CN",
-    "server": 0
-}
-```
-
-这里的`system`变量是系统类型，Linux是`0`，Windows是`1`；`folder`就改为你自己的镜像服目录，默认是`./mirror/`，`language`是语言，只能选择`en`或者`zh_CN`，输入非法值会显示为英文；`server`是你的服务器核心的类型，如果你的`world`文件夹还附带了`world_nether` `world_end`的话，就把它改为1，不然不要改
-
-接着，把你MCDR工作目录下的所有文件复制到你的镜像服文件夹（`qb_multi`啥的可以不用），修改一下镜像服务器的端口和rcon端口就可以使用了，在游戏里面使用`!!mirror start`来开启镜像服，使用`!!mirror sync`来同步主服务器地图到镜像服
-
-如果你想要在镜像服中对服务器进行操作，那么有两种方式，第一种方式即为OP使用`/stop`来关闭服务器，第二种方式则是借助其他的MCDR插件如[SimpleOP](https://github.com/GamerNoTitle/SimpleOP)或者是[StartStopHelper](https://github.com/MCDReforged-Plugins/StartStopHelper)来进行服务器的管理！
 
 ---
 
