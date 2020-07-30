@@ -350,7 +350,7 @@ valine:
   guest_info: nick,mail,link #valine comment header inf
   recordIP: true # Record reviewer IP
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  emojiCDN: https://valinecdn.bili33.top/ # emoji CDN
+  emojiCDN: https://mirrorcdn.bili33.top/ # emoji CDN
   enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: "" # nick,mail # required fields nick/mail/link
   bg: https://cdn.jsdelivr.net/gh/GamerNoTItle/Picture-repo-v1@master/img/Settings/Valine-BG.jpg # valine background
@@ -543,8 +543,8 @@ index_post_cover: both
 # category和tag頁的UI設置
 # index 值代表 UI將與首頁的UI一樣
 # 默認跟archives頁面UI一樣
-category_ui: # 留空或index
-tag_ui: # 留空或index
+category_ui: index # 留空或index
+tag_ui: index # 留空或index
 
 # 設置網站背景
 # 可設置圖片 或者 顔色
