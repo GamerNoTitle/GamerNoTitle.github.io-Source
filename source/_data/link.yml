@@ -142,6 +142,11 @@ class:
       link: https://baidu.bili33.top/
       avatar: https://www.baidu.com/favicon.ico
       descr: 你可能百度一下就知道
+    29:
+      name: Bluemap
+      link: https://goto.bili33.top/map
+      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/map.jpg
+      descr: MC服务器的地图
 
 class2:
   class_name: DOS 私人服务
