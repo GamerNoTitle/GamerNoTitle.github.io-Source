@@ -74,7 +74,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Butterfly@3.0.0-rc1
+theme: Butterfly@3.0.0
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
