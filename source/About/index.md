@@ -23,11 +23,11 @@ keywords: [GamerNoTitle,About,关于我]
 
 #### **BOSS沟通语言：**C++、Python，还会一点nodejs、html、pug
 
-#### **BOSS出没时间**：工作日~~12:00-14:00 16:30-18:40~~不出现  周末：整天  假期：整天
+#### **BOSS出没时间**：周六下午四点半~周日下午三点  ~~工作日12:00-14:00 16:30-18:40不出现  周末：整天  假期：整天~~
 
 #### **BOSS联系方式：**
 
-##### 邮件方式：[bili33@87ouo.top](mailto:bili33@87ouo.top)或者[GamerNoTitle@outlook.com](mailto:GamerNoTitle@outlook.com)
+##### 邮件方式：[admin@bili33.top](mailto:admin@bili33.top)（推荐）或者[GamerNoTitle@outlook.com](mailto:GamerNoTitle@outlook.com)
 
 ##### QQ方式：3559869084（请注明是来自我的Blog的）
 
@@ -65,9 +65,9 @@ keywords: [GamerNoTitle,About,关于我]
 
 本站是搭建在Github上的一个基于hexo的网站[地址点我！](https://www.github.com/GamerNoTitle/GamerNoTitle.github.io)，经过了两周的调试才弄懂了这个网站是怎么运行的，也是挺累的，建立这个网站主要是想分享一些内容。本站的所有图片使用Github作为图床（也有用coding），所以有的时候图片加载慢并不是我的问题，是Github的问题:D（没错，就是Github的锅！）
 
-我的域名有[bili33.top](http://bili33.top)和airding.top（闲置域名，需要可以私信我，未备案），记住了哦(✧∇✧)╯╰(✧∇✧)̣
+我的域名就是[bili33.top](http://bili33.top)，其他的还没怎么用
 
-本站使用主题：[Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)</a>
+本站使用主题：[Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)
 
 ![](https://github-readme-stats.vercel.app/api?username=GamerNoTitle&show_icons=true&title_color=FFFFFF&icon_color=FFFFFF&text_color=FFFFFF&bg_color=8e8cd8)
 
