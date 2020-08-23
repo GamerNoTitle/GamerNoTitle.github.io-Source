@@ -82,6 +82,9 @@ deploy:
 - type: git
   repo: git@github.com:GamerNoTitle/GamerNoTitle.github.io.git
 - type: baidu_url_submitter
+- type: cjh_google_url_submitter
+- type: cjh_bing_url_submitter
+- type: cjh_baidu_url_submitter
 
 Plugins:
 - hexo-generator-baidu-sitemap
@@ -146,3 +149,21 @@ baidu_url_submit:
   host: https://bili33.top # 在百度站长平台中注册的域名，这个改为你自己的域名
   token: 7l6C3M9GqkMItUAt # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里，这个默认
+
+hexo_submit_urls_to_search_engine:
+  submit_condition: count #链接被提交的条件，可选值：count | period 现仅支持count
+  count: 50 # 提交最新的10个链接
+  period: 3600 # 提交修改时间在 900 秒内的链接
+  google: 0 # 是否向Google提交，可选值：1 | 0（0：否；1：是）
+  bing: 1 # 是否向bing提交，可选值：1 | 0（0：否；1：是）
+  baidu: 1 # 是否向baidu提交，可选值：1 | 0（0：否；1：是）
+  txt_path: submit_urls.txt ## 文本文档名， 需要推送的链接会保存在此文本文档里
+  baidu_host: https://bili33.top ## 在百度站长平台中注册的域名
+  baidu_token: 7l6C3M9GqkMItUAt ## 请注意这是您的秘钥， 所以请不要把它直接发布在公众仓库里!
+  bing_host: http://bili33.top ## 在bing站长平台中注册的域名
+  bing_token: 3a9fd2ded9d34dabacca344a3d9f250c ## 请注意这是您的秘钥， 所以请不要把它直接发布在公众仓库里!
+  google_host: https://bili33.top ## 在google站长平台中注册的域名
+  google_key_file: Project.json #存放google key的json文件，放于网站根目录（与hexo _config.yml文件位置相同），请不要把json文件内容直接发布在公众仓库里!
+  replace: 0  # 是否替换链接中的部分字符串，可选值：1 | 0（0：否；1：是）
+  find_what: https://bili33.top
+  replace_with: https://bili33.top

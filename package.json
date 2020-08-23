@@ -32,6 +32,7 @@
     "hexo-sage-posts": "^0.0.1",
     "hexo-server": "^1.0.0",
     "hexo-steam-games": "^1.1.7",
+    "hexo-submit-urls-to-search-engine": "^2.0.0",
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-util": "^1.9.0",
     "hexo-wordcount": "^6.0.1",
