@@ -5,3 +5,4 @@ echo No.%times% deploy process has been completed!
 set /a times+= 1
 echo %times%>> times.txt
 pause
+exit
