@@ -416,7 +416,7 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2018
   custom_text: All articles in this blog are licensed under CC BY-NC-SA 4.0 unless stating additionally.
   copyright: true # Copyright of theme and framework
   ICP: # Chinese ICP License
