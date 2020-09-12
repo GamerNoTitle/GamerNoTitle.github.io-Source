@@ -123,23 +123,6 @@ katex:
 # Favicon（網站圖標）
 favicon: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png
 
-
-# Ads
-# ---------------
-# Google Adsense
-google_adsense:
-  enable: false
-  js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  client:
-  enable_page_level_ads: true
-
-# 廣告插入位置
-# 適用於開啓手動廣告的配置
-# ad:
-#   index:
-#   aside:
-#   post:
-
 # Post info settings
 # ---------------
 avatar: 
@@ -207,10 +190,13 @@ post_meta:
     date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
     categories: true # true or false 主頁是否顯示分類
     tags: true # true or false 主頁是否顯示標籤
+    label: true # true or false 顯示描述性文字
   post:
     date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
     categories: true # true or false 文章頁是否顯示分類
     tags: true # true or false 文章頁是否顯示標籤
+    label: true # true or false 顯示描述性文字
+
 
 # Please see doc for more details: https://jerryc.me/posts/21cfbf15/#字数统计
 wordcount:
@@ -296,14 +282,7 @@ sharejs:
 # https://www.addtoany.com/
 addtoany:
   enable: false
-  item:
-    - facebook
-    - twitter
-    - wechat
-    - sina_weibo
-    - facebook_messenger
-    - email
-    - copy_link
+  item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
 
 # Comments System
 # --------------------------------------
@@ -342,6 +321,8 @@ disqusjs:
 livere:
   uid:
 
+# gitalk
+# https://github.com/gitalk/gitalk
 gitalk:
   client_id:
   client_secret:
@@ -453,10 +434,23 @@ baidu_analytics: 1a9dfff1b560a523701cb01384373c75
 google_analytics: UA-138072700-2
 
 # Tencent Analytics ID
-tencent_analytics: 66548841
+# https://mta.qq.com
+tencent_analytics:
+
+# CNZZ Analytics
+# https://www.umeng.com/
+cnzz_analytics:
 
 # Advertisement
 # --------------------------------------
+
+# Google Adsense
+google_adsense:
+  enable: false
+  auto_ads: true
+  js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+  client:
+  enable_page_level_ads: true
 
 # Insert ads manually (手動插入廣告)
 # ad:
@@ -662,8 +656,10 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
+  global-font-size:
+  code-font-size:
   font-family:
-  code-font:
+  code-font-family:
 
 # 網站名字字體
 # 左上角網站名字 主頁居中網站名字
@@ -726,9 +722,11 @@ aside:
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
+    sort: updated # date or updated
   card_categories:
     enable: true
     limit: 8 # if set 0 will show all
+    expand: none # none/true/false
   card_tags:
     enable: false
     limit: 40 # if set 0 will show all
@@ -739,7 +737,10 @@ aside:
     format: MMMM YYYY # eg: YYYY年MM月
     order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
     limit: 8 # if set 0 will show all
-  card_webinfo: true
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
   card_dynamics: false
   card_aplayer: false
 
@@ -756,6 +757,26 @@ busuanzi:
 runtimeshow:
   enable: true
   publish_date: 7/1/2019 00:00:00
+
+  # Aside widget - Newest Comments
+newest_comments:
+  enable: true
+  limit: 6
+  avatar: true
+  leancloud:
+    enable: true
+    appId: wRUW5fICAL8URzxXwJNSiwA7-MdYXbMMI  # leancloud application app id
+    appKey: LbtRzTQKxCWNpj30GLH3sw5j  # leancloud application app key
+    serverURL: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+    default_avatar: mp # mp/identicon/monsterid/wavatar/retro/robohash/blank
+  github_issues:
+    enable: false
+    repo:
+  disqus:
+    enable: false
+    forum:
+    api_key:
+
 
 ####   右下角按鈕  ####
 #----------------------------------------------
