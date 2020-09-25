@@ -432,6 +432,12 @@ class3:
       link: https://5ime.cn
       avatar: https://cdn.jsdelivr.net/gh/5ime/img/avatar.jpg
       descr: 永远相信美好的事情即将发生
+    49:
+      name: 萌茶屋
+      link: https://cha.moe
+      avatar: https://img.cha.moe/img/blog/favicon/avatar.svg
+      descr: 用心写出最可爱的东西
+
 
 class4:
   class_name: NE 线下后宫
