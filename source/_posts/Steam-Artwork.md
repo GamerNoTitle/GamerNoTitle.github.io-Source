@@ -36,7 +36,7 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Steam
 
 ### 裁剪
 
-接下来就是要Photoshop的时候了，我会完整告诉你怎么弄，当然你也可以直接下载我提供的[模板（懒人必备）](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Steam-Artworks/Tamplate.psd)
+接下来就是要Photoshop的时候了，我会完整告诉你怎么弄，当然你也可以直接下载我提供的[模板（懒人必备）](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Steam-Artworks/Tamplate.psd)，可以省去切片的步骤，直接把图片拖进去然后保存即可
 
 我们先新建一个607\*942的空白画布，如图
 
