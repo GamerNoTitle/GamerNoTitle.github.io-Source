@@ -325,8 +325,8 @@ livere:
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id: d8fd6e7353e1d37a4888
-  client_secret: 5dba29714267b985a7a8a954ad1984ec17db3fd6
+  client_id: 1972021bd74c96cc5f29
+  client_secret: 12aa4da040dd892277e17e3cc9cfd694757dc51f
   repo: GamerNoTitle.github.io
   owner: GamerNoTitle
   admin: GamerNoTitle
