@@ -292,6 +292,7 @@ comments:
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments
   use:
   - Valine
+  - gitalk
   # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -324,14 +325,14 @@ livere:
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id:
-  client_secret:
-  repo:
-  owner:
-  admin:
+  client_id: d8fd6e7353e1d37a4888
+  client_secret: 5dba29714267b985a7a8a954ad1984ec17db3fd6
+  repo: GamerNoTitle.github.io
+  owner: GamerNoTitle
+  admin: GamerNoTitle
   language: zh-CN # en , zh-CN , zh-TW
-  perPage: 10 # Pagination size, with maximum 100.
-  distractionFreeMode: false # Facebook-like distraction free mode.
+  perPage: 20 # Pagination size, with maximum 100.
+  distractionFreeMode: true # Facebook-like distraction free mode.
   pagerDirection: last # Comment sorting direction, available values are last and first.
   createIssueManually: false # Gitalk will create a corresponding github issue for your every single page automatically
 
