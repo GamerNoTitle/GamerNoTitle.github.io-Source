@@ -325,7 +325,7 @@ livere:
 # https://github.com/gitalk/gitalk
 gitalk:
   client_id: 1972021bd74c96cc5f29
-  client_secret: 12aa4da040dd892277e17e3cc9cfd694757dc51f
+  client_secret: 
   repo: GamerNoTitle.github.io
   owner: GamerNoTitle
   admin: GamerNoTitle
@@ -748,7 +748,7 @@ aside:
 # busuanzi count for PV / UV in site
 # 訪問人數
 busuanzi:
-  site_uv: true
+  site_uv: true 
   site_pv: true
   page_pv: true
 
