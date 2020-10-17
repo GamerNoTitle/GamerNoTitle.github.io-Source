@@ -913,6 +913,7 @@ inject:
   head:
   # - <link rel="stylesheet" href="xxxxx">
     - <script async defer src="https://buttons.github.io/buttons.js"></script>
+    - <meta name="referrer" content="no-referrer-when-downgrade" />
   bottom:
     # - <script src="xxxx"></script>
 
