@@ -86,7 +86,7 @@ deploy:
   repo: git@github.com:GamerNoTitle/GamerNoTitle.github.io.git
 - type: baidu_url_submitter
 - type: cjh_google_url_submitter
-- type: cjh_bing_url_submitter
+# - type: cjh_bing_url_submitter
 - type: cjh_baidu_url_submitter
 
 Plugins:
