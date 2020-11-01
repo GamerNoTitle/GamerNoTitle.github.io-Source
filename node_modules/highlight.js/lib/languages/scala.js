@@ -1,4 +1,12 @@
-module.exports = function(hljs) {
+/*
+Language: Scala
+Category: functional
+Author: Jan Berkel <jan.berkel@gmail.com>
+Contributors: Erik Osheim <d_m@plastic-idolatry.com>
+Website: https://www.scala-lang.org
+*/
+
+function scala(hljs) {
 
   var ANNOTATION = { className: 'meta', begin: '@[A-Za-z]+' };
 
@@ -61,6 +69,8 @@ module.exports = function(hljs) {
     end: /[:={\[\n;]/,
     excludeEnd: true,
     contains: [
+      hljs.C_LINE_COMMENT_MODE,
+      hljs.C_BLOCK_COMMENT_MODE,
       {
         beginKeywords: 'extends with',
         relevance: 10
@@ -95,6 +105,7 @@ module.exports = function(hljs) {
   };
 
   return {
+    name: 'Scala',
     keywords: {
       literal: 'true false null',
       keyword: 'type yield lazy override def with val var sealed abstract private trait object if forSome for while throw finally protected extends import final return else break new catch super class case package default try this match continue throws implicit'
@@ -111,4 +122,6 @@ module.exports = function(hljs) {
       ANNOTATION
     ]
   };
-};
+}
+
+module.exports = scala;

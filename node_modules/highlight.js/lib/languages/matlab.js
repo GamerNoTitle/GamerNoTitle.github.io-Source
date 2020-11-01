@@ -1,8 +1,16 @@
-module.exports = /*
+/*
+Language: Matlab
+Author: Denis Bardadym <bardadymchik@gmail.com>
+Contributors: Eugene Nizhibitsky <nizhibitsky@ya.ru>, Egor Rogov <e.rogov@postgrespro.ru>
+Website: https://www.mathworks.com/products/matlab.html
+Category: scientific
+*/
+
+/*
   Formal syntax is not published, helpful link:
   https://github.com/kornilova-l/matlab-IntelliJ-plugin/blob/master/src/main/grammar/Matlab.bnf
 */
-function(hljs) {
+function matlab(hljs) {
 
   var TRANSPOSE_RE = '(\'|\\.\')+';
   var TRANSPOSE = {
@@ -13,9 +21,10 @@ function(hljs) {
   };
 
   return {
+    name: 'Matlab',
     keywords: {
       keyword:
-        'break case catch classdef continue else elseif end enumerated events for function ' +
+        'arguments break case catch classdef continue else elseif end enumeration events for function ' +
         'global if methods otherwise parfor persistent properties return spmd switch try while',
       built_in:
         'sin sind sinh asin asind asinh cos cosd cosh acos acosd acosh tan tand tanh atan ' +
@@ -92,4 +101,6 @@ function(hljs) {
       hljs.COMMENT('\\%', '$')
     ]
   };
-};
+}
+
+module.exports = matlab;

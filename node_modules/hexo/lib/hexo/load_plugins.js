@@ -1,9 +1,9 @@
 'use strict';
 
 const { join } = require('path');
-const fs = require('hexo-fs');
+const { exists, readFile, listDir } = require('hexo-fs');
 const Promise = require('bluebird');
-const chalk = require('chalk');
+const { magenta } = require('chalk');
 
 module.exports = ctx => {
   if (!ctx.env.init || ctx.env.safe) return;
@@ -12,18 +12,24 @@ module.exports = ctx => {
 };
 
 function loadModuleList(ctx) {
-  if (ctx.config && Array.isArray(ctx.config.plugins)) {
-    return Promise.resolve(ctx.config.plugins).filter(item => typeof item === 'string');
+  let customThemeName;
+
+  if (ctx.config) {
+    const { theme } = ctx.config;
+
+    if (theme) {
+      customThemeName = String(theme);
+    }
   }
 
   const packagePath = join(ctx.base_dir, 'package.json');
 
   // Make sure package.json exists
-  return fs.exists(packagePath).then(exist => {
+  return exists(packagePath).then(exist => {
     if (!exist) return [];
 
     // Read package.json and find dependencies
-    return fs.readFile(packagePath).then(content => {
+    return readFile(packagePath).then(content => {
       const json = JSON.parse(content);
       const deps = Object.keys(json.dependencies || {});
       const devDeps = Object.keys(json.devDependencies || {});
@@ -31,15 +37,18 @@ function loadModuleList(ctx) {
       return deps.concat(devDeps);
     });
   }).filter(name => {
+    // Ignore plugin whose name endswith "hexo-theme-[ctx.config.theme]"
+    if (name.endsWith(`hexo-theme-${customThemeName}`)) return false;
+
     // Ignore plugins whose name is not started with "hexo-"
     if (!/^hexo-|^@[^/]+\/hexo-/.test(name)) return false;
 
     // Ignore typescript definition file that is started with "@types/"
-    if (/^@types\//.test(name)) return false;
+    if (name.startsWith('@types/')) return false;
 
     // Make sure the plugin exists
     const path = ctx.resolvePlugin(name);
-    return fs.exists(path);
+    return exists(path);
   });
 }
 
@@ -49,9 +58,9 @@ function loadModules(ctx) {
 
     // Load plugins
     return ctx.loadPlugin(path).then(() => {
-      ctx.log.debug('Plugin loaded: %s', chalk.magenta(name));
+      ctx.log.debug('Plugin loaded: %s', magenta(name));
     }).catch(err => {
-      ctx.log.error({err}, 'Plugin load failed: %s', chalk.magenta(name));
+      ctx.log.error({err}, 'Plugin load failed: %s', magenta(name));
     });
   });
 }
@@ -60,15 +69,15 @@ function loadScripts(ctx) {
   const baseDirLength = ctx.base_dir.length;
 
   function displayPath(path) {
-    return chalk.magenta(path.substring(baseDirLength));
+    return magenta(path.substring(baseDirLength));
   }
 
   return Promise.filter([
     ctx.theme_script_dir,
     ctx.script_dir
   ], scriptDir => { // Ignore the directory if it does not exist
-    return scriptDir ? fs.exists(scriptDir) : false;
-  }).map(scriptDir => fs.listDir(scriptDir).map(name => {
+    return scriptDir ? exists(scriptDir) : false;
+  }).map(scriptDir => listDir(scriptDir).map(name => {
     const path = join(scriptDir, name);
 
     return ctx.loadPlugin(path).then(() => {
