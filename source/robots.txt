@@ -1,0 +1,3 @@
+User-agent: Baiduspider
+Disallow: /2020/11/01/Heroku-V2ray/
+Sitemap: http://domain.com/sitemap.xml
