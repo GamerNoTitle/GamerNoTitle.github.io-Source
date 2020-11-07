@@ -147,6 +147,11 @@ class:
       link: https://chtholly.bili33.top
       avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/chtholly.png
       descr: 世界一、 幸せな女の子だ ————クトリ
+    30:
+      name: 日记本
+      link: https://diary.bili33.top
+      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/diary.png
+      descr: 随便写点东西
 
 class2:
   class_name: DOS 私人服务
@@ -248,10 +253,10 @@ class3:
       avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/a4.jpg
       descr: 捡拾冲浪资讯，热爱生活，发现美好
     12:
-      name: GarveyZhong
-      link: http://garveyzhong.gitee.io
-      avatar: https://garveyzhong.gitee.io/img/avatar.png
-      descr: 记录生活
+      name: 沉默的小嘉
+      link: https://www.imzjw.cn/
+      avatar: https://blog.imzjw.cn/img/avatar.png
+      descr: 好记性不如烂笔头
     13:
       name: XJHui’s Blog
       link: https://plushine.cn
@@ -327,11 +332,11 @@ class3:
       link: https://drinkmoon.github.io/drimoon-blog/
       avatar: https://res.cloudinary.com/drimoon-assets/image/upload/v1587748747/avatar1_qwyzn8.png
       descr: 
-    # 28:
-    #   name: 保温杯の小破栈
-    #   link: https://hangblog.ga
-    #   avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
-    #   descr: 没有什么困难是战胜不了我的
+    28:
+      name: 保温杯の小破栈
+      link: https://baowenbei.ga
+      avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
+      descr: 没有什么困难是战胜不了我的
     29:
       name: Code Young
       link: https://wujizun.top
@@ -442,6 +447,21 @@ class3:
       link: https://yww52.com/
       avatar: https://img.yww52.com/avatar.jpg
       descr: 永远相信美好的事情即将发生
+    51:
+      name: itsNekoDeng
+      link: https://nekodeng.gitee.io/
+      avatar: https://nekodeng.gitee.io/medias/avatar.jpg
+      descr: 一只努力学习的十万伏特皮卡丘，梦想是世界和平，想要发光发热
+    52:
+      name: 抵到烂
+      link: https://www.didaolan.cn/
+      avatar: https://secure.gravatar.com/avatar/428bedbff8654564ca0e5a920ebed991
+      descr: 一个老前端的故事
+    53:
+      name: IT大咖之家
+      link: http://www.lczze.cn/
+      avatar: https://note.youdao.com/yws/api/personal/file/AF93E7B29156496E9322BCDE55BD6D34?method=download&shareKey=3cfe0cf03a25b88657021e93f43a81bd
+      descr: 慎思明辨，格物致知!
 
 
 class4:
@@ -498,11 +518,11 @@ class5:
       link: http://sgyat.cn/
       avatar: http://sgyat.cn/img/avatar.png
       descr: 去掉了本站（哭） - Nobody can tell who is the winner until the last second.
-    25:
-      name: 保温杯の小破栈
-      link: https://hangblog.ga
-      avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
-      descr: 找不到IP地址 - 没有什么困难是战胜不了我的
+    # 25:
+    #   name: 保温杯の小破栈
+    #   link: https://hangblog.ga
+    #   avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
+    #   descr: 找不到IP地址 - 没有什么困难是战胜不了我的
     # 26:
     #   name: Code Young
     #   link: https://wujizun.top
