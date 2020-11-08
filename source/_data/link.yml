@@ -267,11 +267,11 @@ class3:
       link: https://www.kylin.show/
       avatar: https://www.kylin.show/img/avatar.jpg
       descr: 学习不易，努力努力~
-    15:
-      name: 云玩家
-      link: https://blog.clouder.im
-      avatar: https://cdn.jsdelivr.net/gh/yunwanjia-cloud/blog/img/logo/icon.png
-      descr: 尝试制造人工智障
+    # 15:
+    #   name: 云玩家
+    #   link: https://blog.clouder.im
+    #   avatar: https://cdn.jsdelivr.net/gh/yunwanjia-cloud/blog/img/logo/icon.png
+    #   descr: 尝试制造人工智障
     16:
       name: 雪曦
       link: https://xiabor.com
@@ -305,7 +305,7 @@ class3:
     22:
       name: 惑
       link: https://huohuohuohuohuohuo.github.io/
-      avatar: http://q8rorzm33.bkt.clouddn.com/huo.png
+      avatar: https://huohuohuohuohuohuo.github.io/img/avatar.png
       descr: 楼下我老婆( •̀ .̫ •́ )✧
     23:
       name: 弥枳
@@ -357,15 +357,15 @@ class3:
       link: http://www.fezhu.top
       avatar: https://cdn.jsdelivr.net/gh/uncleacc/cdn/img/custom/avatar.jpg
       descr: 一只努力学习的蒟蒻仔
-    33:
-      name: XDER
-      link: https://xder.me/
-      avatar: https://xder.me/favicon/android-chrome-512x512.png
-      descr: 用记录替代记忆
+    # 33:
+    #   name: XDER
+    #   link: https://xder.me/
+    #   avatar: https://xder.me/favicon/android-chrome-512x512.png
+    #   descr: 用记录替代记忆
     34:
       name: Maple
       link: https://www.hongmaple.xyz
-      avatar: https://www.hongmaple.xyz/img/favicon.png
+      avatar: https://www.hongmaple.xyz/img/avatar.png
       descr: 一个菜得不能再菜的程序员，做了些电商网站，erp等
     35:
       name: 回响小站
@@ -533,6 +533,17 @@ class5:
     #   link: https://lyuan.co/
     #   avatar: https://lyuan.co/img/avatar.jpg
     #   descr: 网站被暂停？？？ - 折月煮酒，落梅成诗
+    15:
+      name: 云玩家
+      link: https://blog.clouder.im
+      avatar: https://cdn.jsdelivr.net/gh/yunwanjia-cloud/blog/img/logo/icon.png
+      descr: 尝试制造人工智障
+    33:
+      name: XDER
+      link: https://xder.me/
+      avatar: https://xder.me/favicon/android-chrome-512x512.png
+      descr: 用记录替代记忆
+
 
 class6:
   class_name: LIU 特别链接
