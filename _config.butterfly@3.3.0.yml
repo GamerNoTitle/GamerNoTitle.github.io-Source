@@ -951,6 +951,9 @@ inject:
   # - <link rel="stylesheet" href="xxxxx">
     - <script async defer src="https://buttons.github.io/buttons.js"></script>
     - <meta name="referrer" content="no-referrer-when-downgrade" />
+    - <meta itemprop="name" content="GamerNoTitle">
+    - <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png">
+    - <meta name="description" itemprop="description" content="欢迎来到GamerNoTitle的博客~">
   bottom:
     # - <script src="xxxx"></script>
 
