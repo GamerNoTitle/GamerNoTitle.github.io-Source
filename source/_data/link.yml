@@ -7,26 +7,26 @@ class:
     #   link: http://skin.bili33.top:7777
     #   avatar: https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=4020915205,3014513321&fm=15&gp=0.jpg
     #   descr: 让你进入盗版服务器也能看到皮肤！
-    2:
-      name: Aria2c网页可视化下载管理器
-      link: http://aria2c.bili33.top
-      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/aria2.webp
-      descr: aria2c的管理界面，不会用Aria2c？来我教你！
+    # 2:
+    #   name: Aria2c网页可视化下载管理器
+    #   link: http://aria2c.bili33.top
+    #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/aria2.webp
+    #   descr: aria2c的管理界面，不会用Aria2c？来我教你！
     # 3:
     #   name: ArkNights-UI
     #   link: http://arknights.bili33.top
     #   avatar: https://cdn.bili33.workers.dev/GamerNoTitle/arknights-ui/master/img/app_icon.png
     #   descr: 罗德岛欢迎你！（来自Mashirozx的项目魔改）
-    4:
-      name: MikuTap
-      link: http://miku.bili33.top
-      avatar: http://miku.bili33.top/icon.png
-      descr: 一个让你能够玩上瘾的小游戏@Hatsune Miku
-    5:
-      name: XPEnology Serial Generator
-      link: http://synology.bili33.top
-      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/Synology.png
-      descr: 还在担心没有白群晖序列号吗？我来帮你一把！
+    # 4:
+    #   name: MikuTap
+    #   link: http://miku.bili33.top
+    #   avatar: http://miku.bili33.top/icon.png
+    #   descr: 一个让你能够玩上瘾的小游戏@Hatsune Miku
+    # 5:
+    #   name: XPEnology Serial Generator
+    #   link: http://synology.bili33.top
+    #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/Synology.png
+    #   descr: 还在担心没有白群晖序列号吗？我来帮你一把！
     # 6:
     #   name: 星辰短域|密语!
     #   link: http://url.bili33.top
@@ -42,31 +42,31 @@ class:
     #   link: http://one.bili33.top
     #   avatar: https://p.sfx.ms/OneDriveLogoTile.png
     #   descr: 私人Onedrive盘网页版（没有密码你也进不去~）
-    9:
-      name: MarkDown微信编辑器
-      link: http://wechat.bili33.top
-      avatar: http://wechat.bili33.top/favicon.png
-      descr: MarkDown版的微信公众号编辑器哦~
+    # 9:
+    #   name: MarkDown微信编辑器
+    #   link: http://wechat.bili33.top
+    #   avatar: http://wechat.bili33.top/favicon.png
+    #   descr: MarkDown版的微信公众号编辑器哦~
     10:
       name: 2048
       link: http://2048.bili33.top
       avatar: http://2048.bili33.top/meta/apple-touch-icon.png
       descr: 2048小游戏，在线就可以玩啦~
-    11:
-      name: Google镜像站
-      link: https://g.bili33.top
-      avatar: https://g.bili33.top/images/branding/googleg/1x/googleg_standard_color_128dp.png
-      descr: 访问谷歌的正确姿势~
-    12:
-      name: Google学术镜像站
-      link: https://scholar.bili33.top
-      avatar: https://scholar.bili33.top/favicon.ico
-      descr: 都能反代谷歌了，学术怎么不来一波？
-    13:
-      name: Wiki百科镜像站
-      link: https://wikipedia.bili33.top
-      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/wiki.webp
-      descr: 需要wiki？点这里！
+    # 11:
+    #   name: Google镜像站
+    #   link: https://g.bili33.top
+    #   avatar: https://g.bili33.top/images/branding/googleg/1x/googleg_standard_color_128dp.png
+    #   descr: 访问谷歌的正确姿势~
+    # 12:
+    #   name: Google学术镜像站
+    #   link: https://scholar.bili33.top
+    #   avatar: https://scholar.bili33.top/favicon.ico
+    #   descr: 都能反代谷歌了，学术怎么不来一波？
+    # 13:
+    #   name: Wiki百科镜像站
+    #   link: https://wikipedia.bili33.top
+    #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/wiki.webp
+    #   descr: 需要wiki？点这里！
     # 14:
     #   name: ShadowRocket
     #   link: http://shadowrocket.bili33.top
@@ -112,11 +112,11 @@ class:
     #   link: http://soundcloud.bili33.workers.dev
     #   avatar: https://www.drupal.org/files/project-images/soundcloud-logo.png
     #   descr: 剪辑师必备音乐库
-    23:
-      name: FODI
-      link: http://drive.bili33.top/
-      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/fodi.png
-      descr: 用于分享文件的Onedrive
+    # 23:
+    #   name: FODI
+    #   link: http://drive.bili33.top/
+    #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/fodi.png
+    #   descr: 用于分享文件的Onedrive
     24:
       name: 服务监控
       link: https://stats.bili33.top/
