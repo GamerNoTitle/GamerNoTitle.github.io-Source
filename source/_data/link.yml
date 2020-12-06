@@ -462,6 +462,13 @@ class3:
       link: http://www.lczze.cn/
       avatar: https://note.youdao.com/yws/api/personal/file/AF93E7B29156496E9322BCDE55BD6D34?method=download&shareKey=3cfe0cf03a25b88657021e93f43a81bd
       descr: 慎思明辨，格物致知!
+    54:
+      name: xwcker
+      link: https://www.hack-gov.com.cn/
+      avatar: https://www.hack-gov.com.cn/img/friend_404.gif
+      descr: 海客GO - 爱牟 听着海客的瀛谈
+      width: 1px (代表边框的大小border-width)
+      color: “#881B12”
 
 
 class4:
