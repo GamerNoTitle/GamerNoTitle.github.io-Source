@@ -469,7 +469,11 @@ class3:
       descr: 海客GO - 爱牟 听着海客的瀛谈
       width: 1px (代表边框的大小border-width)
       color: “#881B12”
-
+    55:
+      name: JzkYcc
+      link: https://www.jzkycc.top
+      avatar: https://cdn.jsdelivr.net/gh/jzkycc/CDN/blog-photo/blog/avatar.webp
+      descr: Just do it!
 
 class4:
   class_name: NE 线下后宫
