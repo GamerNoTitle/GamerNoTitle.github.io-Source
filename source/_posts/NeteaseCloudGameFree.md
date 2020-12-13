@@ -10,7 +10,7 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Netea
 
 有谁不爱白嫖呢，特别是配置好的东西
 
-网易云游戏平台我在它内测期间用过，那个时候游戏变动太大（指可玩的游戏下周就变得不一样了），然后就放弃了
+[网易云游戏平台](https://cloudgame.webapp.163.com/newer.html?invite_code=2ZLPWY)我在它内测期间用过，那个时候游戏变动太大（指可玩的游戏下周就变得不一样了），然后就放弃了
 
 几个月前不是原神公测了嘛，就发现这个平台有原神（主要是自己手机玩不动），所以就开始该平台的使用
 
