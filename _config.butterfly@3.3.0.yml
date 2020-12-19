@@ -41,7 +41,7 @@ menu:
   About: /About/||fas fa-heart
   #About||fa fa-heart: 
   #  - Myself || /About/ || fa fa-user
-   # - Github || https://github.com/GamerNoTitle/ ||fa fa-github
+  #  - Github || https://github.com/GamerNoTitle/ ||fa fa-github
   #  - Anime || /bangumis/ || fa fa-youtube-play
   #  - Steam || /steamgames/ || fa fa-steam
     
