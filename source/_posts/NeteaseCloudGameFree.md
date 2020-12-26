@@ -22,11 +22,15 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Netea
 
 ---
 
+本脚本通过使用Github Action来进行[网易云游戏](https://cloudgame.webapp.163.com/newer.html?invite_code=2ZLPWY)签到操作，让你能够天天白嫖网易云游戏时长和云电脑！
+
 喜欢就给我点个STAR吧！
 
 签到时间是早上10点，如果有需要就自己修改.github/workflows/AutoSignin.yml中第12行的时间，时间遵循UTC时间，+8才是我们的时间
 
 **请不要使用非master分支脚本，他们通常正在开发新功能，会有BUG出现**
+
+关于签到失败返回的结果（[这里有实例](https://github.com/GamerNoTitle/wyycg-autocheckin/discussions/6)），如果你有解码的经验，可以前往[这里](https://github.com/GamerNoTitle/wyycg-autocheckin/discussions/6)提供帮助，Thanks♪(･ω･)ﾉ
 
 ## 赞助
 点击下面的Badge其中一个就可以跳转到相应页面，感谢老板的支持！
@@ -37,6 +41,7 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Netea
 
 - [使用方法](#使用方法)
 - [变量获取](#变量内容获取)
+- [脚本更新](#脚本更新)
 - [Q&A](#qa)
 
 ## 使用方法
@@ -48,6 +53,8 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Netea
 ![](https://upimage.alexhchu.com/2020/11/22/e9b4bcf8e6a1d.png)
 
 2、进入设置，设置变量`cookie`和`teleid` `teletoken` `SCKEY`（这三个可选）
+
+**如果使用多用户，多个cookie请使用`#`分隔**
 
 [如何获取变量内容？请点这里](#变量内容获取)
 
@@ -81,6 +88,8 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Netea
 
 我们在里面找到`@me`这一项，然后在右边找到`Authorization`将冒号后面的内容复制下来就是我们所需要的Cookie
 
+**如果使用多用户，多个cookie请使用`#`分隔**
+
 ![](https://upimage.alexhchu.com/2020/11/22/bfb0e2dbd347a.png)
 
 ### teleid获取
@@ -101,7 +110,57 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Netea
 
 ![](https://upimage.alexhchu.com/2020/12/05/dff25704763d8.png)
 
+## 脚本更新
+
+### 自动更新
+
+[点击这里](https://github.com/apps/pull)安装插件，可以选择所有仓库，也可以指选择你Fork的仓库（当然至少要选择fork的仓库对吧，要不然怎么更新），然后不管它就好了
+
+详细步骤可以看下面的图片
+
+![](https://upimage.alexhchu.com/2020/12/26/4c0d02795a38c.png)
+
+![](https://upimage.alexhchu.com/2020/12/26/1800e5609a365.png)
+
+![](https://upimage.alexhchu.com/2020/12/26/29ffcfd4fd8b0.png)
+
+如果你完成了上面的步骤，就可以不管它了，自动更新会自己进行（除非有`Merge Conflict`）
+
+### 手动更新
+
+在自己的仓库中，创建一个pull requests，上游（右边的选择本仓库（GamerNoTitle/wyycg-autocheckin）的master分支，左边选择自己的仓库，然后创建PR并Merge即可！
+
+具体可以看下面的图片
+
+![](https://upimage.alexhchu.com/2020/12/26/660bffa186f57.png)
+
+![](https://upimage.alexhchu.com/2020/12/26/b90770108e301.png)
+
+![](https://upimage.alexhchu.com/2020/12/26/da988092d8556.png)
+
+![](https://upimage.alexhchu.com/2020/12/26/444ca5bc88093.png)
+
+![](https://upimage.alexhchu.com/2020/12/26/db022886a1c5f.png)
+
 ## Q&A
+
+## 返回值400并附带一串不知道什么鬼的字符串
+
+例子：
+```
+    感谢使用来自GamerNoTitle的网易云游戏自动签到脚本！
+    今日签到结果如下：
+    成功数量：0/1
+    失败数量：1/1
+    具体情况如下：
+    第1个账号签到失败，回显状态码为400，具体错误信息如下：GL8B/hH+v9cYGsm/Ag8PAAwBAr/XztPNzsm/Ag8PChAEv9e/EhACD70QBgQLvREMAf4Wv8m/Ag8PChAEAAu/17/5EtID0tD5EtLWz9b5EtIBA8/5EtT/1AL5EtLP0M2/Gqc=
+    GamerNoTitle: https://bili33.top
+    网易云游戏自动签到脚本: https://github.com/GamerNoTitle/wyycg-autocheckin
+```
+
+首先你需要确认你当天是否已经签到过了才运行的脚本，如果确实先签了到再运行脚本，网易确实会返回400
+
+目前也只发现这种情况会返回400，如果有其他情况你可以在issue跟我提出
 
 ## 错误代码
 
@@ -119,7 +178,7 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Netea
 
 #### MaxRetryError
 
-`HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot1166372402:AAFihK9Bq8_dPuBMDni8y90cZJvprqMFmAs/sendMessage`
+`HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /botxxxx/sendMessage`
 
 出现这个错误，那就是Telegram的问题，Github连接不上Telegram服务器（大半是TG服务器炸了）
 
@@ -128,4 +187,3 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Netea
 `HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)`
 
 出现这个错误，那就是Telegram的问题，Github连接不上Telegram服务器（大半是TG服务器炸了）~~（复制粘贴大法）~~
-
