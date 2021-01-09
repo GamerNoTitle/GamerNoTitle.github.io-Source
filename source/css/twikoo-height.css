@@ -1,0 +1,5 @@
+
+textarea.el-textarea__inner{
+    height: 150px !important;
+    min-height: 150px !important;
+}

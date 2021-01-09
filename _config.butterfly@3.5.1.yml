@@ -965,6 +965,8 @@ inject:
     - <meta itemprop="name" content="GamerNoTitle">
     - <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png">
     - <meta name="description" itemprop="description" content="欢迎来到GamerNoTitle的博客~">
+    - <link rel="stylesheet" type="text/css" href="/css/twikoo-height.css">
+    # https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/css/twikoo-height-new.css
   bottom:
     # - <script src="xxxx"></script>
 
