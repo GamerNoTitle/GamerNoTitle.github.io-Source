@@ -1,0 +1,1059 @@
+
+# Main menu navigation
+# ---------------
+# format: xxx: 連結 || icon
+# sub-menu
+# xxx || icon:
+#   xxx || 連結 || icon
+# menu:
+#   Home: / || fa fa-home
+#   Archives: /archives/ || fa fa-archive
+#   Tags: /tags/ || fa fa-tags
+#   Categories: /categories/ || fa fa-folder-open
+#   Link: /link/ || fa fa-link
+#   About: /about/ || fa fa-heart
+#   List||fa fa-list:
+#     - Music || /music/ || fa fa-music
+#     - Movie || /movies/ || fa fa-film
+
+menu:
+  Home: /||fas fa-home
+  Archives: /archives/||fas fa-archive
+  Tags||fas fa-tags:
+    - Software || /tags/Software/ || fas fa-tags
+    - Diary || /tags/diary/ || fas fa-sticky-note
+    - Tech || /tags/Tech/ || fas fa-terminal
+  #Tags: /tags/||fa fa-tags
+  #Categories: /categories/||fa fa-folder-open
+  # Github: https://github.com/GamerNoTitle/||fa fa-github
+  #MCSkin: http://skin.bili33.top:8080/||fa fa-cloud
+  #dev网站: http://dev.bili33.top||fa fa-globe
+  #RSS: /atom.xml||fa fa-rss
+  #Donate: /Donate/||fa fa-credit-card-alt
+  Entertainment||fa fa-gamepad:
+    - Bangumi || /bangumis/ || fab fa-youtube
+    - Steam || /steamgames/ || fab fa-steam
+    - Gallery || /Gallery/ || fas fa-image
+    - Music || /Music/ || fas fa-music
+  #  - Comment || /comment/ || fa-pencil-square-o
+  #Bangumi: /bangumis/||fa fa-youtube-play
+  Link: /link/||fas fa-link
+  About: /About/||fas fa-heart
+  #About||fa fa-heart: 
+  #  - Myself || /About/ || fa fa-user
+  #  - Github || https://github.com/GamerNoTitle/ ||fa fa-github
+  #  - Anime || /bangumis/ || fa fa-youtube-play
+  #  - Steam || /steamgames/ || fa fa-steam
+    
+  # /About/||fa fa-heart
+#   #XXX: /xxx
+
+# Hide the child menu items in mobile sidebar
+hide_sidebar_menu_child: false
+
+# Code Blocks (代碼相關)
+# --------------------------------------
+
+highlight_theme: mac # default / darker / pale night / light / ocean / mac / false
+highlight_copy: true # copy button
+highlight_lang: true # show the code language
+highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+code_word_wrap: false
+
+# copy setting
+# 是否禁止複製（如果禁止，highlight_copy的功能將無效)
+# copyright 複製的内容後面加上版權信息
+copy:
+  enable: true
+  copyright:
+    enable: true
+    limit_count: 50
+
+# social settings
+# formal:
+#   icon: link || the description
+# ---------------
+social:
+  fab fa-github: https://github.com/GamerNoTitle || Github
+  fas fa-code-branch: https://projects.bili33.top || Projects
+  fas fa-tv: https://space.bilibili.com/44666814 || bilibili
+  fas fa-rss: /atom.xml || RSS
+  fas fa-envelope: mailto:admin@bili33.top || Email
+
+####    search    ####
+# Algolia search
+# ---------------
+algolia_search:
+  enable: false
+  hits:
+    per_page: 6
+
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
+    hits_stats: "${hits} results found in ${time} ms"
+
+# Local search
+# Please see doc for more details: https://docs.jerryc.me/config.html#本地搜索
+# ---------------
+local_search:
+  enable: true
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
+
+# Math (數學)
+# --------------------------------------
+# About the per_page
+# if you set it to true, it will load mathjax/katex script in each page (true 表示每一頁都加載js)
+# if you set it to false, it will load mathjax/katex script according to your setting (add the 'mathjax: true' in page's front-matter)
+# (false 需要時加載，須在使用的 Markdown Front-matter 加上 mathjax: true)
+
+# MathJax
+mathjax:
+  enable: false
+  per_page: false
+
+# KaTeX
+katex:
+  enable: false
+  per_page: false
+  hide_scrollbar: true
+
+# Image (圖片設置)
+# --------------------------------------
+
+# Favicon（網站圖標）
+favicon: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png
+
+# Post info settings
+# ---------------
+avatar: 
+  img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png
+  effect: false # 頭像會一直轉圈
+
+# the banner image of index
+index_img:
+# if the banner of page not setting,it will show the top_img
+top_img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
+  #- https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
+  #- https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Top-img/img/Top-img/77329543_p0.png
+# 以下鏈接是動態壁紙，每次刷新會更換
+# https://source.unsplash.com/collection/collectionid/1600x900
+# https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
+# https://api.dujin.org/bing/1920.php
+# https://api.dujin.org/bing/1366.php
+
+# if the banner of page not setting,it will show the top_img
+default_top_img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
+
+# the default cover of the post
+default_cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
+
+# the banner image of archive page
+archive_img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
+
+# the banner image of tag page
+tag_img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
+# The banner image of tag page
+# format:
+#  - tag name: xxxxx
+tag_per_img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
+
+
+# The banner image of category page
+# format:
+#  - category name: xxxxx
+category_img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
+
+cover:
+  # 是否顯示文章封面
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  # the position of cover in home page (封面顯示的位置)
+  # left/right/both
+  position: both
+  # 當沒有設置cover時，默認的封面顯示
+  default_cover:
+    - https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Top-img/NEKO-Hackers-Edited.jpg
+
+# Replace Broken Images (替換無法顯示的圖片)
+error_img:
+  flink: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/Akarin.webp
+  post_page: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/404/404.png
+
+# A simple 404 page
+error_404:
+  enable: false
+  subtitle: "Page Not Found"
+  background:
+
+post_meta:
+  page:
+    date_type: created # created or updated or both 主頁文章日期是創建日或者更新日或都顯示
+    date_format: date # date/relative 顯示日期還是相對日期
+    categories: true # true or false 主頁是否顯示分類
+    tags: true # true or false 主頁是否顯示標籤
+    label: true # true or false 顯示描述性文字
+  post:
+    date_type: both # created or updated or both 文章頁日期是創建日或者更新日或都顯示
+    date_format: date # date/relative 顯示日期還是相對日期
+    categories: true # true or false 文章頁是否顯示分類
+    tags: true # true or false 文章頁是否顯示標籤
+    label: true # true or false 顯示描述性文字
+
+
+# Please see doc for more details: https://jerryc.me/posts/21cfbf15/#字数统计
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: false
+
+# Display the article introduction on homepage
+# 1: description
+# 2: both (if the description exists, it will show description, or show the auto_excerpt)
+# 3: auto_excerpt (default)
+# false: do not show the article introduction
+index_post_content:
+  method: 3
+  length: 500 # if you set method to 2 or 3, the length need to config
+
+# Post
+# --------------------------------------
+
+# toc (目錄)
+toc:
+  enable: true
+  number: true
+  style_simple: false
+
+post_copyright:
+  enable: true
+  decode: false
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+# Sponsor/reward
+reward:
+  enable: true
+  QR_code:
+    - img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Payments/WeChat.png
+      link:
+      text: 微信
+    - img: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Payments/AliPay.jpg
+      link:
+      text: 支付宝
+
+# Related Articles
+related_post:
+  enable: true
+  limit: 6 # Number of posts displayed
+  date_type: created # or created or updated 文章日期顯示創建日或者更新日
+
+# figcaption (圖片描述文字)
+photofigcaption: true
+
+# anchor
+# when you scroll in post, the URL will update according to header id.
+anchor: false
+
+# Displays outdated notice for a post (文章過期提醒)
+noticeOutdate:
+  enable: true
+  style: flat # style: simple/flat
+  limit_day: 180 # When will it be shown
+  position: top # position: top/bottom
+  message_prev: 本文修改于
+  message_next: 天前，如果本文有一定的时效性，那么本文可能已经失效~
+
+# Share System (分享功能)
+# --------------------------------------
+
+# AddThis
+# https://www.addthis.com/
+addThis:
+  enable: false
+  pubid:
+
+# Share.js
+# https://github.com/overtrue/share.js
+sharejs:
+  enable: true
+  sites: facebook,twitter,wechat,weibo,qq
+
+# AddToAny
+# https://www.addtoany.com/
+addtoany:
+  enable: false
+  item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
+
+# Comments System
+# --------------------------------------
+
+comments:
+  # Up to two comments system, the first will be shown as default
+  # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments
+  use:
+  - Valine
+  - Twikoo
+  # - Disqus
+  text: true # Display the comment name next to the button
+  # lazyload: The comment system will be load when comment element enters the browser's viewport.
+  # If you set it to false, the comment count will be invalid
+  lazyload: false
+  count: true # Display comment count in top_img
+
+# disqus
+# https://disqus.com/
+disqus:
+  shortname:
+
+# Alternative Disqus - Render comments with Disqus API
+# DisqusJS評論系統，可以實現在網路審查地區載入 Disqus 評論列表，兼容原版
+# https://github.com/SukkaW/DisqusJS
+disqusjs:
+  shortname:
+  siteName:
+  apikey:
+  api:
+  nocomment: # display when a blog post or an article has no comment attached
+  admin:
+  adminLabel:
+
+# livere(來必力)
+# https://www.livere.com/
+livere:
+  uid:
+
+# gitalk
+# https://github.com/gitalk/gitalk
+gitalk:
+  client_id: d8fd6e7353e1d37a4888
+  client_secret: e768ffdb35bc83939ae51a7a358df7ad4ee3d41c
+  repo: GamerNoTitle.github.io
+  owner: GamerNoTitle
+  admin: GamerNoTitle
+  language: zh-CN # en , zh-CN , zh-TW
+  perPage: 20 # Pagination size, with maximum 100.
+  distractionFreeMode: true # Facebook-like distraction free mode.
+  pagerDirection: last # Comment sorting direction, available values are last and first.
+  createIssueManually: false # Gitalk will create a corresponding github issue for your every single page automatically
+
+# valine comment system. https://valine.js.org
+valine:
+  appId: wRUW5fICAL8URzxXwJNSiwA7-MdYXbMMI  # leancloud application app id
+  appKey: LbtRzTQKxCWNpj30GLH3sw5j  # leancloud application app key
+  notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
+  verify: false # valine verify code (true/false)
+  pageSize: 20 # comment list page size
+  avatar: mp # gravatar style https://valine.js.org/#/avatar
+  lang: zh-cn # i18n: zh-cn/en/tw
+  placeholder: 📌昵称可以填写QQ号来自动补全QQ信息啦~\n👨‍🔧本站已启用Akismet反垃圾评论~\n🚀评论和回复支持M↓~ # valine comment input placeholder(like: Please leave your footprints )
+  guest_info: nick,mail,link #valine comment header inf
+  recordIP: true # Record reviewer IP
+  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  emojiCDN: https://valinecdn.bili33.top/ # emoji CDN
+  enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
+  requiredFields: null # nick,mail # required fields nick/mail/link
+  bg: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Settings/Valine-BG.jpg # valine background
+  count: true # top_img顯示評論數
+  option:
+
+# waline - A simple comment system with backend support fork from Valine
+# https://waline.js.org/
+waline:
+  serverURL: # Waline server address url
+  avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
+  emojiCDN: # emoji CDN
+  bg: /image/comment_bg.png # waline background
+  option:
+
+
+# utterances
+# https://utteranc.es/
+utterances:
+  repo:
+  # 可選 pathname/url/title/og:title
+  issue_term: pathname
+  # 可選 github-light/github-dark/github-dark-orange/icy-dark/dark-blue/photon-dark
+  light_theme: github-light
+  dark_theme: photon-dark
+
+# Facebook Comments Plugin
+# https://developers.facebook.com/docs/plugins/comments/
+facebook_comments:
+  app_id:
+  user_id: # optional
+  pageSize: 10 # The number of comments to show
+  order_by: social # social/time/reverse_time
+  lang: en_US # Language en_US/zh_CN/zh_TW and so on
+
+# Twikoo
+# https://github.com/imaegoo/twikoo
+twikoo:
+  envId: twikoo-0ggj5yqy9dae0fd3
+  region: ap-guangzhou
+  option:
+
+
+# Chat Services
+# --------------------------------------
+
+# Chat Button [recommend]
+# It will create a button in the bottom right corner of website, and hide the origin button
+chat_btn: false
+
+# The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
+chat_hide_show: false
+
+# chatra
+# https://chatra.io/
+chatra:
+  enable: false
+  id:
+
+# tidio
+# https://www.tidio.com/
+tidio:
+  enable: false
+  public_key:
+
+# daovoice
+# http://daovoice.io/
+daovoice:
+  enable: false
+  app_id:
+
+# gitter
+# https://gitter.im/
+gitter:
+  enable: false
+  room:
+
+# crisp
+# https://crisp.chat/en/
+crisp:
+  enable: false
+  website_id:
+
+# Footer Settings
+# --------------------------------------
+footer:
+  owner:
+    enable: true
+    since: 2018
+  custom_text: All articles in this blog are licensed under CC BY-NC-SA 4.0 unless stating additionally.
+  copyright: true # Copyright of theme and framework
+
+# Analysis
+# --------------------------------------
+
+# Baidu Analytics
+# https://tongji.baidu.com/web/welcome/login
+baidu_analytics: 1a9dfff1b560a523701cb01384373c75
+
+# Google Analytics
+# https://analytics.google.com/analytics/web/
+google_analytics: UA-138072700-2
+
+# Tencent Analytics ID
+# https://mta.qq.com
+tencent_analytics:
+
+# CNZZ Analytics
+# https://www.umeng.com/
+cnzz_analytics:
+
+# Cloudflare Analytics
+# https://www.cloudflare.com/zh-tw/web-analytics/
+cloudflare_analytics:
+
+# Microsoft Clarity
+# https://clarity.microsoft.com/
+microsoft_clarity:
+
+
+# Advertisement
+# --------------------------------------
+
+# Google Adsense
+google_adsense:
+  enable: false
+  auto_ads: true
+  js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
+  client:
+  enable_page_level_ads: true
+
+# Insert ads manually (手動插入廣告)
+# ad:
+#   index:
+#   aside:
+#   post:
+
+# Verification (站長驗證)
+# --------------------------------------
+
+# Google Webmaster tools verification setting
+# See: https://www.google.com/webmasters/
+google_site_verification: Qr-YUMsmamacGjibQoqgCXMSotasUgUprPmP525d0Ls
+
+# Bing Webmaster tools verification setting
+# See: https://www.bing.com/webmaster/
+bing_site_verification:
+
+# Baidu Webmaster tools verification setting
+# See: https://ziyuan.baidu.com/site/
+baidu_site_verification: Cdayj7BeYS
+
+# 360 Webmaster tools verification setting
+# see http://zhanzhang.so.com/
+qihu_site_verification:
+
+# Yandex Webmaster tools verification setting
+# see https://webmaster.yandex.com/
+yandex_site_verification:
+
+
+# 投票评分功能 需要自己加 更新后没加上
+rating: 
+  enable: false
+  id: 24433
+
+
+####    美化/效果    ####
+#--------------------------------
+
+# 黑白效果 需要自己加 更新后没加上
+blackandwhite: false
+
+# Theme color for customize
+# Notice: color value must in double quotes like "#000" or may cause error!
+# ---------------
+# 范思齐的紫色配色
+theme_color:
+  enable: true
+  main: "#8e8cd8"
+  paginator: "#8e8cd8"
+  button_hover: "#F85536"
+  text_selection: "#8e8cd8"
+  link_color: "#99a9bf"
+  meta_color: '#858585'
+  hr_color: "#8e8cd8"
+  read-mode-bg_color: '#FAF9DE'
+  inline-code-color: '#8e8cd8'
+  code_foreground: "#F47466"
+  code_background: "rgba(27, 31, 35, .05)"
+  toc_color: "#8e8cd8"
+  blockquote_padding_color: "#8e8cd8"
+  blockquote_background_color: "#8e8cd8"
+
+# 原配置文件的配色
+# theme_color:
+#   enable: true
+#   main: "#49B1F5"
+#   paginator: "#00c4b6"
+#   button_hover: "#FF7242"
+#   text_selection: "#00c4b6"
+#   link_color: "#99a9bf"
+#   meta_color: '#858585'
+#   hr_color: "#A4D8FA"
+#   code_foreground: "#F47466"
+#   code_background: "rgba(27, 31, 35, .05)"
+#   toc_color: "#00c4b6"
+#   blockquote_padding_color: "#49b1f5"
+#   blockquote_background_color: "#49b1f5"
+
+# 哔哩哔哩配色（感觉很奇怪，先不使用吧……）
+# theme_color:
+#   enable: false
+#   main: "#FB7299"
+#   paginator: "#FB7299"
+#   button_hover: "#fba0b3"
+#   text_selection: "#2196f3"
+#   link_color: "#99a9bf"
+#   meta_color: '#858585'
+#   hr_color: "#FB7299"
+#   read-mode-bg_color: '#FAF9DE'
+#   inline-code-color: '#FB7299'
+
+# 主頁設置
+# 默認top_img全屏，site_info在中間
+# 使用默認, 都無需填寫（建議默認）
+index_site_info_top: #主頁標題距離頂部距離  例如 300px/300em/300rem/10%
+index_top_img_height: #主頁top_img高度 例如 300px/300em/300rem  不能使用百分比
+
+# 主頁文章COVER顯示位置
+# 三個值可配置 left , right , both
+# left(全部圖片顯示在左邊)，right(全部圖片顯示在右邊)，both(左右左右順序顯示)
+index_post_cover: both
+
+# category和tag頁的UI設置
+# index 值代表 UI將與首頁的UI一樣
+# 默認跟archives頁面UI一樣
+category_ui: index # 留空或index
+tag_ui: index # 留空或index
+
+# 設置網站背景
+# 可設置圖片 或者 顔色
+# 圖片格式 background: url(http://xxxxxx.com/xxx.jpg)
+# 顔色 background: '#49B202'
+# 留空 顯示白色
+background:
+
+# footer是否顯示圖片背景(與top_img一致)
+footer_bg: false
+
+# the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
+rightside-bottom:
+
+# Enter transitions (開啓網頁進入效果)
+enter_transitions: true
+
+
+# Background effects (背景特效)
+# --------------------------------------
+
+# canvas_ribbon (靜止彩帶背景)
+# See: https://github.com/hustcc/ribbon.js
+canvas_ribbon:
+  enable: true
+  size: 150
+  alpha: 0.6
+  zIndex: -1
+  click_to_change: false
+  mobile: false # false 手機端不顯示 true 手機端顯示
+
+# 動態彩帶
+canvas_ribbon_piao:
+  enable: true
+  mobile: false # false 手機端不顯示 true 手機端顯示
+
+# canvas_nest
+# https://github.com/hustcc/canvas-nest.js
+canvas_nest:
+  enable: false
+  color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+  opacity: 0.7 # the opacity of line (0~1), default: 0.5.
+  zIndex: -1 # z-index property of the background, default: -1.
+  count: 99 # the number of lines, default: 99.
+  mobile: false # false 手機端不顯示 true 手機端顯示
+
+# Typewriter Effect (打字效果)
+# https://github.com/disjukr/activate-power-mode
+activate_power_mode:
+  enable: true
+  colorful: true # 冒光特效
+  shake: false # 抖動特效
+  mobile: false
+
+
+# 鼠標點擊效果
+# 避免卡頓，建議只開啓一個
+# 點擊烟火特效
+fireworks:
+  enable: true
+  zIndex: 9999 # -1 or 9999
+  mobile: false
+
+
+# 點擊出現愛心
+click_heart: 
+  enable: false
+  mobile: false
+
+
+# 點擊出現文字，文字可自行修改
+ClickShowText:
+  enable: false
+  text: 
+    # - I
+    # - LOVE
+    # - YOU
+  fontSize: 15px
+  mobile: false
+
+
+# 頭像會一直轉圈
+avatar_effect: false
+
+# 網站顯示模式
+# light 默認模式
+# dark 黑暗模式（不建議）
+display_mode: light
+
+# 美化post頁顯示
+beautify:
+  enable: false
+  field: post # site/post
+  title-prefix-icon: '\f192'
+  title-prefix-icon-color: "#8e8cd8"
+
+# Global font settings
+# Don't modify the following settings unless you know how they work (非必要不要修改)
+font:
+  global-font-size:
+  code-font-size:
+  font-family:
+  code-font-family:
+
+# 網站名字字體
+# 左上角網站名字 主頁居中網站名字
+blog_title_font:
+  font_link: https://fonts.googleapis.com/css?family=Titillium+Web #字體鏈接
+  font-family: Titillium Web, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif
+
+# The setting of divider icon (水平分隔線圖標設置)
+hr_icon:
+  enable: true
+  icon: '\f0c4' #fontawesome上圖標的Unicode
+  icon-top:
+
+# 主頁subtitle
+# 打字效果
+subtitle: 
+  enable: true
+  # 打字效果
+  effect: true
+  # 循環或者只打字一次
+  loop: true
+  # source調用第三方服務
+  # source: false 關閉調用 
+  # source: 1  調用搏天api的隨機語錄（簡體） https://api.btstu.cn/
+  # source: 2  調用一言網的一句話（簡體） https://hitokoto.cn/
+  # source: 3  調用一句網（簡體） http://yijuzhan.com/
+  # source: 4  調用今日詩詞（簡體） https://www.jinrishici.com/
+  # subtitle 會先顯示 source , 再顯示 sub 的內容
+  source: false
+  # (如果有英文逗號' , '，請使用轉義字符 &#44;)
+  # 如果有英文雙引號' " ',請使用轉義字元 &quot;
+  # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
+  # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
+  sub:
+    - 永远相信 美好的事情 即将发生
+    - Always believe that good things will happen
+
+# 加載動畫 Loading Animation
+preloader: false
+
+####    側邊欄    ####
+#-------------------------------------
+# 側邊欄顯示設置
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true # display on mobile
+  position: right # left or right
+  card_author:
+    enable: true
+    description:
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/GamerNoTitle
+  card_announcement:  # 使用<br />来换行，可以用html语法
+    enable: true
+    content: |
+      高三啦~要专注学习了，<a href='/2021/06/10/diary6/'>为高考而奋斗！</a><br>
+  card_recent_post:
+    enable: true
+    limit: 5 # if set 0 will show all
+    sort: updated # date or updated
+    sort_order: 
+  card_categories:
+    enable: true
+    limit: 8 # if set 0 will show all
+    expand: none # none/true/false
+    sort_order: # Don't modify the setting unless you know how it works
+  card_tags:
+    enable: false
+    limit: 40 # if set 0 will show all
+    color: false
+    sort_order: # Don't modify the setting unless you know how it works
+  card_archives:
+    enable: true
+    type: monthly # yearly or monthly
+    format: MMMM YYYY # eg: YYYY年MM月
+    order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
+    limit: 8 # if set 0 will show all
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+  sort_order: # Don't modify the setting unless you know how it works
+  card_dynamics: false
+  card_aplayer: false
+
+# busuanzi count for PV / UV in site
+# 訪問人數
+busuanzi:
+  site_uv: true 
+  site_pv: true
+  page_pv: true
+
+# Time difference between publish date and now (網頁運行時間)
+# Formal: Month/Day/Year Time or Year/Month/Day Time
+runtimeshow:
+  enable: true
+  publish_date: 7/1/2019 00:00:00
+
+  # Aside widget - Newest Comments
+newest_comments:
+  enable: true
+  limit: 6
+  avatar: true
+  # You can only choose one, or neither
+  valine: true
+  github_issues:
+    enable: false
+    repo:
+  disqus:
+    enable: false
+    forum:
+    api_key:
+  twikoo: false
+  waline: false
+
+# Bottom right button (右下角按鈕)
+# --------------------------------------
+# Change font size
+change_font_size: true
+
+# Conversion between Traditional and Simplified Chinese (簡繁轉換)
+translate:
+  enable: true
+  # The text of a button
+  default: 繁
+  # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
+  defaultEncoding: 2
+  # Time delay
+  translateDelay: 0
+  # The text of the button when the language is Simplified Chinese
+  msgToTraditionalChinese: '繁'
+  # The text of the button when the language is Traditional Chinese
+  msgToSimplifiedChinese: '簡'
+
+# Read Mode (閲讀模式)
+readmode: true
+
+# 夜間模式
+darkmode:
+  enable: true
+  # dark mode和 light mode切換按鈕
+  button: true
+  # 自動切換 dark mode和 light mode
+  # autoChangeMode: 1  跟隨系統而變化，不支持的瀏覽器/系統將按照時間晚上6點到早上6點之間切換為 dark mode
+  # autoChangeMode: 2  只按照時間晚上6點到早上6點之間切換為 dark mode
+  # autoChangeMode: false 取消自動切換
+  autoChangeMode: false
+
+
+# 圖片大圖查看模式
+# 可選 medium_zoom 或者 fancybox
+# 只選一個 或者 兩個都不選
+#--------------------------------------------
+# medium_zoom https://github.com/francoischalifour/medium-zoom
+medium_zoom: false
+
+# fancybox http://fancyapps.com/fancybox/3/
+fancybox: true
+
+# Snackbar 彈窗
+# https://github.com/polonel/SnackBar
+# position 彈窗位置
+# 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
+snackbar:
+  enable: true
+  position: top-center
+  bg_light: '#8e8cd8'  #'#49b1f5' #light mode時彈窗背景
+  bg_dark: '#2d3035' #dark mode時彈窗背景
+
+#百度推送
+baidu_push: false
+
+# https://instant.page/
+# prefetch預加載
+instantpage:
+  enable: true
+
+# https://github.com/vinta/pangu.js
+# 中英文之間添加空格
+pangu:
+  enable: false
+  field: site # site/post
+
+# Tag Plugins settings (標籤外掛)
+# --------------------------------------
+
+# mermaid
+# see https://github.com/knsv/mermaid
+mermaid:
+  enable: false
+  # built-in themes: default/forest/dark/neutral
+  theme: default
+
+# Note (Bootstrap Callout)
+# https://muse.theme-next.org/docs/tag-plugins/note
+note:
+  # Note tag style values:
+  #  - simple    bs-callout old alert style. Default.
+  #  - modern    bs-callout new (v2-v3) alert style.
+  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
+  #  - disabled  disable all CSS styles import of note tag.
+  style: flat
+  icons: true
+  border_radius: 3
+  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
+  # Offset also applied to label tag variables. This option can work with disabled note tag.
+  light_bg_offset: 0
+
+# other
+# --------------------------------------
+
+# Artitalk
+# see https://artitalk.js.org/
+artitalk:
+  appId:
+  appKey:
+  option:
+
+# Pjax [Beta]
+# It may contain bugs and unstable, give feedback when you find the bugs.
+# https://github.com/MoOx/pjax
+pjax:
+  enable: false
+  exclude:
+    # - xxxx
+    # - xxxx
+
+lazyload:
+  enable: false
+  post: /img/loading.gif
+
+# PWA
+# See https://github.com/JLHwung/hexo-offline
+# ---------------
+# pwa:
+#   enable: false
+#   manifest: /image/pwa/manifest.json
+#   theme_color: "#fff"
+#   apple_touch_icon: /image/pwa/apple-touch-icon.png
+#   favicon_32_32: /image/pwa/32.png
+#   favicon_16_16: /image/pwa/16.png
+#   mask_icon: /image/pwa/safari-pinned-tab.svg
+
+# Disable Baidu transformation on mobile devices (禁止百度轉碼)
+disable_baidu_transformation: true
+
+# facebook QQ 等 分享自動帶上樣式
+# https://i.loli.net/2019/09/08/2wbFJEKloisRvhj.png
+Open_Graph_meta: true
+
+# 開啟hexo自帶的緩存，加快生成速度
+fragment_cache: true
+
+# inject
+# 插入代码到头部</head>之前 和 尾部</body>之前
+inject:
+  head:
+  # - <link rel="stylesheet" href="xxxxx">
+    - <script async defer src="https://buttons.github.io/buttons.js"></script>
+    - <meta name="referrer" content="no-referrer-when-downgrade" />
+    - <meta itemprop="name" content="GamerNoTitle">
+    - <meta itemprop="image" content="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png">
+    - <meta name="description" itemprop="description" content="欢迎来到GamerNoTitle的博客~">
+  bottom:
+    # - <script src="xxxx"></script>
+
+# CDN
+# 非必要不要修改
+CDN:
+  # main
+  main_css: /css/index.css
+  jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
+  main: /js/main.js
+  utils: /js/utils.js
+
+  # pjax
+  pjax: https://cdn.jsdelivr.net/npm/pjax/pjax.min.js
+
+  # comments
+  gitalk: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
+  gitalk_css: https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
+  valine: https://unpkg.com/valine@1.4.14/dist/Valine.min.js # https://unpkg.com/valine/dist/Valine.min.js
+  disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
+  disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
+  utterances: https://utteranc.es/client.js
+  twikoo: https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js
+  waline: https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js
+
+  # share
+  addtoany: https://static.addtoany.com/menu/page.js
+  sharejs: https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js
+  sharejs_css: https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css
+
+  # search
+  local_search: /js/search/local-search.js
+  algolia_js: /js/search/algolia.js
+  algolia_search: https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
+  algolia_search_css: https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
+
+  # math
+  mathjax: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  katex: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
+  katex_copytex: https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js
+  katex_copytex_css: https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css
+  mermaid: https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+
+  # count
+  busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+
+  # background effect
+  canvas_ribbon: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js
+  canvas_fluttering_ribbon: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
+  canvas_nest: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-nest.min.js
+
+  lazyload: https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js
+  instantpage: https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js
+  typed: https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js
+  pangu: https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js
+
+  # photo
+  fancybox_css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
+  fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
+  medium_zoom: https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js
+
+  # snackbar
+  snackbar_css: https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css
+  snackbar: https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js
+
+  # effect
+  activate_power_mode: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js
+  fireworks: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js
+  click_heart: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js
+  ClickShowText: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js
+
+  # fontawesome
+  fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
+
+  # Conversion between Traditional and Simplified Chinese
+  translate: /js/tw_cn.js
+
+  # justifiedGallery
+  justifiedGallery_js: https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
+  justifiedGallery_css: https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css
+
+  # aplayer
+  aplayer_css: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
+  aplayer_js: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
+  meting_js: https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
+
+  # Prism.js
+  prismjs_js: https://cdn.jsdelivr.net/npm/prismjs/prism.min.js
+  prismjs_lineNumber_js: https://cdn.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
+  prismjs_autoloader: https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
+
+  artitalk: https://cdn.jsdelivr.net/npm/artitalk

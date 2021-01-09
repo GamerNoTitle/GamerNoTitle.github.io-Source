@@ -255,7 +255,7 @@ class3:
     12:
       name: 沉默的小嘉
       link: https://www.imzjw.cn/
-      avatar: https://blog.imzjw.cn/img/avatar.png
+      avatar: https://cdn.jsdelivr.net/gh/zjwo/CDN/img/blog/avatar.jpg
       descr: 好记性不如烂笔头
     13:
       name: XJHui’s Blog
@@ -484,6 +484,11 @@ class3:
       link: http://blog.yaoyaoman.cn
       avatar: https://www.yaoyaoman.cn/images/tx/tx.jpg
       descr: 总之就是那些装x小技巧( •̀ ω •́ )✧
+    58:
+      name: IDCMOE
+      link: https://idc.moe
+      avatar: https://idc.moe/idcmoe.png
+      descr: 
 
 class4:
   class_name: NE 线下后宫
