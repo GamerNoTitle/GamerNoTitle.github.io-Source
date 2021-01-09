@@ -35,6 +35,7 @@ menu:
     - Steam || /steamgames/ || fab fa-steam
     - Gallery || /Gallery/ || fas fa-image
     - Music || /Music/ || fas fa-music
+    - Dynamics || /Dynamics/ || fas fa-comment-dots
   #  - Comment || /comment/ || fa-pencil-square-o
   #Bangumi: /bangumis/||fa fa-youtube-play
   Link: /link/||fas fa-link
