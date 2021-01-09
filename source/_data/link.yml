@@ -99,8 +99,8 @@ class:
     #   descr: 部署在heroku上的Onedrive
     20:
       name: 加密音乐格式转换
-      link: http://bili33.top/unlock-music/
-      avatar: http://bili33.top/unlock-music/img/icons/favicon-32x32.png
+      link: http://org.bili33.top/unlock-music
+      avatar: http://org.bili33.top/unlock-music/img/icons/favicon-32x32.png
       descr: 音乐加密什么的去死吧(╯>д<)╯⁽˙³˙⁾
     21:
       name: 沙盒（雾
