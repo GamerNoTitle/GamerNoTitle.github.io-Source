@@ -489,7 +489,12 @@ class3:
       link: https://idc.moe
       avatar: https://idc.moe/idcmoe.png
       descr: 
-
+    59:
+      name: Radiumの小站
+      link: https://www.radiumbit.tk
+      avatar: https://cdn.jsdelivr.net/gh/radium-bit/res@latest/avatar.webp
+      descr: Always believe that good things are about to happen.
+      
 class4:
   class_name: NE 线下后宫
   class_desc: 家伙们海底捞约起！ヾ(^Д^*)/
