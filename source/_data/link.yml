@@ -369,7 +369,7 @@ class3:
       descr: 一个菜得不能再菜的程序员，做了些电商网站，erp等
     35:
       name: 回响小站
-      link: https://ssyximmlove.me/
+      link: https://echon.top/
       avatar: https://i.loli.net/2020/04/24/pADyi12KEcV7Yb4.png
       descr: Pr-Ac-Ti-Ce
     36:
@@ -494,6 +494,11 @@ class3:
       link: https://www.radiumbit.tk
       avatar: https://cdn.jsdelivr.net/gh/radium-bit/res@latest/avatar.webp
       descr: Always believe that good things are about to happen.
+    60:
+      name: HI,Shinnosuke
+      link: https://pckxin.pro
+      avatar: https://cdn.jsdelivr.net/gh/PCKxin/pckxin.pro@2.0/img/Avatar.jpg
+      descr: Leave the past behind,set for another day
       
 class4:
   class_name: NE 线下后宫

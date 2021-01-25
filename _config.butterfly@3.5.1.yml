@@ -445,7 +445,7 @@ footer:
   owner:
     enable: true
     since: 2018
-  custom_text: All articles in this blog are licensed under CC BY-NC-SA 4.0 unless stating additionally.
+  custom_text: All articles in this blog are licensed under CC BY-NC-SA 4.0 unless stating additionally.<br><a href="https://icp.gov.moe" target="_blank">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20213338" target="_blank"> 20213338号</a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
