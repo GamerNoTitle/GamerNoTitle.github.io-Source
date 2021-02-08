@@ -981,6 +981,8 @@ inject:
     - <meta name="description" itemprop="description" content="欢迎来到GamerNoTitle的博客~">
     - <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/css/twikoo-height.css">
     - <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/css/BB.css">
+    - <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/css/twikoo-emotion.css">
+
   bottom:
     # - <script src="xxxx"></script>
 
