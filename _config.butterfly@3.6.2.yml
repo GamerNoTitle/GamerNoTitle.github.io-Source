@@ -485,7 +485,7 @@ cnzz_analytics:
 
 # Cloudflare Analytics
 # https://www.cloudflare.com/zh-tw/web-analytics/
-cloudflare_analytics:
+cloudflare_analytics: b259d35cad514e45a226d03906d8fed1
 
 # Microsoft Clarity
 # https://clarity.microsoft.com/
