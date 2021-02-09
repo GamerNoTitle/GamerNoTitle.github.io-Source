@@ -459,7 +459,9 @@ footer:
   owner:
     enable: true
     since: 2018
-  custom_text: All articles in this blog are licensed under CC BY-NC-SA 4.0 unless stating additionally.<br><a href="https://icp.gov.moe" target="_blank">萌ICP备 </a><a href="https://icp.gov.moe/?keyword=20213338" target="_blank"> 20213338号</a>
+  custom_text: |
+    All articles in this blog are licensed under CC BY-NC-SA 4.0 unless stating additionally.<br>
+    <a href="https://icp.gov.moe/?keyword=20213338" target="_blank"><img src='https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/GovMoe/icon120.png' width=20px height=20px></img> 萌ICP备 20213338号</a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
