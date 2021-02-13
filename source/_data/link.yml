@@ -499,6 +499,11 @@ class3:
       link: https://pckxin.pro
       avatar: https://cdn.jsdelivr.net/gh/PCKxin/pckxin.pro@2.0/img/Avatar.jpg
       descr: Leave the past behind,set for another day
+    61:
+      name: 小冰博客
+      link: https://zfe.one
+      avatar: https://zfe.space/images/headimage.png
+      descr: 做个有梦想的人！
       
 class4:
   class_name: NE 线下后宫
