@@ -77,21 +77,21 @@ class:
     #   link: http://potatso-lite.bili33.top
     #   avatar: http://potatso-lite.bili33.top/assets/images/icon.png
     #   descr: iOS代理工具点这里！
-    16:
-      name: 文章生成器
-      link: http://bili33.top/BullshitGenerator/
-      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/BullshitGenerator.jfif
-      descr: BullshitGenerator
+    # 16:
+    #   name: 文章生成器
+    #   link: http://bili33.top/BullshitGenerator/
+    #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/BullshitGenerator.jfif
+    #   descr: BullshitGenerator
     # 17:
     #   name: 5 A.M. Wiki
     #   link: https://wiki-5am.herokuapp.com/
     #   avatar: https://5am-wiki.bili33.workers.dev/favicons/android-chrome-192x192.png
     #   descr: 5 A.M.的工作wiki
-    18:
-      name: 3D Solar System
-      link: http://solar.bili33.top/
-      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/soloar.webp
-      descr: WallPaper Engine上的一个项目
+    # 18:
+    #   name: 3D Solar System
+    #   link: http://solar.bili33.top/
+    #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/soloar.webp
+    #   descr: WallPaper Engine上的一个项目
     # 19:
     #   name: ShareList - OneDrive
     #   link: https://onedrive-bili33.herokuapp.com/
@@ -102,11 +102,11 @@ class:
       link: http://org.bili33.top/unlock-music
       avatar: http://org.bili33.top/unlock-music/img/icons/favicon-32x32.png
       descr: 音乐加密什么的去死吧(╯>д<)╯⁽˙³˙⁾
-    21:
-      name: 沙盒（雾
-      link: http://sandbox.bili33.top
-      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/sandbox.jpg
-      descr: 在沙盒中访问网页
+    # 21:
+    #   name: 沙盒（雾
+    #   link: http://sandbox.bili33.top
+    #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/sandbox.jpg
+    #   descr: 在沙盒中访问网页
     # 22:
     #   name: SoundCloud
     #   link: http://soundcloud.bili33.workers.dev
@@ -132,26 +132,32 @@ class:
       link: http://s.bili33.top
       avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/startdash.jpg
       descr: 从这里开始！
-    27:
-      name: TypingCat
-      link: https://typingcat.bili33.top/
-      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/typingcat.png
-      descr: WallPaper Engine上的打字猫
-    28:
-      name: 让我帮你百度一下
-      link: https://baidu.bili33.top/
-      avatar: https://www.baidu.com/favicon.ico
-      descr: 你可能百度一下就知道
-    29:
-      name: 珂 教 兴 国
-      link: https://chtholly.bili33.top
-      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/chtholly.png
-      descr: 世界一、 幸せな女の子だ ————クトリ
-    30:
-      name: 日记本
-      link: https://diary.bili33.top
-      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/diary.png
-      descr: 随便写点东西
+    # 27:
+    #   name: TypingCat
+    #   link: https://typingcat.bili33.top/
+    #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/typingcat.png
+    #   descr: WallPaper Engine上的打字猫
+    # 28:
+    #   name: 让我帮你百度一下
+    #   link: https://baidu.bili33.top/
+    #   avatar: https://www.baidu.com/favicon.ico
+    #   descr: 你可能百度一下就知道
+    # 29:
+    #   name: 珂 教 兴 国
+    #   link: https://chtholly.bili33.top
+    #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/chtholly.png
+    #   descr: 世界一、 幸せな女の子だ ————クトリ
+    # 30:
+    #   name: 日记本
+    #   link: https://diary.bili33.top
+    #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/diary.png
+    #   descr: 随便写点东西
+    31:
+        name: Onedrive
+        link: http://one.bili33.top/
+        avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/fodi.png
+        descr: Onedrive分享型站点
+
 
 class2:
   class_name: DOS 私人服务
@@ -504,6 +510,16 @@ class3:
       link: https://zfe.one
       avatar: https://zfe.space/images/headimage.png
       descr: 做个有梦想的人！
+    62:
+      name: Tianli
+      link: https://tianli-blog.club
+      avatar: https://tuchuang-1258604854.cos.ap-chengdu.myqcloud.com/logo.png
+      descr: 惟其不可能，所以才相信。
+    63:
+      name: 老陈の咸鱼日常
+      link: http://fantanstic.top
+      avatar: http://fantanstic.top/wp-content/uploads/2021/02/IMG_20201116_215237.jpg
+      descr: Never Settle
       
 class4:
   class_name: NE 线下后宫
