@@ -154,7 +154,7 @@ class:
     #   descr: 随便写点东西
     31:
         name: Onedrive
-        link: http://one.bili33.top/
+        link: https://share4nothing.ml/
         avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/fodi.png
         descr: Onedrive分享型站点
 
@@ -520,6 +520,11 @@ class3:
       link: http://fantanstic.top
       avatar: http://fantanstic.top/wp-content/uploads/2021/02/IMG_20201116_215237.jpg
       descr: Never Settle
+    64:
+      name: JeckXu
+      link: https://jeckxu.cn/
+      avatar: https://jeckxu.cn/img/jeckxu_img.png
+      descr: 嵌入式技术记录与分享
       
 class4:
   class_name: NE 线下后宫

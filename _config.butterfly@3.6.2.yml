@@ -770,6 +770,8 @@ aside:
     enable: true
     content: |
       高三啦~要专注学习了，<a href='/2021/06/10/diary6/'>为高考而奋斗！</a><br>
+      现已开启<a href='https://twitter.com/GamerNoTitle/status/1370812875627929600'>超长留校套餐</a>，随缘上线回复<br>
+      <img src='https://upimage.alexhchu.com/2021/03/14/f7cac0f47e0c2.gif'></img>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
