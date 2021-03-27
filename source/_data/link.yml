@@ -168,11 +168,11 @@ class2:
       link: https://www.cloudflare.com/
       avatar: https://dash.cloudflare.com/favicon.ico
       descr: 免费的域名托管平台
-    # 2:
-    #   name: Aliyun
-    #   link: https://www.aliyun.com/
-    #   avatar: https://ss0.bdstatic.com/-0U0bnSm1A5BphGlnYG/tam-ogel/db074039d15d05a6e966f11cb6ce53ed_222_222.jpg
-    #   descr: 学生服务器便宜又好用
+    2:
+      name: Aliyun
+      link: https://www.aliyun.com/minisite/goods?userCode=05u8nbft&share_source=copy_link
+      avatar: https://ss0.bdstatic.com/-0U0bnSm1A5BphGlnYG/tam-ogel/db074039d15d05a6e966f11cb6ce53ed_222_222.jpg
+      descr: 学生服务器便宜又好用
     3:
       name: Github
       link: https://www.github.com/
