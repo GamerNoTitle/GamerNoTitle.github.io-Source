@@ -240,24 +240,24 @@ class3:
       descr: Ruby 的随心记~
     8:
       name: i-info
-      link: https://iinfo.ink
+      link: https://iinfo.cc
       avatar: https://www.i-info.xyz/wp-content/uploads/2020/01/1square.png
       descr: To Be Simple and Professional
-    9:
-      name: F4n9X
-      link: https://fanqxu.github.io/
-      avatar: https://avatars0.githubusercontent.com/u/40891670?s=400
-      descr: 君子藏器于身，待时而动。
+    # 9:
+    #   name: F4n9X
+    #   link: https://fanqxu.github.io/
+    #   avatar: https://avatars0.githubusercontent.com/u/40891670?s=400
+    #   descr: 君子藏器于身，待时而动。
     10:
       name: ruogu
       link: https://ruogu-alter.github.io/
       avatar: https://ruogu-alter.github.io/img/meltryllis.jpg
       descr: 一个蒟蒻
-    11:
-      name: 阿四の爱生活
-      link: https://www.51ish.com/
-      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/a4.jpg
-      descr: 捡拾冲浪资讯，热爱生活，发现美好
+    # 11:
+    #   name: 阿四の爱生活
+    #   link: https://www.51ish.com/
+    #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/a4.jpg
+    #   descr: 捡拾冲浪资讯，热爱生活，发现美好
     12:
       name: 沉默的小嘉
       link: https://www.imzjw.cn/
@@ -288,11 +288,11 @@ class3:
     #   link: http://sgyat.cn/
     #   avatar: http://sgyat.cn/img/avatar.png
     #   descr: Nobody can tell who is the winner until the last second.
-    18:
-      name: Bu 弃
-      link: http://blog.zyzling.top
-      avatar: https://zyzling.gitee.io/img/avatar.jpeg
-      descr: 一个乐于分享自己所学知识的精神小伙~
+    # 18:
+    #   name: Bu 弃
+    #   link: http://blog.zyzling.top
+    #   avatar: https://zyzling.gitee.io/img/avatar.jpeg
+    #   descr: 一个乐于分享自己所学知识的精神小伙~
     19:
       name: Zkpeace
       link: https://zkpeace.com
@@ -313,11 +313,11 @@ class3:
       link: https://huohuohuohuohuohuo.github.io/
       avatar: https://huohuohuohuohuohuo.github.io/img/avatar.png
       descr: 楼下我老婆( •̀ .̫ •́ )✧
-    23:
-      name: 弥枳
-      link: https://blog.coor.top
-      avatar: https://blog.coor.top/avatar
-      descr: write code is love, write the world full of love!
+    # 23:
+    #   name: 弥枳
+    #   link: https://blog.coor.top
+    #   avatar: https://blog.coor.top/avatar
+    #   descr: write code is love, write the world full of love!
     24:
       name: 𝑵𝑲’𝒔 𝑩𝒍𝒐𝒈
       link: https://nkupp.com
@@ -338,21 +338,21 @@ class3:
       link: https://drinkmoon.github.io/drimoon-blog/
       avatar: https://res.cloudinary.com/drimoon-assets/image/upload/v1587748747/avatar1_qwyzn8.png
       descr: 
-    28:
-      name: 保温杯の小破栈
-      link: https://baowenbei.ga
-      avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
-      descr: 没有什么困难是战胜不了我的
-    29:
-      name: Code Young
-      link: https://wujizun.top
-      avatar: http://thirdqq.qlogo.cn/g?b=qq&nk=750837279&s=5
-      descr: Not every moment will be remembered
-    30:
-      name: Yunen’s Blog
-      link: https://www.0x002.com/
-      avatar: https://p.pstatp.com/origin/ff850000903c9c0b30d2
-      descr: Just A Websafe Lover.
+    # 28:
+    #   name: 保温杯の小破栈
+    #   link: https://baowenbei.ga
+    #   avatar: https://cdn.jsdelivr.net/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
+    #   descr: 没有什么困难是战胜不了我的
+    # 29:
+    #   name: Code Young
+    #   link: https://wujizun.top
+    #   avatar: http://thirdqq.qlogo.cn/g?b=qq&nk=750837279&s=5
+    #   descr: Not every moment will be remembered
+    # 30:
+    #   name: Yunen’s Blog
+    #   link: https://www.0x002.com/
+    #   avatar: https://p.pstatp.com/origin/ff850000903c9c0b30d2
+    #   descr: Just A Websafe Lover.
     31:
       name: 黑白蓝的Blog
       link: https://zhouyunfei.club
@@ -368,11 +368,11 @@ class3:
     #   link: https://xder.me/
     #   avatar: https://xder.me/favicon/android-chrome-512x512.png
     #   descr: 用记录替代记忆
-    34:
-      name: Maple
-      link: https://www.hongmaple.xyz
-      avatar: https://www.hongmaple.xyz/img/avatar.png
-      descr: 一个菜得不能再菜的程序员，做了些电商网站，erp等
+    # 34:
+    #   name: Maple
+    #   link: https://www.hongmaple.xyz
+    #   avatar: https://www.hongmaple.xyz/img/avatar.png
+    #   descr: 一个菜得不能再菜的程序员，做了些电商网站，erp等
     35:
       name: 回响小站
       link: https://echon.top/
@@ -413,11 +413,11 @@ class3:
       link: https://chuchendjs.github.io
       avatar: https://cdn.jsdelivr.net/gh/chuchendjs/picgo/picgo/bt-sonny.jpg
       descr: 成功是努力的另一个名字！^V^
-    43:
-      name: Kongerの万事屋
-      link: https://blog.ninglans.top
-      avatar: https://cdn.jsdelivr.net/gh/konghuaiqing/img-cdn@master/img/20200425212350.png
-      descr: 咕咕咕~咕咕咕~我是咕咕小行家~
+    # 43:
+    #   name: Kongerの万事屋
+    #   link: https://blog.ninglans.top
+    #   avatar: https://cdn.jsdelivr.net/gh/konghuaiqing/img-cdn@master/img/20200425212350.png
+    #   descr: 咕咕咕~咕咕咕~我是咕咕小行家~
     44:
       name: 北方の柿子
       link: https://bfsz.pub
@@ -475,21 +475,21 @@ class3:
       descr: 海客GO - 爱牟 听着海客的瀛谈
       width: 1px (代表边框的大小border-width)
       color: “#881B12”
-    55:
-      name: JzkYcc
-      link: https://www.jzkycc.top
-      avatar: https://cdn.jsdelivr.net/gh/jzkycc/CDN/blog-photo/blog/avatar.webp
-      descr: Just do it!
+    # 55:
+    #   name: JzkYcc
+    #   link: https://www.jzkycc.top
+    #   avatar: https://cdn.jsdelivr.net/gh/jzkycc/CDN/blog-photo/blog/avatar.webp
+    #   descr: Just do it!
     56:
       name: 贰猹的小窝
       link: https://noionion.top/
       avatar: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg
       descr: 用这生命中的每一秒，给自己一个不后悔的未来
-    57:
-      name: Tongyao’s Blog
-      link: http://blog.yaoyaoman.cn
-      avatar: https://www.yaoyaoman.cn/images/tx/tx.jpg
-      descr: 总之就是那些装x小技巧( •̀ ω •́ )✧
+    # 57:
+    #   name: Tongyao’s Blog
+    #   link: http://blog.yaoyaoman.cn
+    #   avatar: https://www.yaoyaoman.cn/images/tx/tx.jpg
+    #   descr: 总之就是那些装x小技巧( •̀ ω •́ )✧
     58:
       name: IDCMOE
       link: https://idc.moe
@@ -515,11 +515,11 @@ class3:
       link: https://tianli-blog.club
       avatar: https://tuchuang-1258604854.cos.ap-chengdu.myqcloud.com/logo.png
       descr: 惟其不可能，所以才相信。
-    63:
-      name: 老陈の咸鱼日常
-      link: http://fantanstic.top
-      avatar: http://fantanstic.top/wp-content/uploads/2021/02/IMG_20201116_215237.jpg
-      descr: Never Settle
+    # 63:
+    #   name: 老陈の咸鱼日常
+    #   link: http://fantanstic.top
+    #   avatar: http://fantanstic.top/wp-content/uploads/2021/02/IMG_20201116_215237.jpg
+    #   descr: Never Settle
     64:
       name: JeckXu
       link: https://jeckxu.cn/
