@@ -985,7 +985,7 @@ inject:
     - <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/css/twikoo-emotion.css">
     - <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/css/Valine-Emotion.css">
     - <script src="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/js/IPblock.js"></script>
-    - <script src="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/js/301.js"></script>
+    - <script src="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/js/301Redirect.js"></script>
   bottom:
     # - <script src="xxxx"></script>
 
