@@ -11,7 +11,7 @@ type: "link"
 - Blog 名字： GamerNoTitle
 - Blog 地址： https://bili33.top
 - Blog 头像： https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png
-- Blog 标语： 一个在懵懂无知中成长的高中生程序员^V^
+- Blog 标语： GamerNoTitle的小屋哦~
 
 ------
 

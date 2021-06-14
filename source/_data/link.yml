@@ -530,12 +530,12 @@ class3:
       link: https://blog.gd1214b.icu/
       avatar: https://blog.gd1214b.icu/images/avatar.png
       descr: 
-    # 66:
-    #   name: Ding-zk
-    #   link: https://ding-zk.top
-    #   avatar: https://cdn.jsdelivr.net/gh/ding-zk/CDN@master/BlogPicture/blog/avatar.webp
-    #   descr: Just do it!
-      
+    66:
+      name: 孤影墨香
+      link: https://www.gymxbl.com/
+      avatar: https://i1.gymxbl.com/2019/11/logo-scaled-e1574260845661.png
+      descr: 
+
 class4:
   class_name: NE 线下后宫
   class_desc: 家伙们海底捞约起！ヾ(^Д^*)/
@@ -550,11 +550,11 @@ class4:
       link: https://bairuo.top/
       avatar: https://file.bairuo.top/logo.jpg
       descr: 一个部署了很多没有用的东西的导航站
-    3:
-      name: NEKKOOOOOOOOOOOO~
-      link: http://thisnekko.tk/
-      avatar: http://thisnekko.tk/img/favicon.png
-      descr: 这是一个小白的BLOG （对，就是小白）
+    # 3:
+    #   name: NEKKOOOOOOOOOOOO~
+    #   link: http://thisnekko.tk/
+    #   avatar: http://thisnekko.tk/img/favicon.png
+    #   descr: 这是一个小白的BLOG （对，就是小白）
     4:
       name: yuleng的天地
       link: http://www.yuleng.top
