@@ -769,7 +769,8 @@ aside:
     enable: true
     content: |
       高考完啦！CSGO白给套餐/彩六五速无头怪套餐/APEX我重伤倒地套餐现已加入豪华考后餐！<br>
-      有没有人会CTF的PWN或者Web可以教教我，直接Telegram找<a href='https://t.me/GamerNoTitle'>@GamerNoTitle</a>
+      有没有人会CTF的PWN或者Web可以教教我，直接Telegram找<a href='https://t.me/GamerNoTitle'>@GamerNoTitle</a><br>
+      <img src='https://api.gymxbl.com/ip/'></img>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
