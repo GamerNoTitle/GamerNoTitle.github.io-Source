@@ -535,6 +535,11 @@ class3:
       link: https://www.gymxbl.com/
       avatar: https://i.ilolita.cn/logo/
       descr: 
+    67:
+      name: ControlNet
+      link: https://controlnet.space
+      avatar: https://controlnet.space/images/avatar.jpg
+      descr: 永远13岁~
 
 class4:
   class_name: NE 线下后宫
