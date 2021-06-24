@@ -76,7 +76,7 @@ else{
 ```javascript
 url = window.location.href
 whether = String(url).search(/20[0-2][0-9]\/[0-1][1-9]\/[0-3][1-9]/i)
-if(whether == True){
+if(whether == true){
     result = String(url).replace(/20[0-2][0-9]\/[0-1][1-9]\/[0-3][1-9]/i,'posts')
     window.location = result
 }
@@ -87,3 +87,25 @@ if(whether == True){
 另：在做这个的过程中，jsdelivr好像有点问题，就是本来可以通过访问`purge.jsdelivr.net`来刷新文件缓存，但是实际上自从jsd上次Down了以后，访问就刷不了了，所以最后采用的是放在网站的目录中而不是放在jsd引入
 
 总之这一次的网站优化就这么搞定了，新链接还行，就等搜索引擎自己帮我改过去了√
+
+---
+
+**2021.6.24更新**
+
+发现访问的链接并不一定是上面那样`/YYYY/MM/DD/:post`的形式，甚至有`/YYYY/MM/DD/:post/`和`/YYYY/MM/DD/:post/index.html`的访问方式，所以我又来修改了
+
+```javascript
+url = window.location.href
+whether = String(url).search(/20[0-2][0-9]\/[0-1][1-9]\/[0-3][1-9]/i)
+whethersplash = String(url).search(/20[0-2][0-9]\/[0-1][1-9]\/[0-3][1-9]\//i)
+whetherindex = String(url).search(/20[0-2][0-9]\/[0-1][1-9]\/[0-3][1-9]\/index.html/i)
+if(whether == true | whethersplash == true | whetherindex == true){
+    result = String(url).replace(/20[0-2][0-9]\/[0-1][1-9]\/[0-3][1-9]/i,'posts')
+    window.location = result
+}
+
+```
+
+加多了两个判断，然后用或运算符在if中判断是否需要跳转，完事！
+
+不知道这样可不可以，用一段时间再说吧√
