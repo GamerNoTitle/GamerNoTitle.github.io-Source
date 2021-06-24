@@ -117,11 +117,11 @@ class:
     #   link: http://drive.bili33.top/
     #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/fodi.png
     #   descr: 用于分享文件的Onedrive
-    24:
-      name: 服务监控
-      link: https://stats.bili33.top/
-      avatar: https://uptimerobot.com/assets/ico/favicon.ico
-      descr: 各项服务的监控啦~
+    # 24:
+    #   name: 服务监控
+    #   link: https://stats.bili33.top/
+    #   avatar: https://uptimerobot.com/assets/ico/favicon.ico
+    #   descr: 各项服务的监控啦~
     25:
       name: MC服务器状态面板
       link: http://mcstats.bili33.top
