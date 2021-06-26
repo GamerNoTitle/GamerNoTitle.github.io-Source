@@ -1,31 +1,26 @@
 ---
 title: BOSS信息（关于我）
 date: 2019-07-01 18:00:00
-tags: 
-	- AboutMe
-cover: /img/Cover/cover1.png
 keywords: [GamerNoTitle,About,关于我]
 ---
 
-### 你发现了秘密！这里是BOSS的详细信息！
 
-![BOSS头像](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png)
+
+![](https://capsule-render.vercel.app/api?type=Waving&color=timeGradient&height=200&animation=fadeIn&section=header&text=GamerNoTitle&fontSize=60)
 
 #### **BOSS名称：**GamerNoTitle
 
 #### **BOSS发现时间：**（信息未公开）
 
-#### **BOSS存在时长：**大约17年？
+#### **BOSS存在时长：**2003-现在
 
-#### **BOSS职业：**貌似是一个高中学生~
+#### **BOSS职业：**（信息未公开）
 
 #### **BOSS能力：**会做网站 会做程序 会剪片子 会服务器维护……
 
 #### **BOSS沟通语言：**C++、Python，还会一点nodejs、html、pug
 
-#### **BOSS出没时间**：周六下午四点半~周日下午三点  ~~工作日12:00-14:00 16:30-18:40不出现  周末：整天  假期：整天~~
-
-#### **BOSS联系方式：**
+#### **BOSS出没时间**：目前是整天
 
 ##### 邮件方式：[admin@bili33.top](mailto:admin@bili33.top)（推荐）或者[GamerNoTitle@outlook.com](mailto:GamerNoTitle@outlook.com)
 
