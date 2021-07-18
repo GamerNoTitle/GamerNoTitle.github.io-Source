@@ -529,7 +529,7 @@ class3:
       name: gd1214b’s blog
       link: https://blog.gd1214b.icu/
       avatar: https://blog.gd1214b.icu/images/avatar.png
-      descr: 
+      descr: 念念不忘, 必有回响
     66:
       name: 孤影墨香
       link: https://www.gymxbl.com/
@@ -540,6 +540,11 @@ class3:
       link: https://controlnet.space
       avatar: https://controlnet.space/images/avatar.jpg
       descr: 永远13岁~
+    68:
+      name: FFPY
+      link: https://www.ffpy.online
+      avatar: https://www.ffpy.online/icon.jpg
+      descr: 一切都将崩塌
 
 class4:
   class_name: NE 线下后宫
