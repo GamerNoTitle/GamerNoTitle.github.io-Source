@@ -1,12 +1,4 @@
-/*
-Language: AppleScript
-Authors: Nathan Grigg <nathan@nathanamy.org>, Dr. Drang <drdrang@gmail.com>
-Category: scripting
-Website: https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html
-*/
-
-/** @type LanguageFn */
-function applescript(hljs) {
+module.exports = function(hljs) {
   var STRING = hljs.inherit(hljs.QUOTE_STRING_MODE, {illegal: ''});
   var PARAMS = {
     className: 'params',
@@ -28,7 +20,6 @@ function applescript(hljs) {
   ];
 
   return {
-    name: 'AppleScript',
     aliases: ['osascript'],
     keywords: {
       keyword:
@@ -91,6 +82,4 @@ function applescript(hljs) {
     ].concat(COMMENTS),
     illegal: '//|->|=>|\\[\\['
   };
-}
-
-module.exports = applescript;
+};

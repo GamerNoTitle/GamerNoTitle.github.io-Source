@@ -1,13 +1,5 @@
-/*
-Language: Erlang REPL
-Author: Sergey Ignatov <sergey@ignatov.spb.su>
-Website: https://www.erlang.org
-Category: functional
-*/
-
-function erlangRepl(hljs) {
+module.exports = function(hljs) {
   return {
-    name: 'Erlang REPL',
     keywords: {
       built_in:
         'spawn spawn_link self',
@@ -23,7 +15,7 @@ function erlangRepl(hljs) {
       hljs.COMMENT('%', '$'),
       {
         className: 'number',
-        begin: '\\b(\\d+(_\\d+)*#[a-fA-F0-9]+(_[a-fA-F0-9]+)*|\\d+(_\\d+)*(\\.\\d+(_\\d+)*)?([eE][-+]?\\d+)?)',
+        begin: '\\b(\\d+#[a-fA-F0-9]+|\\d+(\\.\\d+)?([eE][-+]?\\d+)?)',
         relevance: 0
       },
       hljs.APOS_STRING_MODE,
@@ -50,6 +42,4 @@ function erlangRepl(hljs) {
       }
     ]
   };
-}
-
-module.exports = erlangRepl;
+};

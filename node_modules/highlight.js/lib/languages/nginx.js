@@ -1,12 +1,4 @@
-/*
-Language: Nginx config
-Author: Peter Leonov <gojpeg@yandex.ru>
-Contributors: Ivan Sagalaev <maniac@softwaremaniacs.org>
-Category: common, config
-Website: https://www.nginx.com
-*/
-
-function nginx(hljs) {
+module.exports = function(hljs) {
   var VAR = {
     className: 'variable',
     variants: [
@@ -17,8 +9,8 @@ function nginx(hljs) {
   };
   var DEFAULT = {
     endsWithParent: true,
+    lexemes: '[a-z/_]+',
     keywords: {
-      $pattern: '[a-z/_]+',
       literal:
         'on off yes no true false none blocked debug info notice warn error crit ' +
         'select break last permanent redirect kqueue rtsig epoll poll /dev/poll'
@@ -69,7 +61,6 @@ function nginx(hljs) {
   };
 
   return {
-    name: 'Nginx config',
     aliases: ['nginxconf'],
     contains: [
       hljs.HASH_COMMENT_MODE,
@@ -98,6 +89,4 @@ function nginx(hljs) {
     ],
     illegal: '[^\\s\\}]'
   };
-}
-
-module.exports = nginx;
+};

@@ -1,12 +1,4 @@
-/*
-Language: Lua
-Description: Lua is a powerful, efficient, lightweight, embeddable scripting language.
-Author: Andrew Fedorov <dmmdrs@mail.ru>
-Category: common, scripting
-Website: https://www.lua.org
-*/
-
-function lua(hljs) {
+module.exports = function(hljs) {
   var OPENING_LONG_BRACKET = '\\[=*\\[';
   var CLOSING_LONG_BRACKET = '\\]=*\\]';
   var LONG_BRACKETS = {
@@ -25,9 +17,8 @@ function lua(hljs) {
     )
   ];
   return {
-    name: 'Lua',
+    lexemes: hljs.UNDERSCORE_IDENT_RE,
     keywords: {
-      $pattern: hljs.UNDERSCORE_IDENT_RE,
       literal: "true false nil",
       keyword: "and break do else elseif end for goto if in local not or repeat return then until while",
       built_in:
@@ -35,9 +26,9 @@ function lua(hljs) {
         '_G _ENV _VERSION __index __newindex __mode __call __metatable __tostring __len ' +
         '__gc __add __sub __mul __div __mod __pow __concat __unm __eq __lt __le assert ' +
         //Standard methods and properties:
-        'collectgarbage dofile error getfenv getmetatable ipairs load loadfile loadstring ' +
-        'module next pairs pcall print rawequal rawget rawset require select setfenv ' +
-        'setmetatable tonumber tostring type unpack xpcall arg self ' +
+        'collectgarbage dofile error getfenv getmetatable ipairs load loadfile loadstring' +
+        'module next pairs pcall print rawequal rawget rawset require select setfenv' +
+        'setmetatable tonumber tostring type unpack xpcall arg self' +
         //Library methods and properties (one line per library):
         'coroutine resume yield status wrap create running debug getupvalue ' +
         'debug sethook getmetatable gethook setmetatable setlocal traceback setfenv getinfo setupvalue getlocal getregistry getfenv ' +
@@ -71,6 +62,4 @@ function lua(hljs) {
       }
     ])
   };
-}
-
-module.exports = lua;
+};

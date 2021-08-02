@@ -1,12 +1,4 @@
-/*
-Language: Caché Object Script
-Author: Nikita Savchenko <zitros.lab@gmail.com>
-Category: enterprise, scripting
-Website: https://cedocs.intersystems.com/latest/csp/docbook/DocBook.UI.Page.cls
-*/
-
-/** @type LanguageFn */
-function cos (hljs) {
+module.exports = function cos (hljs) {
 
   var STRINGS = {
     className: 'string',
@@ -75,7 +67,6 @@ function cos (hljs) {
     //"$ztrap", "$zversion"
 
   return {
-    name: 'Caché Object Script',
     case_insensitive: true,
     aliases: ["cos", "cls"],
     keywords: COS_KEYWORDS,
@@ -129,6 +120,4 @@ function cos (hljs) {
       }
     ]
   };
-}
-
-module.exports = cos;
+};

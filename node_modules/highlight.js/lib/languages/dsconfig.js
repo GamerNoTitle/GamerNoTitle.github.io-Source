@@ -1,10 +1,4 @@
-/*
- Language: dsconfig
- Description: dsconfig batch configuration language for LDAP directory servers
- Contributors: Jacob Childress <jacobc@gmail.com>
- Category: enterprise, config
- */
-function dsconfig(hljs) {
+module.exports = function(hljs) {
   var QUOTED_PROPERTY = {
     className: 'string',
     begin: /"/, end: /"/
@@ -49,6 +43,4 @@ function dsconfig(hljs) {
       hljs.HASH_COMMENT_MODE
     ]
   };
-}
-
-module.exports = dsconfig;
+};

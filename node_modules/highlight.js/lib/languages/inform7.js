@@ -1,15 +1,7 @@
-/*
-Language: Inform 7
-Author: Bruno Dias <bruno.r.dias@gmail.com>
-Description: Language definition for Inform 7, a DSL for writing parser interactive fiction.
-Website: http://inform7.com
-*/
-
-function inform7(hljs) {
+module.exports = function(hljs) {
   var START_BRACKET = '\\[';
   var END_BRACKET = '\\]';
   return {
-    name: 'Inform 7',
     aliases: ['i7'],
     case_insensitive: true,
     keywords: {
@@ -61,6 +53,4 @@ function inform7(hljs) {
       }
     ]
   };
-}
-
-module.exports = inform7;
+};

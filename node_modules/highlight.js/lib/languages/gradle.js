@@ -1,13 +1,5 @@
-/*
-Language: Gradle
-Description: Gradle is an open-source build automation tool focused on flexibility and performance.
-Website: https://gradle.org
-Author: Damian Mee <mee.damian@gmail.com>
-*/
-
-function gradle(hljs) {
+module.exports = function(hljs) {
   return {
-    name: 'Gradle',
     case_insensitive: true,
     keywords: {
       keyword:
@@ -39,6 +31,4 @@ function gradle(hljs) {
 
     ]
   }
-}
-
-module.exports = gradle;
+};

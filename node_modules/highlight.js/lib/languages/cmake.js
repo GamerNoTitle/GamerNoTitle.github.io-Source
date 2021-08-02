@@ -1,14 +1,5 @@
-/*
-Language: CMake
-Description: CMake is an open-source cross-platform system for build automation.
-Author: Igor Kalnitsky <igor@kalnitsky.org>
-Website: https://cmake.org
-*/
-
-/** @type LanguageFn */
-function cmake(hljs) {
+module.exports = function(hljs) {
   return {
-    name: 'CMake',
     aliases: ['cmake.in'],
     case_insensitive: true,
     keywords: {
@@ -58,6 +49,4 @@ function cmake(hljs) {
       hljs.NUMBER_MODE
     ]
   };
-}
-
-module.exports = cmake;
+};

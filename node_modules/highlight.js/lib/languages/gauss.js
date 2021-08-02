@@ -1,11 +1,4 @@
-/*
-Language: GAUSS
-Author: Matt Evans <matt@aptech.com>
-Description: GAUSS Mathematical and Statistical language
-Website: https://www.aptech.com
-Category: scientific
-*/
-function gauss(hljs) {
+module.exports = function(hljs) {
   var KEYWORDS = {
     keyword:  'bool break call callexe checkinterrupt clear clearg closeall cls comlog compile ' +
               'continue create debug declare delete disable dlibrary dllcall do dos ed edit else ' +
@@ -254,7 +247,6 @@ function gauss(hljs) {
   FUNCTION_REF.contains.push(FUNCTION_REF_PARAMS);
 
   return {
-    name: 'GAUSS',
     aliases: ['gss'],
     case_insensitive: true, // language is case-insensitive
     keywords: KEYWORDS,
@@ -295,6 +287,4 @@ function gauss(hljs) {
       STRUCT_TYPE,
     ]
   };
-}
-
-module.exports = gauss;
+};

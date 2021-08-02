@@ -1,14 +1,4 @@
-/*
-Language: XQuery
-Author: Dirk Kirsten <dk@basex.org>
-Contributor: Duncan Paterson
-Description: Supports XQuery 3.1 including XQuery Update 3, so also XPath (as it is a superset)
-Refactored to process xml constructor syntax and function-bodies. Added missing data-types, xpath operands, inbuilt functions, and query prologs
-Website: https://www.w3.org/XML/Query/
-Category: functional
-*/
-
-function xquery(hljs) {
+module.exports = function(hljs) {
   // see https://www.w3.org/TR/xquery/#id-terminal-delimitation
   var KEYWORDS = 'module schema namespace boundary-space preserve no-preserve strip default collation base-uri ordering context decimal-format decimal-separator copy-namespaces empty-sequence except exponent-separator external grouping-separator inherit no-inherit lax minus-sign per-mille percent schema-attribute schema-element strict unordered zero-digit ' +
   'declare import option function validate variable ' +
@@ -156,19 +146,24 @@ function xquery(hljs) {
 
 
 
+    var METHOD = {
+      begin: '{',
+      end: '}',
+      contains: CONTAINS
+    };
+
+
+
   return {
-    name: 'XQuery',
     aliases: ['xpath', 'xq'],
     case_insensitive: false,
+    lexemes: /[a-zA-Z\$][a-zA-Z0-9_:\-]*/,
     illegal: /(proc)|(abstract)|(extends)|(until)|(#)/,
     keywords: {
-      $pattern: /[a-zA-Z\$][a-zA-Z0-9_:\-]*/,
       keyword: KEYWORDS,
       type: TYPE,
       literal: LITERAL
     },
     contains: CONTAINS
   };
-}
-
-module.exports = xquery;
+};

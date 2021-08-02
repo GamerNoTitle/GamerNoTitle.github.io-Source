@@ -1,11 +1,4 @@
-/*
-Language: Elm
-Author: Janis Voigtlaender <janis.voigtlaender@gmail.com>
-Website: https://elm-lang.org
-Category: functional
-*/
-
-function elm(hljs) {
+module.exports = function(hljs) {
   var COMMENT = {
     variants: [
       hljs.COMMENT('--', '$'),
@@ -46,7 +39,6 @@ function elm(hljs) {
   };
 
   return {
-    name: 'Elm',
     keywords:
       'let in if then else case of where module import exposing ' +
       'type alias as infix infixl infixr port effect command subscription',
@@ -94,6 +86,4 @@ function elm(hljs) {
     ],
     illegal: /;/
   };
-}
-
-module.exports = elm;
+};

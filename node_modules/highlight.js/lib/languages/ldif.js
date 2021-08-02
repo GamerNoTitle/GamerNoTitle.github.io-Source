@@ -1,12 +1,5 @@
-/*
-Language: LDIF
-Contributors: Jacob Childress <jacobc@gmail.com>
-Category: enterprise, config
-Website: https://en.wikipedia.org/wiki/LDAP_Data_Interchange_Format
-*/
-function ldif(hljs) {
+module.exports = function(hljs) {
   return {
-    name: 'LDIF',
     contains: [
       {
         className: 'attribute',
@@ -26,6 +19,4 @@ function ldif(hljs) {
       hljs.HASH_COMMENT_MODE
     ]
   };
-}
-
-module.exports = ldif;
+};

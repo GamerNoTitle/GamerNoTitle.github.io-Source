@@ -1,12 +1,4 @@
-/*
-Language: Roboconf
-Author: Vincent Zurczak <vzurczak@linagora.com>
-Description: Syntax highlighting for Roboconf's DSL
-Website: http://roboconf.net
-Category: config
-*/
-
-function roboconf(hljs) {
+module.exports = function(hljs) {
   var IDENTIFIER = '[a-zA-Z-_][^\\n{]+\\{';
 
   var PROPERTY = {
@@ -29,7 +21,6 @@ function roboconf(hljs) {
   };
 
   return {
-    name: 'Roboconf',
     aliases: ['graph', 'instances'],
     case_insensitive: true,
     keywords: 'import',
@@ -72,6 +63,4 @@ function roboconf(hljs) {
       hljs.HASH_COMMENT_MODE
     ]
   };
-}
-
-module.exports = roboconf;
+};

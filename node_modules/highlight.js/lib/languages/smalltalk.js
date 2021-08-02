@@ -1,11 +1,4 @@
-/*
-Language: Smalltalk
-Description: Smalltalk is an object-oriented, dynamically typed reflective programming language.
-Author: Vladimir Gubarkov <xonixx@gmail.com>
-Website: https://en.wikipedia.org/wiki/Smalltalk
-*/
-
-function smalltalk(hljs) {
+module.exports = function(hljs) {
   var VAR_IDENT_RE = '[a-z][a-zA-Z0-9_]*';
   var CHAR = {
     className: 'string',
@@ -16,7 +9,6 @@ function smalltalk(hljs) {
     begin: '#' + hljs.UNDERSCORE_IDENT_RE
   };
   return {
-    name: 'Smalltalk',
     aliases: ['st'],
     keywords: 'self super nil true false thisContext', // only 6
     contains: [
@@ -54,6 +46,4 @@ function smalltalk(hljs) {
       }
     ]
   };
-}
-
-module.exports = smalltalk;
+};

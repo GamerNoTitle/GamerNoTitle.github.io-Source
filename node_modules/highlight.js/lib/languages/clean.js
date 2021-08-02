@@ -1,14 +1,5 @@
-/*
-Language: Clean
-Author: Camil Staps <info@camilstaps.nl>
-Category: functional
-Website: http://clean.cs.ru.nl
-*/
-
-/** @type LanguageFn */
-function clean(hljs) {
+module.exports = function(hljs) {
   return {
-    name: 'Clean',
     aliases: ['clean','icl','dcl'],
     keywords: {
       keyword:
@@ -32,6 +23,4 @@ function clean(hljs) {
       {begin: '->|<-[|:]?|#!?|>>=|\\{\\||\\|\\}|:==|=:|<>'} // relevance booster
     ]
   };
-}
-
-module.exports = clean;
+};

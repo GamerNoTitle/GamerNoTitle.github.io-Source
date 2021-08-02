@@ -1,14 +1,5 @@
-/*
-Language: Mojolicious
-Requires: xml.js, perl.js
-Author: Dotan Dimet <dotan@corky.net>
-Description: Mojolicious .ep (Embedded Perl) templates
-Website: https://mojolicious.org
-Category: template
-*/
-function mojolicious(hljs) {
+module.exports = function(hljs) {
   return {
-    name: 'Mojolicious',
     subLanguage: 'xml',
     contains: [
       {
@@ -30,6 +21,4 @@ function mojolicious(hljs) {
       }
     ]
   };
-}
-
-module.exports = mojolicious;
+};

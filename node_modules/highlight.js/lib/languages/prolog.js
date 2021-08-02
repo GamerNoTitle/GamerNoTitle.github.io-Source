@@ -1,11 +1,4 @@
-/*
-Language: Prolog
-Description: Prolog is a general purpose logic programming language associated with artificial intelligence and computational linguistics.
-Author: Raivo Laanemets <raivo@infdot.com>
-Website: https://en.wikipedia.org/wiki/Prolog
-*/
-
-function prolog(hljs) {
+module.exports = function(hljs) {
 
   var ATOM = {
 
@@ -87,11 +80,8 @@ function prolog(hljs) {
   LIST.contains = inner;
 
   return {
-    name: 'Prolog',
     contains: inner.concat([
       {begin: /\.$/} // relevance booster
     ])
   };
-}
-
-module.exports = prolog;
+};

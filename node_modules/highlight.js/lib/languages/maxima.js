@@ -1,11 +1,4 @@
-/*
-Language: Maxima
-Author: Robert Dodier <robert.dodier@gmail.com>
-Website: http://maxima.sourceforge.net
-Category: scientific
-*/
-
-function maxima(hljs) {
+module.exports = function(hljs) {
   var KEYWORDS = 'if then else elseif for thru do while unless step in and or not';
   var LITERALS = 'true false unknown inf minf ind und %e %i %pi %phi %gamma';
   var BUILTIN_FUNCTIONS =
@@ -365,9 +358,8 @@ function maxima(hljs) {
   var SYMBOLS = '_ __ %|0 %%|0';
 
   return {
-    name: 'Maxima',
+    lexemes: '[A-Za-z_%][0-9A-Za-z_%]*',
     keywords: {
-      $pattern: '[A-Za-z_%][0-9A-Za-z_%]*',
       keyword: KEYWORDS,
       literal: LITERALS,
       built_in: BUILTIN_FUNCTIONS,
@@ -410,6 +402,4 @@ function maxima(hljs) {
     ],
     illegal: /@/
   }
-}
-
-module.exports = maxima;
+};

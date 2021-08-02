@@ -1,14 +1,5 @@
-/*
-Language: Test Anything Protocol
-Description: TAP, the Test Anything Protocol, is a simple text-based interface between testing modules in a test harness.
-Requires: yaml.js
-Author: Sergey Bronnikov <sergeyb@bronevichok.ru>
-Website: https://testanything.org
-*/
-
-function tap(hljs) {
+module.exports = function(hljs) {
   return {
-    name: 'Test Anything Protocol',
     case_insensitive: true,
     contains: [
       hljs.HASH_COMMENT_MODE,
@@ -41,6 +32,4 @@ function tap(hljs) {
       },
     ]
   };
-}
-
-module.exports = tap;
+};

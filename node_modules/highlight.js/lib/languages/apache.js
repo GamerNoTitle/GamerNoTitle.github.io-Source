@@ -1,39 +1,11 @@
-/*
-Language: Apache config
-Author: Ruslan Keba <rukeba@gmail.com>
-Contributors: Ivan Sagalaev <maniac@softwaremaniacs.org>
-Website: https://httpd.apache.org
-Description: language definition for Apache configuration files (httpd.conf & .htaccess)
-Category: common, config
-*/
-
-/** @type LanguageFn */
-function apache(hljs) {
-  var NUMBER_REF = {className: 'number', begin: '[\\$%]\\d+'};
-  var NUMBER = {className: 'number', begin: '\\d+'};
-  var IP_ADDRESS = {
-    className: "number",
-    begin: '\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}(:\\d{1,5})?'
-  };
-  var PORT_NUMBER = {
-    className: "number",
-    begin: ":\\d{1,5}"
-  };
+module.exports = function(hljs) {
+  var NUMBER = {className: 'number', begin: '[\\$%]\\d+'};
   return {
-    name: 'Apache config',
     aliases: ['apacheconf'],
     case_insensitive: true,
     contains: [
       hljs.HASH_COMMENT_MODE,
-      {className: 'section', begin: '</?', end: '>',
-      contains: [
-        IP_ADDRESS,
-        PORT_NUMBER,
-        // low relevance prevents us from claming XML/HTML where this rule would
-        // match strings inside of XML tags
-        hljs.inherit(hljs.QUOTE_STRING_MODE, { relevance:0 })
-      ]
-    },
+      {className: 'section', begin: '</?', end: '>'},
       {
         className: 'attribute',
         begin: /\w+/,
@@ -50,7 +22,7 @@ function apache(hljs) {
           end: /$/,
           relevance: 0,
           keywords: {
-            literal: 'on off all deny allow'
+            literal: 'on off all'
           },
           contains: [
             {
@@ -60,9 +32,8 @@ function apache(hljs) {
             {
               className: 'variable',
               begin: '[\\$%]\\{', end: '\\}',
-              contains: ['self', NUMBER_REF]
+              contains: ['self', NUMBER]
             },
-            IP_ADDRESS,
             NUMBER,
             hljs.QUOTE_STRING_MODE
           ]
@@ -71,6 +42,4 @@ function apache(hljs) {
     ],
     illegal: /\S/
   };
-}
-
-module.exports = apache;
+};

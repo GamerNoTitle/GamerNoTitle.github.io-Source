@@ -1,10 +1,4 @@
-/*
-Language: SAS
-Author: Mauricio Caceres <mauricio.caceres.bravo@gmail.com>
-Description: Syntax Highlighting for SAS
-*/
-
-function sas(hljs) {
+module.exports = function(hljs) {
 
     // Data step and PROC SQL statements
     var SAS_KEYWORDS = ''+
@@ -78,7 +72,6 @@ function sas(hljs) {
         'trim|unquote|until|upcase|verify|while|window';
 
     return {
-        name: 'SAS',
         aliases: ['sas', 'SAS'],
         case_insensitive: true, // SAS is case-insensitive
         keywords: {
@@ -129,6 +122,4 @@ function sas(hljs) {
             hljs.C_BLOCK_COMMENT_MODE
         ]
     };
-}
-
-module.exports = sas;
+};

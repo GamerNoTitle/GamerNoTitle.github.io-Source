@@ -1,14 +1,5 @@
-/*
-Language: DNS Zone
-Author: Tim Schumacher <tim@datenknoten.me>
-Category: config
-Website: https://en.wikipedia.org/wiki/Zone_file
-*/
-
-/** @type LanguageFn */
-function dns(hljs) {
+module.exports = function(hljs) {
   return {
-    name: 'DNS Zone',
     aliases: ['bind', 'zone'],
     keywords: {
       keyword:
@@ -34,6 +25,4 @@ function dns(hljs) {
       hljs.inherit(hljs.NUMBER_MODE, {begin: /\b\d+[dhwm]?/})
     ]
   };
-}
-
-module.exports = dns;
+};

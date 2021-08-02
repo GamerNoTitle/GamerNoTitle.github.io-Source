@@ -768,8 +768,8 @@ aside:
   card_announcement:  # 使用<br />来换行，可以用html语法
     enable: true
     content: |
-      高考完啦！CSGO白给套餐/彩六五速无头怪套餐/APEX我重伤倒地套餐现已加入豪华考后餐！<br>
-      有没有人会CTF的PWN或者Web可以教教我，直接Telegram找<a href='https://t.me/GamerNoTitle'>@GamerNoTitle</a><br>
+      2021.8.20回校报到<br>
+      军检院校生可能不常更新，这也是没办法的事情嘛╮(╯▽╰)╭<br>
       <img src='https://api.gymxbl.com/ip/'></img>
   card_recent_post:
     enable: true

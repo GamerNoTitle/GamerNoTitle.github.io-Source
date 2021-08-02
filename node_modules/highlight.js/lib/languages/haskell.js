@@ -1,12 +1,4 @@
-/*
-Language: Haskell
-Author: Jeremy Hull <sourdrums@gmail.com>
-Contributors: Zena Treep <zena.treep@gmail.com>
-Website: https://www.haskell.org
-Category: functional
-*/
-
-function haskell(hljs) {
+module.exports = function(hljs) {
   var COMMENT = {
     variants: [
       hljs.COMMENT('--', '$'),
@@ -54,7 +46,6 @@ function haskell(hljs) {
   };
 
   return {
-    name: 'Haskell',
     aliases: ['hs'],
     keywords:
       'let in if then else case of where do module import hiding ' +
@@ -127,6 +118,4 @@ function haskell(hljs) {
       {begin: '->|<-'} // No markup, relevance booster
     ]
   };
-}
-
-module.exports = haskell;
+};
