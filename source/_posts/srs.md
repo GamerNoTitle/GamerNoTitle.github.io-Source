@@ -3,7 +3,7 @@ title: 手把手教你怎么搭建属于自己的直播服务器~
 date: 2019-09-19 13:23:16
 tags: Tech
 categories: Tech
-cover: https://cdn2.f-cdn.com/contestentries/1465340/30196593/5c4eb91aab7ff_thumb900.jpg
+cover: http://p0.itc.cn/images03/20200522/fc8fdeca217440098e3b9ca33dcf8f7d.jpeg
 ---
 
 前两个月学校的旧外包跑路了（其实是合约到期了），他们的直播系统就被学校废弃了，那么问题就来了：学校要直播呀！！！没有直播系统怎么办啊！！！

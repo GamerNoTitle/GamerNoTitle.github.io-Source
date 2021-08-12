@@ -30,7 +30,7 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/ID-Hi
 
 这个是从**Gamer.bili**变过来的，当时很喜欢听一首歌叫做**NoTitle**（放在这行的下面）
 
-{% aplayer "NoTitle" "ShakingHigh / Reol / 初音ミク" "http://p1.music.126.net/nikAUaRMtm6-ekcgqMt7eA==/109951162884628615.jpg" %}
+{% aplayer "No Title" "ShakingHigh / Reol / 初音ミク"  "https://music.163.com/song/media/outer/url?id=467787951.mp3" "http://p1.music.126.net/nikAUaRMtm6-ekcgqMt7eA==/109951162884628615.jpg" %}
 
 然后就把**bili**改成了**NoTitle**，成了我最常用的ID
 
