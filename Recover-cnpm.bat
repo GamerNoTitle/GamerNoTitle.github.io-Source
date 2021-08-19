@@ -1,0 +1,1 @@
+cnpm install && cnpm install hexo-renderer-pug hexo-renderer-stylus --save && cnpm install hexo-cli -g && cnpm install hexo-tag-aplayer@^3.0 --save
