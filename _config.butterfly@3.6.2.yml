@@ -768,8 +768,7 @@ aside:
   card_announcement:  # 使用<br />来换行，可以用html语法
     enable: true
     content: |
-      2021.8.20回校报到<br>
-      军检院校生可能不常更新，这也是没办法的事情嘛╮(╯▽╰)╭<br>
+      因为学校限制，我可能长达一年都不会更新，请谅解 —— GamerNoTitle写于2021年8月26日
       <img src='https://api.gymxbl.com/ip/'></img>
   card_recent_post:
     enable: true
