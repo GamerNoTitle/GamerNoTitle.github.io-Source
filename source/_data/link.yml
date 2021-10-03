@@ -550,6 +550,16 @@ class3:
       link: https://www.lytian.xyz
       avatar: http://3404565214.test.upcdn.net/kodbox/hexo图片/Logo.png
       descr: 生命不息，折腾不止
+    70:
+      name: YuZhangWang的领域
+      link: https://www.yuzhang.wang
+      descr: 两岸猿声啼不住 轻舟已过万重山
+      avatar: https://cdn.jsdelivr.net/gh/YuZhangWang/Creative_pictures01@main/img/20210907012640.png
+    71:
+      name: GoogTech
+      link: https://goog.tech
+      avatar: https://avatars.githubusercontent.com/u/43493852?v=4
+      descr: Developer, hacker, blogger, guitarist, marathoner and vlogger.
 
 class4:
   class_name: NE 线下后宫
