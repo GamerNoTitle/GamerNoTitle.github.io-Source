@@ -560,6 +560,16 @@ class3:
       link: https://goog.tech
       avatar: https://avatars.githubusercontent.com/u/43493852?v=4
       descr: Developer, hacker, blogger, guitarist, marathoner and vlogger.
+    72:
+      name: Plaudern’s的跑路小站
+      descr: 今天跑路了么，还没有哦。
+      link: https://plaudern.net
+      avatar: https://s.gravatar.com/avatar/f6dc79785e7e3c16074b21bb9f0bb671?s=80
+    73:
+      name: Py’s Whisper
+      link: https://whisper.pyliubaolin.top/
+      avatar: https://pic.baixiongz.com/uploads/2021/06/06/229f9548755cd.jpg
+      descr: 那一瞬，我们也是星辰
 
 class4:
   class_name: NE 线下后宫
