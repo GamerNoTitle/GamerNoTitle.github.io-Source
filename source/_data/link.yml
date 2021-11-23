@@ -152,11 +152,11 @@ class:
     #   link: https://diary.bili33.top
     #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/diary.png
     #   descr: 随便写点东西
-    31:
-        name: Onedrive
-        link: https://share4nothing.ml/
-        avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/fodi.png
-        descr: Onedrive分享型站点
+    # 31:
+    #     name: Onedrive
+    #     link: https://share4nothing.ml/
+    #     avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/fodi.png
+    #     descr: Onedrive分享型站点
 
 
 class2:
@@ -231,7 +231,7 @@ class3:
     6:
       name: 火喵酱
       link: https://dorcandy.cn
-      avatar: https://hexo-1251213061.cos.ap-beijing.myqcloud.com/image/kasa.jpg
+      avatar: https://cat.dorcandy.cn/logo
       descr: 一喵一世界
     7:
       name: Ruby の いえ
