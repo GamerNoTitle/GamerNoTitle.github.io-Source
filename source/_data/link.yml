@@ -157,6 +157,16 @@ class:
     #     link: https://share4nothing.ml/
     #     avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/fodi.png
     #     descr: Onedrive分享型站点
+    32:
+      name: API Doc
+      link: https://ninym.top
+      avatar: https://avatars.githubusercontent.com/u/97588711
+      descr: 自制API的文档
+    33:
+      name: NeteaseMusicDownload
+      link: https://music.ninym.top
+      avatar: https://img.88icon.com/download/jpg/20200901/b0c188c60bcd030afe50b0c4cd263331_512_512.jpg!88con
+      descr: 网易云音乐自助下载站
 
 
 class2:
