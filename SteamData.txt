@@ -1,0 +1,12 @@
+let script = jQuery('script[language="javascript"]');
+var games = [];
+for (let i = 0; i < script.length; i++) {
+  if (script.eq(i).html().includes("rgGames")) {
+    let rgGames = script.eq(i).html().match(/var.*?rgGames.*?=.*?(\[[\w\W]*?\}\}\]);/);
+    if (rgGames) {
+      games = JSON.parse(rgGames[1]);
+      break;
+    }
+  }
+}
+document.write(JSON.stringify(games))
