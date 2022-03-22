@@ -3,17 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "5.4.1"
+    "version": "6.1.0"
   },
   "dependencies": {
     "bluebird": "^3.7.2",
     "cheerio": "^0.22.0",
     "cuid": "^2.1.8",
     "gitalk": "^1.6.2",
-    "hexo": "^5.4.1",
+    "hexo": "^6.1.0",
     "hexo-baidu-url-submit": "^0.0.6",
     "hexo-bilibili-bangumi": "^1.7.4",
-    "hexo-cli": "^3.1.0",
+    "hexo-cli": "^4.3.0",
     "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.9",
@@ -36,6 +36,7 @@
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-util": "^1.9.1",
     "hexo-wordcount": "^6.0.1",
+    "js-yaml": "^4.1.0",
     "node-snackbar": "^0.1.16"
   }
 }

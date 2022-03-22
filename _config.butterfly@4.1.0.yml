@@ -774,7 +774,7 @@ aside:
     enable: true
     content: |
       因为学校限制，我可能长达一年都不会更新，请谅解 —— GamerNoTitle写于2021年8月26日
-      <img src='https://api.gymxbl.com/ip/' width=auto></img>
+      <img src='https://api.gymxbl.com/ip/'></img>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
