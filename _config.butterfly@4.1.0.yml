@@ -1110,7 +1110,7 @@ CDN:
     # gitalk:
     # gitalk_css:
     # blueimp_md5:
-    # valine:
+    valine: https://unpkg.com/valine/dist/Valine.min.js
     # disqusjs:
     # disqusjs_css:
     # twikoo:
