@@ -3,7 +3,7 @@ title: MCDR的正确食用方式 - 让你的服务器像TIS一样拥有QB！
 date: 2020-05-30 18:28:32
 tags: Tech
 categories: Tech
-cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/MCDR-Usage/Cover.png
+cover: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/MCDR-Usage/Cover.png
 ---
 
 你是否也想有能够在游戏内快速管理的服务器？

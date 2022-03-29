@@ -2,7 +2,7 @@
 title: Valine-Magic - Valine表情仓库
 date: 2020-04-19 19:01:30
 tags: Tech
-cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Valine-Magic/Cover.png
+cover: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Valine-Magic/Cover.png
 categories: Tech
 ---
 
@@ -32,7 +32,7 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 |        CDN服务器（点击可看在线状态）         | CDN链接                                                      |     优势     |                       劣势                        |
 | :------------------------------------------: | :----------------------------------------------------------- | :----------: | :-----------------------------------------------: |
 | [Github](https://stats.bili33.top/785622714) | https://valinecdn.bili33.top/                                |  链接短，快  |    有CloudFlare的301跳转作为统计，有可能会崩服    |
-| [Github](https://stats.bili33.top/785622715) | https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/   |    非常快    |                   有可能会崩服                    |
+| [Github](https://stats.bili33.top/785622715) | https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/ValineCDN@master/   |    非常快    |                   有可能会崩服                    |
 | [Coding](https://stats.bili33.top/785622717) | https://mirrorcdn.bili33.top/                                | 链接短，较快 | 有CloudFlare的301跳转作为统计，Coding服务器总是崩 |
 | [Coding](https://stats.bili33.top/785622720) | https://gamernotitle.coding.net/p/ValineCDN/d/ValineCDN/git/raw/master/ |     较快     |                Coding服务器总是崩                 |
 

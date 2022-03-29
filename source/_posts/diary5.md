@@ -3,20 +3,20 @@ title: 日常吐槽05 - 【阿里云限时活动】免费领取6个月ESC服务�
 date: 2020-03-08 20:23:09
 tags: diary
 categories: diary
-cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@diary5/img/Diary5/Website.png
+cover: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@diary5/img/Diary5/Website.png
 ---
 
 活动网址：https://developer.aliyun.com/adc/student/
 
-![网页](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@diary5/img/Diary5/Website.png)
+![网页](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@diary5/img/Diary5/Website.png)
 
 近期，阿里云开启了白给活动，叫做``阿里云高校学生“在家实践”计划``，官方描述是这样的：
 
-![白给活动描述](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@diary5/img/Diary5/Descr.png)
+![白给活动描述](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@diary5/img/Diary5/Descr.png)
 
 然后往下拉，可以看到这个活动分成5个部分：
 
-![五步](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@diary5/img/Diary5/Steps.png)
+![五步](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@diary5/img/Diary5/Steps.png)
 
 ①注册/登录 ②学生认证 ③完成测试 ④领取ECS学习资源 ⑤开始课程学习
 
@@ -40,7 +40,7 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@diary5/img/Diary
 
 反正我做下来也挺简单的，拿了个80分，不会的可以去百度一下，10分钟10道题时间绝对够
 
-![服务器相关信息](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@diary5/img/Diary5/Server-information.png)
+![服务器相关信息](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@diary5/img/Diary5/Server-information.png)
 
 然后回到页面，你就有资格领取服务器啦！建议早上八点蹲点领取哦~
 

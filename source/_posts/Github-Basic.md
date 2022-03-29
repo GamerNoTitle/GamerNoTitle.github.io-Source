@@ -3,7 +3,7 @@ title: Github的基本用法 —— 给小白的新手教程
 date: 2020-04-14 15:21:39
 tags: Software
 categories: Software
-cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/cover.jpg
+cover: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/cover.jpg
 ---
 
 {% note info %}
@@ -26,7 +26,7 @@ Github是全球最大的 ~~同性交友平台~~ 代码托管平台，在这里�
 
 当你注册完Github并登录后，Github会将你带到首页，这里有点类似很多服务器的仪表盘吧（如图）
 
-![Github主页](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Home.png)
+![Github主页](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Home.png)
 
 其中，左边一块是跟个人有关的，包括活动仓库和所在团队，活动仓库是你发过issue、PR(pull request)，点过Watch、Star、Fork的仓库，触发以上操作（上面的操作后面会说）都会将你操作的仓库添加到左边的活动仓库列表，便于你进行寻找；所在团队则是当你创建/加入一个团队并被分配到Team（队，有点类似于部门）后显示
 
@@ -44,7 +44,7 @@ Github是全球最大的 ~~同性交友平台~~ 代码托管平台，在这里�
 
 当你点击导航栏里面的头像，Github会给你弹出下面这个列表
 
-![Github个人菜单](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Nav-List.png)
+![Github个人菜单](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Nav-List.png)
 
 ①表示你登录的用户，这里我是用自己的用户登录的，所以写的是GamerNoTitle
 
@@ -66,7 +66,7 @@ Github是全球最大的 ~~同性交友平台~~ 代码托管平台，在这里�
 
 我们进入Profile查看一下，这里会列出你的各种信息，包括你自己设定的Slogan、你的学校、你的地理位置、你的邮箱（可以设置多个，但只有一个对外展示，未登陆者不会显示）、你的网站
 
-![Github Profile](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Profile.png)
+![Github Profile](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Profile.png)
 
 右边上面是你PIN（钉\~）的仓库，如果你想让别人一到你的个人页面就能看到你的Breaking Repositories的话你可以把你的仓库PIN到上面来；下面的小方格则是一年内你的Contribution（贡献），Commit数量越多，绿色越深；再往下就是你的活动了
 
@@ -74,7 +74,7 @@ Github是全球最大的 ~~同性交友平台~~ 代码托管平台，在这里�
 
 更详细的个人资料设置，可以在设置里面进行更改，其中可更改的包括你的用户名、邮箱等
 
-![Github Settings - Profile](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Settings-Profile.png)
+![Github Settings - Profile](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Settings-Profile.png)
 
 ---
 
@@ -84,7 +84,7 @@ Github是全球最大的 ~~同性交友平台~~ 代码托管平台，在这里�
 
 当你决定在Github托管你自己的代码的时候，你就可以开始创建仓库了。不过在此之前，请确保你会使用Git，Git的简单用法下面会略微涉及，但本篇绝对不会教你《Git从入门到精通》，Git的用法请自行百度。
 
-![Github新建仓库](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-New-Repo.png)
+![Github新建仓库](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-New-Repo.png)
 
 我们点击导航栏里面的`+`号，选择`New repository`，Github会带我们到新建仓库的页面。在Repository name中填入你想要的仓库名字，仓库名可以用英文和任意符号，甚至是中文（不推荐），但是在网址中无法被识别的字符会统一被替换成-，不管你有多少个连在一起（包括中文），例如我这里有个仓库名字是`!@#$%^&*()`，那么Github会让你创建你的仓库名为`!@#$%^&*()`，但是网址中只会变成`https://github.com/:user/-`，没错，Github直接用一个`-`代替了你的`!@#$%^&*()`，所以仓库命名我这里提出以下几点建议：
 
@@ -96,9 +96,9 @@ Github是全球最大的 ~~同性交友平台~~ 代码托管平台，在这里�
 
 在下面有Description，填写了以后会在别人搜索或者是访问你的仓库的时候展示（如图）
 
-![Description搜索展示](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Descr-in-Search.png)
+![Description搜索展示](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Descr-in-Search.png)
 
-![Description仓库展示](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Descr-in-Repo.png)
+![Description仓库展示](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Descr-in-Repo.png)
 
 再往下就是仓库的公开性，Public是公开，任何人都能访问你的仓库（只读）；Private是私人仓库只有你和被你邀请的人才能够访问
 
@@ -114,7 +114,7 @@ Github是全球最大的 ~~同性交友平台~~ 代码托管平台，在这里�
 
 这里我先新建一个名为`Tutorial`的仓库，公开仓库并且不勾选README初始化
 
-![Github仓库新仓库](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Repo-Tutorial.png)
+![Github仓库新仓库](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Repo-Tutorial.png)
 
 如上图，我已经新建了一个船新的仓库我们现在要手动初始化一次
 
@@ -165,11 +165,11 @@ The key's randomart image is:
 
 然后Windows会在`C:\Users\:user\.ssh`下创建两个文件，linux则会在`/.ssh`创建两个文件，两个系统创建的文件是一样的，都是`id_rsa`和`id_rsa.pub`。
 
-![Github SSH KEY页面](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Key.png)
+![Github SSH KEY页面](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Key.png)
 
 我们需要用记事本或者任意文本编辑器打开`id_rsa.pub`，将里面的内容复制，然后点开Github设置，点击左边的`SSH and GPG Keys`，点击右上角的`NEW SSH KEY`
 
-![Github添加KEY](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Add-Key.png)
+![Github添加KEY](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Add-Key.png)
 
 将你的`id_rsa.pub`的内容粘贴到下面的大框框里面，上面填上一个便于你自己辨识的名字，然后保存
 
@@ -179,11 +179,11 @@ The key's randomart image is:
 
 看下面，我已经将我的README.md推送到Github仓库了
 
-![Github推送完成](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-repo-Pushed.png)
+![Github推送完成](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-repo-Pushed.png)
 
 #### 仓库设置
 
-![Github仓库设置](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Repo-Settings.png)
+![Github仓库设置](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Repo-Settings.png)
 
 我们点击上面的Settings，Github会把我们带到仓库的设置界面
 
@@ -195,17 +195,17 @@ The key's randomart image is:
 
 当我们编译完自己的程序，想要发布可执行程序的时候，就需要Release功能（当然不止于这种情况，也有想要薅一把Github的羊毛把Github当做图床加上Jsdelivr作为CDN的用法）
 
-![Github仓库导航栏](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-repo-nav.png)
+![Github仓库导航栏](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-repo-nav.png)
 
-![Github仓库无发行版](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-no-Release.png)
+![Github仓库无发行版](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-no-Release.png)
 
 我们点击顶端的Release按钮，如果你之前没有Release的话界面应该是像上面这样的，我们就要点create a release来创建我们的发行
 
-![Github Release有发行版](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-have-Release.png)
+![Github Release有发行版](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-have-Release.png)
 
 如果你有发布过release，那你的界面应该是这样的，我们就要点右上角`Draft a New Release`来发布
 
-![Github新建Release](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Draft-a-New-Release.png)
+![Github新建Release](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Draft-a-New-Release.png)
 
 在这个界面，在左边最小的那个框里面填写版本号，版本号应该像是`v1.0.0`、`a1.0`这样的，取得复杂了就很麻烦（当然只是自己用的话请随便），在长条框里面填写自己的标题，下面的大框框填写自己这个版本的详细内容，填写完后点击最下面的publish release即可。
 

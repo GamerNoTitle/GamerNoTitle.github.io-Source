@@ -3,7 +3,7 @@ title: Hitokoto-Spider 一言库爬虫开发日记
 date: 2020-02-11 14:17:37
 tags: Tech
 categories: Tech
-cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.12/img/Hitokoto-spider/hitokoto.png
+cover: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.12/img/Hitokoto-spider/hitokoto.png
 sage: false
 ---
 
@@ -67,13 +67,13 @@ sage: false
 
 我看着：这玩意怎么格式这么像json呢？？？
 
-<img src="https://cdn.jsdelivr.net/gh/NotFoundNEKKO/BQBTwT@1.0.0/嗯？.jpg" width="200" height="200">
+<img src="https://cdnjsdelivr.bili33.workers.dev/gh/NotFoundNEKKO/BQBTwT@1.0.0/嗯？.jpg" width="200" height="200">
 
 直到我往下拉，发现：
 
 这塔喵不就是json嘛……（上面的注释是我加入的）
 
-![](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.12/img/Hitokoto-spider/return.png)
+![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.12/img/Hitokoto-spider/return.png)
 
 搞清楚了返回出来的结果的组成后，我们就可以开始撸代码了！
 
@@ -122,7 +122,7 @@ print(res)
 
 然后返回的值为：``<Response [200]>``
 
-![状态码输出](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.12/img/Hitokoto-spider/Output1.png)这不是状态码嘛？？？我不要这玩意儿啊，我要结果。。。
+![状态码输出](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.12/img/Hitokoto-spider/Output1.png)这不是状态码嘛？？？我不要这玩意儿啊，我要结果。。。
 
 然后我就commit了一下，盖上我的垃圾Lenovo，然后去睡觉了……
 
@@ -142,13 +142,13 @@ print(res.text)
 
 接着就给我输出了我想要的东西嘿嘿
 
-![json格式输出](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.12/img/Hitokoto-spider/Output2.png)
+![json格式输出](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.12/img/Hitokoto-spider/Output2.png)
 
-这个项目本来想跟[学弟@Soulxyz](https://github.com/soulxyz)一起做的，然后我就先把这个雏形push到了仓库里面，他也fork了，然后回来给我的是一个叫做[csvdomo.py（点击可下载）](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.12/files/Hitokoto-Spider/csvdomo.py)的文件（我寻思你是不是想打csvdemo？？？）
+这个项目本来想跟[学弟@Soulxyz](https://github.com/soulxyz)一起做的，然后我就先把这个雏形push到了仓库里面，他也fork了，然后回来给我的是一个叫做[csvdomo.py（点击可下载）](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.12/files/Hitokoto-Spider/csvdomo.py)的文件（我寻思你是不是想打csvdemo？？？）
 
 我打开了，然后发现：你这不是并发获取10次都是一个结果吗？？？你这不重新获取不是每次都一样的吗？？？
 
-![csvdomo输出](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.12/img/Hitokoto-spider/csvdomo-output.png)
+![csvdomo输出](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.12/img/Hitokoto-spider/csvdomo-output.png)
 
 于是我决定放弃他这里，我自己来弄这个项目……后来他告诉我，用一言的国际节点可以有更高的QPS，然后我就转用国际节点了……
 
@@ -258,7 +258,7 @@ for i in range(num):
 
 接着就会发现，运行着运行着，告诉我数组越限了？！！！
 
-<img src="https://cdn.jsdelivr.net/gh/NotFoundNEKKO/BQBTwT@1.0.0/害怕.jpg" width="186" height="302">
+<img src="https://cdnjsdelivr.bili33.workers.dev/gh/NotFoundNEKKO/BQBTwT@1.0.0/害怕.jpg" width="186" height="302">
 
 这个问题就真的很烦，因为C++是允许数组越限的，但是python不允许，会直接冷不丁给你报错，所以每次遇到这个问题我都不是很想去理它，但是不理它我的程序就运行不下去了啊！！！所以我先把检测重复这一段注释掉了，合上垃圾Lenovo，睡觉！
 
@@ -268,7 +268,7 @@ for i in range(num):
 
 今天早上上课上到11点20分，开始写代码，用一中午想把这个重复检测的功能写完……
 
-<img src="https://cdn.jsdelivr.net/gh/NotFoundNEKKO/BQBTwT@1.0.0/大佬带我.jpg" width="360" height="344.5">
+<img src="https://cdnjsdelivr.bili33.workers.dev/gh/NotFoundNEKKO/BQBTwT@1.0.0/大佬带我.jpg" width="360" height="344.5">
 
 想到昨天的数组越限就头疼，我打算放弃这个方法，不存列表了！
 
@@ -341,15 +341,15 @@ for i in range(num):
 
 最后写出来的效果是这样子的，然后问题又出来了，我的temp.count似乎不能被它正确识别出来，于是我打开了一个新的文档，测试一下这个玩意输出长什么样子：
 
-![Output3](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.12/img/Hitokoto-spider/Output3.png)
+![Output3](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.12/img/Hitokoto-spider/Output3.png)
 
 emmmm，这是啥？？？
 
-<img src="https://cdn.jsdelivr.net/gh/NotFoundNEKKO/BQBTwT@1.0.0/害怕崩坏限定.jpg" width="428" height="345.5">
+<img src="https://cdnjsdelivr.bili33.workers.dev/gh/NotFoundNEKKO/BQBTwT@1.0.0/害怕崩坏限定.jpg" width="428" height="345.5">
 
 然后我又去求助万能的百度，网友们告诉我可以用len(temp)来获得数组的元素个数，然后我就把这玩意改了，终于可以运行了！！！接着问题又来了。。。
 
-![Output4](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.12/img/Hitokoto-spider/Output4.png)
+![Output4](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.12/img/Hitokoto-spider/Output4.png)
 
 这是？？？这怎么不连续啊，这数字？？？我想到可能是抓到重复的时候算抓了，就导致了i+1（不过这次测试挺非的，这么多次一样。。。非到极致也是一种欧！）
 
@@ -357,7 +357,7 @@ emmmm，这是啥？？？
 
 我就自己定义一个变量，用while循环呗……然后我就改用while循环
 
-这下终于可以了，抓到的结果没有抓到重复的（因为中途连接超时导致程序停止运行了，所以只抓了2159条，本来是想把整个一言库抓完的，[点我下载2159条数据，请用UTF8解码后保存为gbk才能在Excel上查看哦](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.12/files/Hitokoto-Spider/Hitokoto.csv)）
+这下终于可以了，抓到的结果没有抓到重复的（因为中途连接超时导致程序停止运行了，所以只抓了2159条，本来是想把整个一言库抓完的，[点我下载2159条数据，请用UTF8解码后保存为gbk才能在Excel上查看哦](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.12/files/Hitokoto-Spider/Hitokoto.csv)）
 
 终于搞定啦！！！这个项目终于能够按照期望运行了！
 
@@ -408,11 +408,11 @@ def read_config():
 
 这样，我使用conf = read_config()就可以获得文件中的所有内容，文件读出来的结果应该是这样的（如图）
 
-![json read](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@2020.2.17-1/img/Hitokoto-Spider/json_read.png)
+![json read](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@2020.2.17-1/img/Hitokoto-Spider/json_read.png)
 
 把程序再美化一下，运行后发现，出了BUG
 
-![from_who KeyError](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@2020.2.17/img/Hitokoto-Spider/from_who_bug.png)
+![from_who KeyError](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@2020.2.17/img/Hitokoto-Spider/from_who_bug.png)
 
 KeyError？？？WTF？？？你不是能正常读入的呢嘛？这又是个什么鬼错误……
 
@@ -442,11 +442,11 @@ if(conf["from_who"] == True):
 
 在会报KeyError错误的地方都进行这样的修改，然后进行调试
 
-![KeyError Fixed](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@2020.2.17-1/img/Hitokoto-Spider/KeyError-Fixed.png)
+![KeyError Fixed](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@2020.2.17-1/img/Hitokoto-Spider/KeyError-Fixed.png)
 
 终于可以啦！！！推送代码，项目完成！
 
 接下来就是要加入GUI支持了，但是我其实不是很会做GUI，所以说别抱太大希望，很有可能鸽掉……
 
-![白咕咕](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Diary/Gugugu.jpg)
+![白咕咕](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Diary/Gugugu.jpg)
 

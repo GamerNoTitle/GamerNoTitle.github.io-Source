@@ -11,7 +11,7 @@ keywords: 'Office,Office 365,Office365,Office 365 Free,Microsoft Office'
 
 相信很多人都在用Office，用的要么是WPS Office，要么就是Microsoft Office。正版的Office365价格贵得要死↓
 
-![家用Office价格（非商业用途）](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-tags.png)
+![家用Office价格（非商业用途）](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-tags.png)
 
 所以今天，我就来教教怎么获取**免费**的Office365（而且还是管理员哦~）
 
@@ -27,13 +27,13 @@ keywords: 'Office,Office 365,Office365,Office 365 Free,Microsoft Office'
 
 进入以后发现里面有四个按钮
 
-![微软开发者中心](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Office365/Get-Started.png)
+![微软开发者中心](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Office365/Get-Started.png)
 
 稍微解释一下，第一个和最后一个想必不用说了吧，都是熟悉的东西；第二个是微软的云服务平台[Azure](https://azure.microsoft.com/en-us/)，第三个是微软的开发者软件[Visual Studio](https://visualstudio.microsoft.com/)（我还是喜欢VSCode），在这里我们点击Office，其他有需要的自己斟酌哈~
 
 
 
-![Office开发者页面](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-start.png)
+![Office开发者页面](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-start.png)
 
 
 
@@ -41,7 +41,7 @@ keywords: 'Office,Office 365,Office365,Office 365 Free,Microsoft Office'
 
 登录自己的账号后，点上面的Developer Program，进入开发者计划页面，点击中间那个最大的按钮写着JOIN NOW的~
 
-![Office开发者页面 - 加入开发者计划](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-join.png)
+![Office开发者页面 - 加入开发者计划](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-join.png)
 
 
 
@@ -49,31 +49,31 @@ keywords: 'Office,Office 365,Office365,Office 365 Free,Microsoft Office'
 
 设定好后，把下面两个勾给勾上，点击NEXT
 
-![配置界面](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-signup.png)
+![配置界面](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-signup.png)
 
 然后微软就会问你一堆问题
 
 像下面这样：
 
-![](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-Q1.png)
+![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-Q1.png)
 
-![](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-Q2.png)
+![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-Q2.png)
 
 看得懂英语的自己选择，但是在**Products**里面最好全部勾上，这样你就能使用所有的功能。如果看不懂英语，那么第一个问题和第二个问题请选择**Personal Projects**（第四个选项），第三个**Products**和第四个**Technologies**全部勾上，最后一个问题随便选择一个即可（如果你不是真的要开发的话），全部选择完以后点击下方的JOIN即可！
 
-![](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-Answer.png)
+![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-Answer.png)
 
 然后你就会像我一样被导到这个界面，说明你已经成功注册了！
 
-![](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-subscription.png)
+![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-subscription.png)
 
 点击下方的**SET UP SUBSCRIPTION**会弹出来一个小窗，第一个不用说，之前选什么现在就选什么，第二个create username是设置邮箱前缀，create domain就是上面提到的在邮箱后缀的第一位的东西，自己喜欢，但是尽量跟前面一致！下面两个框都是让你输入密码，输入完以后点下面的Continue即可！
 
-![启用office订阅](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-console-signup.png)
+![启用office订阅](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-console-signup.png)
 
 然后就会弹出提示，要你输入手机号码
 
-![输入手机号码](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-console-phone.png)
+![输入手机号码](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Office365/office-console-phone.png)
 
 输入完了点击下面的send code，就会有短信发到你的手机，后面我不用说都可以解决了吧~
 

@@ -3,7 +3,7 @@ title: Onedrive分享型网盘搭建 - FODI
 date: 2020-02-09 09:58:43
 tags: Software
 categories: Software
-cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.9-2/img/FODI/cover.jpg
+cover: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.9-2/img/FODI/cover.jpg
 ---
 
 本人有两个onedrive账号，一个自用，另外一个是[前几天蹭的edu账号](http://bili33.top/2019/08/30/Office365/#%E9%A2%98%E5%A4%96%E8%AF%9D%EF%BC%9A)，之前一直想用onedrive来分享文件（毕竟容量是真的大），就在放寒假前，我发现了github的一个项目：[FODI](https://github.com/vcheckzen/FODI)，虽说这UI不是很好看，但是不用服务器（嗯，让白嫖党有点快乐了），所以就动起了手……
@@ -48,21 +48,21 @@ Message
 
 接着就到了比较重要的一步：获取refresh_token（没错你知道我要干嘛了）
 
-![版本选择](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.9/img/FODI/Onemanager-Step1.png)
+![版本选择](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.9/img/FODI/Onemanager-Step1.png)
 
 第一步安装的时候选择MS（中国版选择CN，如果你喜欢搞事情，你也可以选择MSC自己申请api，我就是懒，就不自己申请api了）
 
 然后登陆自己的微软账户，接着就会弹出自己的refresh_token，这不就搞定了refresh_token啦？！
 
-![refresh_token获取](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.9/img/FODI/refresh-token-in-install.png)
+![refresh_token获取](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.9/img/FODI/refresh-token-in-install.png)
 
 如果你没有及时复制你自己的refresh_token，你也可以到你自己heroku项目的变量下复制
 
-![refresh_token in Heroku](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.9/img/FODI/refresh-token-heroku.png)
+![refresh_token in Heroku](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.9/img/FODI/refresh-token-heroku.png)
 
 接着我们返回FODI，将自己的refresh_token贴近官方给的[模板](https://github.com/vcheckzen/FODI/blob/master/back-end-cf/index.js)的对应位置，接着将代码复制到cloudflare的workers里面（你又问我workers是什么？看[这里](/2019/10/25/CloudFlare-Workers-Section1/)啦！），然后保存即可！
 
-![cloudflare editor](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.9-1/img/FODI/workers-editor.png)
+![cloudflare editor](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.9-1/img/FODI/workers-editor.png)
 
 官方模板：
 
@@ -1615,7 +1615,7 @@ html文件备份：（可以直接复制）
 </html>
 ```
 完成界面：
-![cloudflare editor](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.9-1/img/FODI/Success.png)
+![cloudflare editor](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.9-1/img/FODI/Success.png)
 
 ---
 

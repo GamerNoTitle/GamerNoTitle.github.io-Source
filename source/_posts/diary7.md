@@ -3,7 +3,7 @@ title: 日常吐槽07 - 记录一次成功的举报经历
 date: 2020-07-27 10:13:32
 tags: diary
 categories: diary
-cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/cover.png
+cover: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/cover.png
 ---
 
 {% note danger %}
@@ -16,15 +16,15 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary
 
 前几天我在浏览Steam商城，因为当时没啥好玩的了，想去看看有啥游戏，结果发现了下面这样的信息（我看到的是评测中的信息，忘记截图了，而且那个用户也被我举报并屏蔽且被V社处理了，这里是一张**网上的图**，我遇到的给的链接是<font color=#FF0000>pubgjosn.fun</font>（危险别点））
 
-![网图](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/Phishing-Message.png)
+![网图](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/Phishing-Message.png)
 
 点进去用户界面，看到是个把个人信息设置为隐私的账户（**此处仍然为网上的图**）
 
-![还是网图](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/userinfo.png)
+![还是网图](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/userinfo.png)
 
 我点进去一看，哟，这不是钓鱼网站嘛，长得还挺像PUBG的官网，不过开篇就是给枪皮，这价值我也不知道有多少，反正看这域名就不是官方网站
 
-![非官方网站](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/Unofficial-website.png)
+![非官方网站](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/Unofficial-website.png)
 
 我试着在这个页面点击除了领取以外的按钮，发现就连阅读个新闻也要登录，这不符合逻辑，看来这个网站没啥，也就UI像了点，其他没啥
 
@@ -34,31 +34,31 @@ cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary
 
 第二天早上起来，发现CloudFlare给我发了封邮件
 
-![CF的邮件](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/Response-of-Cloudflare.png)
+![CF的邮件](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/Response-of-Cloudflare.png)
 
 接着，我访问该网站，发现已经被挂上了红色警告
 
-![CF小红信](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/Unofficial-website-warning.png)
+![CF小红信](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/Unofficial-website-warning.png)
 
 CloudFlare这波干的不错，返回来看CF给我发的邮件，里面还说到了以下几种方法（黄色部分，这里是在mail.ru，也就是我的域名邮箱托管的平台）
 
-![CF的提示](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/tips-of-Cloudflare.png)
+![CF的提示](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/tips-of-Cloudflare.png)
 
 然后我又去查了一次whois，发现他是在reg.ru这个网站上注册的域名，接着我又去查这个网站的举报方式，发现了[abuse@reg.ru](mailto:abuse@reg.ru)这个举报邮箱
 
 接着再发一封邮件，提出这种情况
 
-![发邮件给reg.ru](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/mailto-reg-dot-ru.png)
+![发邮件给reg.ru](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/mailto-reg-dot-ru.png)
 
 不久后便收到了来自该域名注册平台的邮件
 
-![REG.RU的回复](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/replyfrom-reg-dot-ru.png)
+![REG.RU的回复](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/replyfrom-reg-dot-ru.png)
 
 举报完成，收工！
 
 在我即将开始写文的时候，发现我的Steam弹了一条V社的信息
 
-![V社的信息](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/message-from-valve.png)
+![V社的信息](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Diary7/message-from-valve.png)
 
 这次举报真的大快人心！
 

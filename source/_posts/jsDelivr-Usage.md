@@ -14,11 +14,11 @@ cover: https://fileem.com/storage/2018/11/9bb6c0999a6bb6dfa9594aa562926dc2.png
 
 ~~开始持续高产~~前几天开始，github的raw文件下载域名``raw.githubusercontent.com``被墙了，导致我的网站很多图片都是404（因为我是直接使用github的文件），我转为使用cloudflare的workers反代。但是反代有每日10W次的请求次数限制。~~万一以后我的网站访问量增大了呢？这样岂不是不够用？~~（在想Peach）
 
-![没错，我在想もも](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.8/img/jsDelivr/Chiyota-momo.jpg)
+![没错，我在想もも](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.8/img/jsDelivr/Chiyota-momo.jpg)
 
 今天早上我才在[【日常吐槽04】](/2020/02/06/diary4/)的评论区里面说不会用jsDelivr，到了晚上，嗯，真香……
 
-![jsDelivr](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.8/img/jsDelivr/home.png)
+![jsDelivr](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.8/img/jsDelivr/home.png)
 
 jsDelivr是一个比较好的CDN平台，官方号称``jsDelivr – Open Source CDN`` ``free, fast, and reliable``，简单来说就是开源的CDN，免费、快、可靠这样的
 
@@ -34,19 +34,19 @@ jsDelivr是一个比较好的CDN平台，官方号称``jsDelivr – Open Source 
 
 你需要登录你的Github，创建一个你想用来放文件的仓库，然后在这个仓库里面上传你的文件，像我这样
 
-![上传文件后的仓库](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.8/img/jsDelivr/Picture-repo.png)
+![上传文件后的仓库](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.8/img/jsDelivr/Picture-repo.png)
 
 然后点击Release，新建一个版本，在上面的小方框里面填写你的版本号，尽量填写数字，例如``1.0``之类的，不要用中文！！！
 
-![新建Release](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@2020.2.8/img/jsDelivr/release.png)
+![新建Release](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@2020.2.8/img/jsDelivr/release.png)
 
 接着直接调用jsDelivr，例如我在名为Picture-repo的仓库发布了1.0版本，那么我访问链接：
 
-``https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png``
+``https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png``
 
 就可以直接调用我的头像，按照官方的格式，就是
 
-``https://cdn.jsdelivr.net/gh/<username>/<repo-name>@<version>/<path>``
+``https://cdnjsdelivr.bili33.workers.dev/gh/<username>/<repo-name>@<version>/<path>``
 
 的样子，解释一下：
 
@@ -54,7 +54,7 @@ jsDelivr是一个比较好的CDN平台，官方号称``jsDelivr – Open Source 
 
 但是请注意！当你的release包大于50MB，那么jsdelivr会给你报错并且不给你提供加速服务，例如下面这条链接:
 
-[https://cdn.jsdelivr.net/gh/NotFoundNEKKO/Storage@1.0/表情包/真叫人质壁分离.jpg](https://cdn.jsdelivr.net/gh/NotFoundNEKKO/Storage@1.0/表情包/真叫人质壁分离.jpg)
+[https://cdnjsdelivr.bili33.workers.dev/gh/NotFoundNEKKO/Storage@1.0/表情包/真叫人质壁分离.jpg](https://cdnjsdelivr.bili33.workers.dev/gh/NotFoundNEKKO/Storage@1.0/表情包/真叫人质壁分离.jpg)
 
 点开就会发现提示：
 
@@ -80,7 +80,7 @@ jsDelivr是一个比较好的CDN平台，官方号称``jsDelivr – Open Source 
 
 我们还是以上面那个仓库为例子，先到仓库中的设置，打开Github Pages服务
 
-![打开Github Pages服务](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@jsdelivr-usage/img/jsdelivr-Usage/Picture-repo-Pages.png)
+![打开Github Pages服务](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@jsdelivr-usage/img/jsdelivr-Usage/Picture-repo-Pages.png)
 
 然后我们可以看到Github将我的这个仓库的page服务部署到了``https://bili33.top/Picture-repo/``这个链接
 

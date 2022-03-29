@@ -3,7 +3,7 @@ title: PIXIV网页版及客户端访问恢复指南（Linux版）
 date: 2019-10-04 19:16:38
 tags: Software
 categories: Software
-cover: https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.6/img/other/th%20(3).jpg
+cover: https://cdnjsdelivr.bili33.workers.dev/gh/moezx/cdn@3.1.6/img/other/th%20(3).jpg
 keywords: 'pixiv,pixiv恢复访问,pixiv linux,pixiv ubuntu,nginx反代,樱花庄的白猫'
 ---
 
@@ -52,7 +52,7 @@ $ git clone git@github.com:mashirozx/Pixiv-Nginx.git
 
 进入~/etc/nginx/这个位置，把上面打开的那个文件夹的东西全部都丢进去（此处需要root权限），提示覆盖就覆盖即可！
 
-![移动文件到~/etc/nginx/](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/Pixiv-Nginx/Move-Files.png)
+![移动文件到~/etc/nginx/](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Pixiv-Nginx/Move-Files.png)
 
 然后在~/etc/nginx目录下打开终端，输入以下命令
 

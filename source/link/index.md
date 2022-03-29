@@ -10,7 +10,7 @@ type: "link"
 
 - Blog 名字： GamerNoTitle
 - Blog 地址： https://bili33.top
-- Blog 头像： https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png
+- Blog 头像： https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png
 - Blog 标语： GamerNoTitle的小屋哦~
 
 ------
@@ -31,5 +31,5 @@ type: "link"
 
 - PS：本文大部分的数字表示方式来自[Mili - world.execute(me);](https://music.163.com/#/song?id=435278010)
 
-{% aplayer "world.execute (me) ;" "Mili" "https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@world.execute(me)/audio/Mili%20-%20world.execute%20(me)%20;.mp3" "https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@world.execute(me)/img/Album/Miracle Milk.jpg" "lrc:https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/lrc/world.execute (me) %3B.txt"%}
+{% aplayer "world.execute (me) ;" "Mili" "https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@world.execute(me)/audio/Mili%20-%20world.execute%20(me)%20;.mp3" "https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@world.execute(me)/img/Album/Miracle Milk.jpg" "lrc:https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/lrc/world.execute (me) %3B.txt"%}
 
