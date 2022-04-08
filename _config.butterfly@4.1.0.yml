@@ -992,7 +992,7 @@ inject:
     - <link rel="stylesheet" type="text/css" href="https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/css/twikoo-emotion.css">
     - <link rel="stylesheet" type="text/css" href="https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/css/Valine-Emotion.css">
     - <script src="https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/js/IPblock.js"></script>
-    - <script async defer data-website-id="e75220c3-d483-4f92-8b3f-88eb75b89407" src="https://umami.bili33.top/umami.js"></script>
+    - <script async defer data-website-id="14e2fe0c-aaff-45ad-9d71-fd8d7607d186" src="https://umami.api.ninym.top/umami.js"></script>
   bottom:
     # - <script src="xxxx"></script>
 
