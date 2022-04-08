@@ -1111,7 +1111,7 @@ CDN:
     # gitalk:
     # gitalk_css:
     # blueimp_md5:
-    valine: https://unpkg.com/valine/dist/Valine.min.js
+    valine: https://unpkg.com/valine-unpkg-avmin@0.0.1/dist/Valine.min.js
     # disqusjs:
     # disqusjs_css:
     # twikoo:
