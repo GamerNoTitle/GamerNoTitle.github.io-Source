@@ -130,8 +130,8 @@ disable_top_img: false
 # The banner image of home page
 index_img:
 # if the banner of page not setting,it will show the top_img
-top_img: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Top-img/NEKO-Hackers-Edited.jpg
-  #- https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Top-img/NEKO-Hackers-Edited.jpg
+top_img: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Top-img/NEKO-Hackers-Edited.jpg
+  #- https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Top-img/NEKO-Hackers-Edited.jpg
   #- https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Top-img/77329543_p0.png
 # 以下鏈接是動態壁紙，每次刷新會更換
 # https://source.unsplash.com/collection/collectionid/1600x900
@@ -140,26 +140,26 @@ top_img: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Top-im
 # https://api.dujin.org/bing/1366.php
 
 # if the banner of page not setting,it will show the top_img
-default_top_img: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Top-img/NEKO-Hackers-Edited.jpg
+default_top_img: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Top-img/NEKO-Hackers-Edited.jpg
 
 # the default cover of the post
-default_cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Top-img/NEKO-Hackers-Edited.jpg
+default_cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Top-img/NEKO-Hackers-Edited.jpg
 
 # the banner image of archive page
-archive_img: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Top-img/NEKO-Hackers-Edited.jpg
+archive_img: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Top-img/NEKO-Hackers-Edited.jpg
 
 # the banner image of tag page
-tag_img: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Top-img/NEKO-Hackers-Edited.jpg
+tag_img: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Top-img/NEKO-Hackers-Edited.jpg
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Top-img/NEKO-Hackers-Edited.jpg
+tag_per_img: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Top-img/NEKO-Hackers-Edited.jpg
 
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_img: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Top-img/NEKO-Hackers-Edited.jpg
+category_img: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Top-img/NEKO-Hackers-Edited.jpg
 
 category_per_img:
 
@@ -173,7 +173,7 @@ cover:
   position: both
   # 當沒有設置cover時，默認的封面顯示
   default_cover:
-    - https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Top-img/NEKO-Hackers-Edited.jpg
+    - https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Top-img/NEKO-Hackers-Edited.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
