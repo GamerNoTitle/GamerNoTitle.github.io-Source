@@ -356,16 +356,22 @@ valine:
   pageSize: 20 # comment list page size
   avatar: mp # gravatar style https://valine.js.org/#/avatar
   lang: zh-cn # i18n: zh-cn/en/tw
-  placeholder: 📌昵称可以填写QQ号来自动补全QQ信息啦~\n👨‍🔧本站已启用Akismet反垃圾评论~\n🚀评论和回复支持M↓\n💢发空包网站广告的给爷爬，你是一定要我BAN了你的IP嘛！！！ # valine comment input placeholder(like: Please leave your footprints )
   guest_info: nick,mail,link #valine comment header inf
   recordIP: true # Record reviewer IP
   serverURLs: https://wruw5fic.api.lncldglobal.com # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  emojiCDN: https://valinecdn.bili33.top/ # emoji CDN
   enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: null # nick,mail # required fields nick/mail/link
   bg: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Settings/Valine-BG.jpg # valine background
   count: true # top_img顯示評論數
   option:
+    emojiCDN: https://gamernotitle.coding.net/p/ValineCDN/d/ValineCDN/git/raw/master/ # emoji CDN
+    placeholder: |
+      📌昵称可以填写QQ号来自动补全QQ信息啦~
+      👨‍🔧本站已启用Akismet反垃圾评论~
+      🚀评论和回复支持M↓
+      💢发空包网站广告的给爷爬，你是一定要我BAN了你的IP嘛！！！ 
+    # valine comment input placeholder(like: Please leave your footprints )
+
 
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
