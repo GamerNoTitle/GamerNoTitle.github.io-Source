@@ -116,12 +116,12 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png
+favicon: https://api.onedrive.com/v1.0/shares/s!Ameewj0EnvFunlgGqAEEhpTuKtmL/root/content
 
 # Post info settings
 # ---------------
 avatar: 
-  img: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png
+  img: https://api.onedrive.com/v1.0/shares/s!Ameewj0EnvFunlgGqAEEhpTuKtmL/root/content
   effect: false # 頭像會一直轉圈
 
 # Disable all banner image
@@ -990,7 +990,7 @@ inject:
     - <script async defer src="https://buttons.github.io/buttons.js"></script>
     - <meta name="referrer" content="no-referrer-when-downgrade" />
     - <meta itemprop="name" content="GamerNoTitle">
-    - <meta itemprop="image" content="https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png">
+    - <meta itemprop="image" content="https://api.onedrive.com/v1.0/shares/s!Ameewj0EnvFunlgGqAEEhpTuKtmL/root/content">
     - <meta name="description" itemprop="description" content="欢迎来到GamerNoTitle的博客~">
     - <link rel="stylesheet" type="text/css" href="https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/css/twikoo-height.css">
     - <link rel="stylesheet" type="text/css" href="https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/css/BB.css">
