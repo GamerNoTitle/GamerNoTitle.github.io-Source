@@ -2,7 +2,7 @@
 title: Valine-Magic - Valine表情仓库
 date: 2020-04-19 19:01:30
 tags: Tech
-cover: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Valine-Magic/Cover.png
+cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Valine-Magic/Cover.png
 categories: Tech
 ---
 

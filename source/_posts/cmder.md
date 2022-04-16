@@ -42,7 +42,7 @@ Cmder.exe /REGISTER ALL
 
 然后你就可以像我一样在任意地方打开cmder了
 
-![cmder-here](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/cmder/cmder-here.png)
+![cmder-here](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/cmder/cmder-here.png)
 
 #### 快捷键大全（官网有）：
 
@@ -68,7 +68,7 @@ Win+Alt+P   开启工具选项视窗
 set LANG=zh_CN.UTF8 
 ```
 
-![cmder-cn](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/cmder/cmder-cn.png)
+![cmder-cn](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/cmder/cmder-cn.png)
 
 
 

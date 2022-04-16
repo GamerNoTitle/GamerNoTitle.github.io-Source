@@ -3,7 +3,7 @@ title: 用Heroku自建V2ray作为紧急连接
 date: 2008-01-01 09:46:44
 tags: Tech
 categories: Tech
-cover: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Heroku-V2ray/cover.png
+cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Heroku-V2ray/cover.png
 ---
 
 {% note warning %}
@@ -35,7 +35,7 @@ cover: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@ma
 
 如果你这里加载出来了一个变量的框，写着`UUID`，下面有一串字母和数字组成的字符串，你可以修改它，到[这里](https://www.uuidgenerator.net/version4)生成一个，也可以直接保留（推荐修改，这是连接凭证）
 
-![部署应用](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Heroku-V2ray/deploy.png)
+![部署应用](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Heroku-V2ray/deploy.png)
 
 ### 修改UUID
 
@@ -45,7 +45,7 @@ cover: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@ma
 
 接着我们点`Settings`，然后点`Reveal Config Vars`，来修改我们的UUID
 
-![修改uuid](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Heroku-V2ray/change-uuid.png)
+![修改uuid](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Heroku-V2ray/change-uuid.png)
 
 ### Cloudflare加速
 
@@ -170,7 +170,7 @@ addEventListener(
 
 打开你的v2ray，添加vme$$服务器，按照下面的图填写
 
-![配置v2](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@master/img/Heroku-V2ray/v2conf.png)
+![配置v2](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Heroku-V2ray/v2conf.png)
 
 然后保存，愉快地使用v2ray就可以了
 

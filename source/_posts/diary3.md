@@ -3,13 +3,13 @@ title: 日常吐槽03 - 聊一聊WARFRAME COINCIDANCE的制作
 date: 2020-01-22 22:00:00
 tags: diary
 categories: diary
-cover: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Diary/Coincidance.png
+cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Diary/Coincidance.png
 sage: false
 ---
 
 近期做了一个视频：[【WARFRAME 抖肩舞】星 际 仓 鼠 再来亿遍！打三傻不如跳舞！每天一遍，防止抑郁~ WARFRAME版 Coincidance 自制](https://www.bilibili.com/video/av84462179/)
 
-![WARFRAME COINCIDANCE](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Diary/Coincidance.png)
+![WARFRAME COINCIDANCE](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Diary/Coincidance.png)
 
 什么？你说你还没有看？赶紧点开上面的蓝链前往B站查看！！！
 
@@ -41,7 +41,7 @@ YouTube播放：
 
 这个视频也是我的各个好友不断分享，然后在前天（2020.1.20）的晚上，我突然想到“为啥我们不做一个自己的COINCIDANCE”？用WARFRAME来做呢？（因为WARFRAME较完善的动作系统）
 
-![给我也整一个 MOD](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Diary/WF-Me-Too.jpg)
+![给我也整一个 MOD](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Diary/WF-Me-Too.jpg)
 
 然后我就在群里面找人，讲真，我身边加上我玩WARFRAME的人（就是身边的，不算上沙雕群友们）就只有4个人，而且WARFRAME刚好也是一个队伍最多4个人（这里我就要吐槽了，为什么不能像土命一样一个队伍6个人，这样更快乐，即使有5人小队BUG，但是不如土命2快乐），我们就相约第二天九点上线动工。
 
@@ -245,7 +245,7 @@ Kiki&ChooChoo同时跳（这都是因为两人的相遇，What a coincidence!）
 
 喜欢我的视频，请长按点赞键支持我哦\~虽然我只是一只比白咕咕还要会咕咕咕的鸽子\~
 
-![白咕咕](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/Diary/Gugugu.jpg)
+![白咕咕](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Diary/Gugugu.jpg)
 
 2020.1.22
 
