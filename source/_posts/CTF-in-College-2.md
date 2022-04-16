@@ -173,3 +173,23 @@ void loop()
 
 - FTP协议写法：`ftp://<username>:<password>@<address>:<port>`，可以通过这种方式将用户名和命令写入而无需弹出验证窗口
 
+### CobaltStrike用法
+
+首先需要打开Teamserver
+
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-2/管理员__获取管理员权限 - 20220416-164025.png)
+
+然后再打开CS，连接Teamserver
+
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-2/Connect - 20220416-164031.png)
+
+接着就会弹出主界面
+
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-2/Cobalt_Strike - 20220416-164039.png)
+
+然后我们生成一个木马程序，这个程序运行后就会在主界面显示肉鸡，可以进行远程操作等操作
+
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-2/Windows_Executable - 20220416-164049.png)
+
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-2/Choose_a_payload_to_stage - 20220416-164045.png)
+
