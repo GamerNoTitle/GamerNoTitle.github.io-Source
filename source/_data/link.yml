@@ -248,21 +248,21 @@ class3:
       link: https://blog.hclonely.com/
       avatar: https://blog.hclonely.com/img/avatar.jpg
       descr: 一个懒人的博客
-    6:
-      name: 火喵酱
-      link: https://dorcandy.cn
-      avatar: https://cat.dorcandy.cn/logo
-      descr: 一喵一世界
-    7:
-      name: Ruby の いえ
-      link: https://wangzhongqing.xyz/
-      avatar: https://cdn.jsdelivr.net/gh/Amethyst-Ruby/myCDN/img/login.png
-      descr: Ruby 的随心记~
-    8:
-      name: i-info
-      link: https://iinfo.cc
-      avatar: https://www.i-info.xyz/wp-content/uploads/2020/01/1square.png
-      descr: To Be Simple and Professional
+    # 6:
+    #   name: 火喵酱
+    #   link: https://dorcandy.cn
+    #   avatar: https://cat.dorcandy.cn/logo
+    #   descr: 一喵一世界
+    # 7:
+      # name: Ruby の いえ
+      # link: https://wangzhongqing.xyz/
+      # avatar: https://cdn.jsdelivr.net/gh/Amethyst-Ruby/myCDN/img/login.png
+      # descr: Ruby 的随心记~
+    # 8:
+    #   name: i-info
+    #   link: https://iinfo.cc
+    #   avatar: https://www.i-info.xyz/wp-content/uploads/2020/01/1square.png
+    #   descr: To Be Simple and Professional
     # 9:
     #   name: F4n9X
     #   link: https://fanqxu.github.io/
@@ -323,11 +323,11 @@ class3:
       link: https://hkjjsgdd.gitee.io/blog/
       avatar: https://i.loli.net/2020/05/03/TmeYGBZy1dxOgfh.png
       descr: 人生苦短，生命渺若尘埃。
-    21:
-      name: 刘训灼的AI人生
-      link: https://liuxunzhuo.tech/
-      avatar: https://picreso.oss-cn-beijing.aliyuncs.com/avatar.jpeg
-      descr: 分享 Machine Learning、Deep Learning、NLP相关内容
+    # 21:
+    #   name: 刘训灼的AI人生
+    #   link: https://liuxunzhuo.tech/
+    #   avatar: https://picreso.oss-cn-beijing.aliyuncs.com/avatar.jpeg
+    #   descr: 分享 Machine Learning、Deep Learning、NLP相关内容
     22:
       name: 惑
       link: https://huohuohuohuohuohuo.github.io/
@@ -373,11 +373,11 @@ class3:
     #   link: https://www.0x002.com/
     #   avatar: https://p.pstatp.com/origin/ff850000903c9c0b30d2
     #   descr: Just A Websafe Lover.
-    31:
-      name: 黑白蓝的Blog
-      link: https://zhouyunfei.club
-      avatar: https://img-blog.csdnimg.cn/2020043009205871.jpg
-      descr: 严于律己，宽以待人。
+    # 31:
+      # name: 黑白蓝的Blog
+      # link: https://zhouyunfei.club
+      # avatar: https://img-blog.csdnimg.cn/2020043009205871.jpg
+      # descr: 严于律己，宽以待人。
     32:
       name: Uncleacc
       link: http://www.fezhu.top
@@ -393,16 +393,16 @@ class3:
     #   link: https://www.hongmaple.xyz
     #   avatar: https://www.hongmaple.xyz/img/avatar.png
     #   descr: 一个菜得不能再菜的程序员，做了些电商网站，erp等
-    35:
-      name: 回响小站
-      link: https://ardor.one
-      avatar: https://i.loli.net/2020/04/24/pADyi12KEcV7Yb4.png
-      descr: Pr-Ac-Ti-Ce
-    36:
-      name: 四次元科技
-      link: https://yojigen.tech/
-      avatar: https://www.yojigen.tech/images/avatar.jpg
-      descr: 有关二次元、三次元、科技以及一切
+    # 35:
+    #   name: 回响小站
+    #   link: https://ardor.one
+    #   avatar: https://i.loli.net/2020/04/24/pADyi12KEcV7Yb4.png
+    #   descr: Pr-Ac-Ti-Ce
+    # 36:
+    #   name: 四次元科技
+    #   link: https://yojigen.tech/
+    #   avatar: https://www.yojigen.tech/images/avatar.jpg
+    #   descr: 有关二次元、三次元、科技以及一切
     37:
       name: 我本纯真的小破站
       link: https://wbczblog.postach.io/
@@ -423,11 +423,11 @@ class3:
       link: https://www.impdx.vip/
       avatar: https://www.impdx.vip/img/avatar.png
       descr: 越学习，越发现自己的无知——笛卡尔
-    41:
-      name: Zyue
-      link: https://lyuan.co/
-      avatar: https://lyuan.co/img/avatar.jpg
-      descr: 折月煮酒，落梅成诗
+    # 41:
+    #   name: Zyue
+    #   link: https://lyuan.co/
+    #   avatar: https://lyuan.co/img/avatar.jpg
+    #   descr: 折月煮酒，落梅成诗
     42:
       name: 初辰の博客
       link: https://chuchendjs.github.io
@@ -438,11 +438,11 @@ class3:
     #   link: https://blog.ninglans.top
     #   avatar: https://cdn.jsdelivr.net/gh/konghuaiqing/img-cdn@master/img/20200425212350.png
     #   descr: 咕咕咕~咕咕咕~我是咕咕小行家~
-    44:
-      name: 北方の柿子
-      link: https://bfsz.pub
-      avatar: https://wx2.sbimg.cn/2020/06/22/61f01c309c2e21665cdb993dafa63e6e.th.jpg
-      descr: 享受学习，享受生活，早日上岸！
+    # 44:
+    #   name: 北方の柿子
+    #   link: https://bfsz.pub
+    #   avatar: https://wx2.sbimg.cn/2020/06/22/61f01c309c2e21665cdb993dafa63e6e.th.jpg
+    #   descr: 享受学习，享受生活，早日上岸！
     45:
       name: Lete乐特
       link: https://www.lete114.top/
@@ -458,11 +458,11 @@ class3:
       link: https://nanzx.top
       descr: 百学须先立志
       avatar: https://cdn.jsdelivr.net/gh/839777408/tupian/img/head.jpg
-    48:
-      name: I Am I
-      link: https://5ime.cn
-      avatar: https://cdn.jsdelivr.net/gh/5ime/img/avatar.jpg
-      descr: 永远相信美好的事情即将发生
+    # 48:
+    #   name: I Am I
+    #   link: https://5ime.cn
+    #   avatar: https://cdn.jsdelivr.net/gh/5ime/img/avatar.jpg
+    #   descr: 永远相信美好的事情即将发生
     49:
       name: 萌茶屋
       link: https://cha.moe
@@ -515,16 +515,16 @@ class3:
       link: https://idc.moe
       avatar: https://idc.moe/idcmoe.png
       descr: 
-    59:
-      name: Radiumの小站
-      link: https://www.radiumbit.tk
-      avatar: https://cdn.jsdelivr.net/gh/radium-bit/res@latest/avatar.webp
-      descr: Always believe that good things are about to happen.
-    60:
-      name: HI,Shinnosuke
-      link: https://pckxin.pro
-      avatar: https://cdn.jsdelivr.net/gh/PCKxin/pckxin.pro@2.0/img/Avatar.jpg
-      descr: Leave the past behind,set for another day
+    # 59:
+    #   name: Radiumの小站
+    #   link: https://www.radiumbit.tk
+    #   avatar: https://cdn.jsdelivr.net/gh/radium-bit/res@latest/avatar.webp
+    #   descr: Always believe that good things are about to happen.
+    # 60:
+    #   name: HI,Shinnosuke
+    #   link: https://pckxin.pro
+    #   avatar: https://cdn.jsdelivr.net/gh/PCKxin/pckxin.pro@2.0/img/Avatar.jpg
+    #   descr: Leave the past behind,set for another day
     61:
       name: 小冰博客
       link: https://zfe.one
@@ -540,11 +540,11 @@ class3:
     #   link: http://fantanstic.top
     #   avatar: http://fantanstic.top/wp-content/uploads/2021/02/IMG_20201116_215237.jpg
     #   descr: Never Settle
-    64:
-      name: JeckXu
-      link: https://jeckxu.cn/
-      avatar: https://jeckxu.cn/img/jeckxu_img.png
-      descr: 嵌入式技术记录与分享
+    # 64:
+    #   name: JeckXu
+    #   link: https://jeckxu.cn/
+    #   avatar: https://jeckxu.cn/img/jeckxu_img.png
+    #   descr: 嵌入式技术记录与分享
     65:
       name: gd1214b’s blog
       link: https://blog.gd1214b.icu/
@@ -575,16 +575,16 @@ class3:
       link: https://www.yuzhang.wang
       descr: 两岸猿声啼不住 轻舟已过万重山
       avatar: https://cdn.jsdelivr.net/gh/YuZhangWang/Creative_pictures01@main/img/20210907012640.png
-    71:
-      name: GoogTech
-      link: https://goog.tech
-      avatar: https://avatars.githubusercontent.com/u/43493852?v=4
-      descr: Developer, hacker, blogger, guitarist, marathoner and vlogger.
-    72:
-      name: Plaudern’s的跑路小站
-      descr: 今天跑路了么，还没有哦。
-      link: https://plaudern.net
-      avatar: https://s.gravatar.com/avatar/f6dc79785e7e3c16074b21bb9f0bb671?s=80
+    # 71:
+    #   name: GoogTech
+    #   link: https://goog.tech
+    #   avatar: https://avatars.githubusercontent.com/u/43493852?v=4
+    #   descr: Developer, hacker, blogger, guitarist, marathoner and vlogger.
+    # 72:
+    #   name: Plaudern’s的跑路小站
+    #   descr: 今天跑路了么，还没有哦。
+    #   link: https://plaudern.net
+    #   avatar: https://s.gravatar.com/avatar/f6dc79785e7e3c16074b21bb9f0bb671?s=80
     # 73:
     #   name: Py’s Whisper
     #   link: https://whisper.pyliubaolin.top/
@@ -633,15 +633,15 @@ class4:
       avatar: https://cdn.jsdelivr.net/gh/soulxyz/soulxyz.github.io@1.0/statics/img/head.png
       descr: 不要让时代的悲哀 成为你的悲哀
 
-class5:
-  class_name: FEM 阵亡名单
-  class_desc: 怎么Server Down了呢？赶紧回来吧，我好想你们呀 ヽ(。>д<)ｐ
-  link_list:
-    1:
-      name: （暂无）
-      link: /
-      avatar: /
-      descr: （暂无，大家都有好好地维护自己的网页呢！）
+# class5:
+#   class_name: FEM 阵亡名单
+#   class_desc: 怎么Server Down了呢？赶紧回来吧，我好想你们呀 ヽ(。>д<)ｐ
+#   link_list:
+#     1:
+#       name: （暂无）
+#       link: /
+#       avatar: /
+#       descr: （暂无，大家都有好好地维护自己的网页呢！）
     # 3:
     #   name: Forex Trading
     #   link: https://www.fi-forex.com
@@ -685,7 +685,7 @@ class5:
 
 
 class6:
-  class_name: LIU 特别链接
+  class_name: FEM 特别链接
   class_desc: 特别的东西，特别的链接(*❦ω❦)
   link_list:
     1:
