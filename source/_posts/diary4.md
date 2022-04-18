@@ -3,13 +3,13 @@ title: 日常吐槽04
 date: 2020-02-06 20:00:00
 tags: diary
 categories: diary
-cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Diary/04/cover.jpg
+cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Diary/04/cover.jpg
 sage: false
 ---
 
 最近甚是无聊，因为做完了作业又不能出门（这都要从一只蝙蝠说起……），天天在家里打命(tu)运(ming)2，在家里躺着都算给国家做贡献……也没干什么技术活，就还是来吐槽一下吧
 
-<img src="https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Diary/04/origin.jpg" width="256" height="364.8"></img>
+<img src="https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Diary/04/origin.jpg" width="256" height="364.8"></img>
 
 
 
