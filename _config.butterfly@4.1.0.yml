@@ -19,9 +19,9 @@ menu:
   Home: /||fas fa-home
   Archives: /archives/||fas fa-archive
   Tags||fas fa-tags:
-    - Software || /tags/Software/ || fas fa-tags
-    - Diary || /tags/diary/ || fas fa-sticky-note
-    - Tech || /tags/Tech/ || fas fa-terminal
+    Software: /tags/Software/ || fas fa-tags
+    Diary: /tags/diary/ || fas fa-sticky-note
+    Tech: /tags/Tech/ || fas fa-terminal
   #Tags: /tags/||fa fa-tags
   #Categories: /categories/||fa fa-folder-open
   # Github: https://github.com/GamerNoTitle/||fa fa-github
@@ -30,11 +30,11 @@ menu:
   #RSS: /atom.xml||fa fa-rss
   #Donate: /Donate/||fa fa-credit-card-alt
   Entertainment||fa fa-gamepad:
-    - Bangumi || /bangumis/ || fab fa-youtube
-    - Steam || /steamgames/ || fab fa-steam
-    - Gallery || /Gallery/ || fas fa-image
-    - Music || /Music/ || fas fa-music
-    - Dynamics || /Dynamics/ || fas fa-comment-dots
+    Bangumi: /bangumis/ || fab fa-youtube
+    Steam: /steamgames/ || fab fa-steam
+    Gallery: /Gallery/ || fas fa-image
+    Music: /Music/ || fas fa-music
+    Dynamics: /Dynamics/ || fas fa-comment-dots
   #  - Comment || /comment/ || fa-pencil-square-o
   #Bangumi: /bangumis/||fa fa-youtube-play
   Link: /link/||fas fa-link
