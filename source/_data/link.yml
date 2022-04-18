@@ -209,10 +209,10 @@ class2:
       avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/leancloud.png
       descr: 评论系统的后端，用的国际版
     6:
-      name: jsDelivr
-      link: https://www.jsdelivr.com/
-      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/jsdelivr.png
-      descr: 图片CDN服务提供商
+      name: Railway
+      link: https://railway.app?referralCode=U8coe_
+      avatar: https://railway.app/favicon-96x96.png
+      descr: 实例部署服务，API就部署在这里
 
 class3:
   class_name: TROIS 友人帐
