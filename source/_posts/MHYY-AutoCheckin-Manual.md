@@ -64,6 +64,10 @@ cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Gens
 
 ![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Github/MHYY-AutoCheckin/msedge-20220419-194812.png)
 
+### 自动保活
+
+因为Github在仓库没有push三个月后会停用仓库的一切Action，所以说我们需要进行保活。在Action页面启用`KeppActionAlive`即可！脚本会在每个月的1号自动推送更新从而达到保活的目的。
+
 ### 配置内容获取
 
 因为云原神是在手机上运行的，所以你需要安装一个手机上的抓包软件（例如HttpCanary，或者如果你能够用fiddler电脑运行去抓也行）
