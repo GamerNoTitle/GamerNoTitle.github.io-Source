@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
 然后我们直接运行命令`python <file>.py`就可以运行我们的服务器了（Linux请使用`python3 <file>.py`，下面不再赘述，只讲Windows，Linux用户请自行替换）
 
-![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/API-FLASK/app.py_-_Flask-Demo_-_Visual_Studio_Code - 20220419-105913.png?download=true)
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/API-FLASK/app.py_-_Flask-Demo_-_Visual_Studio_Code%20-%2020220419-105913.png?download=true)
 
 然后我们在浏览器访问我们的网站，在这里可以使用`127.0.0.1:8080`访问，因为服务器就是部署在本机器上面的，打开后就会显示Hello World了
 
