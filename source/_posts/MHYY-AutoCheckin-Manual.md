@@ -96,6 +96,15 @@ cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Gens
 }
 ```
 
+对于`token`（应该说写作`token`念作`cookie`）由以下几部分组成：
+
+- `ai` 一个数值，具体含义未知
+- `ci` 一个数值，具体含义未知
+- `oi` 一个数值，推测是米游社ID
+- `ct` 一串字符，具体作用未知，推测为认证使用
+- `si` 一串字符，具体作用未知，推测为认证使用
+- `bi` 一串字符，具体作用未知，推测为服务器通道
+
 只要把对应的内容填到配置中即可！
 
 ### Q&A
