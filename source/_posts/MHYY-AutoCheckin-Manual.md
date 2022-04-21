@@ -14,6 +14,8 @@ cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Gens
 
 ### 快速开始
 
+#### Github Action 版本
+
 首先你需要先打开本脚本的仓库[ElainaMoe/MHYY-AutoCheckin: 米哈云游（云原神）自动签到脚本，让你每天都拿到15分钟~ (github.com)](https://github.com/ElainaMoe/MHYY-AutoCheckin)，点击右上角的fork按钮，接着点击下面绿色的`Create fork`来创建一个分支
 
 ![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Github/MHYY-AutoCheckin/msedge-20220419-190358.png?download=true)
@@ -40,7 +42,44 @@ cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Gens
 }
 ```
 
-#### 配置解释（[配置内容获取](#配置内容获取)）
+### [腾讯云函数版本](https://cloud.tencent.com/act/cps/redirect?redirect=10232&cps_key=e6bd1a9d73067a5a66bb5c8e2a9e288c)
+
+首先你得先下载本仓库的代码文件，点击右上角绿色的`Code`，然后点击`Download ZIP`，把压缩包下载后解压到一个你知道的地方，我们一会会用到
+
+先打开[腾讯云函数](https://cloud.tencent.com/act/cps/redirect?redirect=10232&cps_key=e6bd1a9d73067a5a66bb5c8e2a9e288c)，点左边的函数服务，然后顶上选择地区，随便选（但是最好是国内）
+
+点击新建来建立一个新的函数
+
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Github/MHYY-AutoCheckin/msedge-20220421-170743.png)
+
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Github/MHYY-AutoCheckin/msedge-20220421-170829.png)
+
+函数的名称可以随便填，但是你也得符合腾讯云指定的规则；但是运行环境**一定一定**要选择**Python 3.6**（因为Python 3.7不带我们需要的环境，还需要自己装非常麻烦）
+
+接着往下，提交方法选择`本地上传文件夹`，然后选择你刚刚解压的文件夹里面的`SCF`文件夹，接着重点来啦：执行方法里面填写为`index.handler`（一定要改）
+
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Github/MHYY-AutoCheckin/msedge-20220421-170913.png)
+
+接着点击下面的触发器配置，选择`自定义创建`，触发方式选择`定时触发`，触发周期选择`每1天`，下面的`启用`要打勾，点击完成
+
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Github/MHYY-AutoCheckin/msedge-20220421-170929.png)
+
+创建完成后进入配置界面，先点击顶上的`函数配置`，点击`编辑`，往下面拉找到`初始化超时时间`和`执行超时时间`，把这两个数字往高了调
+
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Github/MHYY-AutoCheckin/msedge-20220421-171310.png)
+
+然后点击顶上的`函数代码`，等底下加载完后点击`config.json`，把你的信息填进去
+
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Github/MHYY-AutoCheckin/msedge-20220421-171008.png)
+
+往下拉，先点击`部署`，然后点`测试`，只要测试成功了就是部署完成了
+
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Github/MHYY-AutoCheckin/msedge-20220421-171039.png)
+
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Github/MHYY-AutoCheckin/msedge-20220421-171404.png)
+
+
+### 配置解释（[配置内容获取](#配置内容获取)）
 
 - `token` 是在云原神登录后用于验证的token
 - `type` （应该）是设备类型，安卓好像是`2`，iOS不清楚（手上没有iOS设备）
