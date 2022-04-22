@@ -46,7 +46,7 @@ cover: https://github-do.panbaidu.cn/https://raw.githubusercontent.com/yujinchen
 
 当然，如果你不是高玩，你也可以下载已经把模块集成在主程序的B站，官方下载地址是这个 -> https://wwe.lanzoux.com/b015ll4sb 2333
 
-我自己打包的是这个 -> 
+我自己打包的是这个 -> [[Lspatch] [Roaming-1.6.2] 哔哩哔哩 6.69.0](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/files/biliRoaming/%5BLspatch%5D%20%5BRoaming-1.6.2%5D%20%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%206.69.0.apk?download=true) [[Lspatch] [Roaming-1.6.2] 哔哩哔哩HD 1.17.0](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/files/biliRoaming/%5BLspatch%5D%20%5BRoaming-1.6.2%5D%20%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9HD%201.17.0.apk?download=true)
 
 安装完成后，在设置中找到`哔哩漫游设置`，并按照我这样设置（解析服务器自己填，这里拿HD来做例子）
 
