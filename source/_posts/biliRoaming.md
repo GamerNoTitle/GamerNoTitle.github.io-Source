@@ -70,7 +70,7 @@ cover: https://github-do.panbaidu.cn/https://raw.githubusercontent.com/yujinchen
 
 ### 自建解析服务器
 
-我只在这里放出PHP版本的代码，我使用[阿里云的云函数](https://www.aliyun.com/product/fc?userCode=05u8nbft&share_source=copy_link)创建的，因为这种东西还是少人知道比较好我就不放出来我的服务器和搭建方法了，具体方法自行摸索
+我只在这里放出PHP版本的代码，我使用[阿里云的云函数](https://www.aliyun.com/product/fc?userCode=05u8nbft&share_source=copy_link)创建的，因为这种东西还是少人知道比较好我就不放出来我的服务器和搭建方法了，具体方法自行摸索（这个版本没有在线黑名单，要分享的时候请谨慎！其他的版本在官方的wiki有）
 
 ```php
 <?php
