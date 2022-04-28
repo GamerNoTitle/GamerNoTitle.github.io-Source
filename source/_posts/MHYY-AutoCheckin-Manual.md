@@ -87,10 +87,10 @@ cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Gens
 - `type` （应该）是设备类型，安卓好像是`2`，iOS不清楚（手上没有iOS设备）
 - `version` 是云原神的版本
 - `android` 安卓版本，例如我的红米K40的安卓版本是Android 12，就填入`12`，应该是只有Android有，因为手上只有Android设备，如果你愿意用iOS设备进行测试的话，请将相关内容发邮件到[GamerNoTitle@outlook.com](mailto:GamerNoTitle@outlook.com)
-- `deviceid` 设备在米哈游注册的id
+- `deviceid` 设备在米哈游注册的id（格式为UUID）
 - `devicename` 设备的名称
 - `devicemodel` 设备的型号
-- `appid` **暂时不清楚**
+- `appid` **暂时不清楚**，从我目前手上各用户提交的统计信息来看（其实也就5条），好像是`云原神`这个应用在米哈游的应用id
 - `analytics` 因为关于这个东西的信息太少，所以会把除了`token`以外的东西发送到我的云端服务器以便于分析，如果你不想分享你的信息（包括设备id、设备名称、设备型号等），请将这个设置为`false`
 
 配置完成后，我们点开顶上的Actions，然后点绿色的那个按钮
