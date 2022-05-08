@@ -364,7 +364,7 @@ valine:
   bg: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Settings/Valine-BG.jpg # valine background
   count: true # top_img顯示評論數
   option:
-    emojiCDN: https://gamernotitle.coding.net/p/ValineCDN/d/ValineCDN/git/raw/master/ # emoji CDN
+    emojiCDN: https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN/ # https://gamernotitle.coding.net/p/ValineCDN/d/ValineCDN/git/raw/master/ # emoji CDN
     placeholder: |
       📌昵称可以填写QQ号来自动补全QQ信息啦~
       👨‍🔧本站已启用Akismet反垃圾评论~
