@@ -146,7 +146,7 @@ cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Gens
 - `si` 一串字符，具体作用未知，推测为认证使用
 - `bi` 一串字符，具体作用未知，推测为服务器通道
 
-只要把对应的内容填到配置中即可！
+只要把对应的内容填到配置中即可！**对于字符串类型的内容请使用双引号而不是单引号，json不认单引号（在错误收集中发现有此类现象，故特别提出）**
 
 ### Q&A
 
