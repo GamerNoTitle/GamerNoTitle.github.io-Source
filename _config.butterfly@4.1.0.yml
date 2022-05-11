@@ -780,9 +780,9 @@ aside:
     enable: true
     content: |
       因为某些不可抗力，改为随缘更新<br>
-      <img src='https://github-readme-stats.vercel.app/api?username=GamerNoTitle&show_icons=true&title_color=FFFFFF&icon_color=FFFFFF&text_color=FFFFFF&bg_color=8e8cd8'><br>
-      <img src='https://genshin-card.getloli.com/rand/20700517.png'><br>
-      <img src='https://cdn.jsdelivr.net/gh/ElainaMoe/netease-cloud-music-card/card.svg'><br>
+      <img src='https://github-readme-stats.vercel.app/api?username=GamerNoTitle&show_icons=true&title_color=FFFFFF&icon_color=FFFFFF&text_color=FFFFFF&bg_color=8e8cd8' width=250px><br>
+      <img src='https://genshin-card.getloli.com/rand/20700517.png' width=250px><br>
+      <img src='https://cdn.jsdelivr.net/gh/ElainaMoe/netease-cloud-music-card/card.svg' width=250px><br>
     # <div class="social-button">
     # <a class="button--animated" href="https://jq.qq.com/?_wv=1027&k=KU9105XR" target="_blank">QQ 1 群 👍</a>  # 按钮链接可以这样写
     # </div>
