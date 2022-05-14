@@ -3,7 +3,7 @@ title: hexo-theme-butterfly主题美化小笔记
 date: 2020-03-19 17:51:19
 tags: Tech
 categories: Tech
-cover: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@butterfly-customize-cover/img/butterfly-customize/cover.png
+cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@butterfly-customize-cover/img/butterfly-customize/cover.png
 sage: false
 ---
 
@@ -39,7 +39,7 @@ sage: false
 
 关于友链界面，我加入了很多内容，如``A Few Requirements``和下面的``PS``就是我加入的。
 
-![更多的内容](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@butterfly-customize/img/butterfly-customize/Link-text.png)
+![更多的内容](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@butterfly-customize/img/butterfly-customize/Link-text.png)
 
 之前闲着没事翻了一下主题的``layout``文件夹，里面的文件都已经命好名了，所以说一看我就知道哪个文件对应哪个部分，而我需要修改的就是``flink.pug``这个文件
 
@@ -135,7 +135,7 @@ PS: PS：本文所有的数字表示方式来自Mili - world.execute(me); # PS�
 
 效果就像图片里面的那样
 
-![小字效果图](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@butterfly-customize/img/butterfly-customize/Link-Class-Descr.png)
+![小字效果图](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@butterfly-customize/img/butterfly-customize/Link-Class-Descr.png)
 
 其实这个也很简单，跟上面一样还是要动``flink.pug``文件，在最顶上那一块代码中加入一行，将所需的字典名字命名为``class_descr``，加入后的代码如下
 
@@ -178,7 +178,7 @@ class2:
 
 这个部件最开始是在[@火喵](https://diary.dorcandy.cn/)的博客看到的，然后就发了邮件问了一下是怎么实现的
 
-![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@butterfly-customize/img/butterfly-customize/Mail.png)
+![](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@butterfly-customize/img/butterfly-customize/Mail.png)
 
 感谢[@火喵](https://dorcandy.cn/)提供的思路~！
 
@@ -186,8 +186,8 @@ class2:
 
 ```html
 <head>  
-<link rel="stylesheet" href="https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@gitalk-css/css/gitalk-dorcandy.css">	<!-- 导入自己修改过后的css文件，参照了火喵的 -->
-<script src="https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@gitalk/js/gitalk.min.js"></script>	<!-- 导入自己修改后的js文件，主要修改了显示的字 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@gitalk-css/css/gitalk-dorcandy.css">	<!-- 导入自己修改过后的css文件，参照了火喵的 -->
+<script src="https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@gitalk/js/gitalk.min.js"></script>	<!-- 导入自己修改后的js文件，主要修改了显示的字 -->
 </head>
 <body>
 <div id="gitalk-container"></div>
@@ -223,7 +223,7 @@ class2:
 
 在这里面，span应该是显示的字（如图红框处）
 
-![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@butterfly-customize/img/butterfly-customize/Announcement.png)
+![](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@butterfly-customize/img/butterfly-customize/Announcement.png)
 
 但是我加入的字不在语言配置文件中有，所以直接修改成
 
@@ -277,7 +277,7 @@ aside:
 
 当然你要是在上面不要if判断，直接加入，那你就不需要在配置文件中加入开关了
 
-![Dynamics小部件](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@butterfly-customize/img/butterfly-customize/dynamics-card.png)
+![Dynamics小部件](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@butterfly-customize/img/butterfly-customize/dynamics-card.png)
 
 {% note info %}
 
@@ -289,9 +289,9 @@ aside:
 
 为什么加这个效果呢？我一开始加是[2020.4.4](https://mp.weixin.qq.com/s/S0-s4V1Gg443a-vyMmaOKA)为了纪念为抗争新冠肺炎而牺牲的各位烈士们，所以加了全局的黑白效果。先放两张图给你们看看加入后的效果
 
-![黑白首页](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@blackandwhite/img/butterfly-customize/blackandwhite-home.png)
+![黑白首页](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@blackandwhite/img/butterfly-customize/blackandwhite-home.png)
 
-![黑白友链](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@blackandwhite/img/butterfly-customize/blackandwhite-link.png)
+![黑白友链](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@blackandwhite/img/butterfly-customize/blackandwhite-link.png)
 
 就是像这样的全局黑白效果，加起来其实也不难，一开始[@yuleng](https://yuleng.top)给我分享了全局黑白的html代码，告诉我要加就加载header或者是body里面（下面先放html代码）
 
@@ -348,7 +348,7 @@ blackandwhite: true
 
 这样就开启了我们的黑白效果
 
-为了方便大家，我将文件放出来[blackandwhite.pug](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@blackandwhite.pug/file/blackandwhite.pug)，大家只需要将文件放在对应的位置，加上对应的配置项即可！
+为了方便大家，我将文件放出来[blackandwhite.pug](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@blackandwhite.pug/file/blackandwhite.pug)，大家只需要将文件放在对应的位置，加上对应的配置项即可！
 
 {% note info %}
 
@@ -360,7 +360,7 @@ blackandwhite: true
 
 按照群友的要求，我又来更新啦，这次我们给文章加上投票评分功能，具体的效果像下面那样（Donate按键是主题自带的，不是我加入的）
 
-![Rating UI](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@rating/img/butterfly-customize/rating-rated.png)
+![Rating UI](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@rating/img/butterfly-customize/rating-rated.png)
 
 那么废话不多说，让我们直接开始！（如果你想直接使用我做好的只需要替换id的预设文件，那你可以点击[这里](#评分预设文档使用)直接跳到文档，而不必看我是如何做的）注册一个你自己的账号，注册过程相信我不用说你也会。注册完以后，会把我们导到安装界面，我们选择最右边的Rating widget，获取我们自己的引入代码，等待下一步使用，我这里获取到的引入代码如下（为保证信息准确性，我将自己的id替换成了xxxxx）
 
@@ -456,27 +456,27 @@ rating:
 
 关于投票的设定，默认是需要社交账号登录的，但是看着这几个图标，又有几个是在国内能够使用的呢？
 
-![社交账号登录方式](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@rating/img/butterfly-customize/rating-social.png)
+![社交账号登录方式](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@rating/img/butterfly-customize/rating-social.png)
 
 我们需要更改这个设定，让其不需要社交账号登录也能够进行投票
 
 点开左上角的三条横线，选择``Rating``，然后点击里面的``Setting``，在这里面就有我们需要的设置
 
-![Rating设置](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@rating/img/butterfly-customize/rating-default-settings.png)
+![Rating设置](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@rating/img/butterfly-customize/rating-default-settings.png)
 
 我们可以看到左边的框选择的是Social，我们可以选择``IP address``或者``Cookies``的任意一个，这取决于你要怎么计算你的文章投票，如果选择IP的话，那么同公网IP下的一个人进行了投票，剩下的人就不能够投票了（会怎么点都没反应）；选择Cookie的话，可能会存在刷票的问题（因为cookie是可以清理的，但是谁这么无聊呢？）
 
 至于右边，可以选择星星的颜色，我这里选择的是淡蓝色；你还可以设置星星上限，默认是5星满分，你可以把它改成你想要的数字，而另一个输入框是设定星星的大小，取决于你自己的审美吧
 
-![最终效果图](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@rating/img/butterfly-customize/rating-result.png)
+![最终效果图](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@rating/img/butterfly-customize/rating-result.png)
 
 #### 评分预设文档使用
 
-首先你需要点击[这里](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@File-Update/file/rating.pug)下载预设文件
+首先你需要点击[这里](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@File-Update/file/rating.pug)下载预设文件
 
 在这文档里面，你需要修改的是id。如何获取id，你可以查看下面这张图片
 
-![获取自己的应用id](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@rating/img/butterfly-customize/rating-id.png)
+![获取自己的应用id](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@rating/img/butterfly-customize/rating-id.png)
 
 把文件放入``./layout/includes/addons``（若不存在则自己建立文件夹）
 
@@ -514,13 +514,13 @@ rating:
 
 与其说是实时对话，怎么感觉像客服系统？（某群友想弄然后我先给搞出来了，接着他自己在我发文前弄好了）这次使用的是[Daovoice](http://daovoice.io/)，照例我们先上一张效果图（如果想直接使用预设文档的话你可以点[这里](#新办法实时对话预设文档使用)）（注：本站未开启此功能）
 
-![按钮效果图](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-result-button.png)
+![按钮效果图](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-result-button.png)
 
-![展开效果图](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-result-chatting.png)
+![展开效果图](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-result-chatting.png)
 
 是不是很像客服系统？然而你就是可以把它玩成聊天软件，话不多说，让我们开始吧！
 
-首先我们需要在[Daovoice](http://daovoice.io/)上面注册一个账号，添加我们自己的应用。添加完了以后，daocloud会给我们一些代码，需要我们加入到head中，并使用script调用才能出现右下角的那个按钮![对话按钮](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-button.png)
+首先我们需要在[Daovoice](http://daovoice.io/)上面注册一个账号，添加我们自己的应用。添加完了以后，daocloud会给我们一些代码，需要我们加入到head中，并使用script调用才能出现右下角的那个按钮![对话按钮](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-button.png)
 #### 新办法
 {% note info %}
 这里感谢[@GarveyZhong](http://garveyzhong.gitee.io)提供的新方法思路
@@ -619,7 +619,7 @@ if theme.daovoice.enable	//- 如果你不想在butterfly.yml中加入开关，�
     include ./addons/daovoice-head.pug
 ```
 
-![在head.pug中加入代码](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-head-include.png)
+![在head.pug中加入代码](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-head-include.png)
 
 这样，head的引入就完成了
 
@@ -662,7 +662,7 @@ if theme.daovoice.enable	//- 这里同样，不需要的话可以删掉
 	include includes/addons/daovoice-anonymous.pug
 ```
 
-![在index.pug中加入代码](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-index-include.png)
+![在index.pug中加入代码](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-index-include.png)
 
 然后保存，到butterfly.yml里面在任意一个位置加入以下内容
 
@@ -677,7 +677,7 @@ daovoice:
 
 首先，你还是需要一个Daovoice账号，注册完了以后，点击下面的链接下载所需要的两个文件
 
-[Daovoice的Head预设文件](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@daovoice/file/daovoice-head.pug) | [Daovoice的调用Script](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@daovoice/file/daovoice-anonymous.pug) 
+[Daovoice的Head预设文件](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/file/daovoice-head.pug) | [Daovoice的调用Script](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/file/daovoice-anonymous.pug) 
 
 然后打开下载的``daovoice-head.pug``，在里面的第四行，把链接中的8个``x``改成你自己的应用id
 
@@ -709,7 +709,7 @@ if theme.daovoice.enable
     include ./addons/daovoice-head.pug
 ```
 
-![在head.pug中加入代码](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-head-include.png)
+![在head.pug中加入代码](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-head-include.png)
 
 保存，打开``./layout/index.pug``，在里面加入引入代码如下图
 
@@ -718,7 +718,7 @@ if theme.daovoice.enable
   include includes/addons/daovoice-anonymous.pug
 ```
 
-![在index.pug中加入代码](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-index-include.png)
+![在index.pug中加入代码](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@daovoice/img/butterfly-customize/daovoice-index-include.png)
 
 保存，打开``butterfly.yml``，在任意一行加入以下内容
 
@@ -777,10 +777,10 @@ script.
   audio: [{
   name: 'world.execute (me) ;',
   artist: 'Mili',
-  url: 'https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@world.execute(me)/audio/Mili%20-%20world.execute%20(me)%20;.mp3',
-  cover: 'https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@world.execute(me)/img/Album/Miracle Milk.jpg',
+  url: 'https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@world.execute(me)/audio/Mili%20-%20world.execute%20(me)%20;.mp3',
+  cover: 'https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@world.execute(me)/img/Album/Miracle Milk.jpg',
   theme: "#8e8cd8",
-  lrc: "https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/lrc/world.execute (me) %3B.txt"
+  lrc: "https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/lrc/world.execute (me) %3B.txt"
   }]
   });
 

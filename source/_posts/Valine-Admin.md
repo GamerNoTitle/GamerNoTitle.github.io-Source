@@ -26,11 +26,11 @@ cover: https://img.huoyanio.com/data/upload/Image/leancloud-rebrand.jpg
 
 如图，点击云引擎-设置，然后将Valine-Admin的HTTPS仓库链接贴进去，链接如下：``https://github.com/DesertsP/Valine-Admin.git``
 
-![云引擎贴入仓库地址](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Valine-Admin/img/Valine-Admin/Engine-Settings-Repo.png)
+![云引擎贴入仓库地址](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Valine-Admin/img/Valine-Admin/Engine-Settings-Repo.png)
 
 请注意，不要使用SSH链接，会因为没有权限而部署失败！
 
-![SSH链接部署失败](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Valine-Admin/img/Valine-Admin/SSH-Deploy-Failed.png)
+![SSH链接部署失败](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Valine-Admin/img/Valine-Admin/SSH-Deploy-Failed.png)
 
 部署完后，我们需要按照教程配置我们的环境变量
 
@@ -51,7 +51,7 @@ cover: https://img.huoyanio.com/data/upload/Image/leancloud-rebrand.jpg
 
 变量设置完成后，需要到下面Web主机域名框填写自己的后台管理面板的域名
 
-![管理面板域名填写](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Valine-Admin/img/Valine-Admin/Subdomain-Manage.png)
+![管理面板域名填写](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Valine-Admin/img/Valine-Admin/Subdomain-Manage.png)
 
 填写完后我们输入自己填写的域名就可以进入后台界面了，第一次进入会要求创建账户
 
@@ -63,11 +63,11 @@ cover: https://img.huoyanio.com/data/upload/Image/leancloud-rebrand.jpg
 
 登录界面应该长这样
 
-![评论后台管理面板登录](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Valine-Admin-1/img/Valine-Admin/Manager-Login.png)
+![评论后台管理面板登录](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Valine-Admin-1/img/Valine-Admin/Manager-Login.png)
 
 云引擎的其他相关配置我在这里不多说，可以去看[官方教程](https://deserts.io/valine-admin-document/)，另外，关于博主的通知邮件，我在Rainbow模板上修改了一点，效果是这样的
 
-![博主通知邮件模板](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Valine-Admin/img/Valine-Admin/Email.png)
+![博主通知邮件模板](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Valine-Admin/img/Valine-Admin/Email.png)
 
 ```html
 <div style="border-radius: 10px 10px 10px 10px;font-size:13px;    color: #555555;width: 666px;font-family:'Century Gothic','Trebuchet MS','Hiragino Sans GB',微软雅黑,'Microsoft Yahei',Tahoma,Helvetica,Arial,'SimSun',sans-serif;margin:50px auto;border:1px solid #eee;max-width:100%;background: #ffffff repeating-linear-gradient(-45deg,#fff,#fff 1.125rem,transparent 1.125rem,transparent 2.25rem);box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);"><div style="width:100%;background:#49BDAD;color:#ffffff;border-radius: 10px 10px 0 0;background-image: -moz-linear-gradient(0deg, rgb(67, 198, 184), rgb(255, 209, 244));background-image: -webkit-linear-gradient(0deg, rgb(67, 198, 184), rgb(255, 209, 244));height: 66px;"><p style="font-size:15px;word-break:break-all;padding: 23px 32px;margin:0;background-color: hsla(0,0%,100%,.4);border-radius: 10px 10px 0 0;">您的<a style="text-decoration:none;color: #ffffff;" href="${SITE_URL}"> ${SITE_NAME}</a>上有新的留言：</p></div><div style="margin:40px auto;width:90%"><p>${NICK} 给您的留言如下：</p><div style="background: #fafafa repeating-linear-gradient(-45deg,#fff,#fff 1.125rem,transparent 1.125rem,transparent 2.25rem);box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);margin:20px 0px;padding:15px;border-radius:5px;font-size:14px;color:#555555;">${COMMENT}</div><p>您可以点击<a style="text-decoration:none; color:#12addb" href="${POST_URL}#comments">查看回复的完整內容</a>，欢迎再次光临<a style="text-decoration:none; color:#12addb"                href="${SITE_URL}"> ${SITE_NAME}</a>。</p><style type="text/css">a:link{text-decoration:none}a:visited{text-decoration:none}a:hover{text-decoration:none}a:active{text-decoration:none}</style></div></div>

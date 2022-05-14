@@ -3,7 +3,7 @@ title: CSGO服务器架设指南
 date: 2020-04-05 12:48:50
 tags: Software
 categories: Software
-cover: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@CSGO/img/CSGO-Server/cover.jpg
+cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@CSGO/img/CSGO-Server/cover.jpg
 ---
 
 "GOGOGO"最近我身边的小伙伴们都拉我打CSGO，还想打内战……然后就让我架设一个社区服务器。讲真，架设社区服务器的坑挺多的，我会在文中尽量把我架设服务器的过程给叙述完整，帮助你们，同样也帮助我在我忘记的时候回想起来
@@ -98,7 +98,7 @@ $ bash steamcmd.sh
 
 然后它会进入更新状态，就像是你平常打开Steam的那个小白窗
 
-![Steam更新小白窗](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@CSGO/img/CSGO-Server/Steam-Updating.png)
+![Steam更新小白窗](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@CSGO/img/CSGO-Server/Steam-Updating.png)
 
 等它最后显示为``Steam>``并且是输入状态的时候，它就完成了更新。至此，你就完成了Steamcmd的安装
 
@@ -530,7 +530,7 @@ $ yum install libstdc++.so.6
 
 然后我们在下面的APPID里面填入``730``，备忘录按照自己喜好填，主要是用来区分不同的秘钥使用
 
-![CSGO社区服务器注册](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@CSGO/img/CSGO-Server/community-server-reg.png)
+![CSGO社区服务器注册](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@CSGO/img/CSGO-Server/community-server-reg.png)
 
 然后将获得的秘钥放入``sv_setsteamaccount``内即可，接着启动服务器，连接服务器，发现是不是可以连接了？
 

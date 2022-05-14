@@ -35,7 +35,7 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 
 ### 加入自定义表情
 
-首先，我们需要获得valine的js文件，这里直接访问Valine的CDN获取https://cdnjsdelivr.bili33.workers.dev/npm/valine/dist/Valine.min.js
+首先，我们需要获得valine的js文件，这里直接访问Valine的CDN获取https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
 
 ![Valine官方JS](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Valine-customize/Valine-js-Official.png)
 

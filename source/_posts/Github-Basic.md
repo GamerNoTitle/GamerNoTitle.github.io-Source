@@ -26,7 +26,7 @@ Github是全球最大的 ~~同性交友平台~~ 代码托管平台，在这里�
 
 当你注册完Github并登录后，Github会将你带到首页，这里有点类似很多服务器的仪表盘吧（如图）
 
-![Github主页](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Home.png)
+![Github主页](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Home.png)
 
 其中，左边一块是跟个人有关的，包括活动仓库和所在团队，活动仓库是你发过issue、PR(pull request)，点过Watch、Star、Fork的仓库，触发以上操作（上面的操作后面会说）都会将你操作的仓库添加到左边的活动仓库列表，便于你进行寻找；所在团队则是当你创建/加入一个团队并被分配到Team（队，有点类似于部门）后显示
 
@@ -44,7 +44,7 @@ Github是全球最大的 ~~同性交友平台~~ 代码托管平台，在这里�
 
 当你点击导航栏里面的头像，Github会给你弹出下面这个列表
 
-![Github个人菜单](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Nav-List.png)
+![Github个人菜单](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/Github-Nav-List.png)
 
 ①表示你登录的用户，这里我是用自己的用户登录的，所以写的是GamerNoTitle
 

@@ -3,7 +3,7 @@ title: PIXIV网页版及客户端访问恢复指南（Linux版）
 date: 2019-10-04 19:16:38
 tags: Software
 categories: Software
-cover: https://cdnjsdelivr.bili33.workers.dev/gh/moezx/cdn@3.1.6/img/other/th%20(3).jpg
+cover: https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.6/img/other/th%20(3).jpg
 keywords: 'pixiv,pixiv恢复访问,pixiv linux,pixiv ubuntu,nginx反代,樱花庄的白猫'
 ---
 

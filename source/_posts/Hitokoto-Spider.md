@@ -67,7 +67,7 @@ sage: false
 
 我看着：这玩意怎么格式这么像json呢？？？
 
-<img src="https://cdnjsdelivr.bili33.workers.dev/gh/NotFoundNEKKO/BQBTwT@1.0.0/嗯？.jpg" width="200" height="200">
+<img src="https://cdn.jsdelivr.net/gh/NotFoundNEKKO/BQBTwT@1.0.0/嗯？.jpg" width="200" height="200">
 
 直到我往下拉，发现：
 
@@ -258,7 +258,7 @@ for i in range(num):
 
 接着就会发现，运行着运行着，告诉我数组越限了？！！！
 
-<img src="https://cdnjsdelivr.bili33.workers.dev/gh/NotFoundNEKKO/BQBTwT@1.0.0/害怕.jpg" width="186" height="302">
+<img src="https://cdn.jsdelivr.net/gh/NotFoundNEKKO/BQBTwT@1.0.0/害怕.jpg" width="186" height="302">
 
 这个问题就真的很烦，因为C++是允许数组越限的，但是python不允许，会直接冷不丁给你报错，所以每次遇到这个问题我都不是很想去理它，但是不理它我的程序就运行不下去了啊！！！所以我先把检测重复这一段注释掉了，合上垃圾Lenovo，睡觉！
 
@@ -268,7 +268,7 @@ for i in range(num):
 
 今天早上上课上到11点20分，开始写代码，用一中午想把这个重复检测的功能写完……
 
-<img src="https://cdnjsdelivr.bili33.workers.dev/gh/NotFoundNEKKO/BQBTwT@1.0.0/大佬带我.jpg" width="360" height="344.5">
+<img src="https://cdn.jsdelivr.net/gh/NotFoundNEKKO/BQBTwT@1.0.0/大佬带我.jpg" width="360" height="344.5">
 
 想到昨天的数组越限就头疼，我打算放弃这个方法，不存列表了！
 
@@ -345,7 +345,7 @@ for i in range(num):
 
 emmmm，这是啥？？？
 
-<img src="https://cdnjsdelivr.bili33.workers.dev/gh/NotFoundNEKKO/BQBTwT@1.0.0/害怕崩坏限定.jpg" width="428" height="345.5">
+<img src="https://cdn.jsdelivr.net/gh/NotFoundNEKKO/BQBTwT@1.0.0/害怕崩坏限定.jpg" width="428" height="345.5">
 
 然后我又去求助万能的百度，网友们告诉我可以用len(temp)来获得数组的元素个数，然后我就把这玩意改了，终于可以运行了！！！接着问题又来了。。。
 
@@ -408,11 +408,11 @@ def read_config():
 
 这样，我使用conf = read_config()就可以获得文件中的所有内容，文件读出来的结果应该是这样的（如图）
 
-![json read](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@2020.2.17-1/img/Hitokoto-Spider/json_read.png)
+![json read](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@2020.2.17-1/img/Hitokoto-Spider/json_read.png)
 
 把程序再美化一下，运行后发现，出了BUG
 
-![from_who KeyError](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@2020.2.17/img/Hitokoto-Spider/from_who_bug.png)
+![from_who KeyError](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@2020.2.17/img/Hitokoto-Spider/from_who_bug.png)
 
 KeyError？？？WTF？？？你不是能正常读入的呢嘛？这又是个什么鬼错误……
 
@@ -442,7 +442,7 @@ if(conf["from_who"] == True):
 
 在会报KeyError错误的地方都进行这样的修改，然后进行调试
 
-![KeyError Fixed](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@2020.2.17-1/img/Hitokoto-Spider/KeyError-Fixed.png)
+![KeyError Fixed](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@2020.2.17-1/img/Hitokoto-Spider/KeyError-Fixed.png)
 
 终于可以啦！！！推送代码，项目完成！
 

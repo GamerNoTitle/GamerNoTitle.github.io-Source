@@ -3,7 +3,7 @@ title: Netease-Comment-Spider 网易云音乐热评爬虫使用手册
 date: 2020-02-17 17:35:16
 tags: Tech
 categories: Tech
-cover: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@2020.2.17-2/img/Netease-Comment-Spider/cover.png
+cover: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@2020.2.17-2/img/Netease-Comment-Spider/cover.png
 sage: false
 ---
 

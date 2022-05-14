@@ -46,7 +46,7 @@ jsDelivr是一个比较好的CDN平台，官方号称``jsDelivr – Open Source 
 
 就可以直接调用我的头像，按照官方的格式，就是
 
-``https://cdnjsdelivr.bili33.workers.dev/gh/<username>/<repo-name>@<version>/<path>``
+``https://cdn.jsdelivr.net/gh/<username>/<repo-name>@<version>/<path>``
 
 的样子，解释一下：
 
@@ -54,7 +54,7 @@ jsDelivr是一个比较好的CDN平台，官方号称``jsDelivr – Open Source 
 
 但是请注意！当你的release包大于50MB，那么jsdelivr会给你报错并且不给你提供加速服务，例如下面这条链接:
 
-[https://cdnjsdelivr.bili33.workers.dev/gh/NotFoundNEKKO/Storage@1.0/表情包/真叫人质壁分离.jpg](https://cdnjsdelivr.bili33.workers.dev/gh/NotFoundNEKKO/Storage@1.0/表情包/真叫人质壁分离.jpg)
+[https://cdn.jsdelivr.net/gh/NotFoundNEKKO/Storage@1.0/表情包/真叫人质壁分离.jpg](https://cdn.jsdelivr.net/gh/NotFoundNEKKO/Storage@1.0/表情包/真叫人质壁分离.jpg)
 
 点开就会发现提示：
 
@@ -80,7 +80,7 @@ jsDelivr是一个比较好的CDN平台，官方号称``jsDelivr – Open Source 
 
 我们还是以上面那个仓库为例子，先到仓库中的设置，打开Github Pages服务
 
-![打开Github Pages服务](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@jsdelivr-usage/img/jsdelivr-Usage/Picture-repo-Pages.png)
+![打开Github Pages服务](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@jsdelivr-usage/img/jsdelivr-Usage/Picture-repo-Pages.png)
 
 然后我们可以看到Github将我的这个仓库的page服务部署到了``https://bili33.top/Picture-repo/``这个链接
 

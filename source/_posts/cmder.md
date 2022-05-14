@@ -98,41 +98,41 @@ Powershell真香！
 
 我们首先右键我的电脑（此电脑），然后选择属性
 
-![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/This-Computer-Properties.png)
+![](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/This-Computer-Properties.png)
 
 在此电脑的属性页面中选择``高级系统设置``
 
-![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/Properties-Settings.png)
+![](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/Properties-Settings.png)
 
 在打开来的窗口选择环境变量
 
-![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/Settings-env.png)
+![](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/Settings-env.png)
 
 然后在上面的用户变量栏里面选择``path``然后点击编辑
 
-![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/env-path.png)
+![](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/env-path.png)
 
 在右侧点击``新建``，然后在框框里面先随便输入点内容（因为如果不输入直接点浏览的话会覆盖掉上面的数据）
 
-![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/path-new.png)
+![](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/path-new.png)
 
 接着选择浏览，选到你的cmder存放的目录，我这里是在``G:\cmder``，所以直接选择到这里就好了
 
-![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/select-folder.png)
+![](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/select-folder.png)
 
 点击确定，在左边的环境变量栏里面就会有刚刚选择的目录路径了
 
 接着打开``运行``，你也可以通过``Win``+``R``来打开，在里面输入cmder然后确定
 
-![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/run.png)
+![](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/run.png)
 
 如果你能正常打开cmder就说明你设置成功啦！
 
-![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/cmder.png)
+![](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/cmder.png)
 
 上面说的把cmder加入到右键菜单，在电脑左下角的Win标那里右键，选择``命令提示符（管理员）``或者``Windows Powershell（管理员）``
 
-![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/Powershell-run-as-admin.png)
+![](https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@cmder/img/cmder/Powershell-run-as-admin.png)
 
 把上面的那一串命令打进去就可以了。
 
