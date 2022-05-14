@@ -56,6 +56,6 @@ keywords: [GamerNoTitle,About,关于我]
 
 本站使用主题：[Butterfly](https://github.com/jerryc127/hexo-theme-butterfly)
 
-![](https://github-readme-stats.vercel.app/api?username=GamerNoTitle&show_icons=true&title_color=FFFFFF&icon_color=FFFFFF&text_color=FFFFFF&bg_color=8e8cd8)
+![Github Stats](https://github-readme-stats.vercel.app/api?username=GamerNoTitle&show_icons=true&title_color=FFFFFF&icon_color=FFFFFF&text_color=FFFFFF&bg_color=8e8cd8)
 
 ![Github Contribution](https://ghchart.rshah.org/8e8cd8/GamerNoTitle)

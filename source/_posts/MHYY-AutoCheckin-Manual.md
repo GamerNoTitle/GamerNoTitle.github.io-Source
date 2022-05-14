@@ -148,6 +148,13 @@ cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Gens
 
 只要把对应的内容填到配置中即可！**对于字符串类型的内容请使用双引号而不是单引号，json不认单引号（在错误收集中发现有此类现象，故特别提出）**
 
+### 注意事项
+请不定时自己上线米哈云游（云原神）来清理签到的提醒消息，不然会一直堆积着，就要点好多次了
+
+堆积的信息可以在运行结果中查看
+
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Github/MHYY-AutoCheckin/msedge-20220515-065323.png)
+
 ### Q&A
 
 #### 为什么要把信息作为统计数据发到统计服务器？
