@@ -191,7 +191,7 @@ void loop()
 
 ![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-2/Windows_Executable%20-%2020220416-164049.png)
 
-![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-2/Choose_a_payload_to_stage - 20220416-164045.png)
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-2/Choose_a_payload_to_stage%20-%2020220416-164045.png)
 
 ### 隐藏木马病毒
 
