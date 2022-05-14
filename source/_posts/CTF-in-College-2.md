@@ -193,3 +193,16 @@ void loop()
 
 ![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-2/Choose_a_payload_to_stage - 20220416-164045.png)
 
+### 隐藏木马病毒
+
+一般来说，木马下载到计算机内后，如果不隐藏很快就会被发现（这不是当然的嘛，一个不明觉厉的exe在那里谁都会感觉奇怪吧）
+
+所以在Windows下，我们可以将文件进行隐藏，使用`attrib`命令就可以做到这一点，例如
+
+```powershell
+attrib +s +h '.\Virus.exe'
+```
+
+隐藏后可以用命令行打开（直接输入`.\Virus.exe`就行了），但是在文件资源管理器里面看不到
+
+在Linux下，可以在文件的最前面加一个点（`.`），会被Linux认为是隐藏文件，就在文件管理器中看不到啦
