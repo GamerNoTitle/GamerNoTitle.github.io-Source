@@ -28,14 +28,6 @@ keywords: [GamerNoTitle,About,关于我]
 
 ##### 哔哩哔哩：请搜索GamerNoTitle或[点我~！](https://space.bilibili.com/44666814)
 
-##### Twitter：[@GamerNoTitle](https://twitter.com/GamerNoTitle)（这位仁兄终于想起了自己的Twitter ID）
-
-##### Instragram：[@GamerNoTitle](https://www.instagram.com/GamerNoTitle/)
-
-##### Facebook：[@GamerNoTitle](https://www.facebook.com/GamerNoTitle)
-
-##### YouTube Channel：[@Pesy Wu](https://www.youtube.com/channel/UCrZWI1iqrDLbwyGp7LlLW-w)
-
 ##### 其他联系方式（可以一起开黑哦！）：
 
 ###### 1、英雄联盟雷瑟守备大区搜索：喵呜初音（我是个SUP玩家）
