@@ -1004,6 +1004,7 @@ inject:
     - <link rel="stylesheet" type="text/css" href="https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/css/Valine-Emotion.css">
     - <script src="https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/js/IPblock.js"></script>
     - <script async defer data-website-id="14e2fe0c-aaff-45ad-9d71-fd8d7607d186" src="https://umami.api.ninym.top/umami.js"></script>
+    - <script async src='https://fastly.jsdelivr.net/gh/PipecraftNet/jsdelivr-auto-fallback@main/index.min.js'></script>
   bottom:
     # - <script src="xxxx"></script>
 
