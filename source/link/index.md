@@ -29,6 +29,8 @@ type: "link"
 
 #### 如果想与我交换友链，在下方留言或发邮件到admin@bili33.top即可~
 
+#### 之前与我交换过友链的同志请注意啦：本站因为之前炸过一回，好不容易找到了一份备份，但是这份备份数据不太全，所以说如果在这里没看到自己的信息麻烦留言一下我重新加上~
+
 - PS：本文大部分的数字表示方式来自[Mili - world.execute(me);](https://music.163.com/#/song?id=435278010)
 
 {% aplayer "world.execute (me) ;" "Mili" "https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/audio/Mili%20-%20world.execute%20(me)%20;.mp3" "https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Album/Miracle Milk.jpg" "lrc:https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/lrc/world.execute (me) %3B.txt"%}
