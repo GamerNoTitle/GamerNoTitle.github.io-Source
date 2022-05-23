@@ -371,6 +371,8 @@ valine:
       🚀评论和回复支持M↓
       💢发空包网站广告的给爷爬，你是一定要我BAN了你的IP嘛！！！ 
     # valine comment input placeholder(like: Please leave your footprints )
+    enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
+
 
 
 # waline - A simple comment system with backend support fork from Valine
