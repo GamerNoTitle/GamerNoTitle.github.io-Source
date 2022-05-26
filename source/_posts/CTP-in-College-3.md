@@ -7,11 +7,11 @@ categories: CTF
 
 ### CobeltStrike信息
 
-{ % note info % }
+{% note info %}
 
 官网：[Cobalt Strike | Adversary Simulation and Red Team Operations](https://www.cobaltstrike.com/)
 
-{ % endnote %}
+{% endnote %}
 
 Cobalt Strike（下面会简称为CS）是一款由java编写的全平台多方协同渗透测试框架，在3.0版本之前它基于Metasploit框架工作，在3.0后的版本以独立成一个渗透测试平台。CobaltStrike集成了端口转发、端口扫描、socket代理、提权、钓鱼、远控木马等功能。该工具几乎覆盖了APT攻击链中所需要用到的各个技术环节，且其最大的优点在于可以进行团队合作和优越的UI界面。
 
