@@ -22,6 +22,7 @@ menu:
     Software: /tags/Software/ || fas fa-tags
     Diary: /tags/diary/ || fas fa-sticky-note
     Tech: /tags/Tech/ || fas fa-terminal
+    CTF: /tags/CTF || fas fa-flag
   #Tags: /tags/||fa fa-tags
   #Categories: /categories/||fa fa-folder-open
   # Github: https://github.com/GamerNoTitle/||fa fa-github
