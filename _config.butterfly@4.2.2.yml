@@ -221,6 +221,7 @@ index_post_content:
 # anchor
 # when you scroll in post, the URL will update according to header id.
 anchor: false
+
 # Post
 # --------------------------------------
 
@@ -257,6 +258,7 @@ post_edit:
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
   url:
+
 # Related Articles
 related_post:
   enable: true
@@ -365,7 +367,7 @@ valine:
   bg: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Settings/Valine-BG.jpg # valine background
   count: true # top_img顯示評論數
   option:
-    emojiCDN: https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN/ # https://gamernotitle.coding.net/p/ValineCDN/d/ValineCDN/git/raw/master/ # emoji CDN
+    emojiCDN: https://jsdelivr.bili33.top/gh/GamerNoTitle/ValineCDN/ # https://gamernotitle.coding.net/p/ValineCDN/d/ValineCDN/git/raw/master/ # emoji CDN
     placeholder: |
       📌昵称可以填写QQ号来自动补全QQ信息啦~
       👨‍🔧本站已启用Akismet反垃圾评论~
@@ -380,12 +382,12 @@ valine:
 # https://waline.js.org/
 waline:
   serverURL: # Waline server address url
-  avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
-  emojiCDN: # emoji CDN
-  bg: /image/comment_bg.png # waline background
-  visitor: false
+    bg: /image/comment_bg.png # waline background
+  pageview: false
   option:
-
+    avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
+    emojiCDN: # emoji CDN
+    visitor: false
 
 # utterances
 # https://utteranc.es/
@@ -771,6 +773,7 @@ aside:
   button: true
   mobile: true # display on mobile
   position: right # left or right
+  archives: true
   card_author:
     enable: true
     description:
@@ -785,7 +788,7 @@ aside:
       因为某些不可抗力，改为随缘更新<br>
       <img src='https://github-readme-stats.vercel.app/api?username=GamerNoTitle&show_icons=true&title_color=FFFFFF&icon_color=FFFFFF&text_color=FFFFFF&bg_color=8e8cd8' width=250px><br>
       <img src='https://genshin-card.getloli.com/rand/20700517.png' width=250px><br>
-      <img src='https://cdn.jsdelivr.net/gh/ElainaMoe/netease-cloud-music-card/card.svg' width=250px><br>
+      <img src='https://jsdelivr.bili33.top/gh/ElainaMoe/netease-cloud-music-card/card.svg' width=250px><br>
     # <div class="social-button">
     # <a class="button--animated" href="https://jq.qq.com/?_wv=1027&k=KU9105XR" target="_blank">QQ 1 群 👍</a>  # 按钮链接可以这样写
     # </div>
@@ -959,7 +962,6 @@ pangu:
 
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
-
 lazyload:
   enable: false
   field: site # site/post
@@ -1022,7 +1024,7 @@ CDN:
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr
   # when set it to local, you need to install hexo-butterfly-extjs
-  third_party_provider: local
+  third_party_provider: unpkg
   option:
     # main_css:
     # main:
@@ -1040,7 +1042,8 @@ CDN:
     # disqusjs:
     # disqusjs_css:
     # twikoo:
-    # waline:
+    # waline_js:
+    # waline_css:
     # sharejs:
     # sharejs_css:
     # mathjax:
