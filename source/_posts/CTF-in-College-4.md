@@ -142,6 +142,8 @@ sudo aircrack-ng ./Packets/captured-01.cap -w wpa.txt
 
 下面贴出程序，你也可以通过[CTF-Scripts/WlanCrack.py at master · GamerNoTitle/CTF-Scripts (github.com)](https://github.com/GamerNoTitle/CTF-Scripts/blob/master/WlanCrack.py)获取。本程序在字典方面跟我上面的那个coding的库进行了链接，如果没有提供字典的话可以从coding库下载
 
+**需要安装的Python轮子：`requests` `tqdm` `pprint`**
+
 ```python
 import os
 import requests
