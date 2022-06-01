@@ -3,7 +3,7 @@ title: 使用Railway服务平台和message-pusher项目搭建自己的微信通�
 date: 2022-06-01 22:32:15
 tags: Tech
 categories: Tech
-cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Custom-Wechat-Pusher/msedge-20220601-223424.png?download=true
+cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Custom-Wechat-Pusher/ngkIIFFBPT.png
 ---
 
 相信大家现在在用的微信推送平台都是什么方糖QQ的server酱（[Server酱·Turbo版 (ftqq.com)](https://sct.ftqq.com/)）又或者是什么PushPlus之类的，我自己用的是server酱，但是在使用过程中发现一个问题：它每天只能推5条消息
