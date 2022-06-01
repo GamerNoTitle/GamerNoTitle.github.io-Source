@@ -12,6 +12,12 @@ cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Gens
 
 **在使用过程中如果遇到什么问题，请前往[Issues · ElainaMoe/MHYY-AutoCheckin (github.com)](https://github.com/ElainaMoe/MHYY-AutoCheckin/issues)发起新的issue来提出，不要在本页面的评论区提出问题（因为追踪性太差了）**
 
+{% note warning %}
+
+对于正在使用本脚本的用户，请注意：每次云原神更新后（一般会跟着本体大版本更新就更一次），请把自己的配置中的`version`修改为最新的云原神版本，否则可能会出现不可预料的错误；并且请及时更新脚本，在自己的仓库点击`Fetch upstream`然后点击`Merge`即可！）
+
+{% endnote %}
+
 ### 快速开始
 
 > 先点个STAR，我们马上开始我们的教程:D
