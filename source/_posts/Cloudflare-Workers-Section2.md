@@ -9,10 +9,10 @@ cover: https://www.cloudflare.com/resources/images/slt3lc6tev37/2Q8pCVxYreoikOqs
 [上篇](/2019/10/25/CloudFlare-Workers-Section1/)说道：
 我们已经成功搭建了Workers的反代服务，但是有的时候我们需要绑定自己的域名来访问该网页，那么本篇我们将来讲一讲怎么绑定自己的域名来访问workers
 我们先来到我们的域名管理界面，点开自己的任意一个域名，然后点击上面的workers
-![workers-in-domain](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Cloudflare-Workers/workers-in-domain.png)
+![workers-in-domain](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Cloudflare-Workers/workers-in-domain.png)
 在本界面中，上面的两个按钮点击Add Route
-![Workers-Panel](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Cloudflare-Workers/Workers-Panel.png)
-然后在上面填写你想要的域名（当然得是你的域名），格式如``<SubDoamin>.<Domain>/*``，下面选择你创建好的Workers配置，例如我在上面填写``g.bili33.top/*``，然后下面选择我的名字叫做"g"的Workers配置文件（用于反代Google），然后点击保存，这样就成功添加了route，当然这个时候并不是直接访问就可以访问被反代的网站，而是要进行进一步配置~
+![Workers-Panel](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Cloudflare-Workers/Workers-Panel.png)
+然后在上面填写你想要的域名（当然得是你的域名），格式如``<SubDoamin>.<Domain>/*``，下面选择你创建好的Workers配置，例如我在上面填写``g.bili33.top/*``，然后下面选择我的名字叫做"g"的Workers配置文件（用于反代Google)，然后点击保存，这样就成功添加了route，当然这个时候并不是直接访问就可以访问被反代的网站，而是要进行进一步配置~
 
 回到我们的域名DNS解析界面，添加一个CNAME记录，指向我们的Workers，在这之中，Proxy Status一定要设定为Proxied！下面照样给个例子
 
@@ -22,7 +22,7 @@ cover: https://www.cloudflare.com/resources/images/slt3lc6tev37/2Q8pCVxYreoikOqs
 
 然后添加进入DNS解析，这时候我们再访问自己的域名（在这里是[g.bili33.top](http://g.bili33.top)），然后就发现我们进入了自己反代的网站
 
-![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/Cloudflare-Workers/Result.png)
+![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Cloudflare-Workers/Result.png)
 
 当然这也有一定的缺点：
 
