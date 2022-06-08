@@ -7,8 +7,6 @@ categories: CTF
 
 **本文所用项目链接**
 
-[gloxec/CrossC2: generate CobaltStrike's cross-platform payload (github.com)](https://github.com/gloxec/CrossC2)
-
 [ba0gu0/520apkhook: 把msf生成的安卓远控附加进普通的app中，并进行加固隐藏特征。可以绕过常见的手机安全管家。 (github.com)](https://github.com/ba0gu0/520apkhook)
 
 ---
@@ -299,3 +297,183 @@ exploit -j
 我这里就可以用`session -i 1`来通过第一个端口控制模拟器，使用`screenshot`命令进行截图
 
 ![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-5/KOsQYAQc.jpeg)
+
+## MSF session 命令列表
+
+```
+Core Commands
+=============
+
+    Command                   Description
+    -------                   -----------
+    ?                         Help menu
+    background                Backgrounds the current session
+    bg                        Alias for background
+    bgkill                    Kills a background meterpreter script
+    bglist                    Lists running background scripts
+    bgrun                     Executes a meterpreter script as a background thread
+    channel                   Displays information or control active channels
+    close                     Closes a channel
+    detach                    Detach the meterpreter session (for http/https)
+    disable_unicode_encoding  Disables encoding of unicode strings
+    enable_unicode_encoding   Enables encoding of unicode strings
+    exit                      Terminate the meterpreter session
+    get_timeouts              Get the current session timeout values
+    guid                      Get the session GUID
+    help                      Help menu
+    info                      Displays information about a Post module
+    irb                       Open an interactive Ruby shell on the current session
+    load                      Load one or more meterpreter extensions
+    machine_id                Get the MSF ID of the machine attached to the session
+    pry                       Open the Pry debugger on the current session
+    quit                      Terminate the meterpreter session
+    read                      Reads data from a channel
+    resource                  Run the commands stored in a file
+    run                       Executes a meterpreter script or Post module
+    secure                    (Re)Negotiate TLV packet encryption on the session
+    sessions                  Quickly switch to another session
+    set_timeouts              Set the current session timeout values
+    sleep                     Force Meterpreter to go quiet, then re-establish session
+    transport                 Manage the transport mechanisms
+    use                       Deprecated alias for "load"
+    uuid                      Get the UUID for the current session
+    write                     Writes data to a channel
+
+
+Stdapi: File system Commands
+============================
+
+    Command       Description
+    -------       -----------
+    cat           Read the contents of a file to the screen
+    cd            Change directory
+    checksum      Retrieve the checksum of a file
+    cp            Copy source to destination
+    del           Delete the specified file
+    dir           List files (alias for ls)
+    download      Download a file or directory
+    edit          Edit a file
+    getlwd        Print local working directory
+    getwd         Print working directory
+    lcat          Read the contents of a local file to the screen
+    lcd           Change local working directory
+    lls           List local files
+    lpwd          Print local working directory
+    ls            List files
+    mkdir         Make directory
+    mv            Move source to destination
+    pwd           Print working directory
+    rm            Delete the specified file
+    rmdir         Remove directory
+    search        Search for files
+    upload        Upload a file or directory
+
+
+Stdapi: Networking Commands
+===========================
+
+    Command       Description
+    -------       -----------
+    ifconfig      Display interfaces
+    ipconfig      Display interfaces
+    portfwd       Forward a local port to a remote service
+    route         View and modify the routing table
+
+
+Stdapi: System Commands
+=======================
+
+    Command       Description
+    -------       -----------
+    execute       Execute a command
+    getenv        Get one or more environment variable values
+    getpid        Get the current process identifier
+    getuid        Get the user that the server is running as
+    localtime     Displays the target system local date and time
+    pgrep         Filter processes by name
+    ps            List running processes
+    shell         Drop into a system command shell
+    sysinfo       Gets information about the remote system, such as OS
+
+
+Stdapi: User interface Commands
+===============================
+
+    Command       Description
+    -------       -----------
+    screenshare   Watch the remote user desktop in real time
+    screenshot    Grab a screenshot of the interactive desktop
+
+
+Stdapi: Webcam Commands
+=======================
+
+    Command        Description
+    -------        -----------
+    record_mic     Record audio from the default microphone for X seconds
+    webcam_chat    Start a video chat
+    webcam_list    List webcams
+    webcam_snap    Take a snapshot from the specified webcam
+    webcam_stream  Play a video stream from the specified webcam
+
+
+Stdapi: Audio Output Commands
+=============================
+
+    Command       Description
+    -------       -----------
+    play          play a waveform audio file (.wav) on the target system
+
+
+Android Commands
+================
+
+    Command           Description
+    -------           -----------
+    activity_start    Start an Android activity from a Uri string
+    check_root        Check if device is rooted
+    dump_calllog      Get call log
+    dump_contacts     Get contacts list
+    dump_sms          Get sms messages
+    geolocate         Get current lat-long using geolocation
+    hide_app_icon     Hide the app icon from the launcher
+    interval_collect  Manage interval collection capabilities
+    send_sms          Sends SMS from target session
+    set_audio_mode    Set Ringer Mode
+    sqlite_query      Query a SQLite database from storage
+    wakelock          Enable/Disable Wakelock
+    wlan_geolocate    Get current lat-long using WLAN information
+
+
+Application Controller Commands
+===============================
+
+    Command        Description
+    -------        -----------
+    app_install    Request to install apk file
+    app_list       List installed apps in the device
+    app_run        Start Main Activty for package name
+    app_uninstall  Request to uninstall application
+
+```
+
+我自己常用的命令
+
+```
+app_list	# 列出所有的app，可以配合app_run使用
+app_run <Package>	# 运行一个APP（会在目标设备直接运行，就类似用着用着突然打开了软件）
+webcam_list	# 列出设备拥有的摄像头
+webcam_snap -i <id>	# 通过指定摄像头拍照并保存
+upload <src1> <src2> ... <dst> 	# 上传本地文件到指定位置
+app_install <path>	# 通过指定路径安装apk
+check_root	# 检查设备是否已经root
+shell		# 返回一个shell会话，如果目标已经root，可以用su提权
+dump_calllog	# 储存设备的通话记录
+dump_sms		# 储存设备的短信
+dump_contacts	# 储存设备的联系人列表
+screenshare	# 实时观看设备的屏幕
+screenshot	# 屏幕截图（出了寄生的软件后就截不到了）
+record_mic	# 录音
+portfwd		# 开放端口
+```
+
