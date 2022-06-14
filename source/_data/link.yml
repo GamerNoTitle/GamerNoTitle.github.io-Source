@@ -196,7 +196,7 @@ class2:
     3:
       name: Github
       link: https://www.github.com/
-      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/Github.webp
+      avatar: https://cdn.bilicdn.tk/gh/GamerNoTitle/Picture-repo-v1@link/img/link/Github.webp
       descr: 全球最大的代码仓库
     4:
       name: vultr
@@ -635,7 +635,7 @@ class4:
     5:
       name: Soulxyzの日常
       link: https://blog.soulxyz.top/
-      avatar: https://cdn.jsdelivr.net/gh/soulxyz/soulxyz.github.io@1.0/statics/img/head.png
+      avatar: https://cdn.bilicdn.tk/gh/soulxyz/soulxyz.github.io@1.0/statics/img/head.png
       descr: 不要让时代的悲哀 成为你的悲哀
 
 # class5:

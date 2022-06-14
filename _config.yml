@@ -120,7 +120,7 @@ plugin:
 feed:
 type: atom
 path: atom.xml
-limit: 20
+limit: 100
 
 # 哔哩哔哩追番
 bangumi:
