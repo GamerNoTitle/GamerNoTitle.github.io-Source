@@ -127,11 +127,11 @@ class:
       link: http://mcstats.bili33.top
       avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/Minecraft.png
       descr: MC服务器的状态
-    26:
-      name: Start:Dash
-      link: http://s.bili33.top
-      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/startdash.jpg
-      descr: 从这里开始！
+    # 26:
+    #   name: Start:Dash
+    #   link: http://s.bili33.top
+    #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/startdash.jpg
+    #   descr: 从这里开始！
     # 27:
     #   name: TypingCat
     #   link: https://typingcat.bili33.top/

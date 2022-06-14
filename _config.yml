@@ -102,7 +102,7 @@ sitemap:
 
 # hexo-helper-live2d
 live2d:
-  enable: true
+  enable: false
   pluginModelPath: assets/
   model:
     use: live2d-widget-model-tororo  #模板目录，在node_modules里
