@@ -1,11 +1,11 @@
 ---
-title: CTF学习笔记（大学篇）03 —— CobeltStrike 详解
+title: CTF学习笔记（大学篇）03 —— CobaltStrike 详解
 date: 2022-05-26 22:44:46
 tags: CTF
 categories: CTF
 ---
 
-### CobeltStrike信息
+### CobaltStrike信息
 
 {% note info %}
 
@@ -20,7 +20,7 @@ Cobalt Strike（下面会简称为CS）是一款由java编写的全平台多方�
 如果是官方下载的纯净版，那目录结构应该是长这样的
 
 ```
-CobeltStrike
+CobaltStrike
 │  agscript
 │  c2lint
 │  cobaltstrike
