@@ -1,5 +1,5 @@
 ---
-title: 日常吐槽9：关于我得知Github查封Action仓库的信息后我自行删除脚本的这档事
+title: 日常吐槽09：关于我得知Github查封Action仓库的信息后我自行删除脚本的这档事
 date: 2021-05-22 22:06:17
 tags: diary
 categories: diary

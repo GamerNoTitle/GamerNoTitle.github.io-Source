@@ -48,6 +48,8 @@ keywords: [GamerNoTitle,About,关于我]
 
 ###### 9、CSDN：[@GamerNoTitle](https://blog.csdn.net/qq_34018668)
 
+###### 10、VRChat：GamerNoTitle（现在还没买VR，将来会有的）
+
 #### **BOSS据点（关于本站）：**
 
 本站是搭建在Github上的一个基于hexo的网站[地址点我！](https://www.github.com/GamerNoTitle/GamerNoTitle.github.io)，经过了两周的调试才弄懂了这个网站是怎么运行的，也是挺累的，建立这个网站主要是想分享一些内容。本站的所有图片使用Github作为图床（也有用coding），所以有的时候图片加载慢并不是我的问题，是Github的问题:D（没错，就是Github的锅！）

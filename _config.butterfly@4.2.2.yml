@@ -18,16 +18,11 @@
 menu:
   Home: /||fas fa-home
   Archives: /archives/||fas fa-archive
-  Tags||fas fa-tags:
-    Software: /tags/Software/ || fas fa-tags
-    Diary: /tags/diary/ || fas fa-sticky-note
-    Tech: /tags/Tech/ || fas fa-terminal
-    CTF: /tags/CTF || fas fa-flag
-  #Tags: /tags/||fa fa-tags
-  #Categories: /categories/||fa fa-folder-open
-  # Github: https://github.com/GamerNoTitle/||fa fa-github
-  #MCSkin: http://skin.bili33.top:8080/||fa fa-cloud
-  #dev网站: http://dev.bili33.top||fa fa-globe
+  Categories||fas fa-tags:
+    Software: /categories/Software/ || fas fa-tags
+    Diary: /categories/diary/ || fas fa-sticky-note
+    Tech: /categories/Tech/ || fas fa-terminal
+    CTF: /categories/CTF || fas fa-flag
   #RSS: /atom.xml||fa fa-rss
   #Donate: /Donate/||fa fa-credit-card-alt
   Entertainment||fa fa-gamepad:
@@ -36,18 +31,8 @@ menu:
     Gallery: /Gallery/ || fas fa-image
     Music: /Music/ || fas fa-music
     Dynamics: /Dynamics/ || fas fa-comment-dots
-  #  - Comment || /comment/ || fa-pencil-square-o
-  #Bangumi: /bangumis/||fa fa-youtube-play
   Link: /link/||fas fa-link
   About: /About/||fas fa-heart
-  #About||fa fa-heart: 
-  #  - Myself || /About/ || fa fa-user
-  #  - Github || https://github.com/GamerNoTitle/ ||fa fa-github
-  #  - Anime || /bangumis/ || fa fa-youtube-play
-  #  - Steam || /steamgames/ || fa fa-steam
-    
-  # /About/||fa fa-heart
-#   #XXX: /xxx
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
@@ -68,7 +53,7 @@ copy:
   enable: true
   copyright:
     enable: true
-    limit_count: 50
+    limit_count: 200
 
 # social settings
 # formal:
@@ -117,12 +102,12 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://api.onedrive.com/v1.0/shares/s!Ameewj0EnvFunlgGqAEEhpTuKtmL/root/content
+favicon: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/AboutMe/logo-mini.png
 
 # Post info settings
 # ---------------
 avatar: 
-  img: https://api.onedrive.com/v1.0/shares/s!Ameewj0EnvFunlgGqAEEhpTuKtmL/root/content
+  img: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/AboutMe/logo-mini.png
   effect: false # 頭像會一直轉圈
 
 # Disable all banner image
@@ -785,7 +770,7 @@ aside:
   card_announcement:  # 使用<br />来换行，可以用html语法
     enable: true
     content: |
-      因为某些不可抗力，改为随缘更新<br>
+      没有啥公告，emmmm，怎么说呢，总之欢迎来到我的网站~<br>
       <img src='https://github-readme-stats.vercel.app/api?username=GamerNoTitle&show_icons=true&title_color=FFFFFF&icon_color=FFFFFF&text_color=FFFFFF&bg_color=8e8cd8' width=250px><br>
       <a href='https://enka.shinshin.moe/u/103998843'><img src='https://genshin-card.getloli.com/rand/20700517.png' width=250px></a><br>
       <img src='https://jsdelivr.bili33.top/gh/ElainaMoe/netease-cloud-music-card/card.svg' width=250px><br>
@@ -945,7 +930,7 @@ aplayerInject:
 # position 彈窗位置
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: false
+  enable: true
   position: bottom-left
   bg_light: '#49b1f5' # The background color of Toast Notification in light mode
   bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
@@ -1001,7 +986,7 @@ inject:
     - <script async defer src="https://buttons.github.io/buttons.js"></script>
     - <meta name="referrer" content="no-referrer-when-downgrade" />
     - <meta itemprop="name" content="GamerNoTitle">
-    - <meta itemprop="image" content="https://api.onedrive.com/v1.0/shares/s!Ameewj0EnvFunlgGqAEEhpTuKtmL/root/content">
+    - <meta itemprop="image" content="https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/AboutMe/logo-mini.png">
     - <meta name="description" itemprop="description" content="欢迎来到GamerNoTitle的博客~">
     - <link rel="stylesheet" type="text/css" href="https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/css/twikoo-height.css">
     - <link rel="stylesheet" type="text/css" href="https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/css/BB.css">
@@ -1009,8 +994,8 @@ inject:
     - <link rel="stylesheet" type="text/css" href="https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/css/Valine-Emotion.css">
     - <script src="https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/js/IPblock.js"></script>
     - <script src="https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/js/Redirect-to-real-site.js"></script>
-    - <script async defer data-website-id="14e2fe0c-aaff-45ad-9d71-fd8d7607d186" src="https://umami.api.ninym.top/umami.js"></script>
     - <script src='https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/js/jsdelivr-auto-fallback.min.js'></script>
+    - <script src='https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/js/CTF-illegal-warning.js'></script>
     # - <script src="https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/js/sakuraPlus.js"></script>   # 樱花飘落特效
   bottom:
     # - <script src="xxxx"></script>
