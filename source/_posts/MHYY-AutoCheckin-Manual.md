@@ -50,7 +50,7 @@ cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Gens
 }
 ```
 
-#### [腾讯云函数版本](https://cloud.tencent.com/act/cps/redirect?redirect=10232&cps_key=e6bd1a9d73067a5a66bb5c8e2a9e288c)
+#### [腾讯云函数版本](https://cloud.tencent.com/act/cps/redirect?redirect=10232&cps_key=e6bd1a9d73067a5a66bb5c8e2a9e288c)（不推荐，腾讯要收钱了）
 
 首先你得先下载本仓库的代码文件，点击右上角绿色的`Code`，然后点击`Download ZIP`，把压缩包下载后解压到一个你知道的地方，我们一会会用到
 
@@ -91,12 +91,12 @@ cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Gens
 
 - `token` 是在云原神登录后用于验证的token
 - `type` （应该）是设备类型，安卓好像是`2`，iOS不清楚（手上没有iOS设备）
-- `version` 是云原神的版本
+- `version` 是云原神的版本（每次更新以后记得改一下，不然可能会出问题）
 - `android` 安卓版本，例如我的红米K40的安卓版本是Android 12，就填入`12`，应该是只有Android有，因为手上只有Android设备，如果你愿意用iOS设备进行测试的话，请将相关内容发邮件到[GamerNoTitle@outlook.com](mailto:GamerNoTitle@outlook.com)
-- `deviceid` 设备在米哈游注册的id（格式为UUID）
+- `deviceid` 设备在米哈游注册的id（格式为UUID，例如`d76fb4b4-b898-4093-990d-c57ebb40f29b`）
 - `devicename` 设备的名称
-- `devicemodel` 设备的型号
-- `appid` **暂时不清楚**，从我目前手上各用户提交的统计信息来看（其实也就5条），好像是`云原神`这个应用在米哈游的应用id
+- `devicemodel` 设备的型号（**请注意：`deviceid` `devicename` `devicemodel` 尽量是同一台手机的内容，因为指不定那天米忽悠就对这三个东西进行校验了**，当然你要用公共的我也不阻止对吧）
+- `appid` **暂时不清楚**，从我目前手上各用户提交的统计信息来看，好像是`云原神`这个应用在米哈游的应用id（貌似不会变）
 - `analytics` 因为关于这个东西的信息太少，所以会把除了`token`以外的东西发送到我的云端服务器以便于分析，如果你不想分享你的信息（包括设备id、设备名称、设备型号等），请将这个设置为`false`
 
 配置完成后，我们点开顶上的Actions，然后点绿色的那个按钮
@@ -150,7 +150,7 @@ cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Gens
 - `oi` 一个数值，推测是米游社ID
 - `ct` 一串字符，具体作用未知，推测为认证使用
 - `si` 一串字符，具体作用未知，推测为认证使用
-- `bi` 一串字符，具体作用未知，推测为服务器通道
+- `bi` 一串字符，推测为服务器通道
 
 只要把对应的内容填到配置中即可！**对于字符串类型的内容请使用双引号而不是单引号，json不认单引号（在错误收集中发现有此类现象，故特别提出）**
 
