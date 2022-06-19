@@ -90,7 +90,7 @@ cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Gens
 ### 配置解释（[配置内容获取](#配置内容获取)）
 
 - `token` 是在云原神登录后用于验证的token
-- `type` （应该）是设备类型，安卓好像是`2`，iOS不清楚（手上没有iOS设备）
+- `type` （应该）是设备类型，安卓好像是`2`，iOS设备用户是`1`，[但是目前还不支持iOS设备，请看这里](#iOS设备用户须知)
 - `version` 是云原神的版本（每次更新以后记得改一下，不然可能会出问题）
 - `android` 安卓版本，例如我的红米K40的安卓版本是Android 12，就填入`12`，应该是只有Android有，因为手上只有Android设备，如果你愿意用iOS设备进行测试的话，请将相关内容发邮件到[GamerNoTitle@outlook.com](mailto:GamerNoTitle@outlook.com)
 - `deviceid` 设备在米哈游注册的id（格式为UUID，例如`d76fb4b4-b898-4093-990d-c57ebb40f29b`）
@@ -154,12 +154,15 @@ cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Gens
 
 只要把对应的内容填到配置中即可！**对于字符串类型的内容请使用双引号而不是单引号，json不认单引号（在错误收集中发现有此类现象，故特别提出）**
 
-### 注意事项
 请不定时自己上线米哈云游（云原神）来清理签到的提醒消息，不然会一直堆积着，就要点好多次了
 
 堆积的信息可以在运行结果中查看
 
 ![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/Github/MHYY-AutoCheckin/msedge-20220515-065323.png)
+
+### iOS设备用户须知
+
+因为米忽悠在请求头中的`cms-signature`键中写了用了`hmac-sha1`加密方法，这种加密方法需要`要加密的信息`和`密钥`，这两个东西我这边目前都不能确定（其实有`要加密的信息`就可以去猜密钥，但是目前不清楚是对什么进行了加密），而且在`CONTENT-MD5`中，还对请求的MD5进行了校验（这个好搞，主要是前面那个），最后还有一个时间`Date`的请求头（目前猜是发出请求的时间），总的来说就是不好搞，如果你手上是iOS设备，并且你愿意用iOS设备进行测试的话，请将相关内容发邮件到[GamerNoTitle@outlook.com](mailto:GamerNoTitle@outlook.com)，最好是抓到的所有包都截图发一下（我好进行判断），并且抓多几次（感谢linsmc愿意与我共享他的抓包数据，这是我第一次收到iOS设备有关信息，谢谢你的共享:D）
 
 ### Q&A
 
