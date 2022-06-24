@@ -505,11 +505,11 @@ class3:
       link: https://noionion.top/
       avatar: http://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
       descr: 用这生命中的每一秒，给自己一个不后悔的未来
-    # 57:
-    #   name: Tongyao’s Blog
-    #   link: http://blog.yaoyaoman.cn
-    #   avatar: https://www.yaoyaoman.cn/images/tx/tx.jpg
-    #   descr: 总之就是那些装x小技巧( •̀ ω •́ )✧
+    57:
+      name: Tongyao’s Blog
+      link: http://yaoyaoman.cn/blog
+      avatar: https://i.loli.net/2021/03/06/PkbGJBvaEILmQxz.png
+      descr: 总之就是那些装x小技巧( •̀ ω •́ )✧
     58:
       name: IDCMOE
       link: https://idc.moe
