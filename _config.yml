@@ -142,7 +142,7 @@ steam:
   imgUrl: 
   proxy:
     host: 127.0.0.1
-    port: 1090
+    port: 20000
 
 # 音乐播放器
 aplayer:

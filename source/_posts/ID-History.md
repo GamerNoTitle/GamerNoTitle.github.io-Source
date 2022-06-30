@@ -3,7 +3,7 @@ title: 日常吐槽10：为什么我叫做"GamerNoTitle"？
 date: 2021-08-03 17:43:28
 tags: diary
 categories: diary
-cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/ID-History/cover.jpeg
+cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/ID-History/cover.jpeg
 ---
 
 总有人问我：为啥你叫XXX呀？那么我今天就来告诉你们我的这些ID都是怎么来的

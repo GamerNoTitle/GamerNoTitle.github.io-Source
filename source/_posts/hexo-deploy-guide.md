@@ -95,7 +95,7 @@ $ npm install
 
 来安装相关的依赖库！
 
-![初始化库和安装依赖](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/hexo-deploy-guide/Powershell-runtime-install.png)
+![初始化库和安装依赖](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/hexo-deploy-guide/Powershell-runtime-install.png)
 
 #### 配置网站
 
@@ -218,11 +218,11 @@ $ hexo new "<article name>"
 
 每次部署hexo都会清除你的库并且重新部署，这意味着如果你在Github的设置中添加自定义域名（会生成CNAME文件）每次都会被清除，为了避免这种麻烦，我们可以使用在source文件夹里新建CNAME文件
 
-![CNAME文件](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/hexo-deploy-guide/CNAME-Create.png)
+![CNAME文件](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/hexo-deploy-guide/CNAME-Create.png)
 
 并且在CNAME文件中填写你的域名
 
-![CNAME](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/hexo-deploy-guide/CNAME.png)
+![CNAME](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/hexo-deploy-guide/CNAME.png)
 
 这样就可以避免每次部署都清除掉自定义域名，导致网站404了~
 
@@ -230,7 +230,7 @@ $ hexo new "<article name>"
 
 你可以在/themes/.themes name>/source中放置你的404页面，当你的网站页面不存在的时候，就会显示404页面，可以引用css文件和js文件，只要跟404页面放在同一目录即可！
 
-![404](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/hexo-deploy-guide/404.png)
+![404](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/hexo-deploy-guide/404.png)
 
 如何直接看到404呢？你可以直接在网站后面加上[/404](/404)就可以进入[404页面](/404)了~
 
@@ -307,9 +307,9 @@ sitemap:
 
 当你的网站提交到Google后，为了点击量高，我们会提交站点地图，在左边的栏目中选择站点地图，然后在上面"添加新的站点地图”中填写.Your Link>/sitemap.xml即可，Google会定期收集你的站点，并且展示在搜索结果上
 
-![Google Webmaster](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/hexo-deploy-guide/sitemap-google.png)
+![Google Webmaster](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/hexo-deploy-guide/sitemap-google.png)
 
-![Google Search Result](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/hexo-deploy-guide/sitemap-google-search.png)
+![Google Search Result](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/hexo-deploy-guide/sitemap-google-search.png)
 
 #### 添加RSS订阅
 

@@ -3,7 +3,7 @@ title: 网站优化：网站目录缩短及重定向
 date: 2021-06-14 16:26:04
 tags: Tech
 categories: Tech
-cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/301Redirect/Cover.png
+cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/301Redirect/Cover.png
 ---
 
 考完高考啦，闲的没事干，想着之前各种SEO优化服务给我发的邮件，我想说：我自己也知道我的链接太长了呀！！！
@@ -12,7 +12,7 @@ cover: https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/301R
 
 本来是想着每个都加个301跳转，这样我就可以跳转到网页了，然后新建了两个干了起来
 
-![本来的想法](https://gamernotitle.coding.net/p/assets/d/assets/git/raw/master/img/301Redirect/Thought1.png)
+![本来的想法](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/301Redirect/Thought1.png)
 
 然后看到我的一堆文章，啥呀，整整三十六篇？？？！我这得搞到什么时候
 
