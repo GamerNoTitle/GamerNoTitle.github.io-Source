@@ -164,6 +164,33 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 
 因为米忽悠在请求头中的`cms-signature`键中写了用了`hmac-sha1`加密方法，这种加密方法需要`要加密的信息`和`密钥`，这两个东西我这边目前都不能确定（其实有`要加密的信息`就可以去猜密钥，但是目前不清楚是对什么进行了加密），而且在`CONTENT-MD5`中，还对请求的MD5进行了校验（这个好搞，主要是前面那个），最后还有一个时间`Date`的请求头（目前猜是发出请求的时间），总的来说就是不好搞，如果你手上是iOS设备，并且你愿意用iOS设备进行测试的话，请将相关内容发邮件到[GamerNoTitle@outlook.com](mailto:GamerNoTitle@outlook.com)，最好是抓到的所有包都截图发一下（我好进行判断），并且抓多几次（感谢linsmc愿意与我共享他的抓包数据，这是我第一次收到iOS设备有关信息，谢谢你的共享:D）
 
+已知iOS设备抓包会包含以下内容（以log获取为例）[感谢@linsmc在QQ给我提供的完整请求]
+
+```
+Host: log-upload.mihoyo.com
+x-rpc-device_model: iPhone11,8	<表示iPhone的版本，可能会在新iPhone出来后变更，11,8表示从iPhone 11 ~ iPhone 8的设备（懒狗米忽悠）>
+Cookie: account_id=<猜测是米游社ID>; cookie_token=<认证用的Token>; ltoken=<认证用的Token+1>; ltuid=<米游社ID+1，应该跟account_id是一样的>
+User-Agent: %E4%BA%91%C2%B7%E5%8E%9F%E7%A5%9E/24 CFNetwork/1331.0.7 Darwin/21.4.0	（前面那里的URL解码后是"云·原神"）
+Referer: https://app.mihoyo.com
+x-rpc-device_name: iPhone
+cms-signature: hmac-sha1
+Content-Length: <请求长度，暂时不知道怎么算的>
+CONTENT-MD5: <MD5校验值，暂时不知道是拿什么东西算的MD5>
+Date: <时间戳值，为请求发出时间>
+x-rpc-combo_token: <格式同Android抓包得到的格式>
+x-rpc-channel: appstore
+x-rpc-app_version: <云原神版本>
+Authorization: <身份认证Key，暂时不知道会不会变>
+Accept-Language: zh-CN,zh-Hans;q=0.9
+Connection: keep-alive
+x-rpc-client_type: 1	<1表示iOS系列>
+x-rpc-device_id: <设备ID，格式为UUID5>
+Accept: */*
+Content-Type: application/json
+Accept-Encoding: gzip, deflate, br
+x-rpc-sys_version: <iOS版本>
+```
+
 ### Q&A
 
 #### 为什么要把信息作为统计数据发到统计服务器？
@@ -173,3 +200,4 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 #### 发现了bug/无法使用
 
 请前往[Issues · ElainaMoe/MHYY-AutoCheckin (github.com)](https://github.com/ElainaMoe/MHYY-AutoCheckin/issues)发起新的issue来提出，不要在本页面的评论区提出问题（因为追踪性太差了）
+
