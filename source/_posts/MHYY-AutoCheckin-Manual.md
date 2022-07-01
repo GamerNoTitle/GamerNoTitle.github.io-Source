@@ -197,6 +197,12 @@ x-rpc-sys_version: <iOS版本>
 
 因为我手头上的信息实在太少了，而且按照米忽悠的习惯，他们的数据如果没有庞大的数据量的话很难分析出一个所以然来，所以我这里需要大量的数据。如果你不想共享你的数据，请将配置中的`analytics`设置为`false`。
 
+#### SCF版本出现报错
+
+报错内容为：`wait_time = random(1, 300) # Random wait time TypeError: 'module' object is not callable`
+
+更新一下脚本就好了，在[commit](https://github.com/ElainaMoe/MHYY-AutoCheckin/commit/16650996cda2a3eca07c75993ed8b3f25540737e)`1665099`已经修好了（感谢[@Elletear](https://github.com/Elletear)发现这个问题并提交[PR#5](https://github.com/ElainaMoe/MHYY-AutoCheckin/pull/5)）
+
 #### 发现了bug/无法使用
 
 请前往[Issues · ElainaMoe/MHYY-AutoCheckin (github.com)](https://github.com/ElainaMoe/MHYY-AutoCheckin/issues)发起新的issue来提出，不要在本页面的评论区提出问题（因为追踪性太差了）
