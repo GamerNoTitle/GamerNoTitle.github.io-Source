@@ -17,7 +17,7 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/SteamAutoQueue/mse
 ## 简体中文
 
 - [变量获取](#变量获取)
-- [在Github Action运行](#在Github Action运行)
+- [在Github Action运行](#在Github%20Action运行)
 
 ### 变量获取
 
@@ -159,8 +159,8 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/SteamAutoQueue/mse
 
 ## English
 
-- [Getting variables](#Getting variables)
-- [Run on Github Action](#Run on Github Action)
+- [Getting variables](#Getting%20variables)
+- [Run on Github Action](#Run%20on%20Github%20Action)
 
 **Actually I started to do this before Summer-Sale. However that week is filled with examinations. So I just guarantee the Windows local version can be run successfully and left Linux behind. When it comes to the weekend, it was the time that Summer-Sale has began......**
 
