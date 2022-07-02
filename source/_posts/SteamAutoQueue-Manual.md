@@ -195,7 +195,7 @@ What we need is to find the content for the config below (<`name`: `Variable-Typ
         "steamMachineAuth": <steamMachineAuth76560000000000000: str>,
         "steamLoginSecure": <steamLoginSecure: str>,
         "browserid": <browserid: str>,
-        "steamID64": <Steam64位ID，就是steamMachineAuth后面的数字: str>
+        "steamID64": <Steam 64ID, you can find it behind steamMachineAuth: str>
     }
 }
 ```
