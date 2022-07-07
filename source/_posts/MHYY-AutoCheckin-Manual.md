@@ -131,7 +131,7 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 
 ```json
 {
-    "token": x-rpc-client_token,
+    "token": x-rpc-combo_token,
     "type": x-rpc-client_type,
     "version": x-rpc-app_version,
     "android": x-rpc-sys_version,
