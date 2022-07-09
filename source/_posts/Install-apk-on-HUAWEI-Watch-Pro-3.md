@@ -3,7 +3,7 @@ title: 在华为Watch Pro 3上面安装第三方应用
 date: 2022-06-01 17:34:27
 tags: Tech
 categories: Tech
-cover: http://consumer-img.huawei.com/content/dam/huawei-cbg-site/cn/mkt/plp/launch/20220428/wearables/banner-gt3-pc.jpg
+cover: https://consumer-img.huawei.com/content/dam/huawei-cbg-site/cn/mkt/plp/launch/20220428/wearables/banner-gt3-pc.jpg
 ---
 
 我身边老多人用智能手表了，OPPO Watch 2 已经见怪不怪了，这不又来了个HUAWEI Watch Pro 3手表，说请我帮他装点软件。说白了手表装软件不就adb嘛能有啥，既然结了这活，那就干吧（因为忘记拍照了，所以本文应该是全文字）

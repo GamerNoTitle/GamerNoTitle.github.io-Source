@@ -996,6 +996,7 @@ inject:
     - <script src="https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/js/Redirect-to-real-site.js"></script>
     - <script src='https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/js/jsdelivr-auto-fallback.min.js'></script>
     - <script src='https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/js/CTF-illegal-warning.js'></script>
+    - <script src='https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/js/console.js'></script>
     # - <script src="https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/js/sakuraPlus.js"></script>   # 樱花飘落特效
   bottom:
     # - <script src="xxxx"></script>
