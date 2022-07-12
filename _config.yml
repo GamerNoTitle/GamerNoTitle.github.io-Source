@@ -122,14 +122,28 @@ type: atom
 path: atom.xml
 limit: 100
 
-# 哔哩哔哩追番
-bangumi:
+bangumi: # 追番设置
   enable: true
+  source: bili
+  path:
   vmid: 44666814
   title: '追番列表'
   quote: 'TECH OTAKUS SAVE THE WORLD —— MiHoYo'
   show: 1
+  lazyload: true
   loading: 'http://bili33.top/img/bangumi-loading.gif'
+  showMyComment: true
+  pagination: false
+  metaColor:
+  color:
+  webp:
+  progress:
+  extraOrder:
+  proxy:
+    host: 
+    port: 
+  extra_options:
+    key: value
 
 # Steam游戏页面
 steam:
@@ -142,7 +156,7 @@ steam:
   imgUrl: 
   proxy:
     host: 127.0.0.1
-    port: 20000
+    port: 10809
 
 # 音乐播放器
 aplayer:
