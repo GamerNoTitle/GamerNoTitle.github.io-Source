@@ -162,9 +162,9 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 
 ### iOS设备用户须知
 
-因为米忽悠在请求头中的`cms-signature`键中写了用了`hmac-sha1`加密方法，这种加密方法需要`要加密的信息`和`密钥`，这两个东西我这边目前都不能确定（其实有`要加密的信息`就可以去猜密钥，但是目前不清楚是对什么进行了加密），而且在`CONTENT-MD5`中，还对请求的MD5进行了校验（这个好搞，主要是前面那个），最后还有一个时间`Date`的请求头（目前猜是发出请求的时间），总的来说就是不好搞，如果你手上是iOS设备，并且你愿意用iOS设备进行测试的话，请将相关内容发邮件到[GamerNoTitle@outlook.com](mailto:GamerNoTitle@outlook.com)，最好是抓到的所有包都截图发一下（我好进行判断），并且抓多几次（感谢linsmc愿意与我共享他的抓包数据，这是我第一次收到iOS设备有关信息，谢谢你的共享:D）
+因为米忽悠在请求头中的`cms-signature`键中写了用了`hmac-sha1`加密方法，这种加密方法需要`要加密的信息`和`密钥`，这两个东西我这边目前都不能确定（其实有`要加密的信息`就可以去猜密钥，但是目前不清楚是对什么进行了加密），而且在`CONTENT-MD5`中，还对请求的MD5进行了校验（这个好搞，主要是前面那个），最后还有一个时间`Date`的请求头（目前猜是发出请求的时间），总的来说就是不好搞，如果你手上是iOS设备，并且你愿意用iOS设备进行测试的话，请将相关内容发邮件到[GamerNoTitle@outlook.com](mailto:GamerNoTitle@outlook.com)，最好是抓到的所有包都截图发一下（我好进行判断），并且抓多几次（感谢多玩幻灵qwq愿意与我共享他的抓包数据，这是我第一次收到iOS设备有关信息，谢谢你的共享:D）
 
-已知iOS设备抓包会包含以下内容（以log获取为例）[感谢@linsmc在QQ给我提供的完整请求]
+已知iOS设备抓包会包含以下内容（以log获取为例）[感谢@多玩幻灵qwq在QQ给我提供的完整请求]
 
 ```
 Host: log-upload.mihoyo.com
