@@ -143,6 +143,8 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 }
 ```
 
+`version`不是必要的，在[`a4e5f06..7bd5d44` commit](https://github.com/ElainaMoe/MHYY-AutoCheckin/commit/7bd5d44e2411068e235c39879f187b67a33410dc)中，使用了米忽悠自己的api获取云原神的最新版本号，此处填写version只是作为获取不到最新版本号时的fallback值
+
 对于`token`（应该说写作`token`念作`cookie`）由以下几部分组成：
 
 - `ai` 一个数值，具体含义未知
