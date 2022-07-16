@@ -177,6 +177,11 @@ class:
       link: https://pikpak.bili33.top
       avatar: https://www.mypikpak.com/logo.png
       descr: InviteCode：702567
+    36:
+      name: Hexo友链检测工具
+      link: https://linkcheck.bili33.top
+      avatar: //hexo.io/icon/favicon-196x196.png
+      descr: 快速排查死链的小工具
 
 
 class2:
