@@ -15,11 +15,11 @@ date: 2020-03-29 12:15:22
 {% endnote %}
 
 {% gallery %}
-![](https://gamernotitle.coding.net/p/assets1/d/assets1/git/raw/master/img/HK/HK-C.JPG)
-![](https://gamernotitle.coding.net/p/assets1/d/assets1/git/raw/master/img/HK/HK-DJI-Ronin-S-Box.JPG)
-![](https://gamernotitle.coding.net/p/assets1/d/assets1/git/raw/master/img/HK/HK-Metro-Line.JPG)
-![](https://gamernotitle.coding.net/p/assets1/d/assets1/git/raw/master/img/HK/HK-Metro-Station.JPG)
-![](https://gamernotitle.coding.net/p/assets1/d/assets1/git/raw/master/img/HK/HK-School-Library.JPG)
-![](https://gamernotitle.coding.net/p/assets1/d/assets1/git/raw/master/img/HK/HK-Street.JPG)
-![](https://gamernotitle.coding.net/p/assets1/d/assets1/git/raw/master/img/HK/HK-Victoria-Me.JPG)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/gallery/img/HK/HK-C.JPG)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/gallery/img/HK/HK-DJI-Ronin-S-Box.JPG)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/gallery/img/HK/HK-Metro-Line.JPG)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/gallery/img/HK/HK-Metro-Station.JPG)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/gallery/img/HK/HK-School-Library.JPG)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/gallery/img/HK/HK-Street.JPG)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/gallery/img/HK/HK-Victoria-Me.JPG)
 {% endgallery %}
