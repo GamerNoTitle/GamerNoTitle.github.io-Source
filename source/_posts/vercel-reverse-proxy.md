@@ -1,5 +1,5 @@
 ---
-title: vercel搭建反向代理
+title: Vercel搭建反向代理
 date: 2022-07-18 22:04:45
 tags: Tech
 categories: Tech
@@ -79,7 +79,7 @@ Vercel CLI 24.2.4
 vercel login
 Vercel CLI 24.2.4
 > Log in to Vercel github
-> Success! GitHub authentication complete for gamerpesy@outlook.com
+> Success! GitHub authentication complete for <your email>
 Congratulations! You are now logged in. In order to deploy something, run `vercel`.
 💡  Connect your Git Repositories to deploy every branch push automatically (https://vercel.link/git).
 ```
@@ -108,7 +108,7 @@ No framework detected. Default Project Settings:
 ? Want to override the settings? [y/N] n
 🔗  Linked to <user/project> (created .vercel)
 🔍  Inspect: <Your inspect link> [961ms]
-✅  Production: https://vercel-json.vercel.app [copied to clipboard] [10s]
+✅  Production: <Your production link> [copied to clipboard] [10s]
 ```
 
 部署完后你就可以在Vercel中找到，并进行配置了
