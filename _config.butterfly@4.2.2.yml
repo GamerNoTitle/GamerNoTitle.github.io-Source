@@ -743,8 +743,8 @@ subtitle:
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - 永远相信 美好的事情 即将发生
-    - Always believe that good things will happen
+    - TECH OTAKUS SAVE THE WORLD —— MiHoYo
+    - 技术宅拯救世界！—— 米哈游
 
 # 加載動畫 Loading Animation
 preloader: false
