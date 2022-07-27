@@ -993,7 +993,7 @@ inject:
     - <link rel="stylesheet" type="text/css" href="https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/css/twikoo-emotion.css">
     - <link rel="stylesheet" type="text/css" href="https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/css/Valine-Emotion.css">
     - <script src="https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/js/IPblock.js"></script>
-    - <script src="https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/js/Redirect-to-real-site.js"></script>
+    # - <script src="https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/js/Redirect-to-real-site.js"></script>
     - <script src='https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/js/jsdelivr-auto-fallback.min.js'></script>
     - <script src='https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/js/CTF-illegal-warning.js'></script>
     - <script src='https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/js/console.js'></script>
