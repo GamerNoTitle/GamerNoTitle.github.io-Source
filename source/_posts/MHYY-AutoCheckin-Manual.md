@@ -14,7 +14,9 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 
 {% note warning %}
 
-对于正在使用本脚本的用户，请注意：每次云原神更新后（一般会跟着本体大版本更新就更一次），请把自己的配置中的`version`修改为最新的云原神版本，否则可能会出现不可预料的错误；并且请及时更新脚本，在自己的仓库点击`Fetch upstream`然后点击`Merge`即可！）
+~~对于正在使用本脚本的用户，请注意：每次云原神更新后（一般会跟着本体大版本更新就更一次），请把自己的配置中的`version`修改为最新的云原神版本，否则可能会出现不可预料的错误；并且请及时更新脚本，在自己的仓库点击`Fetch upstream`然后点击`Merge`即可！）~~
+
+现在这个值是作为fallback值使用，只有当官方的版本号服务器不可用时才会用到这个值，所以有空就改，不改也可以
 
 {% endnote %}
 
@@ -41,7 +43,7 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/GenshinImpact/9014
     "token": "",
     "type": 0,
     "version": "2.2.0",
-    "android": 0,
+    "android": "0",
     "deviceid": "",
     "devicename": "",
     "devicemodel": "",
