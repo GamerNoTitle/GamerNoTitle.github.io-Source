@@ -1,6 +1,6 @@
 # Main menu navigation
 # ---------------
-# format: xxx: 連結 || icon
+# rmat: xxx: 連結 || icon
 # sub-menu
 # xxx || icon:
 #   xxx || 連結 || icon
@@ -460,7 +460,7 @@ footer:
     since: 2018
   custom_text: |
     All articles in this blog are licensed under CC BY-NC-SA 4.0 unless stating additionally.<br>
-    <a href="https://icp.gov.moe/?keyword=20213338" target="_blank"><img src='https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/GovMoe/icon120.png' width=20px height=20px></img> 萌ICP备 20213338号</a> | <a href="http://beian.miit.gov.cn/"; target=_blank><img src='https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png'>沪ICP备 2021023713号</a>
+    <a href="https://icp.gov.moe/?keyword=20213338" target="_blank"><img src='https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/GovMoe/icon120.png' width=20px height=20px></img> 萌ICP备 20213338号</a> | <a href="http://beian.miit.gov.cn/"; target=_blank><img src='https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png' width=20px height=20px>沪ICP备 2021023713号</a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
