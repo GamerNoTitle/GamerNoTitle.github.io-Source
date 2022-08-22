@@ -115,7 +115,25 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 
 ### 自动保活
 
-因为Github在仓库没有push三个月后会停用仓库的一切Action，所以说我们需要进行保活。在Action页面启用`KeppActionAlive`即可！脚本会在每个月的1号自动推送更新从而达到保活的目的。
+因为Github在仓库没有push三个月后会停用仓库的一切Action，所以说我们需要进行保活。
+
+在启用`KeepActionAlive`之前，你需要创建一个用来push更改的`GITHUB_TOKEN`
+
+右上角点击自己的头像，然后点击`Settings`，然后在左侧的导航栏找到`Developer Settings`
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220822-204614.png)
+
+然后在左边找到`Personal Access Tokens`，点击`Generate new token`生成一个token，名字填写为`GITHUB_TOKEN`
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220822-204757.png)
+
+把过期时间设置为`No expiration`，然后依次勾选下面内容
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220822-205002.png)
+
+然后点最下面的绿色按钮`Generate token`即可
+
+在Action页面启用`KeppActionAlive`即可！脚本会在每个月的1号自动推送更新从而达到保活的目的。
 
 ### 配置内容获取
 
