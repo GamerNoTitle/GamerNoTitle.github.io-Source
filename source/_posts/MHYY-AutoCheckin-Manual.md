@@ -115,6 +115,12 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 
 ### 自动保活
 
+{% note warning %}
+
+事实上，对于现版本的Github Action，只需要把`KeepActionAlive`打开即可，下面的这些操作是旧版本的Action所需要的
+
+{% endnote %}
+
 因为Github在仓库没有push三个月后会停用仓库的一切Action，所以说我们需要进行保活。
 
 在启用`KeepActionAlive`之前，你需要创建一个用来push更改的`GITHUB_TOKEN`
@@ -214,6 +220,10 @@ x-rpc-sys_version: <iOS版本>
 ```
 
 ### Q&A
+
+#### 青龙面板里面怎么用
+
+使用Action版本，把配置写入`config.json`内，然后根据[这个链接](https://github.com/ElainaMoe/MHYY-AutoCheckin/issues/12#issuecomment-1224986933)里面的做法对脚本进行小修改就可以用了
 
 #### 为什么要把信息作为统计数据发到统计服务器？
 
