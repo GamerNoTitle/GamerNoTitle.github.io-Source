@@ -53,3 +53,25 @@ print(result)
 ```
 
 ![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/WindowsTerminal-20220826-115133.png)
+
+## Hash爆破脚本
+
+```python
+import hashlib
+from itertools import permutations
+import string
+salt = input('salt: ')
+target = input('target: ')
+ls = string.ascii_letters + string.digits
+res = permutations(ls,4)
+result = 'empty'
+for _ in res:
+    XXXX = _[0]+_[1]+_[2]+_[3]
+    to_hash = XXXX+salt
+    if hashlib.sha256(to_hash.encode()).hexdigest() == target: 
+        result = XXXX
+        break
+print(result)
+```
+
+用于解决题目提示`XXXX + 一串salt == Hash值`的开头问题，因为已经很多次遇到这种问题了，所以写了个脚本来爆破，只需要输入对应的salt和hash就可以解出来
