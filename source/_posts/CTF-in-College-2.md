@@ -177,21 +177,21 @@ void loop()
 
 首先需要打开Teamserver
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-2/%E7%AE%A1%E7%90%86%E5%91%98__%E8%8E%B7%E5%8F%96%E7%AE%A1%E7%90%86%E5%91%98%E6%9D%83%E9%99%90%20-%2020220416-164025.png)
+![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-2/%E7%AE%A1%E7%90%86%E5%91%98__%E8%8E%B7%E5%8F%96%E7%AE%A1%E7%90%86%E5%91%98%E6%9D%83%E9%99%90%20-%2020220416-164025.png)
 
 然后再打开CS，连接Teamserver
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-2/Connect%20-%2020220416-164031.png)
+![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-2/Connect%20-%2020220416-164031.png)
 
 接着就会弹出主界面
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-2/Cobalt_Strike%20-%2020220416-164039.png)
+![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-2/Cobalt_Strike%20-%2020220416-164039.png)
 
 然后我们生成一个木马程序，这个程序运行后就会在主界面显示肉鸡，可以进行远程操作等操作
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-2/Windows_Executable%20-%2020220416-164049.png)
+![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-2/Windows_Executable%20-%2020220416-164049.png)
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-2/Choose_a_payload_to_stage%20-%2020220416-164045.png)
+![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-2/Choose_a_payload_to_stage%20-%2020220416-164045.png)
 
 ### 隐藏木马病毒
 

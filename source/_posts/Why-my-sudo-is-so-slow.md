@@ -3,12 +3,12 @@ title: Linux踩坑记录：为什么我的sudo反应这么慢
 date: 2022-06-09 22:22:27
 tags: Tech
 categories: Tech
-cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Why-my-sudo-is-so-slow/vmware-20220609-222840.png?download=true
+cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Why-my-sudo-is-so-slow/vmware-20220609-222840.png?download=true
 ---
 
 在用Kali的时候，用的最多的东西就是`sudo`了，但是在使用的过程中我发现一个问题：我在使用`sudo`的时候要等个半分钟到两分钟的时间才会让我输入密码，但是刚刚安装好kali的时候就不存在这个问题
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Why-my-sudo-is-so-slow/vmware-20220609-222706.png?download=true)
+![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Why-my-sudo-is-so-slow/vmware-20220609-222706.png?download=true)
 
 当我在百度搜索的时候，我发现了有一种情况非常贴合我的kali：修改过hosts（`/etc/hosts`）文件
 

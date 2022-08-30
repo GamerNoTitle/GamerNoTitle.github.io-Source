@@ -23,15 +23,15 @@ CloudFlare一直以其域名托管服务和CDN服务闻名于各位网站管理�
 
 然后进入CF的workers界面，看下图
 
-![Workers](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Cloudflare-Workers/into-workers.png)
+![Workers](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Cloudflare-Workers/into-workers.png)
 
 进入到Workers后，点击Create a Worker来创建你的第一个JS
 
-![Create a Worker](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Cloudflare-Workers/Workers-Interface.png)
+![Create a Worker](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Cloudflare-Workers/Workers-Interface.png)
 
 然后在workers界面的左边，填入你的JS代码，这时候就需要万能反代代码QAQ
 
-![Worker Editor](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Cloudflare-Workers/Workers-Edit.png)
+![Worker Editor](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Cloudflare-Workers/Workers-Edit.png)
 
 解释一下这个界面：
 

