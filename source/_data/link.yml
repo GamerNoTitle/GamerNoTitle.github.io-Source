@@ -288,11 +288,11 @@ class3:
       link: https://www.imzjw.cn/
       avatar: https://cdn.jsdelivr.net/npm/nanshen/avatar.jpg
       descr: 好记性不如烂笔头
-    13:
-      name: XJHui’s Blog
-      link: https://plushine.cn
-      avatar: https://cdn.jsdelivr.net/gh/xingjiahui/CDN/touxiang.jpg
-      descr: 这个博主想骗访客^_^
+    # 13:
+    #   name: XJHui’s Blog
+    #   link: https://plushine.cn
+    #   avatar: https://cdn.jsdelivr.net/gh/xingjiahui/CDN/touxiang.jpg
+    #   descr: 这个博主想骗访客^_^
     14:
       name: Kylin
       link: https://www.codekylin.cn
@@ -303,11 +303,11 @@ class3:
     #   link: https://blog.clouder.im
     #   avatar: https://cdn.jsdelivr.net/gh/yunwanjia-cloud/blog/img/logo/icon.png
     #   descr: 尝试制造人工智障
-    16:
-      name: 雪曦
-      link: https://xiabor.com
-      avatar: https://xiabor.com/img/avatar.png
-      descr: 君浅吟，叹落笔
+    # 16:
+    #   name: 雪曦
+    #   link: https://xiabor.com
+    #   avatar: https://xiabor.com/img/avatar.png
+    #   descr: 君浅吟，叹落笔
     # 17:
     #   name: 年轻没有梦
     #   link: http://sgyat.cn/
@@ -348,11 +348,11 @@ class3:
       link: https://nkupp.com
       avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/nkupp.png
       descr: 山不向我走来,我便向山走去
-    25:
-      name: 折纸少年
-      link: https://zzsnn.github.io/
-      avatar: https://zzsnn.github.io/img/avatar.png
-      descr: 活着不一定要鲜:但一定要有自己的颜色
+    # 25:
+    #   name: 折纸少年
+    #   link: https://zzsnn.github.io/
+    #   avatar: https://zzsnn.github.io/img/avatar.png
+    #   descr: 活着不一定要鲜:但一定要有自己的颜色
     26:
       name: 小康博客
       link: https://www.antmoe.com/
@@ -383,11 +383,11 @@ class3:
       # link: https://zhouyunfei.club
       # avatar: https://img-blog.csdnimg.cn/2020043009205871.jpg
       # descr: 严于律己，宽以待人。
-    32:
-      name: Uncleacc
-      link: http://www.fezhu.top
-      avatar: https://cdn.jsdelivr.net/gh/uncleacc/cdn/img/custom/avatar.jpg
-      descr: 一只努力学习的蒟蒻仔
+    # 32:
+    #   name: Uncleacc
+    #   link: http://www.fezhu.top
+    #   avatar: https://cdn.jsdelivr.net/gh/uncleacc/cdn/img/custom/avatar.jpg
+    #   descr: 一只努力学习的蒟蒻仔
     # 33:
     #   name: XDER
     #   link: https://xder.me/
@@ -418,16 +418,16 @@ class3:
       link: https://tech.he-sb.top/
       avatar: https://tech.he-sb.top/icons/apple-touch-icon.png
       descr: 阻碍进步的不是无知，是傲慢
-    39:
-      name: 幕光倾城-Linfeng Mei
-      link: https://www.meilinfeng.top
-      avatar: https://s1.ax1x.com/2020/05/15/YymjXQ.jpg
-      descr: 钝学累功-勤能补拙
-    40:
-      name: impdx-忧郁的派大星
-      link: https://www.impdx.vip/
-      avatar: https://www.impdx.vip/img/avatar.png
-      descr: 越学习，越发现自己的无知——笛卡尔
+    # 39:
+    #   name: 幕光倾城-Linfeng Mei
+    #   link: https://www.meilinfeng.top
+    #   avatar: https://s1.ax1x.com/2020/05/15/YymjXQ.jpg
+    #   descr: 钝学累功-勤能补拙
+    # 40:
+    #   name: impdx-忧郁的派大星
+    #   link: https://www.impdx.vip/
+    #   avatar: https://www.impdx.vip/img/avatar.png
+    #   descr: 越学习，越发现自己的无知——笛卡尔
     # 41:
     #   name: Zyue
     #   link: https://lyuan.co/
@@ -448,11 +448,11 @@ class3:
     #   link: https://bfsz.pub
     #   avatar: https://wx2.sbimg.cn/2020/06/22/61f01c309c2e21665cdb993dafa63e6e.th.jpg
     #   descr: 享受学习，享受生活，早日上岸！
-    45:
-      name: Lete乐特
-      link: https://www.lete114.top/
-      avatar: https://cdn.jsdelivr.net/gh/lete114/lete114.github.io/img/Lete.png
-      descr: 人生只有一次，大胆的生活！！
+    # 45:
+    #   name: Lete乐特
+    #   link: https://www.lete114.top/
+    #   avatar: https://cdn.jsdelivr.net/gh/lete114/lete114.github.io/img/Lete.png
+    #   descr: 人生只有一次，大胆的生活！！
     46:
       name: 时过境迁Wayne博客
       link: https://wr0926.ml
@@ -480,7 +480,7 @@ class3:
       descr: 永远相信美好的事情即将发生
     51:
       name: itsNekoDeng
-      link: https://nekodeng.gitee.io/
+      link: https://dyfa.top/
       avatar: https://nekodeng.gitee.io/medias/avatar.jpg
       descr: 一只努力学习的十万伏特皮卡丘，梦想是世界和平，想要发光发热
     52:
@@ -488,11 +488,11 @@ class3:
       link: https://www.didaolan.cn/
       avatar: https://secure.gravatar.com/avatar/428bedbff8654564ca0e5a920ebed991
       descr: 一个老前端的故事
-    53:
-      name: IT大咖之家
-      link: http://www.lczze.cn/
-      avatar: https://note.youdao.com/yws/api/personal/file/AF93E7B29156496E9322BCDE55BD6D34?method=download&shareKey=3cfe0cf03a25b88657021e93f43a81bd
-      descr: 慎思明辨，格物致知!
+    # 53:
+    #   name: IT大咖之家
+    #   link: http://www.lczze.cn/
+    #   avatar: https://note.youdao.com/yws/api/personal/file/AF93E7B29156496E9322BCDE55BD6D34?method=download&shareKey=3cfe0cf03a25b88657021e93f43a81bd
+    #   descr: 慎思明辨，格物致知!
     54:
       name: xwcker
       link: https://www.hack-gov.com.cn/
@@ -550,11 +550,11 @@ class3:
     #   link: https://jeckxu.cn/
     #   avatar: https://jeckxu.cn/img/jeckxu_img.png
     #   descr: 嵌入式技术记录与分享
-    65:
-      name: gd1214b’s blog
-      link: https://blog.gd1214b.icu/
-      avatar: https://blog.gd1214b.icu/images/avatar.png
-      descr: 念念不忘, 必有回响
+    # 65:
+    #   name: gd1214b’s blog
+    #   link: https://blog.gd1214b.icu/
+    #   avatar: https://blog.gd1214b.icu/images/avatar.png
+    #   descr: 念念不忘, 必有回响
     66:
       name: 孤影墨香
       link: https://www.gymxbl.com/
@@ -570,11 +570,11 @@ class3:
       link: https://www.ffpy.online
       avatar: https://www.ffpy.online/icon.jpg
       descr: 一切都将崩塌
-    69:
-      name: Lytian
-      link: https://www.lytian.xyz
-      avatar: http://3404565214.test.upcdn.net/kodbox/hexo图片/Logo.png
-      descr: 生命不息，折腾不止
+    # 69:
+    #   name: Lytian
+    #   link: https://www.lytian.xyz
+    #   avatar: http://3404565214.test.upcdn.net/kodbox/hexo图片/Logo.png
+    #   descr: 生命不息，折腾不止
     70:
       name: YuZhangWang的领域
       link: https://www.yuzhang.wang
