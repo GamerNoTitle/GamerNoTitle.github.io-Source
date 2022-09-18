@@ -23,21 +23,21 @@ date: 2022-09-18 13:47:53
 
 域名可以自己改，不过应该没人会改，另一个是`@lumin3.onmicrosoft.com`
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/#Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-135602.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-135602.png)
 
 然后点击`提交`就会开始创建账户，创建完应该长这样
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/#Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-135820.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-135820.png)
 
 ## 登录账户
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/#Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-140021.jpg)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-140021.jpg)
 
 访问[Office 365 登录 | Microsoft Office](https://www.office.com/)即可登录，点击左边的登陆键，然后把刚刚得到的账户信息输入进去就能够登录了
 
 第一次登陆需要修改密码，自己改一下就好了
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/#Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-140307.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-140307.png)
 
 刚开始进去有个欢迎页面，自己过掉就好了
 
@@ -47,11 +47,11 @@ date: 2022-09-18 13:47:53
 
 在主页面中，点击左上角的那个功能键，可以查看应用，在里面找到Onedrive就可以进入你的盘了
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/#Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-140618.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-140618.png)
 
 进去以后应该长这个样
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/#Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-140634.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-140634.png)
 
 在这里你可以上传文件啥的，**不像某度那样有监管，在这个盘里没有人能看到你存了啥**，容量为5T，正常人应该用不完吧
 
@@ -59,21 +59,21 @@ date: 2022-09-18 13:47:53
 
 在Win7以上的版本中，是集成了onedrive的（早期叫skydrive），可以直接在Windows里面搜索打开（前提是你没删掉），打开后你的任务栏里面应该会出现一朵云
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/#Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-140806.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-140806.png)
 
 右键任务栏里面的云，然后点击设置，再点到账户，添加刚刚下发的账户
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/#Miscellaneous/5AM-Onedrive-Guide/OneDrive-20220918-141000.png)![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/#Miscellaneous/5AM-Onedrive-Guide/OneDrive-20220918-141010.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/5AM-Onedrive-Guide/OneDrive-20220918-141000.png)![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/5AM-Onedrive-Guide/OneDrive-20220918-141010.png)
 
 根据提示登录就行了
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/#Miscellaneous/5AM-Onedrive-Guide/OneDrive-20220918-141111.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/5AM-Onedrive-Guide/OneDrive-20220918-141111.png)
 
 登陆完就可以在此电脑左边的那个树状图里面找到onedrive开头的东西，点击进去，就可以直接把东西放在里面了，会自动上传到云端（准确来说是同步）
 
 这里截图的是个人版，我懒得登录了
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/#Miscellaneous/5AM-Onedrive-Guide/explorer-20220918-141254.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/5AM-Onedrive-Guide/explorer-20220918-141254.png)
 
 ## 使用邮箱
 
@@ -81,9 +81,9 @@ date: 2022-09-18 13:47:53
 
 同样是在主页面，左上角的功能键，找到Outlook，点击就能打开邮件了
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/#Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-140618.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-140618.png)
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/#Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-141435.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Miscellaneous/5AM-Onedrive-Guide/msedge-20220918-141435.png)
 
 邮箱地址是你登录用的那个地址，例如我这里就是`GamerNoTitle@5amstudio.top`
 
