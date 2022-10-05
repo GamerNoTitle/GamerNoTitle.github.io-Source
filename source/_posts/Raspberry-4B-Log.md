@@ -3,14 +3,22 @@ title: Raspberry 4B 折腾记录（持续更新）
 date: 2022-10-05 15:23:46
 tags: IoT
 categories: IoT
-cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Raspberry-4B-Log/cover.jpg
+cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Raspberry-4B-Log/cover.jpg
 ---
+
+### 烧录系统
+
+我用的是`balenaEtcher`这个软件（别问为什么，问就是好看），比起Win32DiskImager和Rufus来说更好用一点（个人感觉）
+
+（↓没插读卡器所以用磁盘代替一下，千万别写入磁盘！）
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Raspberry-4B-Log/balenaEtcher-20221005-225233.png)
 
 ### 对ext4格式的存储介质进行写入
 
 我用的是DiskGenius，但是不知道为什么在我的电脑上打开会提示这个……
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Raspberry-4B-Log/ntleah-20221005-151900.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Raspberry-4B-Log/ntleah-20221005-151900.png)
 
 `Err: NTLEAS may be lost connection with hook process.`
 
