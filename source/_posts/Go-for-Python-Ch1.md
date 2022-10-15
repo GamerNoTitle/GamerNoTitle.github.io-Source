@@ -268,6 +268,16 @@ class Solution:
         return result
 ```
 
+`enumerate(list)`在遍历的过程中出现`index, value`的返回值，可以在for循环使用，例如
+
+```python
+...(上面已经定义了ls为列表)
+for i, value in enumerate(ls):
+    pass
+```
+
+所以上面这一题也可以改一改，用这个方法可以免去用`ls.index()`的麻烦
+
 ### 例题5
 
 [2200. 找出数组中的所有 K 近邻下标 - 力扣（LeetCode）](https://leetcode.cn/problems/find-all-k-distant-indices-in-an-array/submissions/)
@@ -288,6 +298,20 @@ class Solution:
                 if abs(i-pos)<=k and i not in result: result.append(i) 
                 else: pass
         result.sort()
+        return result
+```
+
+优化版：
+
+思路是从`i`所在位置往左往右`k`个位置是否有key，如果有的话就进行计算，没有就跳过，省去了很多遍历
+
+```python
+class Solution:
+    def findKDistantIndices(self, nums: List[int], key: int, k: int) -> List[int]:
+        result = []
+        for i in range(len(nums)):
+            if key in nums[max(0,i-k):i+k+1]:
+                result.append(i)
         return result
 ```
 
