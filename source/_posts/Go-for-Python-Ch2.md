@@ -304,3 +304,50 @@ True
 ```
 
 因为字典里面不全是`1`，在Python里面，`1`代表`True`，不全为`1`所以为`False`，但是对于`any`函数，里面一旦出现了`True`就返回`True`，所以这里是`True`
+
+## 链表
+
+链表里面的基本单位是`结点(node)`，单链表只存储值和下一节点的位置，双链表保存到一个上一节点的位置
+
+```python
+class Node:		# 单链表
+    def __init__(self, value, next):
+        self.value = value
+        self.next = next
+        
+class Node:		# 双链表
+    def __init__(self, value, prev, next):
+        self.value = value
+        self.next = next
+        self.prev = prev
+```
+
+### 用双链表模拟栈
+
+```python
+class Node:		# 双链表
+    def __init__(self, value, prev = None, next = None):
+        self.value = value
+        self.prev = prev
+        self.next = next
+        
+class Stack:
+    def __init__(self):
+        self.tail = None
+        
+    def enquen(self, value):
+        node = Node(value)
+        node.prev = self.tail
+        if self.tail:
+            self.tail.next = node
+            self.tail = node
+
+    def dequen(self):
+        self.tail = self.tail.prev
+        if self.tail:
+        	self.tail.next = None
+	
+    def isEmpty(self):
+        self.tail == None
+```
+
