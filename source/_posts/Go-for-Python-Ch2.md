@@ -269,3 +269,38 @@ if __name__ == '__main__':
     print(result)
 ```
 
+## all()/any()的用法
+
+官方说明
+
+```
+all()
+
+Return True if bool(x) is True for all values x in the iterable.
+
+If the iterable is empty, return True.
+
+=========================================================================
+
+any()
+
+Return True if bool(x) is True for any x in the iterable.
+
+If the iterable is empty, return False.
+```
+
+应用举例
+
+```python
+dt = {1: 0, 2: 0, 3: 1}
+print(all(dt.values()))
+print(any(dt.values()))
+
+'''
+=== Output ===
+False
+True
+'''
+```
+
+因为字典里面不全是`1`，在Python里面，`1`代表`True`，不全为`1`所以为`False`，但是对于`any`函数，里面一旦出现了`True`就返回`True`，所以这里是`True`
