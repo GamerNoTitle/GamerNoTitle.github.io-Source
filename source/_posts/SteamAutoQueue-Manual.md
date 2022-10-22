@@ -33,7 +33,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/mse
 
 其中`proxy`是代理的地址，这个根据自己的需求去填写（有的人可能会开v2ray啥的，所以做了个这个，如果是在Github Action运行则不需要这个）
 
-**请注意，`steamRememberLogin`只有一个月的有效期，目前不清楚缺少这个是否能够运行（主要因为我懒我没测）**
+**请注意，`steamRememberLogin`只有一个月的有效期，目前不清楚缺少这个是否能够运行（~~主要因为我懒我没测~~ 此变量已弃用，不知道获取一次能用多久）**
 
 ```
 {
@@ -182,7 +182,7 @@ What we need is to find the content for the config below (<`name`: `Variable-Typ
 
 `proxy` is the address that you need to use for proxy, use it as you need. (Some one will use v2ray or something else so I made this. If you're running on Github Action, then this is not needed.)
 
-**CAUTION: `steamRememberLogin` is valid for one month, and I didn't know whether the script can be run if this is missing (Actually the thing is that I'm too lazy to test it.)**
+**CAUTION: `steamRememberLogin` is valid for one month, and I didn't know whether the script can be run if this is missing (~~Actually the thing is that I'm too lazy to test it.~~ `steamRememberLogin` is desperated, idk how long you can use it after once you attain them)**
 
 ```
 {
