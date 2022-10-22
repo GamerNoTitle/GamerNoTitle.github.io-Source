@@ -40,8 +40,6 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/mse
     "proxy": "",
     "steam": {
         "sessionid": <sessionid: str>,
-        "steamRememberLogin": <steamRememberLogin: str>,
-        "steamMachineAuth": <steamMachineAuth76560000000000000: str>,
         "steamLoginSecure": <steamLoginSecure: str>,
         "browserid": <browserid: str>,
         "steamID64": <Steam64位ID，就是steamMachineAuth后面的数字: str>
@@ -56,8 +54,6 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/mse
     "proxy": "",
     "steam": {
         "sessionid": "9775e63b29f841ea44c4d5f2",
-        "steamRememberLogin": "76561199072167687%7C%7C326064558c5f741e8770684f1a394570",
-        "steamMachineAuth": "9C424851054888334B954705A300E59CD9E050B5",
         "steamLoginSecure": "76561199072167687%7C%7C19A14B89549F7DA47F0E071CC9D33FEF63D5EC27",
         "browserid": "2683598387774835722",
         "steamID64": "76561199072167687"
@@ -72,6 +68,8 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/mse
 然后点击Settings ->  Secrets -> Actions，进入变量添加页面
 
 添加如图所示的变量，[变量获取请查看这里](#变量获取)
+
+（图中的`steamRememberLogin`和`steamMachineAuth`已弃用）
 
 ![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-171847.png)
 
@@ -191,8 +189,6 @@ What we need is to find the content for the config below (<`name`: `Variable-Typ
     "proxy": "",
     "steam": {
         "sessionid": <sessionid: str>,
-        "steamRememberLogin": <steamRememberLogin: str>,
-        "steamMachineAuth": <steamMachineAuth76560000000000000: str>,
         "steamLoginSecure": <steamLoginSecure: str>,
         "browserid": <browserid: str>,
         "steamID64": <Steam 64ID, you can find it behind steamMachineAuth: str>
@@ -207,8 +203,6 @@ This is an example (This account has been logged out so this is not valid for us
     "proxy": "",
     "steam": {
         "sessionid": "9775e63b29f841ea44c4d5f2",
-        "steamRememberLogin": "76561199072167687%7C%7C326064558c5f741e8770684f1a394570",
-        "steamMachineAuth": "9C424851054888334B954705A300E59CD9E050B5",
         "steamLoginSecure": "76561199072167687%7C%7C19A14B89549F7DA47F0E071CC9D33FEF63D5EC27",
         "browserid": "2683598387774835722",
         "steamID64": "76561199072167687"
@@ -223,6 +217,8 @@ First open the repo and fork it -> [ElainaMoe/SteamAutoQueue: Using Github Actio
 Then click on Settings ->  Secrets -> Actions to enter the page to add variables
 
 Add the variables shown on this picture, [you can know how to get then from here](#Getting variables)
+
+（The vars `steamMachineAuth` and `steamRememberLogin` are now desperated)
 
 ![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-171847.png)
 

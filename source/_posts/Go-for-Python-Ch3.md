@@ -95,3 +95,90 @@ class Queue:
         return value
 ```
 
+## 例题：击鼓传花
+
+一共有`n`个人玩击鼓传花小游戏，步数为`p`，问最后活下来的是谁
+
+```python
+def game(persons: list, step: int):
+    last = -1
+    while len(persons) > 1:
+        last += step
+        last = last % len(persons)
+        del persons[last]
+    return persons[0]
+
+
+print(game(list('ABCD'), 3))
+
+'''
+=== Output ===
+A
+'''
+```
+
+## 链表与二叉树
+
+{% mermaid %}
+graph TD;
+	1-->2;
+	1-->3;
+	1-->4;
+	3-->5;
+	3-->6;
+	3-->7;
+	4-->8;
+	4-->9;
+	7-->10;
+	7-->11;
+	11-->12;
+{% endmermaid %}
+
+如图，用链表模拟二叉树
+
+```python
+class Node:
+    def __init__(self, value, next=None):
+        self.value = value
+        self.childs = []
+
+    def depth(self):
+        if not self.childs: # 没有孩子节点
+            return 1
+        return 1 + max([node.depth() for node in self.childs])
+
+    def iter_depth(self):   # 深度优先
+        items = []
+        items.append(self.value)
+        for child in self.childs:
+            items.extend(child.iter_depth())
+        return items
+
+    def iter_width(self):   # 广度优先
+        items = [self.value]
+        for child in self.childs:
+            items.extend(child.iter_width())
+        return items
+
+
+root = Node(1)
+
+for i in range(2,5):
+    root.childs.append(Node(i))
+
+node: Node = root.childs[1]
+for i in range(5,8):
+    node.childs.append(i)
+
+node = root.childs[2]
+for i in range(8,10):
+    node.childs.append(i)
+
+node = root.childs[1][2]
+for i in range(10, 12):
+    node.childs.append(i)
+
+node = node[1]
+node.childs.append(12)
+```
+
