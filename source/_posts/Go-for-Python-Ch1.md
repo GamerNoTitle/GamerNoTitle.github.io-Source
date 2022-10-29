@@ -1,5 +1,5 @@
 ---
-title: 从零开始的Python ACM Ch.1
+title: 从零开始的Python ACM Ch.1：数据类型及基本数据处理
 date: 2022-10-15 08:15:51
 tags: Coding
 categories: Coding
