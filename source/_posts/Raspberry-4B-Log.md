@@ -38,3 +38,63 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Raspberry-4B-Lo
 
 我尝试了一下，但是说白了，还是没解决……
 
+### 使用屏幕键盘
+
+```shell
+sudo apt install matchbox-keyboard
+```
+
+在Raspberry Pi上
+
+```
+matchbox-keyboard
+```
+
+通过SSH
+
+```
+DISPLAY=:0 matchbox-keyboard &
+```
+
+该命令将加载Raspberry Pi上的屏幕键盘软件。
+
+### 在树莓派上安装RDP服务
+
+使用[Har-Kuun/OneClickDesktop: A one-click script that installs a remote desktop environment on a Linux server with browser/RDP/VNC access. (github.com)](https://github.com/Har-Kuun/OneClickDesktop)
+
+直接运行，但是在shell脚本里面需要把OS检查关掉（如果你像我一样用的是Kali）
+
+```shell
+#此脚本仅支持Ubuntu 18/20, Debian 10, 以及CentOS 7/8.
+#如果您试图再其他版本的操作系统中安装，可以在下面禁用OS检查开关。
+#请注意，在其他操作系统上安装此脚本可能会导致不可预料的错误。  请在安装前做好备份。
+
+OS_CHECK_ENABLED=OFF
+```
+
+安装时可能会遇到依赖环境未安装的情况，直接用apt安装就行了
+
+#### libpng
+
+```shell
+sudo apt install libpng-dev -y
+```
+
+#### libjpeg
+
+```shell
+sudo apt install libpng-dev -y
+```
+
+#### Cairo
+
+```shell
+sudo apt install libcairo2 libcairo2-dev -y
+```
+
+#### OSSP UUID
+
+```shell
+sudo apt install libossp-uuid-dev -y
+```
+
