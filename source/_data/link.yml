@@ -47,11 +47,11 @@ class:
     #   link: http://wechat.bili33.top
     #   avatar: http://wechat.bili33.top/favicon.png
     #   descr: MarkDown版的微信公众号编辑器哦~
-    10:
-      name: 2048
-      link: http://2048.bili33.top
-      avatar: http://2048.bili33.top/meta/apple-touch-icon.png
-      descr: 2048小游戏，在线就可以玩啦~
+    # 10:
+    #   name: 2048
+    #   link: http://2048.bili33.top
+    #   avatar: http://2048.bili33.top/meta/apple-touch-icon.png
+    #   descr: 2048小游戏，在线就可以玩啦~
     # 11:
     #   name: Google镜像站
     #   link: https://g.bili33.top
@@ -97,11 +97,11 @@ class:
     #   link: https://onedrive-bili33.herokuapp.com/
     #   avatar: https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/d0/a3/a4/d0a3a459-c375-5b88-ec21-1237b964d433/OneDrive.png/1200x630bb.png
     #   descr: 部署在heroku上的Onedrive
-    20:
-      name: 加密音乐格式转换
-      link: http://org.bili33.top/unlock-music
-      avatar: http://org.bili33.top/unlock-music/img/icons/favicon-32x32.png
-      descr: 音乐加密什么的去死吧(╯>д<)╯⁽˙³˙⁾
+    # 20:
+    #   name: 加密音乐格式转换
+    #   link: http://org.bili33.top/unlock-music
+    #   avatar: http://org.bili33.top/unlock-music/img/icons/favicon-32x32.png
+    #   descr: 音乐加密什么的去死吧(╯>д<)╯⁽˙³˙⁾
     # 21:
     #   name: 沙盒（雾
     #   link: http://sandbox.bili33.top
@@ -122,11 +122,11 @@ class:
     #   link: https://stats.bili33.top/
     #   avatar: https://uptimerobot.com/assets/ico/favicon.ico
     #   descr: 各项服务的监控啦~
-    25:
-      name: MC服务器状态面板
-      link: http://mcstats.bili33.top
-      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/Minecraft.png
-      descr: MC服务器的状态
+    # 25:
+    #   name: MC服务器状态面板
+    #   link: http://mcstats.bili33.top
+    #   avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@master/img/link/Minecraft.png
+    #   descr: MC服务器的状态
     # 26:
     #   name: Start:Dash
     #   link: http://s.bili33.top
@@ -157,31 +157,36 @@ class:
     #     link: https://share4nothing.ml/
     #     avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo-v1@link/img/link/fodi.png
     #     descr: Onedrive分享型站点
-    32:
-      name: API Doc
-      link: https://ninym.top
-      avatar: https://avatars.githubusercontent.com/u/97588711
-      descr: 自制API的文档
-    33:
-      name: NeteaseMusicDownload
-      link: https://music.ninym.top
-      avatar: https://img.88icon.com/download/jpg/20200901/b0c188c60bcd030afe50b0c4cd263331_512_512.jpg!88con
-      descr: 网易云音乐自助下载站
-    34:
-      name: WSA List
-      link: https://wsa.ninym.top
-      avatar: https://www.windowsblogitalia.com/wp-content/uploads/2022/03/wsa.png
-      descr: WSA（安卓子系统）下载站
-    35:
-      name: PikPak
-      link: https://pikpak.bili33.top
-      avatar: https://www.mypikpak.com/logo.png
-      descr: InviteCode：702567
-    36:
-      name: Hexo友链检测工具
-      link: https://linkcheck.bili33.top
-      avatar: //hexo.io/icon/favicon-196x196.png
-      descr: 快速排查死链的小工具
+    # 32:
+    #   name: API Doc
+    #   link: https://ninym.top
+    #   avatar: https://avatars.githubusercontent.com/u/97588711
+    #   descr: 自制API的文档
+    # 33:
+    #   name: NeteaseMusicDownload
+    #   link: https://music.ninym.top
+    #   avatar: https://img.88icon.com/download/jpg/20200901/b0c188c60bcd030afe50b0c4cd263331_512_512.jpg!88con
+    #   descr: 网易云音乐自助下载站
+    # 34:
+    #   name: WSA List
+    #   link: https://wsa.ninym.top
+    #   avatar: https://www.windowsblogitalia.com/wp-content/uploads/2022/03/wsa.png
+    #   descr: WSA（安卓子系统）下载站
+    # 35:
+    #   name: PikPak
+    #   link: https://pikpak.bili33.top
+    #   avatar: https://www.mypikpak.com/logo.png
+    #   descr: InviteCode：702567
+    # 36:
+    #   name: Hexo友链检测工具
+    #   link: https://linkcheck.bili33.top
+    #   avatar: //hexo.io/icon/favicon-196x196.png
+    #   descr: 快速排查死链的小工具
+    10000:
+      name: N/A
+      link: ./#
+      avatar: 
+      descr: 暂无，因为都宕机了~
 
 
 class2:
