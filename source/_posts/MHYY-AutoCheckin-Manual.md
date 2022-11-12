@@ -20,6 +20,10 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 
 {% endnote %}
 
+### 用前必读
+
+**⚠️请不要进行宣传，谢谢！一旦发现宣传就删库跑路！使用过程中如果出现bug可能会使用您的日志进行错误追踪，详情请见[隐私政策](https://github.com/ElainaMoe/MHYY-AutoCheckin/blob/master/private-policy%2Cmd)**
+
 ### 快速开始
 
 > 先点个STAR，我们马上开始我们的教程:D

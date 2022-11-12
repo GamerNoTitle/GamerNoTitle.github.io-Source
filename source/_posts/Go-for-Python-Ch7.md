@@ -1,7 +1,8 @@
 ---
 title: 从零开始的Python ACM Ch.7：整数练习
 date: 2022-11-08T19:51:46+08:00
-tags:
+tags: Coding
+categories: Coding
 ---
 
 ## 黑洞数
