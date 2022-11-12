@@ -56,7 +56,41 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 }
 ```
 
-#### [腾讯云函数版本](https://cloud.tencent.com/act/cps/redirect?redirect=10232&cps_key=e6bd1a9d73067a5a66bb5c8e2a9e288c)（不推荐，腾讯要收钱了）
+#### [阿里云函数版本](https://www.aliyun.com/product/fc?userCode=05u8nbft&share_source=copy_link)
+
+首先你得先下载本仓库的代码文件，点击右上角绿色的`Code`，然后点击`Download ZIP`，把压缩包下载后解压到一个你知道的地方，我们一会会用到
+
+先打开[阿里云函数](https://www.aliyun.com/product/fc?userCode=05u8nbft&share_source=copy_link)，点左边的函数服务，然后顶上选择地区，随便选（但是最好是国内）
+
+点击创建服务来建立一个新的服务
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Github/MHYY-AutoCheckin/msedge-20221112-084539.png)
+
+紧接着创建一个新的函数，设置方法如下面几张图
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Github/MHYY-AutoCheckin/msedge-20221112-084551.png)
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Github/MHYY-AutoCheckin/msedge-20221112-084716.png)
+
+
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Github/MHYY-AutoCheckin/msedge-20221112-084807.png)
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Github/MHYY-AutoCheckin/msedge-20221112-084913.png)
+
+创建后会自动打开阿里云函数的vscode，在这里，点击上面的`Terminal`，点击`New Terminal`（也可以直接快捷键<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>`</kbd>）
+
+打开以后在里面输入下面的命令
+
+```shell
+chmod +x ./preinstall.sh && ./preinstall.sh
+```
+
+运行完以后，打开`config.json`，把自己的配置内容填进去即可，然后点击部署代码
+
+要是不确定能不能使用，可以点一下顶上的测试函数，看看能不能使用
+
+#### [腾讯云函数版本](https://cloud.tencent.com/act/cps/redirect?redirect=10232&cps_key=e6bd1a9d73067a5a66bb5c8e2a9e288c)（不推荐，腾讯要收钱了，可以在阿里云函数使用，正常是不会用完你的免费额度的）
 
 首先你得先下载本仓库的代码文件，点击右上角绿色的`Code`，然后点击`Download ZIP`，把压缩包下载后解压到一个你知道的地方，我们一会会用到
 
@@ -84,6 +118,12 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 
 然后点击顶上的`函数代码`，等底下加载完后点击`config.json`，把你的信息填进去
 
+然后打开终端，输入以下代码安装依赖
+
+```shell
+chmod +x ./preinstall.sh && ./preinstall.sh
+```
+
 ![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220421-171008.png)
 
 往下拉，先点击`部署`，然后点`测试`，只要测试成功了就是部署完成了
@@ -92,12 +132,22 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 
 ![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220421-171404.png)
 
+#### 其他云函数
+
+其他的云函数有如下
+
+- [华为云函数](https://www.huaweicloud.com/product/functiongraph.html?fromacct=19d30682-861b-4864-8dba-77e5a61b8f6f&utm_source=Z2FtZXJub3RpdGxl=&utm_medium=cps&utm_campaign=201905)
+- [百度云函数](https://cloud.baidu.com/product/cfc.html)（找不到百度云的AFF页面在哪里所以没有推广链接）
+- 其他……
+
+用法其实跟[阿里云函数](https://www.aliyun.com/product/fc?userCode=05u8nbft&share_source=copy_link)和[腾讯云函数](https://cloud.tencent.com/act/cps/redirect?redirect=10232&cps_key=e6bd1a9d73067a5a66bb5c8e2a9e288c)大差不差，看着用就行了，不会就开issue问
+
 
 ### 配置解释（[配置内容获取](#配置内容获取)）
 
 - `token` 是在云原神登录后用于验证的token
 - `type` （应该）是设备类型，安卓好像是`2`，iOS设备用户是`1`，[但是目前还不支持iOS设备，请看这里](#iOS设备用户须知)
-- `version` 是云原神的版本（每次更新以后记得改一下，不然可能会出问题）
+- `version` 是云原神的版本（~~每次更新以后记得改一下，不然可能会出问题~~ 不用改了，现在改成从官方服务器获取版本号）
 - `android` 安卓版本，例如我的红米K40的安卓版本是Android 12，就填入`12`，应该是只有Android有，因为手上只有Android设备，如果你愿意用iOS设备进行测试的话，请将相关内容发邮件到[GamerNoTitle@outlook.com](mailto:GamerNoTitle@outlook.com)
 - `deviceid` 设备在米哈游注册的id（格式为UUID，例如`d76fb4b4-b898-4093-990d-c57ebb40f29b`）
 - `devicename` 设备的名称
