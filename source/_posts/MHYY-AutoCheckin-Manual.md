@@ -88,6 +88,8 @@ chmod +x ./preinstall.sh && ./preinstall.sh
 
 运行完以后，打开`config.json`，把自己的配置内容填进去即可，然后点击部署代码
 
+**一定要先把配置丢进`config.json`再部署代码！一定要先把配置丢进`config.json`再部署代码！一定要先把配置丢进`config.json`再部署代码！**
+
 要是不确定能不能使用，可以点一下顶上的测试函数，看看能不能使用
 
 #### [腾讯云函数版本](https://cloud.tencent.com/act/cps/redirect?redirect=10232&cps_key=e6bd1a9d73067a5a66bb5c8e2a9e288c)（不推荐，腾讯要收钱了，可以在阿里云函数使用，正常是不会用完你的免费额度的）
@@ -125,6 +127,8 @@ chmod +x ./preinstall.sh && ./preinstall.sh
 ```
 
 ![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220421-171008.png)
+
+**一定要先把配置丢进`config.json`再部署代码！一定要先把配置丢进`config.json`再部署代码！一定要先把配置丢进`config.json`再部署代码！**
 
 往下拉，先点击`部署`，然后点`测试`，只要测试成功了就是部署完成了
 
