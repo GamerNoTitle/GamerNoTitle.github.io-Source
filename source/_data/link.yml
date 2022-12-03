@@ -468,11 +468,11 @@ class3:
       link: https://nanzx.top
       descr: 百学须先立志
       avatar: https://cdn.jsdelivr.net/gh/839777408/tupian/img/head.jpg
-    # 48:
-    #   name: I Am I
-    #   link: https://5ime.cn
-    #   avatar: https://cdn.jsdelivr.net/gh/5ime/img/avatar.jpg
-    #   descr: 永远相信美好的事情即将发生
+    48:
+      name: I Am I
+      link: https://5ime.cn
+      avatar: https://cdn.jsdelivr.net/gh/5ime/img/avatar.jpg
+      descr: 永远相信美好的事情即将发生
     49:
       name: 萌茶屋
       link: https://cha.moe
