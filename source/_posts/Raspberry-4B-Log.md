@@ -98,3 +98,10 @@ sudo apt install libcairo2 libcairo2-dev -y
 sudo apt install libossp-uuid-dev -y
 ```
 
+#### 无法编译
+
+因为OpenSSL升级到`3.0.0`然后不支持，所以直接降级回去就行了
+
+默认是`OpenSSL 1.1.1m`，所以建议先编译完再升级（没事别`sudo apt upgrade -y`）
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Raspberry-4B-Log/Xshell-20221201-223944.png)
