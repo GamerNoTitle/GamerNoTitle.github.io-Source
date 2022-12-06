@@ -22,6 +22,8 @@ keywords: [GamerNoTitle,About,关于我]
 
 #### **BOSS出没时间**：目前是整天
 
+#### 人格：[“执政官” 人格 (ESFJ) | 16Personalities](https://www.16personalities.com/ch/esfj-人格)
+
 ##### 邮件方式：[admin@bili33.top](mailto:admin@bili33.top)（推荐）或者[GamerNoTitle@outlook.com](mailto:GamerNoTitle@outlook.com)
 
 ##### QQ方式：3559869084（请注明是来自我的Blog的）
