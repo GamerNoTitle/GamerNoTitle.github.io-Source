@@ -155,8 +155,8 @@ steam:
   length: 1000
   imgUrl: 
   proxy:
-    host: 127.0.0.1
-    port: 11809
+    host: 
+    port: 
 
 # 音乐播放器
 aplayer:
