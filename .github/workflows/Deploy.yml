@@ -19,23 +19,25 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '12'
+          node-version: '18'
 
       - name: Setup Hexo
         env:
-          ACTION_DEPLOY_KEY: ${{ secrets.HEXO_DEPLOY_KEY }}
+          ACTION_DEPLOY_KEY: ${{ secrets.SSH_KEY }}
         run: |
           mkdir -p ~/.ssh/
           echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
           chmod 700 ~/.ssh
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git config --global user.email "john@doe.com"
-          git config --global user.name "John Doe"
+          git config --global user.email "GamerNoTitle@outlook.com"
+          git config --global user.name "GamerNoTitle"
           npm install hexo-cli -g
           npm install
 
       - name: Deploy
         run: |
           hexo clean
-          hexo deploy
+          hexo b -u
+          hexo st -u
+          hexo d -g
