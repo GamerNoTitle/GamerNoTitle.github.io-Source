@@ -32,6 +32,7 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           git config --global user.email "GamerNoTitle@outlook.com"
           git config --global user.name "GamerNoTitle"
+          git config --global init.defaultBranch master
           npm install hexo-cli -g
           npm install
 
@@ -40,4 +41,4 @@ jobs:
           hexo clean
           hexo b -u
           hexo st -u
-          hexo d -g
+          hexo d -g --message "Deploy with Github Action"
