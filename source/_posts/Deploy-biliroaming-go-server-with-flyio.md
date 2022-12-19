@@ -61,13 +61,13 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-
 
 If you have the [Homebrew](https://brew.sh/) package manager installed, flyctl can be installed by running:
 
-```
+```shell
 brew install flyctl
 ```
 
 If not, you can run the install script:
 
-```
+```shell
 curl -L https://fly.io/install.sh | sh
 ```
 
@@ -75,7 +75,7 @@ curl -L https://fly.io/install.sh | sh
 
 Run the install script:
 
-```
+```shell
 curl -L https://fly.io/install.sh | sh
 ```
 
@@ -83,7 +83,7 @@ curl -L https://fly.io/install.sh | sh
 
 Run the Powershell install script:
 
-```
+```powershell
 iwr https://fly.io/install.ps1 -useb | iex
 ```
 
