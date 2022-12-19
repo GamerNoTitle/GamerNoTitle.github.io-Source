@@ -1,3 +1,4 @@
 @echo off
-Set /p times=<times.txt 
-hexo cl && hexo b -u && hexo d -g && hexo cl && git add . && git commit -m "No.%times% Commit in Fourth Week Backup" && git push && start change-times.bat
+Set date = date /t
+Set time = time /t
+hexo cl && hexo b -u && hexo d -g && hexo cl && git add . && git commit -m "%time% %date% Commit" && git push
