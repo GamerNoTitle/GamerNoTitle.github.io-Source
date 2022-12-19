@@ -186,7 +186,7 @@ codespaces还可以在`PORTS`选项卡里看到绑定的本地端口
 
 ![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/navicat_pBpgBHRGhZ.png)
 
-连接以后，我们在左侧可以看到两个数据库，一个是`postgres`，一个是`<app_name>`用哪个随便，不过如果要用`<app_name>`那个，就需要在配置文件里面相应地改掉（一会讲）
+连接以后，我们在左侧可以看到两个数据库，一个是`postgres`，一个是`<app_name>`用哪个随便，不过如果要用`<app_name>`那个，就需要在配置文件里面相应地改掉（在初始化项目那里的数据库连接那个地方）
 
 右键自己需要使用的数据库，选择`Execute SQL File`（执行SQL脚本，我这里是英文版），然后逐个将项目的sql文件夹内的脚本执行，构建数据库结构
 
