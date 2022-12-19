@@ -1,3 +1,9 @@
 @echo off
-Set /p times=<times.txt 
-git pull & git add . && git commit -m "No.%times% Commit Backup" && git push && start change-times.bat
+::Set /p times=<times.txt 
+Set date = date /t
+Set time = time /t
+git pull
+git add . 
+git commit -m "%time% %date% Commit"
+git push
+::start change-times.bat

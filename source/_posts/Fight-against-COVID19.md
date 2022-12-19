@@ -3,7 +3,7 @@ title: 与新冠肺炎搏斗的那些日子
 date: 2022-12-19 18:53:30
 tags: Diary
 categories: Diary
-cover: 
+cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Fight-against-COVID19/coronavirus.png
 ---
 
 2022年12月18日下午，我感到十分地不适，在那之前，我们学院里有出现过COVID19（新冠肺炎）病例，所以整个学院都是在疫情管控状态，当我感受到我不适的那一刻我就知道，我很有可能是中招了。我第一次测量体温是37.4（刚刚过发烧线37.3），然后就把我丢到了临时的隔离房间去隔离去，说观察一个晚上再决定是否把我拉去隔离。
