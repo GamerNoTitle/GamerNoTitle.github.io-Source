@@ -124,6 +124,34 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Enchance-my-Sur
 
 不过这个Android有一个缺点：不能root，我正在寻找root的方式不过这肯定要很久，或许我会找不到。本来我想试试在Windows下用DiskGenius把boot.img直接提取出来修补的，但是FydeOS的目录结构非常奇怪，我是真的没有找到，慢慢来吧……
 
+### 安装Linux子系统出现问题
+
+`在开启Linux虚拟机的时候提示安装Linux时出错 － 启动虚拟机时出错，请重试；打开Linux终端提示Error starting penguin container: 5 Launching vmshell failed: Error starting crostini for terminal: 5`
+
+可以通过查看`/var/log/messages`这个文件来看看问题出在哪，先<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>打开`Crosh`（ChromeOS的终端入口），然后输入`shell`打开终端，接着输入`sudo su`进入root用户才能看到
+
+我这里看到的日志如下（节选了报错部分）
+
+```
+2022-12-20T04:42:38.583489Z INFO vm_concierge[3233]: Preallocating user-chosen-size raw disk image
+2022-12-20T04:42:38.584372Z INFO kernel: [  396.631888] EXT4-fs (dm-1): mounted filesystem without journal. Opts: 
+2022-12-20T04:42:38.606690Z INFO vm_concierge[3233]: Disk image preallocated
+2022-12-20T04:42:38.610554Z INFO vm_concierge[3233]: Received StartVm request
+2022-12-20T04:42:38.610606Z ERR vm_concierge[3233]: Missing VM kernel path: /run/imageloader/cros-termina/99999.0.0/vm_kernel
+2022-12-20T04:43:09.578102Z NOTICE temp_logger[16903]:  INT3400_Thermal:20C B0D4:93C GEN4:39C GEN5:37C pch_skylake:52C x86_pkg_temp:91C PL1:30.000W
+2022-12-20T04:43:35.275342Z WARNING session_manager[1287]: WARNING session_manager: [device_identifier_generator.cc(228)] No device identifiers available, no state keys generated
+```
+
+这里很明显了是缺少kernel文件，在官方论坛问了一圈，官方回复如下
+
+```
+请检查 /usr/local/tatl-fydeos/ 目录是否存在，其中应该有 vm_kernel, vm_rootfs.img 等文件。 如果目录不存在或者文件缺失的话，需要在 shell 中以 root 身份执行 /usr/bin/stateful_update_wrapper.sh recover 把 stateful 分区恢复一下，重启后再重试安装 linux 子系统。
+```
+
+然后我去检查，果然没有这个目录，根据他给的方法恢复一下，可以用了
+
+这里有个坑就是它恢复的时候会下载资源文件，这个资源文件的下载链接是AWS3的，建议挂个梯子下，要不然慢得很
+
 ---
 
 ## 总结
