@@ -1,7 +1,7 @@
 ---
 title: 最全面的Hexo部署方法，交给你了~
 date: 2019-09-07 20:00:00
-tags: Software
+tags: [Software, Hexo, Github, Github Pages]
 categories: Software
 cover: https://pic2.zhimg.com/v2-0729fd90233557be8f07e9a64f656c3e_r.jpg
 keywords: 'hexo,github,Github Pages,coding Pages,hexo deploy'

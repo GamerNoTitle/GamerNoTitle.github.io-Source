@@ -1,7 +1,7 @@
 ---
 title: CTF学习笔记（大学篇）04 —— 使用Aircrack-ng来破解WIFI
 date: 2022-06-01 12:44:46
-tags: CTF
+tags: [CTF, WIFI, aircrack]
 categories: CTF
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Cloudflare Workers反代实战（下）
 date: 2020-01-17 21:55:31
-tags: Software
+tags: [Software, Cloudflare, JSProxy]
 categories: Software
 cover: https://www.cloudflare.com/resources/images/slt3lc6tev37/2Q8pCVxYreoikOqsomGEGs/d6c70917da99084b1210fe04a241dab9/workers-illustration.png
 ---

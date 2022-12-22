@@ -1,7 +1,7 @@
 ---
 title: SteamAutoQueue —— Steam自动探索3次队列，帮你拿到促销期间的卡牌！
 date: 2022-07-02 19:47:41
-tags: Tech
+tags: [Tech, Steam, Script, Python]
 categories: Tech
 cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220627-225929.png
 ---

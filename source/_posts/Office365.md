@@ -1,13 +1,11 @@
 ---
 title: 白嫖Office365？这种好事我当然要来！
 date: 2019-08-30 19:40:19
-tags: Software
+tags: [Software, Office365]
 categories: Software
 cover: https://ausdroid.net/wp-content/uploads/2019/09/office365-1024x488.jpg
 keywords: 'Office,Office 365,Office365,Office 365 Free,Microsoft Office'
 ---
-
->**<font color=#ff0000>本方法存在局限性，尝试之前请确保你有让微软讲你的账户认定为开发者的能力（如频繁调用api等），如果你只是搀着onedrive的5T空间，那么我推荐你直接拉到题外话中的网址领取</font>**
 
 相信很多人都在用Office，用的要么是WPS Office，要么就是Microsoft Office。正版的Office365价格贵得要死↓
 

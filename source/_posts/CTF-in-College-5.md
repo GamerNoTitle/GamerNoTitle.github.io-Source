@@ -1,7 +1,7 @@
 ---
 title: CTF学习笔记（大学篇）05 —— 通过msfconsole和520apkhook创建带有后门程序的安卓程序
 date: 2022-06-07 22:31:17
-tags: CTF
+tags: [CTF, Virus, msfconsole, msfvenom, apk]
 categories: CTF
 ---
 

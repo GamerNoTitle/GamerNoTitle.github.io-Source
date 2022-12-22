@@ -1,7 +1,7 @@
 ---
 title: CTF学习笔记（大学篇）01 —— CTF入门
 date: 2022-03-08 20:18:02
-tags: CTF
+tags: [CTF, Sec]
 categories: CTF
 ---
 

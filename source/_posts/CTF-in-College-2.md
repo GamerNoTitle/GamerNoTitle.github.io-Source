@@ -1,7 +1,7 @@
 ---
 title: CTF学习笔记（大学篇）02 —— BadUSB & CobaltStrike
 date: 2022-04-16 08:22:03
-tags: CTF
+tags: [CTF, HID, CobaltStrike, Powershell]
 categories: CTF
 ---
 

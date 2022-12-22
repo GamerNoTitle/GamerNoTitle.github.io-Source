@@ -1,7 +1,7 @@
 ---
 title: MHYY-AutoCheckin - 米哈云游（云原神）自动签到脚本食用指南
 date: 2022-04-19 18:57:44
-tags: Tech
+tags: [Tech, Tutorial, Python, Script]
 categories: Tech
 cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/GenshinImpact/90149781_p0_small.png?download=true
 ---

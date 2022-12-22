@@ -1,7 +1,7 @@
 ---
 title: 从零开始的Python ACM Ch.9：动态规划
 date: 2022-11-15 19:48:27
-tags: Coding
+tags: [Coding, Dynamic]
 categories: Coding
 ---
 

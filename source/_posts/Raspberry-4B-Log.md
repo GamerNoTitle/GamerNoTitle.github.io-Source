@@ -1,7 +1,7 @@
 ---
 title: Raspberry 4B 折腾记录（持续更新）
 date: 2022-10-05 15:23:46
-tags: IoT
+tags: [IoT, Raspberry]
 categories: IoT
 cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Raspberry-4B-Log/cover.jpg
 ---

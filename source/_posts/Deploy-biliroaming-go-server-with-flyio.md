@@ -1,7 +1,7 @@
 ---
 title: 使用Fly.io平台部署哔哩漫游服务器
 date: 2022-12-18 17:11:03
-tags: Tech
+tags: [Tech, flyio, biliRoaming, Host]
 categories: Tech
 cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/msedge_EB3k3IEoNv.png
 ---

@@ -1,7 +1,7 @@
 ---
 title: 移动你的WSA数据盘，让你的C盘不再爆满
 date: 2022-11-24 13:09:57
-tags: Software
+tags: [Software, hardlink]
 categories: Software
 cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Move-your-wsa-data/explorer-20220830-181707.png
 ---

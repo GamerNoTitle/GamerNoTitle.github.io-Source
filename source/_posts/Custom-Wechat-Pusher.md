@@ -1,7 +1,7 @@
 ---
 title: 使用Railway服务平台和message-pusher项目搭建自己的微信通知推送服务器
 date: 2022-06-01 22:32:15
-tags: Tech
+tags: [Tech, Notification, mail, railway, message, wechat]
 categories: Tech
 cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Custom-Wechat-Pusher/ngkIIFFBPT.png
 ---

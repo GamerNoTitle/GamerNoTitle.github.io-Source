@@ -1,7 +1,7 @@
 ---
 title: 从零开始的Python ACM Ch.4：序列和字符串的算法
 date: 2022-10-29 08:12:55
-tags: Coding
+tags: [Coding, String]
 categories: Coding
 ---
 

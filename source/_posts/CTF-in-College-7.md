@@ -1,7 +1,7 @@
 ---
 title: CTF学习笔记（大学篇）07 —— 手动注入msf到指定的程序
 date: 2022-06-25 00:10:20
-tags: CTF
+tags: [CTF, msfconsole, apk, reverse, decompile]
 categories: CTF
 ---
 

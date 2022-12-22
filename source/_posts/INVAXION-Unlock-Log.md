@@ -1,7 +1,7 @@
 ---
 title: 音灵INVAXION解锁工具制作全纪录
 date: 2021-06-15 22:17:55
-tags: Tech
+tags: [Tech, Regedit, Save, Game]
 categories: Tech
 cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/INVAXION-Unlock-Log/Cover.png
 ---

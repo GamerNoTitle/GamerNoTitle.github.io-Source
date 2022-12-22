@@ -1,7 +1,7 @@
 ---
 title: 在华为Watch Pro 3上面安装第三方应用
 date: 2022-06-01 17:34:27
-tags: Tech
+tags: [Tech, Smart Watch, HUAWEI Watch]
 categories: Tech
 cover: https://consumer-img.huawei.com/content/dam/huawei-cbg-site/cn/mkt/plp/launch/20220428/wearables/banner-gt3-pc.jpg
 ---

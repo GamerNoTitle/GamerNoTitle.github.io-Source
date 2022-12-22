@@ -1,7 +1,7 @@
 ---
 title: 日常吐槽08 - 换用Blackberry9720三个月后的感受
 date: 2020-11-15 10:43:09
-tags: diary
+tags: [diary, school]
 categories: diary
 cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/diary8/cover.jpg
 ---

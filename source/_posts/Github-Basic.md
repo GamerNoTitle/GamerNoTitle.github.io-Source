@@ -1,7 +1,7 @@
 ---
 title: Github的基本用法 —— 给小白的新手教程
 date: 2020-04-14 15:21:39
-tags: Software
+tags: [Software, Github, Noob]
 categories: Software
 cover: https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo-v1@Github-Basic/img/Github-Basic/cover.jpg
 ---

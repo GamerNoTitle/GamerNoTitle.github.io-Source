@@ -1,7 +1,7 @@
 ---
 title: CTF学习笔记（大学篇）03 —— CobaltStrike 详解
 date: 2022-05-26 22:44:46
-tags: CTF
+tags: [CTF, CobaltStrike, Virus, Trojan]
 categories: CTF
 ---
 

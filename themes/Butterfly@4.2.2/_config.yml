@@ -779,7 +779,7 @@ aside:
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
-    sort: updated # date or updated
+    sort: date # date or updated
     sort_order: 
   card_categories:
     enable: true
@@ -787,9 +787,9 @@ aside:
     expand: none # none/true/false
     sort_order: # Don't modify the setting unless you know how it works
   card_tags:
-    enable: false
+    enable: true
     limit: 40 # if set 0 will show all
-    color: false
+    color: true
     sort_order: # Don't modify the setting unless you know how it works
   card_archives:
     enable: true

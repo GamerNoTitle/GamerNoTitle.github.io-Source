@@ -1,7 +1,7 @@
 ---
 title: 日常吐槽03 - 聊一聊WARFRAME COINCIDANCE的制作
 date: 2020-01-22 22:00:00
-tags: diary
+tags: [diary, Game, Warframe]
 categories: diary
 cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Diary/Coincidance.png
 sage: false

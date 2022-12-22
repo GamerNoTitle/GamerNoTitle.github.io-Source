@@ -1,7 +1,7 @@
 ---
 title: CSGO国服反和谐教程
 date: 2022-07-03 10:06:09
-tags: Games
+tags: [Games, CSGO, AntiLowViolence, PerfectWorld]
 categories: Games
 cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CSGO-Anti-LowViolence/TheGoodYouth.jpg
 ---

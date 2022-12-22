@@ -1,0 +1,63 @@
+---
+title: Hacking-SSL-Pinning-of-miHoYo-bbs
+date: 2022-12-22 08:05:24
+tags: [Reverse, CTF, SSL Pinning, SSL, HTTPS, Packet Capture]
+categories: Tech
+cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Hacking-SSL-Pinning-of-miHoYo-bbs/Certificate-Based.gif
+---
+
+之前，我在[米哈云游自动签到脚本的教程](/posts/MHYY-AutoCheckin-Manual)里面说过"**一定要先登录并成功进去了再启动抓包软件！！！**"（配置内容获取那一节），这个主要是因为如果抓包软件开着，你会发现你根本登录不进去，完成不了米忽悠的身份验证，这也同时导致了米游社的包（手机上的）抓不到，因为抓包软件一开米游社就直接提示连接不到网络了（我本来还想自己撸一个米游社每日任务助手的来着，但是碍于这个原因一直没有做）
+
+这不趁着刚好被隔离了，找点事情干，来研究一下这个东西
+
+## 原理
+
+先在网上搜了一下，才知道这个东西叫做`SSL Pinning`（证书锁定），原理类似于下面这张图（网上下的）
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Hacking-SSL-Pinning-of-miHoYo-bbs/Certificate-Based.gif)
+
+大概意思就是说服务器和客户端都有证书，双方对对方给出的证书进行验证。而我们平时的SSL是下面这种（基于账号密码的验证）
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Hacking-SSL-Pinning-of-miHoYo-bbs/UserName-Password-Based.gif)
+
+服务器不对客户端进行验证，客户端也没有证书一说，只有客户端对服务端的证书验证，这就可以给我们抓包留下机会，毕竟要解开SSL连接是要安装抓包软件的证书的。
+
+正因如此，当服务端对客户端证书进行验证时会发现我们的证书跟服务器所储存的Key对不上，认为我们遭受了“中间人攻击”，于是拒绝向我们提供服务，对外表现为“网络未连接”，米游社就是采用了这种方式，才导致我们无法对其进行抓包。
+
+## 获取证书
+
+先对米游社的APP进行反编译，去下一个[APKTools]()（Linux一般自带了），用这个对apk文件反编译
+
+```shell
+$ java -jar .\apktool_2.7.0.jar d -f .\mihoyobbs_2.42.1_gf.apk -o MYS
+```
+
+在`-f`后面传入apk的路径，`-o`后面输入要保存的文件夹名字（随意）
+
+```
+I: Using Apktool 2.7.0 on mihoyobbs_2.42.1_gf.apk
+I: Loading resource table...
+I: Decoding AndroidManifest.xml with resources...
+I: Loading resource table from file: C:\Users\GamerNoTitle\AppData\Local\apktool\framework\1.apk
+I: Regular manifest package...
+I: Decoding file-resources...
+I: Decoding values */* XMLs...
+I: Baksmaling classes.dex...
+I: Baksmaling classes2.dex...
+I: Baksmaling classes3.dex...
+I: Baksmaling classes4.dex...
+I: Baksmaling classes5.dex...
+I: Baksmaling classes6.dex...
+I: Baksmaling classes7.dex...
+I: Baksmaling classes8.dex...
+I: Baksmaling classes9.dex...
+I: Copying assets and libs...
+I: Copying unknown files...
+I: Copying original files...
+I: Copying META-INF/services directory
+```
+
+完成后可以看到东西都在里面了
+
+![]()
+

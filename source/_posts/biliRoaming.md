@@ -1,7 +1,7 @@
 ---
 title: 收看B站港澳台地区番剧的正确方式 - 哔哩漫游biliRoaming
 date: 2022-04-22 17:08:35
-tags: Software
+tags: [Software, biliRoaming, Host, Cloud Function]
 categories: Software
 cover: https://cdn.staticaly.com/gh/yujincheng08/BiliRoaming/master/imgs/icon.png
 ---

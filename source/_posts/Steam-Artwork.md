@@ -1,7 +1,7 @@
 ---
 title: Steam资料美化 —— 让你的展柜变得好看！
 date: 2020-09-26 08:52:29
-tags: Software
+tags: [Software, Steam, Customize]
 categories: Software
 cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Steam-Artworks/cover.png
 ---

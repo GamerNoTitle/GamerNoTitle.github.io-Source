@@ -1,8 +1,8 @@
 ---
 title: Ticwatch Pro 3 使用体验报告
 date: 2022-08-23 12:00:54
-tags: Daily
-categories: Daily
+tags: [Diary, Ticwatch, adb]
+categories: Diary
 cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/IMG_20220823_120136.jpg
 ---
 

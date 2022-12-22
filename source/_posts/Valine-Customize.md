@@ -1,7 +1,7 @@
 ---
 title: Valine-Customize魔改教程
 date: 2020-04-19 19:50:19
-tags: Tech
+tags: [Tech, Customize]
 categories: Tech
 cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Valine-customize/cover.png
 ---

@@ -1,7 +1,7 @@
 ---
 title: Vercel搭建反向代理
 date: 2022-07-18 22:04:45
-tags: Tech
+tags: [Tech, Proxy, Vercel]
 categories: Tech
 cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/vercel-reverse-proxy/chrome-20220718-221703.png
 ---

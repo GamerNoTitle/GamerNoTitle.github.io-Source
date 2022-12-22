@@ -1,7 +1,7 @@
 ---
 title: 就决定是你啦！苏菲婆5！ —— 谈谈我对Surface Pro 5的使用体验以及各种骚操作
 date: 2022-11-24 16:39:18
-tags: Tech
+tags: [Tech, Surface, FydeOS, Windows, Linux, Ubuntu, linux-surface]
 categories: Tech
 cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Enchance-my-Surface-Pro-5/379d60dc4b2e0e6e78fe593ec38a69d.jpg
 ---

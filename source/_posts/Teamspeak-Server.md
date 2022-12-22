@@ -1,7 +1,7 @@
 ---
 title: Teamspeak服务器搭建指南
 date: 2022-05-07 13:03:11
-tags: Tech
+tags: [Tech, Teamspeak]
 categories: Tech
 cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Teamspeak-Server/TeamSpeak-20220507-173159.png?download=true
 ---

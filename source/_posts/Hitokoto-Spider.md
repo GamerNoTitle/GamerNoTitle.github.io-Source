@@ -1,7 +1,7 @@
 ---
 title: Hitokoto-Spider 一言库爬虫开发日记
 date: 2020-02-11 14:17:37
-tags: Tech
+tags: [Tech, Python]
 categories: Tech
 cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Hitokoto-spider/hitokoto.png
 sage: false

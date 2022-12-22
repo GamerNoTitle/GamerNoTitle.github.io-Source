@@ -1,7 +1,7 @@
 ---
 title: 用Python和Flask打造属于自己的API
 date: 2022-04-16 10:31:50
-tags: Tech
+tags: [Tech, Python, Flask, API, Host]
 categories: Tech
 cover: https://socialify.git.ci/Ninym/api-flask/image?description=1&descriptionEditable=API%20made%20with%20python%20%26%20flask&language=1&name=1&owner=1&theme=Light
 ---

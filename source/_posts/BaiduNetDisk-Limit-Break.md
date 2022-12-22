@@ -1,7 +1,7 @@
 ---
 title: 被限速的日子，该过去了！
 date: 2019-08-04 17:07:20
-tags: Software
+tags: [Software, Baidu, BaiduNetdisk, Aria2]
 categories: Software
 cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Aria2c-Break-BaiduNetDisk/Cover.jpg
 keywords: 'aria2c,baidu,百度网盘,百度网盘不限速'

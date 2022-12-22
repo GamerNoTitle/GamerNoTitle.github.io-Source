@@ -1,7 +1,7 @@
 ---
 title: Valine-Admin博客评论邮件提醒系统部署
 date: 2020-03-14 21:47:10
-tags: Software
+tags: [Software, Valine, Serverless]
 categories: Software
 cover: https://img.huoyanio.com/data/upload/Image/leancloud-rebrand.jpg
 ---

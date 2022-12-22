@@ -1,7 +1,7 @@
 ---
 title: CTF学习笔记（大学篇）06 —— 实战！在拟定的背景下运用社工和后门程序获取用户手机上的内容
 date: 2022-06-15 20:12:04
-tags: CTF
+tags: [CTF, apk, raspberry]
 categories: CTF
 ---
 

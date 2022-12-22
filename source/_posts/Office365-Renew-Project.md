@@ -1,7 +1,7 @@
 ---
 title: Office365开发者订阅保命计划
 date: 2020-04-27 14:23:46
-tags: Software
+tags: [Software, Office365, Script]
 categories: Software
 cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Office365-Renew-Project/cover.png
 ---

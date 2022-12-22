@@ -1,7 +1,7 @@
 ---
 title: 网站优化：网站目录缩短及重定向
 date: 2021-06-14 16:26:04
-tags: Tech
+tags: [Tech, SEO, Optimize, Webmaster]
 categories: Tech
 cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/301Redirect/Cover.png
 ---
