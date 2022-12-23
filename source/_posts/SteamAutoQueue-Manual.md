@@ -21,45 +21,15 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/mse
 
 ### 变量获取
 
-首先先打开你的Steam商店，正常登录你的账号后（登录时一定要选择`在这台电脑上记住我`），按<kbd>F12</kbd>打开开发者工具
+先打开Steam商店，正常登陆，然后按下F12打开开发者工具，在选项卡里面找到网络（Network），刷新一下，在左侧找到`store.steampowered.com`，点击一下，然后在右侧下拉找到`Cookie`，把里面的东西复制出来
 
-然后在上面的导航栏找到应用程序(Application)，然后在左边的树状图导航栏找到`cookie` -> `https://store.steampowered.com`
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/SteamAutoQueue-Manual/msedge-20221223-084012.png)
 
-你应该会看到像我图示的这样的表格
+如果你选择用Action运行，，那么把Cookie复制下来后直接进入[Action环节](#在Github Action运行)
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-170037.png)
+如果你选择服务器运行，那么你需要运行一下`ConvertCookie.py`，输入你的cookie字符串，然后打开`cookie.txt`就可以看到用于填在`config.json`的cookie了，复制出来，填在配置文件的`cookie`配置里面，如果你使用Action运行
 
-在这里面我们需要找到以下内容，对应着config文件的配置（<`名称`: `变量类型`>）
-
-其中`proxy`是代理的地址，这个根据自己的需求去填写（有的人可能会开v2ray啥的，所以做了个这个，如果是在Github Action运行则不需要这个）
-
-**请注意，`steamRememberLogin`只有一个月的有效期，目前不清楚缺少这个是否能够运行（~~主要因为我懒我没测~~ 此变量已弃用，不知道获取一次能用多久）**
-
-```
-{
-    "proxy": "",
-    "steam": {
-        "sessionid": <sessionid: str>,
-        "steamLoginSecure": <steamLoginSecure: str>,
-        "browserid": <browserid: str>,
-        "steamID64": <Steam64位ID，就是steamMachineAuth后面的数字: str>
-    }
-}
-```
-
-下面是一个例子（例子中的内容对应的账号已经退出登录，故内容为无效cookie）
-
-```
-{
-    "proxy": "",
-    "steam": {
-        "sessionid": "9775e63b29f841ea44c4d5f2",
-        "steamLoginSecure": "76561199072167687%7C%7C19A14B89549F7DA47F0E071CC9D33FEF63D5EC27",
-        "browserid": "2683598387774835722",
-        "steamID64": "76561199072167687"
-    }
-}
-```
+如果你的电脑没有Python环境，或者你没有clone本仓库，你也可以打开这个网站[字符串在线替换 - so工具 (sotool.net)](https://sotool.net/replace.html)，然后在这里完成替换操作，替换的要求就是把双引号`"`替换为单引号`'`（注意要半角符号不是全角符号）
 
 ### 在Github Action运行
 
@@ -67,9 +37,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/mse
 
 然后点击Settings ->  Secrets -> Actions，进入变量添加页面
 
-添加如图所示的变量，[变量获取请查看这里](#变量获取)
-
-（图中的`steamRememberLogin`和`steamMachineAuth`已弃用）
+添加如图所示的变量，[变量获取请查看这里](#变量获取)，你只需要添加名为`COOKIE`的变量即可，内容是你的COOKIE
 
 ![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-171847.png)
 
@@ -170,45 +138,15 @@ But I finish this too late, so when it comes to the Winter-Sale that I will prom
 
 ### Getting variables
 
-First, you need to open your browser and login your Steam account (`Remember me on this computer` should be checked), then press <kbd>F12</kbd> to open the developer tool.
+You need to go to Steam website and Press <kbd>F12</kbd>, find network and refresh the page once. Then you can find `store.steampowered.com` on the left side. Click on it and scroll down on the right side, and you will find cookie string. 
 
-Find the `Application` button on the nav-bar and find `cookie` -> `https://store.steampowered.com` on the tree-nav on the left.
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/SteamAutoQueue-Manual/msedge-20221223-084012.png)
 
-You will see the sheets like this
+If you run this script on Action, copy this then go to [Run on Github Action](#Run on Github Action) section
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-170037.png)
+Copy that and run `ConvertCookie.py`, paste your cookie in it and you will find the string that need to be fill in the `config.json` is in the `cookie.txt`, copy that and fill it in the `cookie` key of the config file.
 
-What we need is to find the content for the config below (<`name`: `Variable-Type`>)
-
-`proxy` is the address that you need to use for proxy, use it as you need. (Some one will use v2ray or something else so I made this. If you're running on Github Action, then this is not needed.)
-
-**CAUTION: `steamRememberLogin` is valid for one month, and I didn't know whether the script can be run if this is missing (~~Actually the thing is that I'm too lazy to test it.~~ `steamRememberLogin` is desperated, idk how long you can use it after once you attain them)**
-
-```
-{
-    "proxy": "",
-    "steam": {
-        "sessionid": <sessionid: str>,
-        "steamLoginSecure": <steamLoginSecure: str>,
-        "browserid": <browserid: str>,
-        "steamID64": <Steam 64ID, you can find it behind steamMachineAuth: str>
-    }
-}
-```
-
-This is an example (This account has been logged out so this is not valid for using)
-
-```
-{
-    "proxy": "",
-    "steam": {
-        "sessionid": "9775e63b29f841ea44c4d5f2",
-        "steamLoginSecure": "76561199072167687%7C%7C19A14B89549F7DA47F0E071CC9D33FEF63D5EC27",
-        "browserid": "2683598387774835722",
-        "steamID64": "76561199072167687"
-    }
-}
-```
+If you dont have a Python environment or you havent clone the source code, you can also go to [Find and Replace a String - Online String Tools](https://onlinestringtools.com/replace-string) to finish it.
 
 ### Run on Github Action
 
@@ -218,11 +156,9 @@ Then click on Settings ->  Secrets -> Actions to enter the page to add variables
 
 Add the variables shown on this picture, [you can know how to get then from here](#Getting variables)
 
-（The vars `steamMachineAuth` and `steamRememberLogin` are now desperated)
+**YOU ONLY NEED TO ADD THE VARIABLE NAMED "COOKIE" AND FILL YOUR COOKIE IN IT, THE FOLLOWING PICTURE IS OUTDATED!**
 
 ![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-171847.png)
-
-The other way is that you can run the internal script `SetCookie.py` to place your config in your Redis. (Just fill in the `Steam` key in `config.json` and paste the `key` and `value` of `Steam` key in the `config.json` .) But not everyone has a Redis database. So if you don't have one, then you should add it one-by-one.
 
 After you finishing it, click the Action button from nav-bar and click the green button on the center to turn Action on.
 
