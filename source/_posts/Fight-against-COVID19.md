@@ -30,4 +30,8 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Fight-against-C
 
 {% aplayer "ラヴィット (loveit)" "ピノキオピー / 初音ミク" "https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/file/%E3%83%94%E3%83%8E%E3%82%AD%E3%82%AA%E3%83%94%E3%83%BC%3B%20%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF%20-%20%E3%83%A9%E3%83%B4%E3%82%A3%E3%83%83%E3%83%88.mp3" "http://p1.music.126.net/SJ8vHgu99V4FuZA1VjE8bg==/109951165780056107.jpg" %}
 
+2022年12月25日，除了咳嗽基本没有什么症状了，好烦啊周日还要上课= =，唉没办法，期末考试提前一周了，慢慢来吧
+
+2022年12月26日，上级好烦啊，做个展板要求又多，你又不给我工资，我还要为你累死累活真tm烦，太难了，明天抗原阴性就可以回去楼里隔离了
+
 ====== 待更新 ======
