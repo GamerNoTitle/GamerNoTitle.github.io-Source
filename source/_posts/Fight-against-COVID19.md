@@ -32,6 +32,8 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Fight-against-C
 
 2022年12月25日，除了咳嗽基本没有什么症状了，好烦啊周日还要上课= =，唉没办法，期末考试提前一周了，慢慢来吧
 
-2022年12月26日，上级好烦啊，做个展板要求又多，你又不给我工资，我还要为你累死累活真tm烦，太难了，明天抗原阴性就可以回去楼里隔离了
+2022年12月26日，上级好烦啊，做个展板要求又多，你又不给我工资，我还要为你累死累活真tm烦，太难了，明天抗原阴性就可以回去楼里隔离了，晚上继续战地1，第一次感到烂橘子比EA Desktop好用？？？！
 
-====== 待更新 ======
+2022年12月27日，抗原阴性，会楼里去了，早上玩了会死亡搁浅（键鼠玩的）。至此，我已经阳康啦！
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Fight-against-COVID19/9b50622522ff24d70da33aaa716637e.jpg)
