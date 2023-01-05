@@ -79,6 +79,8 @@ algolia_search:
 # ---------------
 local_search:
   enable: true
+  preload: true
+  CDN:
 
 # Math (數學)
 # --------------------------------------
@@ -205,7 +207,12 @@ index_post_content:
 
 # anchor
 # when you scroll in post, the URL will update according to header id.
-anchor: false
+anchor:
+  button:
+    enable: false
+    always_show: false
+    icon: # the unicode value of Font Awesome icon, such as '\3423'
+  auto_update: false # when you scroll in post, the URL will update according to header id.
 
 # Post
 # --------------------------------------
@@ -296,15 +303,13 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments
-  use:
-  - Valine
-  # - Twikoo
-  # - Disqus
+  use: Waline
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to false, the comment count will be invalid
   lazyload: false
   count: true # Display comment count in top_img
+  card_post_count: false # Display comment count in Home Page
 
 # disqus
 # https://disqus.com/
@@ -357,7 +362,7 @@ valine:
       📌昵称可以填写QQ号来自动补全QQ信息啦~
       👨‍🔧本站已启用Akismet反垃圾评论~
       🚀评论和回复支持M↓
-      💢发空包网站广告的给爷爬，你是一定要我BAN了你的IP嘛！！！ 
+    # 💢发空包网站广告的给爷爬，你是一定要我BAN了你的IP嘛！！！ 
     # valine comment input placeholder(like: Please leave your footprints )
     enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
 
@@ -366,13 +371,14 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: # Waline server address url
-    bg: /image/comment_bg.png # waline background
-  pageview: false
+  serverURL: https://waline.bili33.top # Waline server address url
+  bg: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Settings/Valine-BG.jpg # waline background
+  pageview: true
   option:
-    avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
-    emojiCDN: # emoji CDN
-    visitor: false
+    avatar: mp # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
+    emojiCDN: https://cdn.bili33.top/gh/GamerNoTitle/ValineCDN@master/ # emoji CDN
+    visitor: true
+    emoji: [https://cdn.bilicdn.tk/gh/GamerNoTitle/ValineCDN@master/bilibiliHotKey, https://cdn.bilicdn.tk/gh/GamerNoTitle/ValineCDN@master/bilibili2233, https://cdn.bilicdn.tk/gh/GamerNoTitle/ValineCDN@master/bilibilitv]
 
 # utterances
 # https://utteranc.es/
@@ -410,6 +416,21 @@ giscus:
   theme:
     light: light
     dark: dark
+  option:
+
+# Remark42
+# https://remark42.com/docs/configuration/frontend/
+remark42:
+  host: # Your Host URL
+  siteId: # Your Site ID
+  option:
+
+# Artalk
+# https://artalk.js.org/guide/frontend/config.html
+artalk:
+  server:
+  site:
+  visitor: false
   option:
 
 # Chat Services
@@ -451,6 +472,13 @@ gitter:
 crisp:
   enable: false
   website_id:
+
+# messenger
+# https://developers.facebook.com/docs/messenger-platform/discovery/facebook-chat-plugin/
+messenger:
+  enable: false
+  pageID:
+  lang: zh_TW # Language en_US/zh_CN/zh_TW and so on
 
 # Footer Settings
 # --------------------------------------
@@ -746,8 +774,15 @@ subtitle:
     - TECH OTAKUS SAVE THE WORLD —— MiHoYo
     - 技术宅拯救世界！—— 米哈游
 
-# 加載動畫 Loading Animation
-preloader: false
+# Loading Animation (加載動畫)
+preloader:
+  enable: true
+  # source
+  # 1. fullpage-loading
+  # 2. pace (progress bar)
+  source: 2
+  # pace theme (see https://codebyzach.github.io/pace/)
+  pace_css_url: https://cdn.bili33.top/gh/Vikutorika/newassets@master/css/fill-left.css
 
 ####    側邊欄    ####
 #-------------------------------------
@@ -914,7 +949,7 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
     # - xxxx
     # - xxxx
@@ -964,15 +999,18 @@ lazyload:
 #   favicon_16_16: /image/pwa/16.png
 #   mask_icon: /image/pwa/safari-pinned-tab.svg
 
-# Disable Baidu transformation on mobile devices (禁止百度轉碼)
-disable_baidu_transformation: true
-
-# facebook QQ 等 分享自動帶上樣式
-# https://i.loli.net/2019/09/08/2wbFJEKloisRvhj.png
-Open_Graph_meta: true
-
-# 開啟hexo自帶的緩存，加快生成速度
-fragment_cache: true
+# Open graph meta tags
+# https://developers.facebook.com/docs/sharing/webmasters/
+Open_Graph_meta:
+  enable: true
+  option:
+    # twitter_card:
+    # twitter_image:
+    # twitter_id:
+    # twitter_site:
+    # google_plus:
+    # fb_admins:
+    # fb_app_id:
 
 # Add the vendor prefixes to ensure compatibility
 css_prefix: true
@@ -1013,7 +1051,14 @@ CDN:
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr
   # when set it to local, you need to install hexo-butterfly-extjs
-  third_party_provider: unpkg
+  third_party_provider: custom
+  # Add version number to CDN, true or false  
+  version: false
+
+  # Custom format
+  # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
+  custom_format: https://cdn.bili33.top/${cdnjs_name}/${version}/${min_cdnjs_file}
+
   option:
     # main_css:
     # main:
@@ -1027,7 +1072,7 @@ CDN:
     # gitalk:
     # gitalk_css:
     # blueimp_md5:
-    valine: https://unpkg.com/valine-unpkg-avmin@0.0.1/dist/Valine.min.js
+    # valine: https://unpkg.com/valine-unpkg-avmin@0.0.1/dist/Valine.min.js
     # disqusjs:
     # disqusjs_css:
     # twikoo:
@@ -1065,3 +1110,5 @@ CDN:
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:
+    # artalk_js:
+    # artalk_css:
