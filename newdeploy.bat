@@ -3,6 +3,7 @@
 Set date = date /t
 Set time = time /t
 git pull
+start hexo cl
 git add . 
 git commit -m "%time% %date% Commit"
 git push
