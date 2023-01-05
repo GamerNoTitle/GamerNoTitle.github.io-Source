@@ -6,6 +6,12 @@ categories: Tech
 cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Migrate-jsdelivr-mirror-to-Gcore/msedge-20230105-165402.png
 ---
 
+{% note info %}
+
+哔哩CDN官网：[哔哩CDN - 你的CDN镜像源好帮手 | GamerNoTitle (bilicdn.tk)](https://bilicdn.tk/)
+
+{% endnote %}
+
 ![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Migrate-jsdelivr-mirror-to-Gcore/msedge-20230105-165402.png)
 
 这几天一直在弄点其他的东西，昨天弄了个哔哩漫游的服务器（用的vercel），然后一看我的vercel的流量使用，这才多久就已经60G了，一个月的限额可是100G
