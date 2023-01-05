@@ -374,6 +374,7 @@ waline:
     avatar: mp # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
     emojiCDN: https://cdn.bili33.top/gh/GamerNoTitle/ValineCDN@master/ # emoji CDN
     visitor: true
+    emoji: [https://cdn.bilicdn.tk/gh/GamerNoTitle/ValineCDN@master/bilibiliHotKey, https://cdn.bilicdn.tk/gh/GamerNoTitle/ValineCDN@master/bilibili2233, https://cdn.bilicdn.tk/gh/GamerNoTitle/ValineCDN@master/bilibilitv]
 
 # utterances
 # https://utteranc.es/
