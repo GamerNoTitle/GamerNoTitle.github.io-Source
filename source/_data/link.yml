@@ -2,11 +2,11 @@ class:
   class_name: EIN 个人项目
   class_desc: 个人部署在不同地方的项目，稳定性？不存在的╭(╯^╰)╮
   link_list:
-  1:
-    name: 哔哩CDN
-    link: https://bilicdn.tk/
-    avatar: https://bilicdn.tk/images/favicon.png
-    descr: jsd镜像源
+    1:
+      name: 哔哩CDN
+      link: https://bilicdn.tk/
+      avatar: https://bilicdn.tk/images/favicon.png
+      descr: jsd镜像源
     # 10000:
     #   name: N/A
     #   link: ./#
