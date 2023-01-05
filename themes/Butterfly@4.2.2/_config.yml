@@ -297,9 +297,10 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments
   use:
-  - Valine
-  - Twikoo
+  # - Valine
+  # - Twikoo
   # - Disqus
+  - waline
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to false, the comment count will be invalid
@@ -357,7 +358,7 @@ valine:
       📌昵称可以填写QQ号来自动补全QQ信息啦~
       👨‍🔧本站已启用Akismet反垃圾评论~
       🚀评论和回复支持M↓
-      💢发空包网站广告的给爷爬，你是一定要我BAN了你的IP嘛！！！ 
+    # 💢发空包网站广告的给爷爬，你是一定要我BAN了你的IP嘛！！！ 
     # valine comment input placeholder(like: Please leave your footprints )
     enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
 
@@ -366,13 +367,13 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: # Waline server address url
-    bg: /image/comment_bg.png # waline background
-  pageview: false
+  serverURL: https://waline.bili33.top # Waline server address url
+  bg: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Settings/Valine-BG.jpg # waline background
+  pageview: true
   option:
-    avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
-    emojiCDN: # emoji CDN
-    visitor: false
+    avatar: mp # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
+    emojiCDN: https://cdn.bili33.top/gh/GamerNoTitle/ValineCDN@master/ # emoji CDN
+    visitor: true
 
 # utterances
 # https://utteranc.es/
