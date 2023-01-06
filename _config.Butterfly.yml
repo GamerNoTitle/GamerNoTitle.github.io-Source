@@ -303,7 +303,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments
-  use: waline
+  use: twikoo, waline
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to false, the comment count will be invalid
@@ -402,7 +402,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: twikoo-0ggj5yqy9dae0fd3
+  envId: https://twikoo.bili33.top
   region: ap-guangzhou
   visitor: false
   option:
@@ -782,7 +782,7 @@ preloader:
   # 2. pace (progress bar)
   source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/css/fill-left.css
+  pace_css_url: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/css/barber-shop.css
 
 ####    側邊欄    ####
 #-------------------------------------
@@ -956,7 +956,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
