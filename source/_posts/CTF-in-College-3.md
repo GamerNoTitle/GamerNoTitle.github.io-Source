@@ -106,7 +106,7 @@ CS需要一台电脑作为监听服务器，这里我直接用物理机当服务
 
 开完了应该会像下面这张图这样显示
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-3/WindowsTerminal-20220526-225658.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-3/WindowsTerminal-20220526-225658.png?download=true)
 
 然后打开CS软件本体，输入ip和密码进行连接，出现主页面即为连接成功
 
@@ -116,33 +116,33 @@ CS需要一台电脑作为监听服务器，这里我直接用物理机当服务
 java -Dfile.encoding=UTF-8 -javaagent:CobaltStrikeCN.jar -XX:ParallelGCThreads=4 -XX:+AggressiveHeap -XX:+UseParallelGC  -jar cobaltstrike.jar
 ```
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-230047.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-230047.png?download=true)
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-230431.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-230431.png?download=true)
 
 ### 生成木马文件
 
 这个其实很简单（如果不做免杀的话），直接在顶上找到齿轮图标点一下，然后选择一个监听器生成就行了，不过在生成之前要记得**一定要关闭杀软**（因为没做免杀，会被杀软直接干掉）
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-230651.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-230651.png?download=true)
 
 这里我生成了一个名为`beacon.exe`的木马文件，把它丢到虚拟机里面双击运行（记得要把虚拟机的杀软也关了）
 
 这里有个坑，如果你发现你的肉鸡很久都没有上线，那你应该去检查一下虚拟机的网络模式设定，我一开始设置的是NAT模式，但是NAT模式的网段跟本机的网段不太一样，就会连不上，所以要改成桥接模式才能够连接成功。
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-3/vmware-20220526-230905.jpg?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-3/vmware-20220526-230905.jpg?download=true)
 
 在虚拟机打开木马文件后，你攻击机的CS就会有上线提示了，然后会显示一些关于肉鸡的信息，如图所示
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-231119.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-231119.png?download=true)
 
 肉鸡上线的时候，第一件事情就是要调整延迟。如果说你想做到实时控制，那就要把延迟调整为0s，如果你想操作延迟执行，那就修改为对应的时间，默认是60s
 
 修改也很简单，右击一下你的目标机器，在`会话`里面可以找到`Sleep`选项，点开以后修改就行了
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-231310.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-231310.png?download=true)
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-231346.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-231346.png?download=true)
 
 右击选择`进入beacon`可以进入CS提供的命令行，对目标机器进行操作
 
@@ -152,7 +152,7 @@ java -Dfile.encoding=UTF-8 -javaagent:CobaltStrikeCN.jar -XX:ParallelGCThreads=4
 
 CS自己就带了不少的功能，例如提权、VNC等功能，但是这些功能不太够，幸好整个CS的生态里面是有很多大佬开发插件的，这里可以在Github上随便搜搜就能找到了。这里我装了一个[z1un/Z1-AggressorScripts: 适用于Cobalt Strike的插件 (github.com)](https://github.com/z1un/Z1-AggressorScripts)整个插件集，所以我这里右击肉鸡的时候多了一个`Z1`选项
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-231744.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-231744.png?download=true)
 
 这里就有很多功能了，这里可以讲一下一些有趣的功能
 
@@ -162,19 +162,19 @@ CS自己就带了不少的功能，例如提权、VNC等功能，但是这些功
 
 不过有一说一这个窗口……做的还是挺次的
 
-![虚假的登录窗口](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-3/vmware-20220526-232727.jpg?download=true)
+![虚假的登录窗口](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-3/vmware-20220526-232727.jpg?download=true)
 
-![真实的登录窗口](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-3/vmware-20220526-232450.jpg?download=true)
+![真实的登录窗口](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-3/vmware-20220526-232450.jpg?download=true)
 
 不过这个可以自动判断用户密码的正误，直到用户输入正确了才放行，控制台会实时弹用户输入密码的情况，但是但是，对于我这种用PIN登录的人来说，获取不到PIN
 
-![输入错误](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-232917.png?download=true)
+![输入错误](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-232917.png?download=true)
 
-![输入正确](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-232929.png?download=true)
+![输入正确](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-3/java-20220526-232929.png?download=true)
 
 还有一种钓鱼窗口就是Windows自带的那种认证窗口（如图）【紫色的表框是VMware的Unity模式带的，在正常的系统中显示实际上是没有没有】
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-in-College-3/vmware-20220526-233132.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-3/vmware-20220526-233132.png?download=true)
 
 不过也有一个缺点就是：正常的巨硬认证窗口是不能移动的，这个可以……
 

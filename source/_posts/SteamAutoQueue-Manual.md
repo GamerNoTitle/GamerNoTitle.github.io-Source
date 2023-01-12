@@ -3,7 +3,7 @@ title: SteamAutoQueue —— Steam自动探索3次队列，帮你拿到促销期
 date: 2022-07-02 19:47:41
 tags: [Tech, Steam, Script, Python]
 categories: Tech
-cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220627-225929.png
+cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220627-225929.png
 ---
 
 **其实这个我从夏促前就开始写了，只不过刚好那一周撞上各种考试，所以就保证了本地Windows版本的正常运行，Linux的就没动，等到周末再干的时候夏促已经开始了……**
@@ -39,17 +39,17 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/mse
 
 添加如图所示的变量，[变量获取请查看这里](#变量获取)，你只需要添加名为`COOKIE`的变量即可，内容是你的COOKIE
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-171847.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-171847.png)
 
 当然你也可以把Cookie用仓库里自带的`SetCookie.py`脚本放到你的Redis数据库里（填写`config.json`的`Steam`相关字段后，只需要把`Steam`键下的内容贴进脚本里设置就行了），这样你就不需要一个一个加，但是不是所有人都有数据库，所以说没有数据库的话就一个一个来吧。
 
 添加完后点击顶上导航栏的Action按钮，然后点击中间的绿色按钮开启Action
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-172116.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-172116.png)
 
 然后按照如图所示的方式打开两个Action脚本
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-172237.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-172237.png)
 
 打开后可以运行一次看看结果，一般来说没有打叉就是没啥问题了
 
@@ -158,15 +158,15 @@ Add the variables shown on this picture, [you can know how to get then from here
 
 **YOU ONLY NEED TO ADD THE VARIABLE NAMED "COOKIE" AND FILL YOUR COOKIE IN IT, THE FOLLOWING PICTURE IS OUTDATED!**
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-171847.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-171847.png)
 
 After you finishing it, click the Action button from nav-bar and click the green button on the center to turn Action on.
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-172116.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-172116.png)
 
 Then enable the two scripts like this in the picture.
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-172237.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/SteamAutoQueue/msedge-20220702-172237.png)
 
 After you opened them, you can run them by yourself. If it doesn't display something wrong, then you have finished.
 

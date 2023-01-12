@@ -9,10 +9,10 @@ keywords: [GamerNoTitle,Gallery,相册]
 {% endnote %}
 
 <div class="gallery-group-main">
-    {% galleryGroup "A trip to Hong Kong" '2019.4.17~2019.4.18香港行' ''/Gallery/HK' "https://cdn.bili33.top/gh/Vikutorika/assets@master/gallery/img/HK/HK-C.JPG" %}
-    {% galleryGroup "Chemistry Experiments" '在学校做的各种化学实验' '/Gallery/Chemistry-Experiments' 'https://cdn.bili33.top/gh/Vikutorika/assets@master/gallery/img/Chemistry-Experiments/Silver-mirror-reaction-of-acetaldehyde.JPG' %}
-    {% galleryGroup "Elaina" "魔女之旅——伊蕾娜（屑魔女）" "/Gallery/Elaina" "https://cdn.bili33.top/gh/Vikutorika/assets@master/gallery/img/Elaina/48203af0-42cf-4ba8-ab30-9997b6041eb1.jfif" %}
-    {% galleryGroup "SCARLET-NEXUS" "绯红结系 Scarlet Nexus" "/Gallery/SCARLET-NEXUS" "https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SCARLET-NEXUS/Wallpaper_SNX_03_3840x2160.jpg" %}
+    {% galleryGroup "A trip to Hong Kong" '2019.4.17~2019.4.18香港行' ''/Gallery/HK' "https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/gallery/img/HK/HK-C.JPG" %}
+    {% galleryGroup "Chemistry Experiments" '在学校做的各种化学实验' '/Gallery/Chemistry-Experiments' 'https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/gallery/img/Chemistry-Experiments/Silver-mirror-reaction-of-acetaldehyde.JPG' %}
+    {% galleryGroup "Elaina" "魔女之旅——伊蕾娜（屑魔女）" "/Gallery/Elaina" "https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/gallery/img/Elaina/48203af0-42cf-4ba8-ab30-9997b6041eb1.jfif" %}
+    {% galleryGroup "SCARLET-NEXUS" "绯红结系 Scarlet Nexus" "/Gallery/SCARLET-NEXUS" "https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/SCARLET-NEXUS/Wallpaper_SNX_03_3840x2160.jpg" %}
 </div>
 
 

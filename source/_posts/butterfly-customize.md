@@ -763,9 +763,9 @@ Aplayer是一个音乐播放器，官方文档在[这里](https://aplayer.js.org
 ```jade
 html
 body
-	link(rel="stylesheet" href="https://cdn.bili33.top/gh/Vikutorika/assets@master/css/APlayer.min.css")	//- 引用修改的CSS
+	link(rel="stylesheet" href="https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/css/APlayer.min.css")	//- 引用修改的CSS
 	#aplayer	//- 相当于<div>
-	script(src="https://cdn.bili33.top/gh/Vikutorika/assets@master/js/APlayer.min.js")		//- 引用js文件
+	script(src="https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/js/APlayer.min.js")		//- 引用js文件
 ```
 
 然后我们要给aplayer一些我们要放的音乐的信息，这里的写法是用`<script></script>`来赋值，至于怎么写请看官方文档，写好后记得转换成pug，下面我放出我的例子
@@ -807,7 +807,7 @@ if theme.aside.card_aplayer
 
 ##### 预设文档使用
 
-首先先[下载](https://cdn.bili33.top/gh/Vikutorika/assets@master/file/card_aplayer.pug)预设文档，放到主题目录下的`layout/includes/addons`文件夹内（如果不存在请自己创建）
+首先先[下载](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/file/card_aplayer.pug)预设文档，放到主题目录下的`layout/includes/addons`文件夹内（如果不存在请自己创建）
 
 打开文件，修改里面的变量，关于变量请查看[官方文档](https://aplayer.js.org/#/zh-Hans/?id=参数)
 
@@ -830,15 +830,15 @@ if theme.aside.card_aplayer
 
 #### 网易云音乐官方部件法
 
-![成果图](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/butterfly-customize/Netease-Result.png)
+![成果图](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/butterfly-customize/Netease-Result.png)
 
 我们先打开网易云的一首歌，点击生成外联播放器，要求是这首歌不需要VIP进行下载，否则会二话不说给你弹出下面这个窗
 
-![版 权 保 护](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/butterfly-customize/Netease-not-allow.png)
+![版 权 保 护](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/butterfly-customize/Netease-not-allow.png)
 
 正常情况下，会给你打开外联播放器的生成页面，在下面选择合适的参数，其中宽度我稍微试了一下，推荐为`230`，太小会观感体验不好，太大会直接超出框，设定好宽度我们就复制代码（宽度也可以直接在`width=`后面进行修改哦）
 
-![外链播放器生成页面](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/butterfly-customize/Netease-Player-Gen.png)
+![外链播放器生成页面](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/butterfly-customize/Netease-Player-Gen.png)
 
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26126820&auto=0&height=66"></iframe>
 ↑我这里选择的音乐

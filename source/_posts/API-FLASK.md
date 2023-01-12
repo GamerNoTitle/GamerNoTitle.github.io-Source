@@ -32,7 +32,7 @@ pip3 install flask
 pip install flask
 ```
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/API-FLASK/Windows_PowerShell%20-%2020220419-105139.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/API-FLASK/Windows_PowerShell%20-%2020220419-105139.png?download=true)
 
 因为我这里已经安装过了，所以写的是`Requirement already satisfied`，如果没有安装过的话会进入安装状态
 
@@ -62,11 +62,11 @@ if __name__ == '__main__':
 
 然后我们直接运行命令`python <file>.py`就可以运行我们的服务器了（Linux请使用`python3 <file>.py`，下面不再赘述，只讲Windows，Linux用户请自行替换）
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/API-FLASK/app.py_-_Flask-Demo_-_Visual_Studio_Code%20-%2020220419-105913.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/API-FLASK/app.py_-_Flask-Demo_-_Visual_Studio_Code%20-%2020220419-105913.png?download=true)
 
 然后我们在浏览器访问我们的网站，在这里可以使用`127.0.0.1:8080`访问，因为服务器就是部署在本机器上面的，打开后就会显示Hello World了
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/API-FLASK/j7jYPO4DxK.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/API-FLASK/j7jYPO4DxK.png?download=true)
 
 注：图标是我的浏览器本地缓存，正常情况下网站是没有图标的（因为没有设置）
 
@@ -309,13 +309,13 @@ def ghHandler(operation):
 
 在这上面新建环境，选择Deploy from Github Repo，然后选中自己的仓库就行了
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/API-FLASK/New_project_%E5%92%8C%E5%8F%A6%E5%A4%96_7_%E4%B8%AA%E9%A1%B5%E9%9D%A2_-_%E4%B8%AA%E4%BA%BA_-_Microsoft%E2%80%8B_Edge%20-%2020220419-111540.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/API-FLASK/New_project_%E5%92%8C%E5%8F%A6%E5%A4%96_7_%E4%B8%AA%E9%A1%B5%E9%9D%A2_-_%E4%B8%AA%E4%BA%BA_-_Microsoft%E2%80%8B_Edge%20-%2020220419-111540.png?download=true)
 
 然后在项目的设置中进行自定义域名的绑定和启动命令的修改即可
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/API-FLASK/api-flask_%E5%92%8C%E5%8F%A6%E5%A4%96_8_%E4%B8%AA%E9%A1%B5%E9%9D%A2_-_%E4%B8%AA%E4%BA%BA_-_Microsoft%E2%80%8B_Edge%20-%2020220419-111739.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/API-FLASK/api-flask_%E5%92%8C%E5%8F%A6%E5%A4%96_8_%E4%B8%AA%E9%A1%B5%E9%9D%A2_-_%E4%B8%AA%E4%BA%BA_-_Microsoft%E2%80%8B_Edge%20-%2020220419-111739.png?download=true)
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/API-FLASK/api-flask_%E5%92%8C%E5%8F%A6%E5%A4%96_8_%E4%B8%AA%E9%A1%B5%E9%9D%A2_-_%E4%B8%AA%E4%BA%BA_-_Microsoft%E2%80%8B_Edge%20-%2020220419-111725.png?download=true)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/API-FLASK/api-flask_%E5%92%8C%E5%8F%A6%E5%A4%96_8_%E4%B8%AA%E9%A1%B5%E9%9D%A2_-_%E4%B8%AA%E4%BA%BA_-_Microsoft%E2%80%8B_Edge%20-%2020220419-111725.png?download=true)
 
 ### 结语
 

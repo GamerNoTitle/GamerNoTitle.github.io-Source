@@ -3,7 +3,7 @@ title: Hitokoto-Spider 一言库爬虫开发日记
 date: 2020-02-11 14:17:37
 tags: [Tech, Python]
 categories: Tech
-cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Hitokoto-spider/hitokoto.png
+cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Hitokoto-spider/hitokoto.png
 sage: false
 ---
 
@@ -73,7 +73,7 @@ sage: false
 
 这塔喵不就是json嘛……（上面的注释是我加入的）
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Hitokoto-spider/return.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Hitokoto-spider/return.png)
 
 搞清楚了返回出来的结果的组成后，我们就可以开始撸代码了！
 
@@ -122,7 +122,7 @@ print(res)
 
 然后返回的值为：``<Response [200]>``
 
-![状态码输出](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Hitokoto-spider/Output1.png)这不是状态码嘛？？？我不要这玩意儿啊，我要结果。。。
+![状态码输出](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Hitokoto-spider/Output1.png)这不是状态码嘛？？？我不要这玩意儿啊，我要结果。。。
 
 然后我就commit了一下，盖上我的垃圾Lenovo，然后去睡觉了……
 
@@ -142,13 +142,13 @@ print(res.text)
 
 接着就给我输出了我想要的东西嘿嘿
 
-![json格式输出](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Hitokoto-spider/Output2.png)
+![json格式输出](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Hitokoto-spider/Output2.png)
 
-这个项目本来想跟[学弟@Soulxyz](https://github.com/soulxyz)一起做的，然后我就先把这个雏形push到了仓库里面，他也fork了，然后回来给我的是一个叫做[csvdomo.py（点击可下载）](https://cdn.bili33.top/gh/Vikutorika/assets@master/files/Hitokoto-Spider/csvdomo.py)的文件（我寻思你是不是想打csvdemo？？？）
+这个项目本来想跟[学弟@Soulxyz](https://github.com/soulxyz)一起做的，然后我就先把这个雏形push到了仓库里面，他也fork了，然后回来给我的是一个叫做[csvdomo.py（点击可下载）](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/files/Hitokoto-Spider/csvdomo.py)的文件（我寻思你是不是想打csvdemo？？？）
 
 我打开了，然后发现：你这不是并发获取10次都是一个结果吗？？？你这不重新获取不是每次都一样的吗？？？
 
-![csvdomo输出](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Hitokoto-spider/csvdomo-output.png)
+![csvdomo输出](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Hitokoto-spider/csvdomo-output.png)
 
 于是我决定放弃他这里，我自己来弄这个项目……后来他告诉我，用一言的国际节点可以有更高的QPS，然后我就转用国际节点了……
 
@@ -341,7 +341,7 @@ for i in range(num):
 
 最后写出来的效果是这样子的，然后问题又出来了，我的temp.count似乎不能被它正确识别出来，于是我打开了一个新的文档，测试一下这个玩意输出长什么样子：
 
-![Output3](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Hitokoto-spider/Output3.png)
+![Output3](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Hitokoto-spider/Output3.png)
 
 emmmm，这是啥？？？
 
@@ -349,7 +349,7 @@ emmmm，这是啥？？？
 
 然后我又去求助万能的百度，网友们告诉我可以用len(temp)来获得数组的元素个数，然后我就把这玩意改了，终于可以运行了！！！接着问题又来了。。。
 
-![Output4](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Hitokoto-spider/Output4.png)
+![Output4](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Hitokoto-spider/Output4.png)
 
 这是？？？这怎么不连续啊，这数字？？？我想到可能是抓到重复的时候算抓了，就导致了i+1（不过这次测试挺非的，这么多次一样。。。非到极致也是一种欧！）
 
@@ -357,7 +357,7 @@ emmmm，这是啥？？？
 
 我就自己定义一个变量，用while循环呗……然后我就改用while循环
 
-这下终于可以了，抓到的结果没有抓到重复的（因为中途连接超时导致程序停止运行了，所以只抓了2159条，本来是想把整个一言库抓完的，[点我下载2159条数据，请用UTF8解码后保存为gbk才能在Excel上查看哦](https://cdn.bili33.top/gh/Vikutorika/assets@master/files/Hitokoto-Spider/Hitokoto.csv)）
+这下终于可以了，抓到的结果没有抓到重复的（因为中途连接超时导致程序停止运行了，所以只抓了2159条，本来是想把整个一言库抓完的，[点我下载2159条数据，请用UTF8解码后保存为gbk才能在Excel上查看哦](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/files/Hitokoto-Spider/Hitokoto.csv)）
 
 终于搞定啦！！！这个项目终于能够按照期望运行了！
 
@@ -448,5 +448,5 @@ if(conf["from_who"] == True):
 
 接下来就是要加入GUI支持了，但是我其实不是很会做GUI，所以说别抱太大希望，很有可能鸽掉……
 
-![白咕咕](https://cdn.bili33.top/gh/Vikutorika/assets@master/Diary/Gugugu.jpg)
+![白咕咕](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/Diary/Gugugu.jpg)
 

@@ -96,11 +96,11 @@ npm install yarn -g
 ```json
 {
   "title":"Cimoc",
-  "logo": "https://cdn.bili33.top/gh/Haleydu/Cimoc@release-tci/screenshot/icon.png",
+  "logo": "https://cdn.bilicdn.tk/gh/Haleydu/Cimoc@release-tci/screenshot/icon.png",
   "app": [
     {
       "platform": "Android",
-      "downloadLink":"//cdn.bili33.top/gh/Vikutorika/FakeDownloadPage@master/app-release.apk",
+      "downloadLink":"//cdn.bilicdn.tk/gh/Vikutorika/FakeDownloadPage@master/app-release.apk",
       "qrcode": true,
       "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAABABAMAAACn5UkPAAAAG1BMVEUAAABfvRlfvRlfvRlfvRlfvRlfvRlfvRlfvRlkC4P+AAAACHRSTlMA6pIhuRVbiHyD9QIAAAEFSURBVHgB7ZQ9TwMxDIbdpiDGQoWUsd069gTDjZxgYIQBifE2GJk611U//LPrJJde7JwyIKaKd7F1j2L7HDvQqVlFr3oCKTvrHGOnClW4Us5Zxs6+Gosv6/Px5BgFYauJee0Q7XTA70iIDpKMe0I0F2iZom1KrjnFh8/mTVrJO9EePh3y5l7G20MdUC0iXlmO9BACOoNvaSqpdrh0Wf5Eo/5eRhr19zK6ZdkEbeD3Gts7uNG5NrDAuWvET474d47A2ac54poRnJMj9+UfXQ4qDEBhbArD5jSAov4cFfarsJXGSpI+iY+C4bPcs5Dc907rUpGbEd9ozJCbEf8yHgcfJFacCdYJpVD+0W2qrN4AAAAASUVORK5CYII="
     }

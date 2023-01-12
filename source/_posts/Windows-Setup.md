@@ -3,11 +3,11 @@ title: 别再问我怎么装系统了，再问我就把这边文章丢到你脸�
 date: 2019-07-09 23:00:00
 tags: Software
 categories: Software
-cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Windows-Setup/cover1.jpg
+cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Windows-Setup/cover1.jpg
 keywords: 'Windows,Windows Setup,Windows Install,Windows Installation'
 ---
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Windows-Setup/cover1.jpg)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Windows-Setup/cover1.jpg)
 
 [封面来源地址](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=72039875)
 
@@ -17,7 +17,7 @@ keywords: 'Windows,Windows Setup,Windows Install,Windows Installation'
 
 我是这么回答他的（源自微信聊天记录）：
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Windows-Setup/WeChat-Chatting.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Windows-Setup/WeChat-Chatting.png)
 
 我（内心）：有句MMP不知当说不当说。。。
 
@@ -49,7 +49,7 @@ keywords: 'Windows,Windows Setup,Windows Install,Windows Installation'
 
 #### 1.2、写入U深度
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Windows-Setup/U-Deep.jpg)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Windows-Setup/U-Deep.jpg)
 
 插入U盘，勾上支持UEFI启动（现在的电脑应该都支持），点击开始制作。（当然你可以选择高级设置设定自己的UI）
 
@@ -71,13 +71,13 @@ keywords: 'Windows,Windows Setup,Windows Install,Windows Installation'
 
 在桌面上找到WindowsNTSetup，或者在所有应用里面找到它，打开它。
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Windows-Setup/WindowsNTSetup.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Windows-Setup/WindowsNTSetup.png)
 
 Windows安装源请选择.\sources\install.wim或者.\sources\install.esd，引导驱动器选择你想要安装Windows的盘符（对单系统而言），安装驱动器选择你要安装Windows的盘符。
 
 下面的版本选项选择你需要的版本，优化调整根据自己的需要调整。下面是我一般会选择的东西
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Windows-Setup/config.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Windows-Setup/config.png)
 
 调整完以后点开始安装即可！
 
@@ -91,15 +91,15 @@ Windows安装源请选择.\sources\install.wim或者.\sources\install.esd，引�
 
 打开软碟通（以管理员身份运行），将你的Windows镜像拖入右边上面的框里面并双击打开（如果弹出提示请点“是”）
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Windows-Setup/Ultraiso1.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Windows-Setup/Ultraiso1.png)
 
 在上面的导航栏中选择启动-->写入硬盘映像，如果弹出UAC提示请点击是，就会出现写入页面（如下图）
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Windows-Setup/Ultraiso2.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Windows-Setup/Ultraiso2.png)
 
 点击写入，注意：``此操作会清除你U盘的所有数据，包括所有分区！！！``一旦你明白注意事项，点“是”就可以写入了
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Windows-Setup/Ultraiso3.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Windows-Setup/Ultraiso3.png)
 
 等待写入完成，重启电脑进入BOOT Menu，从U盘启动（UEFI优先）
 
@@ -111,7 +111,7 @@ Windows安装源请选择.\sources\install.wim或者.\sources\install.esd，引�
 
 方法：利用DiskGenius或者傲梅分区助手，将硬盘转换为GUID格式即可
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Windows-Setup/DG1.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Windows-Setup/DG1.png)
 
 安装完后，系统会自动重启，请移除你的U盘！
 
@@ -129,4 +129,4 @@ Windows安装源请选择.\sources\install.wim或者.\sources\install.esd，引�
 
 ###### 封面原图[出处](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=72039875)
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Windows-Setup/Cover.jpg)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Windows-Setup/Cover.jpg)

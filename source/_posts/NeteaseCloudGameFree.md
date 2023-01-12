@@ -3,10 +3,10 @@ title: 白嫖？给我也整一个！白嫖网易云游戏平台时长
 date: 2020-12-06 11:14:53
 tags: [Tech, Script, Python, Netease]
 categories: Tech
-cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/NeteaseCloudGameFree/bili33@ADMIN-PC丨2020.12.06丨11：32：55.png
+cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/NeteaseCloudGameFree/bili33@ADMIN-PC丨2020.12.06丨11：32：55.png
 ---
 
-![网易云游戏平台](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/NeteaseCloudGameFree/bili33@ADMIN-PC丨2020.12.06丨11：32：55.png)
+![网易云游戏平台](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/NeteaseCloudGameFree/bili33@ADMIN-PC丨2020.12.06丨11：32：55.png)
 
 有谁不爱白嫖呢，特别是配置好的东西
 
@@ -35,7 +35,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/NeteaseCloudGameFr
 ## 赞助
 点击下面的Badge其中一个就可以跳转到相应页面，感谢老板的支持！
 
-<a href="https://afdian.net/@GamerNoTitle"><img src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-GamerNoTitle-%238e8cd8?style=for-the-badge" alt="前往爱发电赞助" width=auto height=auto border="0" /></a> <a href="https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Donate/WeChatPay.png"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98-GamerNoTitle-%2304BE02?style=for-the-badge" alt="使用微信赞助" width=auto height=auto border="0" /></a> <a href="https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Donate/AliPay.jpg"><img src="https://img.shields.io/badge/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%AF%E4%BB%98-GamerNoTitle-%231678FF?style=for-the-badge" alt="使用支付宝赞助" width=auto height=auto border="0" /></a>
+<a href="https://afdian.net/@GamerNoTitle"><img src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-GamerNoTitle-%238e8cd8?style=for-the-badge" alt="前往爱发电赞助" width=auto height=auto border="0" /></a> <a href="https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Donate/WeChatPay.png"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98-GamerNoTitle-%2304BE02?style=for-the-badge" alt="使用微信赞助" width=auto height=auto border="0" /></a> <a href="https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Donate/AliPay.jpg"><img src="https://img.shields.io/badge/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%AF%E4%BB%98-GamerNoTitle-%231678FF?style=for-the-badge" alt="使用支付宝赞助" width=auto height=auto border="0" /></a>
 
 ## 目录
 

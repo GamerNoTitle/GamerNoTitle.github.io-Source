@@ -3,7 +3,7 @@ title: Ticwatch Pro 3 使用体验报告
 date: 2022-08-23 12:00:54
 tags: [Diary, Ticwatch, adb]
 categories: Diary
-cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/IMG_20220823_120136.jpg
+cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/IMG_20220823_120136.jpg
 ---
 
 最近因为游泳，带着我的小米手环6，结果第二天游泳下来发现，它的屏幕不好使了，有鬼触的现象，于是就想换一块表
@@ -14,7 +14,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-exp
 
 跟鱼子市场的卖家进行大量沟通后，我以合适的价格拿下了这块表
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/QQ图片20220823120334.jpg)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/QQ图片20220823120334.jpg)
 
 接着就开始折腾了，拿到手是一块啥东西都没设置的新表，会进入“新手引导”模式，我也是花费了一定的时间才弄好
 
@@ -22,19 +22,19 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-exp
 
 ## 折腾环节
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/about.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/about.png)
 
 按下右上方的按键就可以打开启动器，从启动器打开软件
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/launcher.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/launcher.png)
 
 ### 从应用商店安装软件
 
 官方的应用商店就跟App Store一样，一键下载安装就行，其实没啥难度，这里就附几张图吧
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/screen(4).png.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/screen(4).png.png)
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/screen(5).png.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/screen(5).png.png)
 
 ### 使用adb安装软件
 
@@ -42,13 +42,13 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-exp
 
 这个要求打开adb，跟手机的开启方法一样，连续点击版本号开启开发者选项，然后在开发者选项里面找到`adb调试`，把它和`通过WLAN调试`都打开
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/screen(3).png.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/screen(3).png.png)
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/screen(6).png.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/screen(6).png.png)
 
 让手表和电脑连到同一个WIFI，查看手表的IP地址，接着电脑输入`adb connect <ip>`就可以连接到手表了，然后使用`adb install <apk>`就能安装软件了
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/WindowsTerminal-20220823-121709.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/WindowsTerminal-20220823-121709.png)
 
 #### 使用第三方应用商店安装软件
 
@@ -56,9 +56,9 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-exp
 
 这是一个手表上的应用商店，找到自己想要的软件直接下载安装就行了
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/screen(7).png.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/screen(7).png.png)
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/screen(8).png.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/screen(8).png.png)
 
 ### 使用微信儿童手表版
 
@@ -86,7 +86,7 @@ adb shell settings list global
 | string   | ilink_device_id        | 设备id                               |
 | String   | ilink_device_signature | 验证签名                             |
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/WindowsTerminal-20220823-120021.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/WindowsTerminal-20220823-120021.png)
 
 然后连接到TWP3，使用命令来写入配置
 
@@ -100,7 +100,7 @@ adb shell settings put global ilink_support "1"
 
 写入后，再次打开微信儿童版就可以扫码登录使用了
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/Wechatkid.png)
+![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Ticwatch-pro-3-experience/Wechatkid.png)
 
 ### 使用体验
 
