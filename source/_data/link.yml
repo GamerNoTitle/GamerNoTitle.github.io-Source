@@ -7,6 +7,11 @@ class:
       link: https://bilicdn.tk/
       avatar: https://bilicdn.tk/images/favicon.png
       descr: jsd镜像源
+    2:
+      name: 城通网盘解析器
+      link: https://ctfile.bili33.top/
+      avatar: https://ctfile.bili33.top/icon.png
+      descr: 直连获取
     # 10000:
     #   name: N/A
     #   link: ./#
