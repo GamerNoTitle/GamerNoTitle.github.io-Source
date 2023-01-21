@@ -1088,7 +1088,7 @@ CDN:
     # katex:
     # katex_copytex:
     # katex_copytex_css:
-    # mermaid:
+    mermaid: https://cdn.bilicdn.tk/npm/mermaid/dist/mermaid.min.js
     # canvas_ribbon:
     # canvas_fluttering_ribbon:
     # canvas_nest:
