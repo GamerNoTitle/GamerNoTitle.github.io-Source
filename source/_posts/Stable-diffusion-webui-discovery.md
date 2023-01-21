@@ -255,6 +255,8 @@ NovelAI中文频道（u31uiz208r）
 
 魔导师学院（2p6k6vzg5i）
 
+没有频道功能点这个：点击链接加入QQ频道【接驳巴士】：https://pd.qq.com/s/47hvnz3w2
+
 ### 云平台
 
 [Kaggle: Your Home for Data Science](https://www.kaggle.com/)
