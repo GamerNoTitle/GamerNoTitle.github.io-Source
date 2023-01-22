@@ -94,6 +94,8 @@ graph TD;
 	.pt-->models/hypernetworks;
 {% endmermaid %}
 
+**PT的使用方式：Pt放embeddings文件夹，施法输入对应文件名即可**
+
 在webui中能直接选择的其实就是`models/Stable-diffusion`里面的模型，在左上角有个选择框，如果你放进去了选择框里没有的话，你可以点一下左边的刷新
 
 ![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Stable-diffusion-webui-discovery/msedge-20230121-195037.png)

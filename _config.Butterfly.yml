@@ -123,6 +123,19 @@ top_img:
   - https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Top/20230121.png
   - https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Top/20230121-2323.png
   - https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Top/20230121-2334.png
+  - https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00000.jpg
+  - https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00001.jpg
+  - https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00002.jpg
+  - https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00003.jpg
+  - https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00004.jpg
+  - https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00005.jpg
+  - https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00006.jpg
+  - https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00007.jpg
+  - https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00008.jpg
+  - https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00009.jpg
+  - https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00010.jpg
+  - https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00011.jpg
+  - https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00012.jpg
   #- https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Top-img/NEKO-Hackers-Edited.jpg
   #- https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Top-img/77329543_p0.png
 # 以下鏈接是動態壁紙，每次刷新會更換
@@ -138,7 +151,7 @@ default_top_img: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Top/2
 default_cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Top/20230121.png
 
 # the banner image of archive page
-archive_img: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Top/104689650_p1.png
+archive_img: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00011.jpg
 
 # the banner image of tag page
 tag_img: https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Top/20230121-2323.png
