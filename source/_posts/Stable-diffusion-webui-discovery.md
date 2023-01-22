@@ -249,13 +249,23 @@ AI绘画模型博物馆: http://aimodel.subrecovery.top
 
 [NovelAI法术书 - Google 云端硬盘](https://docs.google.com/spreadsheets/d/e/2PACX-1vRa2HjzocajlsPLH1e5QsJumnEShfooDdeHqcAuxjPKBIVVTHbOYWASAQyfmrQhUtoZAKPri2s_tGxx/pubhtml#)（要梯子）
 
+[NovelAI tag在线生成器](https://wolfchen.top/tag/)
+
+[NovelAI魔导书](https://thereisnospon.github.io/NovelAiTag/)
+
+[元素法典——Novel AI 元素魔法全收录](https://docs.qq.com/doc/DWHl3am5Zb05QbGVs?dver=)
+
 ### 上述资源的QQ频道
 
 NovelAI中文频道（u31uiz208r）
 
 魔导师学院（2p6k6vzg5i）
 
-没有频道功能点这个：点击链接加入QQ频道【接驳巴士】：https://pd.qq.com/s/47hvnz3w2
+没有频道功能点这个激活频道功能：点击链接加入QQ频道【接驳巴士】：https://pd.qq.com/s/47hvnz3w2
+
+### 模型训练
+
+易于上手的教程：https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=1YB4AvdMsUl&contentID=1fAzWY&businessType=2&from=181174&shareSource=5&biz=ka
 
 ### 云平台
 
