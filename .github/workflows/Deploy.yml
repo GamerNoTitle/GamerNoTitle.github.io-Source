@@ -35,7 +35,7 @@ jobs:
           git config --global init.defaultBranch master
           npm install hexo-cli -g
           npm install
-          npm install hexo-butterfly-extjs --save
+          npm install hexo-butterfly-extjs
           hexo -v
       - name: Deploy
         run: |
