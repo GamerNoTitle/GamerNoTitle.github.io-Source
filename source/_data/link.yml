@@ -5,7 +5,7 @@ class:
     1:
       name: 哔哩CDN
       link: https://bilicdn.tk/
-      avatar: https://bilicdn.tk/images/favicon.png
+      avatar: https://cdn.bilicdn.tk/gh/biliCDN/bilicdn.github.io@master/images/favicon.png
       descr: jsd镜像源
     2:
       name: 城通网盘解析器
