@@ -320,7 +320,7 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments
-  use: twikoo, waline
+  use: twikoo
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to false, the comment count will be invalid
@@ -1092,7 +1092,7 @@ CDN:
     # valine: https://unpkg.com/valine-unpkg-avmin@0.0.1/dist/Valine.min.js
     # disqusjs:
     # disqusjs_css:
-    # twikoo:
+    twikoo: https://cdn.bilicdn.tk/npm/twikoo@1.6.9/dist/twikoo.all.min.js
     # waline_js:
     # waline_css:
     # sharejs:
