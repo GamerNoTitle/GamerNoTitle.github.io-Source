@@ -301,6 +301,16 @@ x-rpc-sys_version: <iOS版本>
 
 更新一下脚本就好了，在[commit](https://github.com/GamerNoTitle/MHYY/commit/16650996cda2a3eca07c75993ed8b3f25540737e)`1665099`已经修好了（感谢[@Elletear](https://github.com/Elletear)发现这个问题并提交[PR#5](https://github.com/GamerNoTitle/MHYY/pull/5)）
 
+#### KeepActionAlive运行失败（权限不足）
+
+具体如图所示
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/ERRchrome-20230204-003058.png)
+
+在仓库里面点击`Settings` => `Actions` => `General`，往下拉找到`Workflow permissions`，把原来的`Read repository contents and packages permissions`改为上面的`Read and write permissions`，然后点击下面的`Save`键就可以了
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/chrome-20230204-003338.png)
+
 #### 发现了bug/无法使用
 
 请前往[Issues · GamerNoTitle/MHYY (github.com)](https://github.com/GamerNoTitle/MHYY/issues)发起新的issue来提出，不要在本页面的评论区提出问题（因为追踪性太差了）
