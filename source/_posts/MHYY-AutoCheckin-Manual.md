@@ -30,6 +30,12 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 
 #### Github Action 版本
 
+{% note danger %}
+
+**原仓库在2023/02/03收到Github通知封禁，镜像仓库在[GamerNoTitle/MHYY: Disabled Action, if you need it, enable it by yourself (github.com)](https://github.com/GamerNoTitle/MHYY)，本项目仓库的Github Action已经被我手动禁用，如果需要使用Action版本，请将`~/.github/workflows`文件夹内的两个文件后面的`.disabled`删掉！**
+
+{% endnote %}
+
 首先你需要先打开本脚本的仓库[GamerNoTitle/MHYY: 米哈云游（云原神）自动签到脚本，让你每天都拿到15分钟~ (github.com)](https://github.com/GamerNoTitle/MHYY)，点击右上角的fork按钮，接着点击下面绿色的`Create fork`来创建一个分支
 
 ![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220419-190358.png?download=true)
