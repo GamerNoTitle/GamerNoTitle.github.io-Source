@@ -10,7 +10,7 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 
 **在指南开始之前，请确保你有一颗聪明的头脑和可以折腾的时间，否则请等时机合适再进行配置！**
 
-**在使用过程中如果遇到什么问题，请前往[Issues · ElainaMoe/MHYY-AutoCheckin (github.com)](https://github.com/ElainaMoe/MHYY-AutoCheckin/issues)发起新的issue来提出，不要在本页面的评论区提出问题（因为追踪性太差了）**
+**在使用过程中如果遇到什么问题，请前往[Issues · GamerNoTitle/MHYY (github.com)](https://github.com/GamerNoTitle/MHYY/issues)发起新的issue来提出，不要在本页面的评论区提出问题（因为追踪性太差了）**
 
 {% note warning %}
 
@@ -22,7 +22,7 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 
 ### 用前必读
 
-**⚠️请不要进行宣传，谢谢！一旦发现宣传就删库跑路！使用过程中如果出现bug可能会使用您的日志进行错误追踪，详情请见[隐私政策](https://github.com/ElainaMoe/MHYY-AutoCheckin/blob/master/private-policy.md)**
+**⚠️请不要进行宣传，谢谢！一旦发现宣传就删库跑路！使用过程中如果出现bug可能会使用您的日志进行错误追踪，详情请见[隐私政策](https://github.com/GamerNoTitle/MHYY/blob/master/private-policy.md)**
 
 ### 快速开始
 
@@ -30,7 +30,7 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 
 #### Github Action 版本
 
-首先你需要先打开本脚本的仓库[ElainaMoe/MHYY-AutoCheckin: 米哈云游（云原神）自动签到脚本，让你每天都拿到15分钟~ (github.com)](https://github.com/ElainaMoe/MHYY-AutoCheckin)，点击右上角的fork按钮，接着点击下面绿色的`Create fork`来创建一个分支
+首先你需要先打开本脚本的仓库[GamerNoTitle/MHYY: 米哈云游（云原神）自动签到脚本，让你每天都拿到15分钟~ (github.com)](https://github.com/GamerNoTitle/MHYY)，点击右上角的fork按钮，接着点击下面绿色的`Create fork`来创建一个分支
 
 ![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220419-190358.png?download=true)
 
@@ -227,7 +227,7 @@ chmod +x ./preinstall.sh && ./preinstall.sh
 }
 ```
 
-`version`不是必要的，在[`a4e5f06..7bd5d44` commit](https://github.com/ElainaMoe/MHYY-AutoCheckin/commit/7bd5d44e2411068e235c39879f187b67a33410dc)中，使用了米忽悠自己的api获取云原神的最新版本号，此处填写version只是作为获取不到最新版本号时的fallback值
+`version`不是必要的，在[`a4e5f06..7bd5d44` commit](https://github.com/GamerNoTitle/MHYY/commit/7bd5d44e2411068e235c39879f187b67a33410dc)中，使用了米忽悠自己的api获取云原神的最新版本号，此处填写version只是作为获取不到最新版本号时的fallback值
 
 对于`token`（应该说写作`token`念作`cookie`）由以下几部分组成：
 
@@ -281,7 +281,7 @@ x-rpc-sys_version: <iOS版本>
 
 #### 青龙面板里面怎么用
 
-使用Action版本，把配置写入`config.json`内，然后根据[这个链接](https://github.com/ElainaMoe/MHYY-AutoCheckin/issues/12#issuecomment-1224986933)里面的做法对脚本进行小修改就可以用了
+使用Action版本，把配置写入`config.json`内，然后根据[这个链接](https://github.com/GamerNoTitle/MHYY/issues/12#issuecomment-1224986933)里面的做法对脚本进行小修改就可以用了
 
 #### 为什么要把信息作为统计数据发到统计服务器？
 
@@ -291,9 +291,9 @@ x-rpc-sys_version: <iOS版本>
 
 报错内容为：`wait_time = random(1, 300) # Random wait time TypeError: 'module' object is not callable`
 
-更新一下脚本就好了，在[commit](https://github.com/ElainaMoe/MHYY-AutoCheckin/commit/16650996cda2a3eca07c75993ed8b3f25540737e)`1665099`已经修好了（感谢[@Elletear](https://github.com/Elletear)发现这个问题并提交[PR#5](https://github.com/ElainaMoe/MHYY-AutoCheckin/pull/5)）
+更新一下脚本就好了，在[commit](https://github.com/GamerNoTitle/MHYY/commit/16650996cda2a3eca07c75993ed8b3f25540737e)`1665099`已经修好了（感谢[@Elletear](https://github.com/Elletear)发现这个问题并提交[PR#5](https://github.com/GamerNoTitle/MHYY/pull/5)）
 
 #### 发现了bug/无法使用
 
-请前往[Issues · ElainaMoe/MHYY-AutoCheckin (github.com)](https://github.com/ElainaMoe/MHYY-AutoCheckin/issues)发起新的issue来提出，不要在本页面的评论区提出问题（因为追踪性太差了）
+请前往[Issues · GamerNoTitle/MHYY (github.com)](https://github.com/GamerNoTitle/MHYY/issues)发起新的issue来提出，不要在本页面的评论区提出问题（因为追踪性太差了）
 
