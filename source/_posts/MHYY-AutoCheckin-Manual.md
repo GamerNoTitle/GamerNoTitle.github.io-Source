@@ -303,7 +303,7 @@ x-rpc-sys_version: <iOS版本>
 
 #### KeepActionAlive运行失败（权限不足）
 
-具体如图所示
+具体如图所示，这个要得益于昨天Github的一个更新[GitHub Actions - Updating the default GITHUB_TOKEN permissions to read-only | GitHub Changelog](https://github.blog/changelog/2023-02-02-github-actions-updating-the-default-github_token-permissions-to-read-only/)
 
 ![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/ERRchrome-20230204-003058.png)
 
