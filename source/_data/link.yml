@@ -12,6 +12,11 @@ class:
       link: https://ctfile.bili33.top/
       avatar: https://ctfile.bili33.top/icon.png
       descr: 直连获取
+    3:
+      name: 个人脚本库
+      link: https://gogs.console.bili33.top
+      avatar: https://gogs.console.bili33.top/img/favicon.png
+      descr: 脚本备份
     # 10000:
     #   name: N/A
     #   link: ./#
