@@ -1,10 +1,13 @@
 @echo off
 ::Set /p times=<times.txt 
+title "Setting date & time"
 Set date = date /t
 Set time = time /t
+title "Pull new commits"
 git pull
+title "Cleaning cache"
 call hexo cl
-ping 127.0.0.1 -n 10 > nul
+title "Pushing new changes"
 git add . 
 git commit -m "%time% %date% Commit"
 git push
