@@ -10,7 +10,7 @@ type: "link"
 
 - Blog 名字： GamerNoTitle
 - Blog 地址： https://bili33.top
-- Blog 头像： https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/AboutMe/logo-mini.png
+- Blog 头像： https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/AboutMe/logo-mini.png
 - Blog 标语： TECH OTAKAS SAVE THE WORLD
 
 ------

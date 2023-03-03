@@ -5,7 +5,7 @@ class:
     1:
       name: 哔哩CDN
       link: https://bilicdn.tk/
-      avatar: https://cdn.bilicdn.tk/gh/biliCDN/bilicdn.github.io@master/images/favicon.png
+      avatar: https://cdn1.tianli0.top/gh/biliCDN/bilicdn.github.io@master/images/favicon.png
       descr: jsd镜像源
     2:
       name: 城通网盘解析器
@@ -41,7 +41,7 @@ class2:
     3:
       name: Github
       link: https://www.github.com/
-      avatar: https://cdn.bilicdn.tk/gh/GamerNoTitle/Picture-repo-v1@link/img/link/Github.webp
+      avatar: https://cdn1.tianli0.top/gh/GamerNoTitle/Picture-repo-v1@link/img/link/Github.webp
       descr: 全球最大的代码仓库
     4:
       name: vultr
@@ -51,7 +51,7 @@ class2:
     5:
       name: Leancloud
       link: https://leancloud.app/
-      avatar: https://cdn.bilicdn.tk/gh/GamerNoTitle/Picture-repo-v1@link/img/link/leancloud.png
+      avatar: https://cdn1.tianli0.top/gh/GamerNoTitle/Picture-repo-v1@link/img/link/leancloud.png
       descr: 评论系统的后端，用的国际版
     6:
       name: Railway
@@ -71,7 +71,7 @@ class3:
     2:
       name: hojun
       link: https://www.hojun.cn
-      avatar: https://cdn.bilicdn.tk/gh/honjun/ImageHosting/sina/006bYVyvgy1ftand2qurdj303c03cdfv.jpg
+      avatar: https://cdn1.tianli0.top/gh/honjun/ImageHosting/sina/006bYVyvgy1ftand2qurdj303c03cdfv.jpg
       descr: 一个好奇的博客
     3:
       name: Kylin’s Blog
@@ -101,7 +101,7 @@ class3:
     # 7:
       # name: Ruby の いえ
       # link: https://wangzhongqing.xyz/
-      # avatar: https://cdn.bilicdn.tk/gh/Amethyst-Ruby/myCDN/img/login.png
+      # avatar: https://cdn1.tianli0.top/gh/Amethyst-Ruby/myCDN/img/login.png
       # descr: Ruby 的随心记~
     # 8:
     #   name: i-info
@@ -121,17 +121,17 @@ class3:
     # 11:
     #   name: 阿四の爱生活
     #   link: https://www.51ish.com/
-    #   avatar: https://cdn.bilicdn.tk/gh/GamerNoTitle/Picture-repo-v1@master/img/link/a4.jpg
+    #   avatar: https://cdn1.tianli0.top/gh/GamerNoTitle/Picture-repo-v1@master/img/link/a4.jpg
     #   descr: 捡拾冲浪资讯，热爱生活，发现美好
     12:
       name: 沉默的小嘉
       link: https://www.imzjw.cn/
-      avatar: https://cdn.bilicdn.tk/npm/nanshen/avatar.jpg
+      avatar: https://cdn1.tianli0.top/npm/nanshen/avatar.jpg
       descr: 好记性不如烂笔头
     # 13:
     #   name: XJHui’s Blog
     #   link: https://plushine.cn
-    #   avatar: https://cdn.bilicdn.tk/gh/xingjiahui/CDN/touxiang.jpg
+    #   avatar: https://cdn1.tianli0.top/gh/xingjiahui/CDN/touxiang.jpg
     #   descr: 这个博主想骗访客^_^
     14:
       name: Kylin
@@ -141,7 +141,7 @@ class3:
     # 15:
     #   name: 云玩家
     #   link: https://blog.clouder.im
-    #   avatar: https://cdn.bilicdn.tk/gh/yunwanjia-cloud/blog/img/logo/icon.png
+    #   avatar: https://cdn1.tianli0.top/gh/yunwanjia-cloud/blog/img/logo/icon.png
     #   descr: 尝试制造人工智障
     # 16:
     #   name: 雪曦
@@ -186,7 +186,7 @@ class3:
     24:
       name: 𝑵𝑲’𝒔 𝑩𝒍𝒐𝒈
       link: https://nkupp.com
-      avatar: https://cdn.bilicdn.tk/gh/GamerNoTitle/Picture-repo-v1@master/img/link/nkupp.png
+      avatar: https://cdn1.tianli0.top/gh/GamerNoTitle/Picture-repo-v1@master/img/link/nkupp.png
       descr: 山不向我走来,我便向山走去
     # 25:
     #   name: 折纸少年
@@ -196,7 +196,7 @@ class3:
     26:
       name: 小康博客
       link: https://www.antmoe.com/
-      avatar: https://cdn.bilicdn.tk/gh/sviptzk/HexoStaticFile@latest/avatar.jpg
+      avatar: https://cdn1.tianli0.top/gh/sviptzk/HexoStaticFile@latest/avatar.jpg
       descr: 一个收藏回忆与分享技术的地方！
     27:
       name: Drimoon
@@ -206,7 +206,7 @@ class3:
     # 28:
     #   name: 保温杯の小破栈
     #   link: https://baowenbei.ga
-    #   avatar: https://cdn.bilicdn.tk/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
+    #   avatar: https://cdn1.tianli0.top/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
     #   descr: 没有什么困难是战胜不了我的
     # 29:
     #   name: Code Young
@@ -226,7 +226,7 @@ class3:
     # 32:
     #   name: Uncleacc
     #   link: http://www.fezhu.top
-    #   avatar: https://cdn.bilicdn.tk/gh/uncleacc/cdn/img/custom/avatar.jpg
+    #   avatar: https://cdn1.tianli0.top/gh/uncleacc/cdn/img/custom/avatar.jpg
     #   descr: 一只努力学习的蒟蒻仔
     # 33:
     #   name: XDER
@@ -276,12 +276,12 @@ class3:
     42:
       name: 初辰の博客
       link: https://chuchendjs.github.io
-      avatar: https://cdn.bilicdn.tk/gh/chuchendjs/picgo/picgo/bt-sonny.jpg
+      avatar: https://cdn1.tianli0.top/gh/chuchendjs/picgo/picgo/bt-sonny.jpg
       descr: 成功是努力的另一个名字！^V^
     # 43:
     #   name: Kongerの万事屋
     #   link: https://blog.ninglans.top
-    #   avatar: https://cdn.bilicdn.tk/gh/konghuaiqing/img-cdn@master/img/20200425212350.png
+    #   avatar: https://cdn1.tianli0.top/gh/konghuaiqing/img-cdn@master/img/20200425212350.png
     #   descr: 咕咕咕~咕咕咕~我是咕咕小行家~
     # 44:
     #   name: 北方の柿子
@@ -291,22 +291,22 @@ class3:
     # 45:
     #   name: Lete乐特
     #   link: https://www.lete114.top/
-    #   avatar: https://cdn.bilicdn.tk/gh/lete114/lete114.github.io/img/Lete.png
+    #   avatar: https://cdn1.tianli0.top/gh/lete114/lete114.github.io/img/Lete.png
     #   descr: 人生只有一次，大胆的生活！！
     46:
       name: 时过境迁Wayne博客
       link: https://wr0926.ml
       descr: 以梦为马，不负韶华
-      avatar: https://cdn.bilicdn.tk/gh/wayne0926/myphoto/img/avatar.jpg
+      avatar: https://cdn1.tianli0.top/gh/wayne0926/myphoto/img/avatar.jpg
     47:
       name: 阿楠
       link: https://nanzx.top
       descr: 百学须先立志
-      avatar: https://cdn.bilicdn.tk/gh/839777408/tupian/img/head.jpg
+      avatar: https://cdn1.tianli0.top/gh/839777408/tupian/img/head.jpg
     48:
       name: I Am I
       link: https://5ime.cn
-      avatar: https://cdn.bilicdn.tk/gh/5ime/img/avatar.jpg
+      avatar: https://cdn1.tianli0.top/gh/5ime/img/avatar.jpg
       descr: 永远相信美好的事情即将发生
     49:
       name: 萌茶屋
@@ -343,7 +343,7 @@ class3:
     # 55:
     #   name: JzkYcc
     #   link: https://www.jzkycc.top
-    #   avatar: https://cdn.bilicdn.tk/gh/jzkycc/CDN/blog-photo/blog/avatar.webp
+    #   avatar: https://cdn1.tianli0.top/gh/jzkycc/CDN/blog-photo/blog/avatar.webp
     #   descr: Just do it!
     56:
       name: 贰猹的小窝
@@ -363,12 +363,12 @@ class3:
     # 59:
     #   name: Radiumの小站
     #   link: https://www.radiumbit.tk
-    #   avatar: https://cdn.bilicdn.tk/gh/radium-bit/res@latest/avatar.webp
+    #   avatar: https://cdn1.tianli0.top/gh/radium-bit/res@latest/avatar.webp
     #   descr: Always believe that good things are about to happen.
     # 60:
     #   name: HI,Shinnosuke
     #   link: https://pckxin.pro
-    #   avatar: https://cdn.bilicdn.tk/gh/PCKxin/pckxin.pro@2.0/img/Avatar.jpg
+    #   avatar: https://cdn1.tianli0.top/gh/PCKxin/pckxin.pro@2.0/img/Avatar.jpg
     #   descr: Leave the past behind,set for another day
     61:
       name: 小冰博客
@@ -419,7 +419,7 @@ class3:
       name: YuZhangWang的领域
       link: https://www.yuzhang.wang
       descr: 两岸猿声啼不住 轻舟已过万重山
-      avatar: https://cdn.bilicdn.tk/gh/YuZhangWang/Creative_pictures01@main/img/20210907012640.png
+      avatar: https://cdn1.tianli0.top/gh/YuZhangWang/Creative_pictures01@main/img/20210907012640.png
     # 71:
     #   name: GoogTech
     #   link: https://goog.tech
@@ -490,7 +490,7 @@ class4:
     5:
       name: Soulxyzの日常
       link: https://blog.soulxyz.top/
-      avatar: https://cdn.bilicdn.tk/gh/soulxyz/soulxyz.github.io@1.0/statics/img/head.png
+      avatar: https://cdn1.tianli0.top/gh/soulxyz/soulxyz.github.io@1.0/statics/img/head.png
       descr: 不要让时代的悲哀 成为你的悲哀
 
 # class5:
@@ -520,7 +520,7 @@ class4:
     # 25:
     #   name: 保温杯の小破栈
     #   link: https://hangblog.ga
-    #   avatar: https://cdn.bilicdn.tk/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
+    #   avatar: https://cdn1.tianli0.top/gh/hanghang0891/hanghang0891.github.io/img/avatar.jpg
     #   descr: 找不到IP地址 - 没有什么困难是战胜不了我的
     # 26:
     #   name: Code Young
@@ -535,7 +535,7 @@ class4:
     # 15:
     #   name: 云玩家
     #   link: https://blog.clouder.im
-    #   avatar: https://cdn.bilicdn.tk/gh/yunwanjia-cloud/blog/img/logo/icon.png
+    #   avatar: https://cdn1.tianli0.top/gh/yunwanjia-cloud/blog/img/logo/icon.png
     #   descr: 尝试制造人工智障
     # 33:
     #   name: XDER
@@ -561,5 +561,5 @@ class6:
     3:
       name: Hexo中文站
       link: https://www.hexocn.cn/
-      avatar: https://cdn.bilicdn.tk/gh/kjhuanhao/thecdn/hexocn/h128.png
+      avatar: https://cdn1.tianli0.top/gh/kjhuanhao/thecdn/hexocn/h128.png
       descr: Hexo中文站，看不懂英文的可以看看这个

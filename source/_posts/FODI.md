@@ -3,7 +3,7 @@ title: Onedrive分享型网盘搭建 - FODI
 date: 2020-02-09 09:58:43
 tags: [Software, Onedrive, FODI]
 categories: Software
-cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/FODI/cover.jpg
+cover: https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/FODI/cover.jpg
 ---
 
 本人有两个onedrive账号，一个自用，另外一个是[前几天蹭的edu账号](http://bili33.top/2019/08/30/Office365/#%E9%A2%98%E5%A4%96%E8%AF%9D%EF%BC%9A)，之前一直想用onedrive来分享文件（毕竟容量是真的大），就在放寒假前，我发现了github的一个项目：[FODI](https://github.com/vcheckzen/FODI)，虽说这UI不是很好看，但是不用服务器（嗯，让白嫖党有点快乐了），所以就动起了手……
@@ -30,7 +30,7 @@ Message
 
 我的内心是崩溃的……好了不干了！
 
-![咕咕咕](https://cdn.bilicdn.tk/NotFoundNEKKO/Storage/master/%E8%A1%A8%E6%83%85%E5%8C%85/%E5%92%95%E5%92%95%E5%92%95.jpg)
+![咕咕咕](https://cdn1.tianli0.top/NotFoundNEKKO/Storage/master/%E8%A1%A8%E6%83%85%E5%8C%85/%E5%92%95%E5%92%95%E5%92%95.jpg)
 
 ---
 
@@ -38,7 +38,7 @@ Message
 
 然后我在Github又发现了一个新的项目——[OneManager](https://github.com/qkqpttgf/OneManager-php)
 
-![嘤嘤嘤](https://cdn.bilicdn.tk/NotFoundNEKKO/Storage/master/%E8%A1%A8%E6%83%85%E5%8C%85/%E5%88%9D%E9%9F%B3%E5%98%A4%E5%98%A4%E5%98%A4.jpg)
+![嘤嘤嘤](https://cdn1.tianli0.top/NotFoundNEKKO/Storage/master/%E8%A1%A8%E6%83%85%E5%8C%85/%E5%88%9D%E9%9F%B3%E5%98%A4%E5%98%A4%E5%98%A4.jpg)
 
 打算部署这个玩意，这时候就有人问了：诶不是，你这标题不是写的FODI？怎么变成OneManager了？
 
@@ -48,21 +48,21 @@ Message
 
 接着就到了比较重要的一步：获取refresh_token（没错你知道我要干嘛了）
 
-![版本选择](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/FODI/Onemanager-Step1.png)
+![版本选择](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/FODI/Onemanager-Step1.png)
 
 第一步安装的时候选择MS（中国版选择CN，如果你喜欢搞事情，你也可以选择MSC自己申请api，我就是懒，就不自己申请api了）
 
 然后登陆自己的微软账户，接着就会弹出自己的refresh_token，这不就搞定了refresh_token啦？！
 
-![refresh_token获取](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/FODI/refresh-token-in-install.png)
+![refresh_token获取](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/FODI/refresh-token-in-install.png)
 
 如果你没有及时复制你自己的refresh_token，你也可以到你自己heroku项目的变量下复制
 
-![refresh_token in Heroku](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/FODI/refresh-token-heroku.png)
+![refresh_token in Heroku](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/FODI/refresh-token-heroku.png)
 
 接着我们返回FODI，将自己的refresh_token贴近官方给的[模板](https://github.com/vcheckzen/FODI/blob/master/back-end-cf/index.js)的对应位置，接着将代码复制到cloudflare的workers里面（你又问我workers是什么？看[这里](/2019/10/25/CloudFlare-Workers-Section1/)啦！），然后保存即可！
 
-![cloudflare editor](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/FODI/workers-editor.png)
+![cloudflare editor](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/FODI/workers-editor.png)
 
 官方模板：
 
@@ -1615,7 +1615,7 @@ html文件备份：（可以直接复制）
 </html>
 ```
 完成界面：
-![cloudflare editor](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/FODI/Success.png)
+![cloudflare editor](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/FODI/Success.png)
 
 ---
 

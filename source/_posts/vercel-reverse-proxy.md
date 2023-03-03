@@ -3,7 +3,7 @@ title: Vercel搭建反向代理
 date: 2022-07-18 22:04:45
 tags: [Tech, Proxy, Vercel]
 categories: Tech
-cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/vercel-reverse-proxy/chrome-20220718-221703.png
+cover: https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/vercel-reverse-proxy/chrome-20220718-221703.png
 ---
 
 首先你需要安装一下vercel的命令行工具，使用npm进行安装（需要安装nodejs，没安装的自己去下一个）

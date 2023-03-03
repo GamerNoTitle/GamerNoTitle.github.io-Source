@@ -3,7 +3,7 @@ title: 使用Fly.io平台部署哔哩漫游服务器
 date: 2022-12-18 17:11:03
 tags: [Tech, flyio, biliRoaming, Host]
 categories: Tech
-cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/msedge_EB3k3IEoNv.png
+cover: https://cdn1.tianli0.top/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/msedge_EB3k3IEoNv.png
 ---
 
 做这个是因为之前 @wuki 问我说能不能用[Deploy app servers close to your users · Fly](https://fly.io/)这个平台弄哔哩漫游服务器，然后借了我一个号，结果陆陆续续总共拖了将近半年才弄出来，在这留个记录。
@@ -14,7 +14,7 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-
 
 {% endnote %}
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/msedge_EB3k3IEoNv.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/msedge_EB3k3IEoNv.png)
 
 ---
 
@@ -93,11 +93,11 @@ iwr https://fly.io/install.ps1 -useb | iex
 
 在这个绿绿的`Code`按钮里面点到Codespaces，然后创建一个（我这里创建过了所以有一个）
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/msedge_blfgaVum2p.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/msedge_blfgaVum2p.png)
 
 直接打开，可以在网页打开，也可以接入自己的Vscode，进入以后按快捷键<kbd>Ctrl</kbd> + <kbd>L-Shift</kbd> + <kbd>\`</kbd>打开一个终端，并把安装`flyctl`的命令写进去
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/Code_IPvqowlcdn.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/Code_IPvqowlcdn.png)
 
 这样就是安装完毕了，估计是Codespaces的机制问题，所以需要通过绝对路径去访问它
 
@@ -141,7 +141,7 @@ $ flyctl auth login
 
 然后运行以下命令来初始化，跟着它的提示进行就行，只是最后问我们要不要部署，我们先选择不部署，因为我们接下来要导入数据库（记得把弹出来的数据库连接信息记住，因为它只会展示一次，然后就找不到啦）
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/Code_j3ENjuAEAf.png)接着我们修改一下项目的端口，将`config.example.yml`复制一份，为`config.yml`找到`port`，把后面的数字改为`8080`
+![](https://cdn1.tianli0.top/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/Code_j3ENjuAEAf.png)接着我们修改一下项目的端口，将`config.example.yml`复制一份，为`config.yml`找到`port`，把后面的数字改为`8080`
 
 接着我们打开`config.yml`修改数据库配置，找到以下内容，注释掉`passwordFile`，然后修改配置为我们前面创建数据库时给的内容
 
@@ -180,11 +180,11 @@ Proxying local port 5432 to remote [biliroaming-tutorial-db.internal]:5432
 
 codespaces还可以在`PORTS`选项卡里看到绑定的本地端口
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/Code_cKM3RAPklr.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/Code_cKM3RAPklr.png)
 
 这里使用navicat进行连接，在测试之前一定要确保信息填对了
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/navicat_pBpgBHRGhZ.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/navicat_pBpgBHRGhZ.png)
 
 连接以后，我们在左侧可以看到两个数据库，一个是`postgres`，一个是`<app_name>`用哪个随便，不过如果要用`<app_name>`那个，就需要在配置文件里面相应地改掉（在初始化项目那里的数据库连接那个地方）
 
@@ -249,5 +249,5 @@ v4      149.248.221.246 public  global  7s ago
 
 #### 显示“账号未登录”
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/QQ图片20221219181007.jpg)
+![](https://cdn1.tianli0.top/gh/Vikutorika/newassets/img/Deploy-biliroaming-go-server-with-flyio/QQ图片20221219181007.jpg)
 

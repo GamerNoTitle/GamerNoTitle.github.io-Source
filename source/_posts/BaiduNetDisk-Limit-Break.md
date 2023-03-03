@@ -3,7 +3,7 @@ title: 被限速的日子，该过去了！
 date: 2019-08-04 17:07:20
 tags: [Software, Baidu, BaiduNetdisk, Aria2]
 categories: Software
-cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Aria2c-Break-BaiduNetDisk/Cover.jpg
+cover: https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/Aria2c-Break-BaiduNetDisk/Cover.jpg
 keywords: 'aria2c,baidu,百度网盘,百度网盘不限速'
 ---
 
@@ -17,7 +17,7 @@ keywords: 'aria2c,baidu,百度网盘,百度网盘不限速'
 
 ### 辣鸡百度云，又限我速！
 
-![百度云限速（真实）](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Aria2c-Break-BaiduNetDisk/limited-speeds.png)
+![百度云限速（真实）](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/Aria2c-Break-BaiduNetDisk/limited-speeds.png)
 
 百度云天天限速，8M/s的网速硬生生被拖到8kb/s，太真实了，这限速估计也烦了不少人，但是用speedpan之类的软件可能就有封号风险，所谓的封号不是封禁账号，是直接断你的线程断剩下一个，这样就可以拖慢你的网速。
 
@@ -107,8 +107,8 @@ Aria2c RPC 密钥：（填写自己的密钥，默认为空）
 
 
 
-封面下载（来自Watch_Dogs 2）：[点我下载！（4K图）](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Aria2c-Break-BaiduNetDisk/Cover.jpg)
+封面下载（来自Watch_Dogs 2）：[点我下载！（4K图）](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/Aria2c-Break-BaiduNetDisk/Cover.jpg)
 
 狗二图包详见育碧！
 
-![DedSec](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Aria2c-Break-BaiduNetDisk/Cover.jpg)
+![DedSec](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/Aria2c-Break-BaiduNetDisk/Cover.jpg)

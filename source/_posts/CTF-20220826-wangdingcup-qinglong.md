@@ -9,21 +9,21 @@ categories: CTF
 
 没啥技术含量，求助于万能的 ~~百度~~ Bing
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/msedge-20220826-115011.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/msedge-20220826-115011.png)
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/msedge-20220826-115015.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/msedge-20220826-115015.png)
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/msedge-20220826-115020.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/msedge-20220826-115020.png)
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/msedge-20220826-115024.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/msedge-20220826-115024.png)
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/msedge-20220826-115028.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/msedge-20220826-115028.png)
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/msedge-20220826-115033.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/msedge-20220826-115033.png)
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/msedge-20220826-115036.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/msedge-20220826-115036.png)
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/msedge-20220826-115042.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/msedge-20220826-115042.png)
 
 ## **crypto091**
 
@@ -52,7 +52,7 @@ for i in range(0,10000000):
 print(result)
 ```
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/WindowsTerminal-20220826-115133.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/CTF-20220826-wangdingcup-qinglong/WindowsTerminal-20220826-115133.png)
 
 ## Hash爆破脚本
 

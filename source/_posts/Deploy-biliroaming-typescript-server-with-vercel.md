@@ -3,10 +3,10 @@ title: 使用Vercel平台部署哔哩漫游服务器（HK、SEA）
 date: 2023-01-04 22:41:39
 tags: [Tech, flyio, biliRoaming, Host]
 categories: Tech
-cover: https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-typescript-server-with-vercel/msedge-20230104-224247.png
+cover: https://cdn1.tianli0.top/gh/Vikutorika/newassets/img/Deploy-biliroaming-typescript-server-with-vercel/msedge-20230104-224247.png
 ---
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-typescript-server-with-vercel/msedge-20230104-224247.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/newassets/img/Deploy-biliroaming-typescript-server-with-vercel/msedge-20230104-224247.png)
 
 上次用[fly.io](https://fly.io)部署了[biliroaming-go-server](https://github.com/JasonKhew96/biliroaming-go-server)（[教程](/posts/Deploy-biliroaming-go-server-with-flyio/)），但是那个有bug，而且要求比较高（要信用卡，而且要服务器），这几天我在Github有找到了一个项目，可以将哔哩漫游服务器部署在Vercel上面
 
@@ -55,15 +55,15 @@ Vercel：[Develop. Preview. Ship. For the best frontend teams – Vercel](https:
 
 访问Vercel（[Develop. Preview. Ship. For the best frontend teams – Vercel](https://vercel.com/)），登陆以后，新建一个项目
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-typescript-server-with-vercel/msedge-20230104-225223.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/newassets/img/Deploy-biliroaming-typescript-server-with-vercel/msedge-20230104-225223.png)
 
 然后import一下刚刚fork的项目
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-typescript-server-with-vercel/msedge-20230104-225208.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/newassets/img/Deploy-biliroaming-typescript-server-with-vercel/msedge-20230104-225208.png)
 
 直接点击`Deploy`，然后等待部署完毕，点击`Visit`，顶上的链接就是你的服务器地址啦！
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets/img/Deploy-biliroaming-typescript-server-with-vercel/msedge-20230104-225818.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/newassets/img/Deploy-biliroaming-typescript-server-with-vercel/msedge-20230104-225818.png)
 
 ## 使用服务器
 

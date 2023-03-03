@@ -28,17 +28,17 @@ sudo apt install aircrack-ng -y
 
 我这里因为装过了所以才是这么提示的，如果没装过会进入正常的apt安装流程
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-4/vmware-20220601-163848.png?download=true)
+![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/CTF-in-College-4/vmware-20220601-163848.png?download=true)
 
 ## 网卡设置
 
 我这里自己插了一张AWUS036H网卡（显示为wlan0），某宝从几十块到几百的都有，那我这张自然是白嫖的嘛
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-4/vmware-20220601-164831.png?download=true)
+![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/CTF-in-College-4/vmware-20220601-164831.png?download=true)
 
 顺带上一张实物图
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-4/IMG_20220601_164945.jpg)
+![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/CTF-in-College-4/IMG_20220601_164945.jpg)
 
 要开始使用Aircrack-ng，就需要把网卡设置为监听模式，不过这个设置Aircrack-ng里面有一键化的命令，我们只需要执行
 
@@ -52,13 +52,13 @@ sudo airmon-ng start <网卡名字>
 sudo airmon-ng start wlan0
 ```
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-4/vmware-20220601-165742.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/CTF-in-College-4/vmware-20220601-165742.png)
 
 （我这里因为开过一次，所以就会有两个进程在用这个网卡，根据它里面所说的用`airmon-ng check kill`先杀掉相关进程后重新开启就可以了）
 
 完成后，原网卡的名字后面会多出`mon`的字样，就像这样
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-4/vmware-20220601-165917.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/CTF-in-College-4/vmware-20220601-165917.png)
 
 ## 搜索网络
 
@@ -70,7 +70,7 @@ sudo airodump-ng wlan0mon
 
 然后会开始搜索附近的WIFI，按两下<kbd>Q</kbd>可以退出搜索
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-4/vmware-20220601-171049.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/CTF-in-College-4/vmware-20220601-171049.png)
 
 `BSSID` 是搜索到的WIFI的MAC地址
 
@@ -116,7 +116,7 @@ sudo airodump-ng -w ./Packets/captured --channel 11 --bssid 5E:E4:2A:0D:4B:75 wl
 
 抓完后，会出现如图的这些文件
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/CTF-in-College-4/vmware-20220601-172022.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/CTF-in-College-4/vmware-20220601-172022.png)
 
 我们要用来破解的就是这个`captured-01.cap`，至于为什么有01，因为aircrack-ng怕你重名，所以在文件后面会加上数字
 

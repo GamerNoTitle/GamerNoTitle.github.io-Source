@@ -2,13 +2,13 @@
 title: Valine-Magic - Valine表情仓库
 date: 2020-04-19 19:01:30
 tags: [Tech, Customize, meme, emoji]
-cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/Valine-Magic/Cover.png
+cover: https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/Valine-Magic/Cover.png
 categories: Tech
 ---
 
 {% note warning %}
 
-Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Magic](https://github.com/GamerNoTitle/Valine-Magic)将不再提供修改的js，改为提供Valine的表情列表，在使用列表之前，请将你的ValineCDN修改为`https://valinecdn.bilicdn.tk/`
+Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Magic](https://github.com/GamerNoTitle/Valine-Magic)将不再提供修改的js，改为提供Valine的表情列表，在使用列表之前，请将你的ValineCDN修改为`https://valinecdn1.tianli0.top/`
 <a class="github-button" href="https://github.com/GamerNoTitle/Valine-Magic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star GamerNoTitle/Valine-Magic on GitHub">Star</a>
 
 {% endnote %}
@@ -31,9 +31,9 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 
 |        CDN服务器（点击可看在线状态）         | CDN链接                                                      |     优势     |                       劣势                        |
 | :------------------------------------------: | :----------------------------------------------------------- | :----------: | :-----------------------------------------------: |
-| [Github](https://stats.bili33.top/785622714) | https://valinecdn.bilicdn.tk/                                |  链接短，快  |    有CloudFlare的301跳转作为统计，有可能会崩服    |
+| [Github](https://stats.bili33.top/785622714) | https://valinecdn1.tianli0.top/                                |  链接短，快  |    有CloudFlare的301跳转作为统计，有可能会崩服    |
 | [Github](https://stats.bili33.top/785622715) | https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/   |    非常快    |                   有可能会崩服                    |
-| [Coding](https://stats.bili33.top/785622717) | https://mirrorcdn.bilicdn.tk/                                | 链接短，较快 | 有CloudFlare的301跳转作为统计，Coding服务器总是崩 |
+| [Coding](https://stats.bili33.top/785622717) | https://mirrorcdn1.tianli0.top/                                | 链接短，较快 | 有CloudFlare的301跳转作为统计，Coding服务器总是崩 |
 | [Coding](https://stats.bili33.top/785622720) | https://gamernotitle.coding.net/p/ValineCDN/d/ValineCDN/git/raw/master/ |     较快     |                Coding服务器总是崩                 |
 
 ### Valine
@@ -60,7 +60,7 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 
 ### MiniValine
 
-直接复制每个分类中的MiniValine所提供的链接（其中`https://valinecdn.bilicdn.tk/`可以替换为任意CDN链接（见上表）），然后放在`emotionUrl`里面即可，请注意遵循列表写法，如：
+直接复制每个分类中的MiniValine所提供的链接（其中`https://valinecdn1.tianli0.top/`可以替换为任意CDN链接（见上表）），然后放在`emotionUrl`里面即可，请注意遵循列表写法，如：
 
 ```html
 <body>
@@ -71,7 +71,7 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
           appId: 'appId',
           appKey: 'appKey',
           placeholder: 'Write a Comment O(∩_∩)O~~',
-          emotionUrl: ['https://valinecdn.bilicdn.tk/alu','https://valinecdn.bilicdn.tk/bilibiliHotKey']
+          emotionUrl: ['https://valinecdn1.tianli0.top/alu','https://valinecdn1.tianli0.top/bilibiliHotKey']
       })
     </script>
 </body>
@@ -81,30 +81,30 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 ### 表情分类
 
 
-|    ![](https://valinecdn.bilicdn.tk/bilibiliHotKey/7.jpg)    |  ![](https://valinecdn.bilicdn.tk/bilibilitv/[tv_doge].png)  | ![](https://valinecdn.bilicdn.tk/bilibili2233/[2233娘_第一].png) |
+|    ![](https://valinecdn1.tianli0.top/bilibiliHotKey/7.jpg)    |  ![](https://valinecdn1.tianli0.top/bilibilitv/[tv_doge].png)  | ![](https://valinecdn1.tianli0.top/bilibili2233/[2233娘_第一].png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | [哔哩哔哩热词系列](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/bilibili/hotkey热词系列) | [哔哩哔哩小电视系列](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/bilibili/tv小电视系列) | [哔哩哔哩2233娘系列](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/bilibili/2233娘系列) |
-|        ![](https://valinecdn.bilicdn.tk/alu/中枪.png)        | <img src='https://valinecdn.bilicdn.tk/Menhera-chan/5.jpg' width=120 height=102></img> |    ![](https://valinecdn.bilicdn.tk/HONKAI3-Daily/14.gif)    |
+|        ![](https://valinecdn1.tianli0.top/alu/中枪.png)        | <img src='https://valinecdn1.tianli0.top/Menhera-chan/5.jpg' width=120 height=102></img> |    ![](https://valinecdn1.tianli0.top/HONKAI3-Daily/14.gif)    |
 | [阿鲁alu系列](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/alu) | [メンヘラちゃん(Menhera-chan)系列表情包](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/Menhera-chan) | [HONKAI崩坏3 日常篇](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/HONKAI3/HONKAI3-Daily) |
-|     ![](https://valinecdn.bilicdn.tk/HONKAI3-Star/3.gif)     |   ![](https://valinecdn.bilicdn.tk/HONKAI3-Crayon/16.gif)    |    ![](https://valinecdn.bilicdn.tk/HONKAI3-Pure/13.gif)     |
+|     ![](https://valinecdn1.tianli0.top/HONKAI3-Star/3.gif)     |   ![](https://valinecdn1.tianli0.top/HONKAI3-Crayon/16.gif)    |    ![](https://valinecdn1.tianli0.top/HONKAI3-Pure/13.gif)     |
 | [HONKAI崩坏3 观星篇](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/HONKAI3/HONKAI3-Star) | [HONKAI崩坏3 蜡笔日常篇](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/HONKAI3/HONKAI3-Crayon) | [HONKAI崩坏3 纯色日常篇](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/HONKAI3/HONKAI3-Pure) |
-| <img src='https://valinecdn.bilicdn.tk/HONKAI3-Stan/4f921b8ad8c16f3d2c73e3c04c5735ca9b41187b.gif' width=104 height=74.4> | <img src='https://valinecdn.bilicdn.tk/HONKAI3-AIChan/d65b36ccae610bc4479209cd6e62bb91b0f76188.jpg' width=125 height=111></img> | <img src='https://valinecdn.bilicdn.tk/HONKAI3-Durandal-Search/f1b9a456587638e488d93ccaa95dde59aef3af01.gif' height=100 width=100></img> |
+| <img src='https://valinecdn1.tianli0.top/HONKAI3-Stan/4f921b8ad8c16f3d2c73e3c04c5735ca9b41187b.gif' width=104 height=74.4> | <img src='https://valinecdn1.tianli0.top/HONKAI3-AIChan/d65b36ccae610bc4479209cd6e62bb91b0f76188.jpg' width=125 height=111></img> | <img src='https://valinecdn1.tianli0.top/HONKAI3-Durandal-Search/f1b9a456587638e488d93ccaa95dde59aef3af01.gif' height=100 width=100></img> |
 | [HONKAI崩坏3 史丹](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/HONKAI3/HONKAI3-Stan) | [HONKAI崩坏3 爱酱](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/HONKAI3/HONKAI3-AIChan) | [HONKAI崩坏3 目标！幽兰黛尔](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/HONKAI3/HONKAI3-Durandal-Search) |
-| <img src='https://valinecdn.bilicdn.tk/HONKAI3-MEI/bf68423446465d396d3cbd8856882b5e9fb1c0c7.gif' width=120 height=120> | <img src='https://valinecdn.bilicdn.tk/HONKAI3-NEWYEAR-2019/dc1a2b2032fad29373fe8460d4ad89ca848355a9.jpg' width=120 height=120> | ![](https://valinecdn.bilicdn.tk/Tsuri-me-ju_mimi/10753793_key@2x.png) |
+| <img src='https://valinecdn1.tianli0.top/HONKAI3-MEI/bf68423446465d396d3cbd8856882b5e9fb1c0c7.gif' width=120 height=120> | <img src='https://valinecdn1.tianli0.top/HONKAI3-NEWYEAR-2019/dc1a2b2032fad29373fe8460d4ad89ca848355a9.jpg' width=120 height=120> | ![](https://valinecdn1.tianli0.top/Tsuri-me-ju_mimi/10753793_key@2x.png) |
 | [HONKAI崩坏3 芽衣的剑道修行](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/HONKAI3/HONKAI3-MEI) | [HONKAI崩坏3 2019新年](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/HONKAI3/HONKAI3-NEWYEAR-2019) | [つり目獣耳スタンプ(Sticker of the slant eyes & cat girl)](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/Tsuri-me-ju-mimi) |
-| <img src="https://valinecdn.bilicdn.tk/Arcaea/184064198.png" style="zoom:50%;" /> | <img src="https://valinecdn.bilicdn.tk/Mafumafu/199749477.png" style="zoom:50%;" /> |     ![](https://valinecdn.bilicdn.tk/weibo/d_jiyan.png)      |
+| <img src="https://valinecdn1.tianli0.top/Arcaea/184064198.png" style="zoom:50%;" /> | <img src="https://valinecdn1.tianli0.top/Mafumafu/199749477.png" style="zoom:50%;" /> |     ![](https://valinecdn1.tianli0.top/weibo/d_jiyan.png)      |
 | [Arcaea](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/Arcaea) | [動く！まふまふスタンプ（ねこ）Mafumafu Animation sticker (cat)](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/MafuMafu) | [微博原生表情包](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/weibo) |
-| ![](https://valinecdn.bilicdn.tk/Tieba-New/image_emoticon25.png) | <img src="https://valinecdn.bilicdn.tk/Snow-Miku/3583066@2x.png" style="zoom:50%;" /> | <img src="https://valinecdn.bilicdn.tk/Sweetie-Bunny/12311679.png" style="zoom:50%;" /> |
+| ![](https://valinecdn1.tianli0.top/Tieba-New/image_emoticon25.png) | <img src="https://valinecdn1.tianli0.top/Snow-Miku/3583066@2x.png" style="zoom:50%;" /> | <img src="https://valinecdn1.tianli0.top/Sweetie-Bunny/12311679.png" style="zoom:50%;" /> |
 | [百度贴吧原生表情包](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/Tieba) | [Snow Miku雪初音表情包（LINE）](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/Snow-Miku) | [うさみみ少女（SWEETIE BUNNY）](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/Sweetie-Bunny) |
-| <img src="https://valinecdn.bilicdn.tk/Little-Bad/我们一起做坏坏的事.jpg" style="zoom:50%;" /> | <img src="https://valinecdn.bilicdn.tk/Yurui-Neko/029.png" style="zoom:50%;" /> | <img src="https://valinecdn.bilicdn.tk/Cute-Emoji/010.png" style="zoom:50%;" /> |
+| <img src="https://valinecdn1.tianli0.top/Little-Bad/我们一起做坏坏的事.jpg" style="zoom:50%;" /> | <img src="https://valinecdn1.tianli0.top/Yurui-Neko/029.png" style="zoom:50%;" /> | <img src="https://valinecdn1.tianli0.top/Cute-Emoji/010.png" style="zoom:50%;" /> |
 | [小坏坏表情包](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/Little-Bad) | [Yurui-Neko](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/Yurui-Neko) | [Cute-Emoji](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/Cute-Emoji) |
-| <img src="https://valinecdn.bilicdn.tk/Set667/032.png" style="zoom:50%;" /> | <img src="https://valinecdn.bilicdn.tk/Marup/038.png" style="zoom:50%;" /> | <img src="https://valinecdn.bilicdn.tk/Convenience-Store-Notes2/010.png" style="zoom:50%;" /> |
+| <img src="https://valinecdn1.tianli0.top/Set667/032.png" style="zoom:50%;" /> | <img src="https://valinecdn1.tianli0.top/Marup/038.png" style="zoom:50%;" /> | <img src="https://valinecdn1.tianli0.top/Convenience-Store-Notes2/010.png" style="zoom:50%;" /> |
 | [Set667](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/Set667) | [Marup](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/Marup) | [Convenience Store Notes2](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/Convenience-Store-Notes2) |
-| ![](https://valinecdn.bilicdn.tk/Coolapk/coolapk_emotion_71.png) |      ![](https://valinecdn.bilicdn.tk/aodamiao/01.gif)       |       ![](https://valinecdn.bilicdn.tk/lengtu/04.gif)        |
+| ![](https://valinecdn1.tianli0.top/Coolapk/coolapk_emotion_71.png) |      ![](https://valinecdn1.tianli0.top/aodamiao/01.gif)       |       ![](https://valinecdn1.tianli0.top/lengtu/04.gif)        |
 | [Coolapk酷安](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/Coolapk) | [aodamiao嗷大喵](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/aodamiao) | [lengtu冷兔](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/lengtu) |
-|       ![](https://valinecdn.bilicdn.tk/QQ/tuosai.gif)        |  ![](https://valinecdn.bilicdn.tk/dingtalk/emotion_107.png)  | ![](https://valinecdn.bilicdn.tk/Heybox/expression_heziji_22.png)![](https://valinecdn.bilicdn.tk/Heybox/expression_cube_wa.png) |
+|       ![](https://valinecdn1.tianli0.top/QQ/tuosai.gif)        |  ![](https://valinecdn1.tianli0.top/dingtalk/emotion_107.png)  | ![](https://valinecdn1.tianli0.top/Heybox/expression_heziji_22.png)![](https://valinecdn1.tianli0.top/Heybox/expression_cube_wa.png) |
 | [QQ官方表情](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/QQ) | [钉钉官方表情](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/dingtalk) | [小黑盒表情包（包括盒娘和方块）](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/Heybox) |
-|   ![](https://valinecdn.bilicdn.tk/Majotabi/367516718.png)   |                                                              |                                                              |
+|   ![](https://valinecdn1.tianli0.top/Majotabi/367516718.png)   |                                                              |                                                              |
 | [魔女之旅Majotabi（官方）](https://github.com/GamerNoTitle/Valine-Magic/tree/master/Classification/Majotabi) |                                                              |                                                              |
 
 ### 免责声明

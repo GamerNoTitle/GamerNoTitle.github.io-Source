@@ -12,7 +12,7 @@ categories: Coding
 - 在Tex中，左引号是``,右引号是' '。
 - 给定一段包含双引号的段落，你的任务是把它转换成Tex的格式。
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Go-for-Python-Ch4/Tex.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/Go-for-Python-Ch4/Tex.png)
 
 #### 个人题解
 
@@ -55,7 +55,7 @@ To `C' or not to `C', that is The Question!''
 
 把手放在键盘上，稍不注意就会往右错一位。这样，输入Q会变成输入W，输入J会变成输入K等。键盘如图所示。 输入一个错位后敲出来的字符串（所有字母均大写），输出打字员本来想打出的矩阵输入保证合法，即一定是错位之后的字符串。例如输入中不会出现大写字母A。多行输入 每行包括数字，空格，大写字母（除了Q，A，Z）或者是标点符号（除了“’”(L右面第2个)），标有单词的按键，如Tab，BackSp，Control等等不会出现。你需要用每个字母或者符号左面的（在如图给出的QWERTY类型的键盘）那个按键内容替换他，输入的空格不作处理，依然输出空格。
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Go-for-Python-Ch4/UVa10082.jpg)
+![](https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/Go-for-Python-Ch4/UVa10082.jpg)
 
 #### 个人题解（打表真累……）
 
@@ -94,9 +94,9 @@ I AM FINE TODAY.
 
 输入一个字符串，判断它是否为回文串以及镜像（左右翻转）串。输入字符串保证不含数字0。所谓回文串，就是反转以后与原串相同，如abba和madam。所谓镜像串，就是左右镜像之后和原串相同，如2S和3AIAE。注意，并不是每个字符在镜像之后都能得到一个合法字符。（空白项表示该字符镜像后不能得到一个合法字符。）
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Go-for-Python-Ch4/Mirror-and-Reverse.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/Go-for-Python-Ch4/Mirror-and-Reverse.png)
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Go-for-Python-Ch4/Mirror-and-Reverse-Sample.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/Go-for-Python-Ch4/Mirror-and-Reverse-Sample.png)
 
 #### 个人题解
 
@@ -166,7 +166,7 @@ ATOYOTA -- is a mirrored palindrome.
 
 这是一个猜数游戏，第1行是答案序列的长度，也是询问的序列的长度（输入0结束），第2行是答案序列，接下来n行是询问序列，直到输入全0结束，每一个询问你都得给出回答，(x,y)，x代表的是输入的序列中的数字与答案序列中的数字有几个是吻合的，y代表输入序列中的数字与答案序列中的数字有几个相同的，但是不在同一位置，也就是不吻合。现在请你编程实现这个功能。
 
-![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/Go-for-Python-Ch4/Number-Game.png)
+![](https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/Go-for-Python-Ch4/Number-Game.png)
 
 #### 个人题解
 

@@ -626,11 +626,11 @@ B205，一个里面一半是苏元人的宿舍，让我熟悉起来特别容易�
 
 #### 原版下载地址：
 
-[DOCX格式](https://cdn.bilicdn.tk/GamerNoTitle/GamerNoTitle.github.io/master/files/666/666.docx)
+[DOCX格式](https://cdn1.tianli0.top/GamerNoTitle/GamerNoTitle.github.io/master/files/666/666.docx)
 
-[PDF格式](https://cdn.bilicdn.tk/GamerNoTitle/GamerNoTitle.github.io/master/files/666/666.pdf)
+[PDF格式](https://cdn1.tianli0.top/GamerNoTitle/GamerNoTitle.github.io/master/files/666/666.pdf)
 
-[EPUB格式](https://cdn.bilicdn.tk/GamerNoTitle/GamerNoTitle.github.io/master/files/666/666.epub)
+[EPUB格式](https://cdn1.tianli0.top/GamerNoTitle/GamerNoTitle.github.io/master/files/666/666.epub)
 
 ![](https://cdnjsdelivr.bili33.workers.dev/gh/GamerNoTitle/Picture-repo@1.0/666/6.jpg)
 

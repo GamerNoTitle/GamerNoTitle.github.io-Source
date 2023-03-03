@@ -52,7 +52,7 @@ $ git clone git@github.com:mashirozx/Pixiv-Nginx.git
 
 进入~/etc/nginx/这个位置，把上面打开的那个文件夹的东西全部都丢进去（此处需要root权限），提示覆盖就覆盖即可！
 
-![移动文件到~/etc/nginx/](https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/Pixiv-Nginx/Move-Files.png)
+![移动文件到~/etc/nginx/](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/Pixiv-Nginx/Move-Files.png)
 
 然后在~/etc/nginx目录下打开终端，输入以下命令
 
