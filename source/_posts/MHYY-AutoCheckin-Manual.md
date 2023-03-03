@@ -28,6 +28,55 @@ cover: https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 
 > 先点个STAR，我们马上开始我们的教程:D
 
+#### 青龙面板
+
+如果你选择使用青龙面板，那么你需要执行以下操作
+
+首先点开订阅管理，把这个命令粘贴进去
+
+```
+ql repo http://gogs.console.bili33.top/GamerNoTitle/MHYY-AutoCheckin.git "main" "" ""
+```
+
+然后他会自动识别，并填入相应的内容，你只需要修改定时规则即可，名称按照自己需要修改
+
+如果上面这个命令贴进去后因为网络原因（有可能我的gogs宕机了）或者其他原因拉取不了，可以改成下面这个
+
+```
+ql repo https://github.com/GamerNoTitle/MHYY.git "main" "" ""
+```
+
+优先还是建议用gogs的那个，谁知道啥时候Github就给我仓库封了呢~
+
+保存以后点击运行按钮更新一下订阅
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/msedge-20230303-172154.png)
+
+在定时任务中你就能找到刚刚更新的内容，但是还不能够使用，我们还需要配置依赖和环境变量
+
+我们需要两个python3依赖，分别是`requests`和`sentry-sdk`，如图填写并安装
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/msedge-20230303-172601.png)
+
+然后点到环境变量，新建名为`config`的变量（可以改，请见[青龙面板不使用config作为变量名](#青龙面板不使用config作为变量名)）把我们的配置填进去，点击保存
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/msedge-20230303-172858.png)
+
+保存后你就可以在定时任务中运行试试看效果了~
+
+##### 青龙面板不使用config作为变量名
+
+先点开脚本管理，找到你对`MHYY-AutoCheckin`的命名，然后打开它的文件夹，找到`main.py`文件，在大约23行的位置找到以下内容
+
+```python
+# Running in Github Action, use this to get the config
+config = json.loads(os.environ.get('config'))
+```
+
+把括号里的`config`改成你想要的名字，然后配置环境变量的时候就直接改成你配置的名字就可以了~
+
+![](https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/msedge-20230303-173220.png)
+
 #### Github Action 版本
 
 {% note danger %}
@@ -287,9 +336,9 @@ x-rpc-sys_version: <iOS版本>
 
 ### Q&A
 
-#### 青龙面板里面怎么用
+#### ~~青龙面板里面怎么用~~ （因仓库被封所以issue没了，请看[青龙面板一节](#青龙面板)）
 
-使用Action版本，把配置写入`config.json`内，然后根据[这个链接](https://github.com/GamerNoTitle/MHYY/issues/12#issuecomment-1224986933)里面的做法对脚本进行小修改就可以用了
+~~使用Action版本，把配置写入`config.json`内，然后根据[这个链接](https://github.com/GamerNoTitle/MHYY/issues/12#issuecomment-1224986933)里面的做法对脚本进行小修改就可以用了~~
 
 #### ~~为什么要把信息作为统计数据发到统计服务器？~~ 统计服务器已关闭，本条目已失效
 
