@@ -824,8 +824,6 @@ aside:
     enable: true
     content: |
       <div align="center"><a href="https://bilicdn.tk"><img src="https://cdn.bili33.top/gh/biliCDN/bilicdn.github.io@master/images/favicon.png"></a></br><p><h3>本站使用<a href="https://bilicdn.tk">哔哩CDN</a>进行加速</h3></p></div>
-      <br>
-      <div align="center">现在用的是 <a href="https://ql.tianli0.top/">Tianli CDN</a> 因为 biliCDN 炸了~</div>
     # <div class="social-button">
     # <a class="button--animated" href="https://jq.qq.com/?_wv=1027&k=KU9105XR" target="_blank">QQ 1 群 👍</a>  # 按钮链接可以这样写
     # </div>
