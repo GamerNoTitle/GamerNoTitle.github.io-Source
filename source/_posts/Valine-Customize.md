@@ -3,7 +3,7 @@ title: Valine-Customize魔改教程
 date: 2020-04-19 19:50:19
 tags: [Tech, Customize]
 categories: Tech
-cover: https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/Valine-customize/cover.png
+cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Valine-customize/cover.png
 ---
 
 {% note warning %}
@@ -37,7 +37,7 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 
 首先，我们需要获得valine的js文件，这里直接访问Valine的CDN获取https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
 
-![Valine官方JS](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/Valine-customize/Valine-js-Official.png)
+![Valine官方JS](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Valine-customize/Valine-js-Official.png)
 
 打开后是一个页面，我们直接全选复制，粘贴到一个新的js文件中
 
@@ -51,13 +51,13 @@ Valine在2020/4/21更新了v1.4.5，支持了自定义表情包，故[Valine-Mag
 
 我们直接以`//img.t.sinajs.cn`作为关键词检索CDN，很快就得到了CDN的位置
 
-![CDN搜索](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/Valine-customize/Valine-Original-CDN-Search.png)
+![CDN搜索](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Valine-customize/Valine-Original-CDN-Search.png)
 
 我们将这里的CDN的内容直接删掉，留空
 
 接着我们搜索valine自带的表情标签，而第一个的表情标签是smile，我这里就直接搜索smile，这样可以直接定位到表情列表的头部
 
-![表情列表搜索](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/Valine-customize/Valine-Stickers-List.png)
+![表情列表搜索](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Valine-customize/Valine-Stickers-List.png)
 
 接下来，我们需要上传自己的表情，并且按照这个格式制作一个表情列表
 
@@ -80,7 +80,7 @@ def main():
     linklist=[]
     num=1
     for i in findAllFile(base):
-        linklist.append('custom{}: "https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/BQB/{}",'.format(num,i))
+        linklist.append('custom{}: "https://cdn.bili33.top/gh/Vikutorika/assets@master/img/BQB/{}",'.format(num,i))
         num=num+1
     print(str(linklist).replace(',\', \'',', '))
 if __name__ == '__main__':
@@ -89,7 +89,7 @@ if __name__ == '__main__':
 
 这里通过os.walk遍历当前目录下的文件，并且将获取到的文件名通过字符串拼接的方式拼在一起，然后存入列表`linklist`，接着打印的时候将固定的字符串格式`,', '`给删除掉（因为是list对象，所以打印出来的时候有固定格式），接着就会给我生成表情列表啦！
 
-![生成表情列表](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/Valine-customize/Sticker-List-Generate.png)
+![生成表情列表](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Valine-customize/Sticker-List-Generate.png)
 
 接着将获取到的列表覆盖入Valine的表情列表，保存
 
@@ -107,11 +107,11 @@ if __name__ == '__main__':
 
 这里我们还是打开刚刚的js文件，直接搜索`E.cdn+(0,s.default)(t.get("mail"))+E.params`，会给我们定位到一个位置
 
-![搜索有关字段](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/Valine-customize/Valine-Mail-Search.png)
+![搜索有关字段](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Valine-customize/Valine-Mail-Search.png)
 
 我们找到下图中我鼠标所在的位置，回车换行
 
-![换行位置](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/Valine-customize/Valine-Mail-Enter.png)
+![换行位置](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Valine-customize/Valine-Mail-Enter.png)
 
 换行以后，加入以下内容
 
@@ -141,7 +141,7 @@ if (t.get("mail").indexOf("@qq.com") >= 0) {
 
 我们随便搜索一个按钮显示的文字，我们就会发现，附近都是我们要修改的文字
 
-![搜索有关字段](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/Valine-customize/Valine-UI-Text.png)
+![搜索有关字段](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Valine-customize/Valine-UI-Text.png)
 
 我们只需要对这些文字进行修改即可，修改成啥样嘛？就看你自己啦！
 

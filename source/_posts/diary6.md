@@ -3,7 +3,7 @@ title: “陪伴是最长情的告白”
 date: 2021-06-10 23:59:59
 tags: diary
 categories: diary
-cover: https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/diary6/YESICAN.jpg
+cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/diary6/YESICAN.jpg
 ---
 
 这应该是我第一次写这种对话式的文章，怎么说呢，本文其实是我要说的一些东西……
@@ -28,7 +28,7 @@ cover: https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/diary6/YESICAN.j
 
 想与我联系，可以使用QQ加3559869084或者发邮件到admin@bili33.top，我的索爱W595C虽然已经饱经沧桑，但是他还是能看邮件的……
 
-![菠咯波咯哒のSony Ericsson W595C](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/diary6/Sony-Ericsson-W595C.jpg)
+![菠咯波咯哒のSony Ericsson W595C](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/diary6/Sony-Ericsson-W595C.jpg)
 
 GamerNoTitle
 

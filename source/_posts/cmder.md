@@ -42,7 +42,7 @@ Cmder.exe /REGISTER ALL
 
 然后你就可以像我一样在任意地方打开cmder了
 
-![cmder-here](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/cmder/cmder-here.png)
+![cmder-here](https://cdn.bili33.top/gh/Vikutorika/assets@master/cmder/cmder-here.png)
 
 #### 快捷键大全（官网有）：
 
@@ -68,7 +68,7 @@ Win+Alt+P   开启工具选项视窗
 set LANG=zh_CN.UTF8 
 ```
 
-![cmder-cn](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/cmder/cmder-cn.png)
+![cmder-cn](https://cdn.bili33.top/gh/Vikutorika/assets@master/cmder/cmder-cn.png)
 
 
 

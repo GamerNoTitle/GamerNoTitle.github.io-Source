@@ -14,9 +14,9 @@ cover: https://cdn.staticaly.com/gh/yujincheng08/BiliRoaming/master/imgs/icon.pn
 
 因为某些众所周知的原因，有些番在B站只能在港澳台观看，而我们平时观看港澳台番剧会出现下面这张图的情况
 
-![PC端](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/biliRoaming/msedge-20220422-171409.png?download=true)
+![PC端](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/biliRoaming/msedge-20220422-171409.png?download=true)
 
-![Android端（有些可能会写“您所在的区域不支持观看”）](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/biliRoaming/WsaClient-20220422-172138.png)
+![Android端（有些可能会写“您所在的区域不支持观看”）](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/biliRoaming/WsaClient-20220422-172138.png)
 
 对于我这种追番老手来说，这可是不能接受的一件事情。而在我早期搜索B站港澳台的时候，发现了能够突破这种限制的油猴脚本[bilibili-helper/README.md at user.js · ipcjs/bilibili-helper (github.com)](https://github.com/ipcjs/bilibili-helper/blob/user.js/packages/unblock-area-limit/README.md)，以前这个脚本使用的是biliPlus的服务器，但是后来因为一封律师函，所以就只能自建服务器了（后面会说）
 
@@ -28,17 +28,17 @@ cover: https://cdn.staticaly.com/gh/yujincheng08/BiliRoaming/master/imgs/icon.pn
 
 然后当你打开某一个番剧的详情页（不一定要港澳台的），有一个设置按钮（就是图片里面这个有点像星球的这个按钮）
 
-![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/biliRoaming/msedge-20220422-172608.png)
+![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/biliRoaming/msedge-20220422-172608.png)
 
 点开以后在里面填写服务器，服务器可以参照哔哩漫游提供的公共服务器 [公共解析服务器 · yujincheng08/BiliRoaming Wiki (github.com)](https://github.com/yujincheng08/BiliRoaming/wiki/公共解析服务器)，也可以自建（这里不讲，哔哩漫游的wiki里面有，自己找）
 
-![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/biliRoaming/msedge-20220422-173134.png)
+![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/biliRoaming/msedge-20220422-173134.png)
 
 我这里填的是自建服务器，因为额度有限就不共享了，upos服务器建议换成`ks3（金山）`，比较稳定
 
 这时候你再访问番剧页面，它就会自动给你获取港澳台的番剧看了
 
-![](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/biliRoaming/msedge-20220422-173256.png)
+![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/biliRoaming/msedge-20220422-173256.png)
 
 ## 安卓端
 
@@ -46,15 +46,15 @@ cover: https://cdn.staticaly.com/gh/yujincheng08/BiliRoaming/master/imgs/icon.pn
 
 当然，如果你不是高玩，你也可以下载已经把模块集成在主程序的B站，官方下载地址是这个 -> https://wwe.lanzoux.com/b015ll4sb 2333
 
-我自己打包的是这个 -> [[Lspatch] [Roaming-1.6.2] 哔哩哔哩 6.69.0](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/files/biliRoaming/%5BLspatch%5D%20%5BRoaming-1.6.2%5D%20%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%206.69.0.apk?download=true) [[Lspatch] [Roaming-1.6.2] 哔哩哔哩HD 1.17.0](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/files/biliRoaming/%5BLspatch%5D%20%5BRoaming-1.6.2%5D%20%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9HD%201.17.0.apk?download=true)
+我自己打包的是这个 -> [[Lspatch] [Roaming-1.6.2] 哔哩哔哩 6.69.0](https://cdn.bili33.top/gh/Vikutorika/assets@master/files/biliRoaming/%5BLspatch%5D%20%5BRoaming-1.6.2%5D%20%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%206.69.0.apk?download=true) [[Lspatch] [Roaming-1.6.2] 哔哩哔哩HD 1.17.0](https://cdn.bili33.top/gh/Vikutorika/assets@master/files/biliRoaming/%5BLspatch%5D%20%5BRoaming-1.6.2%5D%20%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9HD%201.17.0.apk?download=true)
 
 安装完成后，在设置中找到`哔哩漫游设置`，并按照我这样设置（解析服务器自己填，这里拿HD来做例子）
 
-![打开前三个选项](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/biliRoaming/WsaClient-20220422-173746.png)
+![打开前三个选项](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/biliRoaming/WsaClient-20220422-173746.png)
 
-![填入解析服务器](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/biliRoaming/WsaClient-20220422-173814.png)
+![填入解析服务器](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/biliRoaming/WsaClient-20220422-173814.png)
 
-![Upos更改为k3c](https://cdn1.tianli0.top/gh/Vikutorika/assets@master/img/biliRoaming/WsaClient-20220422-173825.png)
+![Upos更改为k3c](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/biliRoaming/WsaClient-20220422-173825.png)
 
 完成后直接点`确定并重启客户端`，然后就能看港澳台番剧了
 

@@ -26,7 +26,7 @@ print('I forgot to save the code...')
 
 - 【问题描述】 有一个不超过 1017 的正整数 n，知道这个数除以 2 至 49 后的余数如下表 所示，求这个正整数最小是多少。
 
-- ![](https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/lanqiao-2022-Province/msedge-20221105-113347.png)
+- ![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/lanqiao-2022-Province/msedge-20221105-113347.png)
 
 - 【答案提交】 这是一道结果填空的题，你只需要算出结果后提交即可。本题的结果为一 个整数，在提交答案时只填写这个整数，填写多余的内容将无法得分。
 
@@ -184,7 +184,7 @@ print(nums[pos-1][0])
 - 【问题描述】
   蜂巢由大量的六边形拼接而成，定义蜂巢中的方向为：0 表示正西方向，1表示西偏北 60◦，2 表示东偏北 60◦，3 表示正东，4 表示东偏南 60◦，5 表示西
   偏南 60◦。对于给定的一点 O，我们以 O 为原点定义坐标系，如果一个点 A 由 O 点先向 d 方向走 p 步再向 (d + 2) mod 6 方向（d 的顺时针 120◦ 方向）走 q 步到达，则这个点的坐标定义为 (d, p, q)。在蜂窝中，一个点的坐标可能有多种。下图给出了点 B(0, 5, 3) 和点 C(2, 3, 2) 的示意。
-  ![](https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/lanqiao-2022-Province/msedge-20221108-195641.png)
+  ![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/lanqiao-2022-Province/msedge-20221108-195641.png)
   给定点 (d1, p1, q1) 和点 (d2, p2, q2)，请问他们之间最少走多少步可以到达？
 - 【输入格式】
   输入一行包含 6 个整数 d1, p1, q1, d2, p2, q2 表示两个点的坐标，相邻两个整数之间使用一个空格分隔。

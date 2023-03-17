@@ -3,7 +3,7 @@ title: 防止你的Telegram被垃圾私信轰炸 - PagerMaid-Pyro 部署使用
 date: 2023-02-02 10:45:52
 tags: Tech
 categories: Tech
-cover: https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/Telegram-20230202-110529.png
+cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/Telegram-20230202-110529.png
 ---
 
 > [TeamPGM/PagerMaid-Pyro: Advanced Multi-Featured Telegram UserBot by pyrogram. (github.com)](https://github.com/TeamPGM/PagerMaid-Pyro)
@@ -50,15 +50,15 @@ $ cp config.gen.yml config.yml
 
 我们先去[Authorization (telegram.org)](https://my.telegram.org/auth)登录我们的Telegram账号，注册一个应用，这个登录界面的验证码是发到你的**Telegram应用**里面的，不是短信！
 
-![](https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/msedge-20230202-112457.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/msedge-20230202-112457.png)
 
-![](https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/Telegram-20230202-112431.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/Telegram-20230202-112431.png)
 
 登录进去以后，点`API development tools`，根据提示注册一个应用
 
 注册完了应该会出现像我这样的页面
 
-![](https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/msedge-20230202-112951.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/msedge-20230202-112951.png)
 
 我们把`App api_id`和`App api_hash`复制下来，填入配置文件中
 
@@ -109,15 +109,15 @@ $ python -m pagermaid
 
 所以我们需要把登录链接丢进草料二维码生成器里面，生成一个二维码，拿手机扫一下，这个链接的有效时间是20秒，所以需要快一点
 
-![](https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/msedge-20230202-113343.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/msedge-20230202-113343.png)
 
-![](https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/msedge-20230202-113406.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/msedge-20230202-113406.png)
 
 
 
 登录后如果配置了二步验证密码的话，还需要输入一下密码，出现像我这样的提示就是成功了
 
-![](https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/msedge-20230202-113603.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/msedge-20230202-113603.png)
 
 我们随便打开一个聊天窗口（建议找个收藏夹或者私聊，因为你发送的内容和PagerMaid给你返回的内容对方是能看到的），输入`,help`（命令前缀是一个逗号）
 
@@ -129,14 +129,14 @@ $ python -m pagermaid
 
 我们在聊天框输入`,apt install pmcaptcha`来安装它
 
-![](https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/Telegram-20230202-113758.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/Telegram-20230202-113758.png)
 
 然后输入`,pmcaptcha show_settings`来查看相关的设置，安装好的同时这个功能就已经打开了
 
 当验证失败的时候就会被封禁（使用的是Telegram的Block功能，我这里选的是Sticker验证方式，使用`,pmcaptcha change_type sticker`就可以换过去了，需要对方发一个Sticker才能通过验证）
 
-![](https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/Telegram-20230202-114139.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/Telegram-20230202-114139.png)
 
-![](https://cdn1.tianli0.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/Telegram-20230202-114216.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Use-telegram-with-pagermaid/Telegram-20230202-114216.png)
 
 还有其他的插件，可以自己去探索。这东西有个web控制台的，可以去看看
