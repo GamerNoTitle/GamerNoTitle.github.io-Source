@@ -1092,7 +1092,7 @@ CDN:
     # valine: https://unpkg.com/valine-unpkg-avmin@0.0.1/dist/Valine.min.js
     # disqusjs:
     # disqusjs_css:
-    twikoo: https://cdn.bili33.top/npm/twikoo@1.6.11/dist/twikoo.all.min.js
+    # twikoo: https://cdn.bili33.top/npm/twikoo@1.6.11/dist/twikoo.all.min.js
     # waline_js:
     # waline_css:
     # sharejs:
@@ -1101,7 +1101,7 @@ CDN:
     # katex:
     # katex_copytex:
     # katex_copytex_css:
-    mermaid: https://cdn.bili33.top/npm/mermaid/dist/mermaid.min.js
+    # mermaid: https://cdn.bili33.top/npm/mermaid/dist/mermaid.min.js
     # canvas_ribbon:
     # canvas_fluttering_ribbon:
     # canvas_nest:
