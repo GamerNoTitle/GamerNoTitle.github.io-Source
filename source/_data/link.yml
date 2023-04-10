@@ -8,15 +8,15 @@ class:
       avatar: https://cdn.bili33.top/gh/biliCDN/bilicdn.github.io@master/images/favicon.png
       descr: jsd镜像源
     2:
-      name: 城通网盘解析器
-      link: https://ctfile.bili33.top/
-      avatar: https://ctfile.bili33.top/icon.png
-      descr: 直连获取
-    3:
       name: 个人脚本库
       link: https://gogs.console.bili33.top
       avatar: https://gogs.console.bili33.top/img/favicon.png
       descr: 脚本备份
+    3:
+      name: 哔哩漫游服务器
+      link: /biliroaming
+      avatar: https://cdn.bili33.top/gh/Vikutorika/newassets@master/templates/Willy%20Wonka%20portfolio%20Template%20free/themes/custom/favicon.png
+      descr: 嗶哩嗶哩
     # 10000:
     #   name: N/A
     #   link: ./#
