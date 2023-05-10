@@ -213,6 +213,60 @@ return render_template('myMarket.html', market=True, weapon0={"name": weapon0.na
 	weapon3={"name": weapon3.name, "cost": weapon3.cost, "img": weapon3.base_img})
 ```
 
+## 皮肤缓存
+
+这个缓存不是传统意义上的缓存，是我把所有的皮肤数据扒下来存到文件里当缓存，每30分钟更新一次
+
+我是开了一个新的线程去做的这个东西（下面为更新缓存的函数）
+
+```python
+import requests
+import json
+import time
+
+sc_link = 'https://valorant-api.com/v1/weapons/skins?language=zh-CN'
+tc_link = 'https://valorant-api.com/v1/weapons/skins?language=zh-TW'
+jp_link = 'https://valorant-api.com/v1/weapons/skins?language=ja-JP'
+en_link = 'https://valorant-api.com/v1/weapons/skins'
+
+Linkmap = [
+    ('zh-CN', sc_link),
+    ('zh-TW', tc_link),
+    ('ja-JP', jp_link),
+    ('en', en_link)
+]
+
+def updateCache():
+    while True:
+        print('Updating Cache...')
+        for lang, link in Linkmap:
+            res = requests.get(link, timeout=30)
+
+            dt = {}
+            for i in res.json()['data']:
+                dt[i['displayName']] = i['uuid']
+
+            with open(f'assets/dict/{lang}.json', 'wt', encoding='utf8') as f:
+                f.write(json.dumps(dt))
+        
+        del res, dt # Free RAM
+        time.sleep(3600)    # refresh cache every 1 hr
+ 
+if __name__ == '__main__':
+    updateCache()
+```
+
+下面是我在主程序里面调用新线程
+
+```python
+import _thread
+from utils.Cache import updateCache
+
+_thread.start_new_thread(updateCache, ())
+```
+
+启动信号我是放在flask服务器启动之前，主函数里面，这样就可以启动这个线程，并且每30分钟自动更新一次皮肤的数据缓存
+
 ## 更好的图片预览
 
 在弄完电脑端的页面后，我发现图片太小了，而且帮我测试的同志（[@Vanilluv](https://github.com/Vanilluv)）给我提出了这个建议
