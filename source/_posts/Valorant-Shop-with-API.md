@@ -673,3 +673,5 @@ $ export REDIS_SSL=True # If your redis does not support this, please DO NOT con
 ## 结语
 
 这个项目真的是从我自己立项开始做到现在，做了两周有多，接下来还有其他的更新，但是也是慢更了，就是那种小小的更新，功能性的除了一个皮肤库还没写以外，我就想不到还能做什么功能了，如果你有好的建议可以在下面评论，我看到会去试试的
+
+如果你想给我赞助，除了访问[赞助页面](https://bili33.top/sponsors)以外，也可以给我的账号冲VP，DM（私聊）我我看到会给你发ID的，谢谢！
