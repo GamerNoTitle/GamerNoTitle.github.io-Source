@@ -297,6 +297,22 @@ _thread.start_new_thread(updateCache, ())
 
 ## 手机端页面适配
 
+关于手机和电脑的判断，我是通过UA进行判断的
+
+电脑端的UI是像下面这样（Edge电脑端）
+
+```
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35
+```
+
+而手机的像是下面这样（Edge移动端）
+
+```
+Mozilla/5.0 (Linux; Android 13; M2012K11AC) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36 EdgA/112.0.1722.59
+```
+
+很明显里面有系统的这个字段，手机会有`Android`字样，虽然不知道iPhone是咋样的，但是把`iPhone`字段加入判断准没错，这就是我手机和电脑端的判断依据
+
 我一开始的想法是说把表格弄成竖直的样式，就是一个表格，从上到下是`名称`、`图片`、`价格`这样的顺序，这样想了以后，发现表头是不必要的东西，你想嘛，手机的宽度就那么小，再弄个表头在左边不是显得很多余嘛
 
 然后我又去求助《万能的》GPT，GPT跟我说Soft UI这一套是用Bootstrap5制成的，里面有card这一class（就是我们平常见到的卡片式），然后我就直接把我的代码给GPT，它给我生成了card的代码，直接贴进去，SO EASY~
