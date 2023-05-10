@@ -343,7 +343,7 @@ AttributeError: 'Flask' object has no attribute 'session_cookie_name'
 
 回到家里，我做的第一件事情就是回滚版本（就是把手机端页面适配先去掉），结果还是给我报一样的错误
 
-接着我去问了ChatGPT（这个时候我就要划掉~~万能~~这两个字了）
+接着我去问了ChatGPT（这个时候我就要划掉~~万能~~这两个字了，完全就是在胡说嘛）
 
 ![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/msedge-20230510-170648.png)
 
