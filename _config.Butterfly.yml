@@ -1054,6 +1054,7 @@ inject:
     # - <script src="https://cdn.bili33.top/gh/Vikutorika/assets@master/js/sakuraPlus.js"></script>   # 樱花飘落特效
     - <script src="//cdn.bili33.top/npm/matter-js@0.19.0"></script>
     - <script src="https://cdn.bili33.top/gh/Vikutorika/newassets@master/js/smooth-April-Fools.js"
+    - <script async defer data-website-id="7c1b7a6d-9c14-4be6-b9a6-8ac23e288dea" src="https://analytics.dohna.top/umami.js"></script>
   bottom:
     # - <script src="xxxx"></script>
 
