@@ -17,6 +17,11 @@ class:
       link: /biliroaming
       avatar: https://cdn.bili33.top/gh/Vikutorika/newassets@master/templates/Willy%20Wonka%20portfolio%20Template%20free/themes/custom/favicon.png
       descr: 嗶哩嗶哩
+    4:
+      name: VSC
+      link: https://val.bili33.top
+      avatar: https://val.bili33.top/assets/img/img-navi-valorant-white.svg
+      descr: 瓦商店查询站
     # 10000:
     #   name: N/A
     #   link: ./#
