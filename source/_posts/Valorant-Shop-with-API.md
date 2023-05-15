@@ -144,7 +144,7 @@ class player:
 
 从这个API我们能够获取到很详细的商店数据（见文档，这里不贴了，太长了），其中对我们有用的是`SkinsPanelLayout`和`BonusStore`这两个东西，分别对应了每日商店（每天4个皮肤）和黑市（赛季结束前20天的商店，里面有6个皮肤）
 
-根据获取到的字典，我们可以提取到皮肤的UUID，例如文档中给的示例`紫金狂潮 暴徒`的皮肤ID是`b9ee2457-481c-6776-3f5b-0ca8e8f90c89`，当我使用这个UUID去`https://valorant-api.com/`查询的时候，根据文档给出的格式`https://valorant-api.com/v1/weapons/b9ee2457-481c-6776-3f5b-0ca8e8f90c89`访问后发现提示（在我写文档的时候我发现是我当时搞错了，因为这个错误我还加了一层缓存，下面会提到，写完文档去改）
+根据获取到的字典，我们可以提取到皮肤的UUID，例如文档中给的示例`紫金狂潮 暴徒`的皮肤ID是`b9ee2457-481c-6776-3f5b-0ca8e8f90c89`，当我使用这个UUID去`https://valorant-api.com/`查询的时候，根据文档给出的格式`https://valorant-api.com/v1/weapons/b9ee2457-481c-6776-3f5b-0ca8e8f90c89`访问后发现提示
 
 ```json
 {
@@ -739,6 +739,189 @@ $ export REDIS_SSL=True # If your redis does not support this, please DO NOT con
 然后我就跟老板汇报了这个问题，这事也就这么结了
 
 ![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/Telegram-20230510-183436.png)
+
+## 皮肤库功能
+
+这个还是[@Vanilluv](https://github.com/Vanilluv)跟我提出的（口头上），那既然有要求咱就做嘛
+
+我最开始是用缓存的json文件来做的皮肤库，做了大概两天，反正做的UI跟手机的卡片那样（因为如果还是表格的话会很奇怪）
+
+先注册两个新的路径
+
+```python
+@ app.route('/library', methods=["GET"])
+def library(page: int = 1):
+	pass
+
+@ app.route('/library/page/<page>', methods=["GET"])
+def lib_handler(page: int = 1):
+    return library(int(page))
+```
+
+这样可以直接用上上面的那个`library`函数，避免重复造轮子
+
+就做了大概一个下午就做完了，然后就发现了很多问题
+
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/library-bug.png)
+
+对你没看错，这里面`个人喜爱随机选择`和`默认`（右下角那个叉叉）都没有被过滤掉，而且最恶心的是这个随机选择每个武器对应一个对象，也就是说有多少个武器就有多少个随机选择，我直接头大~
+
+然后我就随手修了一下，但是只是去掉了随机选择，默认皮肤没去掉（后面会说怎么解决的，这是个坑），我用了过滤器但是就是没去掉，让我很难受
+
+这里的uuid是皮肤的UUID不是武器的UUID，如果你看了上面[获取商店](#获取商店)那一节的话，你就会知道武器的UUID跟默认皮肤（等级1）的UUID不是一个
+
+结果在我晚上遛狗的时候，我想到了新的解决方法
+
+## 利用Sqlite数据库作为缓存
+
+我是脑袋里面突然蹦出数据库这个东西的，本来我是不怎么用数据库的（因为没怎么碰过数据库语法），但是想到后面还要做搜索功能，还是弄个数据库吧
+
+于是我现在Navicat里面模拟建立数据库，按照如下结构建立
+
+- UUID (TEXT, Unique)
+- name (TEXT)
+- name-zh-CN (TEXT)
+- name-zh-TW (TEXT)
+- name-ja-JP (TEXT)
+- data (TEXT)
+- data-zh-CN (TEXT)
+- data-zh-TW (TEXT)
+- data-ja-JP (TEXT)
+
+分别解释一下，UUID我设定的是武器的UUID，name是武器的名字，对应四种语言；data是皮肤数据，也是对应四种语言
+
+然后更改了一下缓存更新的机制，改成用数据库进行存储
+
+```python
+import sqlite3
+import requests
+import json
+import os
+import time
+
+sc_link = 'https://valorant-api.com/v1/weapons/skins?language=zh-CN'
+tc_link = 'https://valorant-api.com/v1/weapons/skins?language=zh-TW'
+jp_link = 'https://valorant-api.com/v1/weapons/skins?language=ja-JP'
+en_link = 'https://valorant-api.com/v1/weapons/skins'
+
+sc_levels_link = 'https://valorant-api.com/v1/weapons/skinlevels?language=zh-CN'
+tc_levels_link = 'https://valorant-api.com/v1/weapons/skinlevels?language=zh-TW'
+jp_levels_link = 'https://valorant-api.com/v1/weapons/skinlevels?language=ja-JP'
+en_levels_link = 'https://valorant-api.com/v1/weapons/skinlevels'
+
+Linkmap = [
+    ('en', en_link),
+    ('zh-CN', sc_link),
+    ('zh-TW', tc_link),
+    ('ja-JP', jp_link),
+]
+
+LinkLevelsmap = [
+    ('en', en_levels_link),
+    ('zh-CN', sc_levels_link),
+    ('zh-TW', tc_levels_link),
+    ('ja-JP', jp_levels_link),
+]
+
+def UpdateCache():
+    if not os.path.exists('assets/db/data.db'):
+        with open('assets/db/data.db', 'wb') as f:
+            f.close()
+        conn = sqlite3.connect('assets/db/data.db')
+        c = conn.cursor()
+        c.execute('CREATE TABLE skins (uuid TEXT PRIMARY KEY, name TEXT, "name-zh-CN" TEXT, "name-zh-TW" TEXT, "name-ja-JP" TEXT, data TEXT, "data-zh-CN" TEXT, "data-zh-TW" TEXT, "data-ja-JP" TEXT)')
+        c.execute('CREATE TABLE skinlevels (uuid TEXT PRIMARY KEY, name TEXT, "name-zh-CN" TEXT, "name-zh-TW" TEXT, "name-ja-JP" TEXT, data TEXT, "data-zh-CN" TEXT, "data-zh-TW" TEXT, "data-ja-JP" TEXT)')
+        conn.commit()
+        conn.close()
+
+
+
+    for lang, link in Linkmap:
+        print('Updating Skins Data of ' + lang)
+        conn = sqlite3.connect('assets/db/data.db')
+
+        # with open('data.json', encoding='utf8') as f:
+        #     data = json.loads(f.read())
+        data = requests.get(link).json()
+
+        c = conn.cursor()
+        if lang == 'en':
+            for i in data['data']:
+                try:
+                    c.execute(f'INSERT INTO skins ([uuid], name, data) VALUES (?, ?, ?)', (
+                        i["uuid"], i["displayName"], json.dumps(i)))
+                    conn.commit()
+                except sqlite3.IntegrityError:
+                    c.execute(f'UPDATE skins SET name = ?, data = ? WHERE uuid = ?',
+                            (i["displayName"], json.dumps(i), i["uuid"]))
+                    conn.commit()
+        else:
+            for i in data['data']:
+                c.execute(f'UPDATE skins SET "name-{lang}" = ?, "data-{lang}" = ? WHERE uuid = ?',
+                        (i["displayName"], json.dumps(i), i["uuid"]))
+                conn.commit()
+
+    # Delete Useless Data
+    # For example: Random Favorite Skin
+    fliter = ['Random Favorite Skin', 
+            "Standard Classic", "Standard Shorty", "Standard Frenzy", "Standard Ghost", "Standard Sheriff",
+            "Standard Stinger", "Standard Spectre",
+            "Standard Bucky", "Standard Judge",
+            "Standard Bulldog", "Standard Guardian", "Standard Phantom", "Standard Vandal",
+            "Standard Marshal", "Standard Operator",
+            "Standard Ares", "Standard Odin",
+            "Melee"]
+    conn = sqlite3.connect('assets/db/data.db')
+    c = conn.cursor()
+    for ignore in fliter:
+        c.execute('DELETE FROM skins WHERE name = ?', (ignore,))
+        conn.commit()
+    c.close()
+
+    for lang, link in LinkLevelsmap:
+        print('Updating Skin Levels Data of ' + lang)
+        conn = sqlite3.connect('assets/db/data.db')
+
+        # with open('data.json', encoding='utf8') as f:
+        #     data = json.loads(f.read())
+        data = requests.get(link).json()
+
+        c = conn.cursor()
+        if lang == 'en':
+            for i in data['data']:
+                try:
+                    c.execute(f'INSERT INTO skinlevels ([uuid], name, data) VALUES (?, ?, ?)', (
+                        i["uuid"], i["displayName"], json.dumps(i)))
+                    conn.commit()
+                except sqlite3.IntegrityError:
+                    c.execute(f'UPDATE skinlevels SET name = ?, data = ? WHERE uuid = ?',
+                            (i["displayName"], json.dumps(i), i["uuid"]))
+                    conn.commit()
+        else:
+            for i in data['data']:
+                c.execute(f'UPDATE skinlevels SET "name-{lang}" = ?, "data-{lang}" = ? WHERE uuid = ?',
+                        (i["displayName"], json.dumps(i), i["uuid"]))
+                conn.commit()
+    c.close()
+
+def UpdateCacheTimer():
+    while True:
+        UpdateCache()
+        time.sleep(3600)
+
+if __name__ == '__main__':
+    UpdateCache()
+```
+
+在这里面，你会发现我多了一节用来清理无用数据（即上面提到的随机最爱和默认）的地方，之前我是用UUID，但是UUID实在是很难弄（你不知道对不对），所以我用武器的英文名作为判断
+
+一开始我没有加入`Standard`这个单词在里面的，当时没想到会有这个，结果发现还是没有被去掉，然后看了下后台的数据才发现是有标准这个字段的
+
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/navicat-20230515-232200.png)
+
+然后我才把`Standard`给加进去，才可以正常处理这些默认皮肤
+
+## （待更新）皮肤库搜索功能
 
 ## 结语
 
