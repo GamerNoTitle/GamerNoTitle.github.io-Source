@@ -980,6 +980,132 @@ skins = c.fetchall()	# 获取结果
 
 附：数据库样本 -> [VSC/data.db at dev · GamerNoTitle/VSC · GitHub](https://github.com/GamerNoTitle/VSC/blob/dev/assets/db/data.db)
 
+## 皮肤库根据武器进行搜索
+
+这个就是加一大排按钮，然后点一下切换武器种类，不过做这个也挺麻烦的，因为近战武器它没有一个统一的称呼（例如`个人近战单位` `太极扇`之类的），所以不能通过名称作为索引去做这个近战的分类
+
+然后我发现了一个地方可以判断是否为近战，首先，下面是`太极扇`的数据
+
+```json
+{
+    "uuid": "2e4300f9-49b3-6bbe-af7c-94a6f56ff12e",
+    "displayName": "澄湖潋滟",
+    "themeUuid": "1468b29a-4a04-a34d-5b90-5da163f74e00",
+    "contentTierUuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+    "displayIcon": "https://media.valorant-api.com/weaponskins/2e4300f9-49b3-6bbe-af7c-94a6f56ff12e/displayicon.png",
+    "wallpaper": null,
+    "assetPath": "ShooterGame/Content/Equippables/Melee/Koi/Melee_Koi_PrimaryAsset",
+    "chromas": [
+        {
+            "uuid": "2733ffb9-4285-f7cf-e01e-dbb9314f3a96",
+            "displayName": "澄湖潋滟",
+            "displayIcon": null,
+            "fullRender": "https://media.valorant-api.com/weaponskinchromas/2733ffb9-4285-f7cf-e01e-dbb9314f3a96/fullrender.png",
+            "swatch": "https://media.valorant-api.com/weaponskinchromas/2733ffb9-4285-f7cf-e01e-dbb9314f3a96/swatch.png",
+            "streamedVideo": null,
+            "assetPath": "ShooterGame/Content/Equippables/Melee/Koi/Chromas/Standard/Melee_Koi_Standard_PrimaryAsset"
+        },
+        {
+            "uuid": "f6eb564b-4b08-ad4c-6704-42bf4e91453e",
+            "displayName": "澄湖潋滟 等级2\n（炫彩1 暗色）",
+            "displayIcon": null,
+            "fullRender": "https://media.valorant-api.com/weaponskinchromas/f6eb564b-4b08-ad4c-6704-42bf4e91453e/fullrender.png",
+            "swatch": "https://media.valorant-api.com/weaponskinchromas/f6eb564b-4b08-ad4c-6704-42bf4e91453e/swatch.png",
+            "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-06.08/8a360856-412c-d772-c116-ca92aed3d809_default_universal.mp4",
+            "assetPath": "ShooterGame/Content/Equippables/Melee/Koi/Chromas/v1/Melee_Koi_v1_PrimaryAsset"
+        }
+    ],
+    "levels": [
+        {
+            "uuid": "ef67d6cb-4f7f-28ce-2973-cf90a97ae54d",
+            "displayName": "澄湖潋滟",
+            "levelItem": null,
+            "displayIcon": "https://media.valorant-api.com/weaponskinlevels/ef67d6cb-4f7f-28ce-2973-cf90a97ae54d/displayicon.png",
+            "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-06.08/7d2d392a-4b3f-7cea-3573-ffaf12b25589_default_universal.mp4",
+            "assetPath": "ShooterGame/Content/Equippables/Melee/Koi/Levels/Melee_Koi_Lv1_PrimaryAsset"
+        },
+        {
+            "uuid": "99a21016-41bf-2dfe-43e6-6f9ffe50d8c0",
+            "displayName": "澄湖潋滟 等级2",
+            "levelItem": "EEquippableSkinLevelItem::Animation",
+            "displayIcon": null,
+            "streamedVideo": "https://valorant.dyn.riotcdn.net/x/videos/release-06.08/229677bc-44b5-4896-131e-8097518dd336_default_universal.mp4",
+            "assetPath": "ShooterGame/Content/Equippables/Melee/Koi/Levels/Melee_Koi_Lv2_PrimaryAsset"
+        }
+    ]
+},
+```
+
+你会发现在`assetPath`里面有很明显的`Melee`字样，为了准确，我这里把`ShooterGame/Content/Equippables/Melee/`作为判断条件，如果含有这个字段则认为是近战武器，实际证明也是可行的
+
+我们在更新缓存那一节新增一段代码，写入我们的近战武器数据
+
+```python
+c.execute('CREATE TABLE melee (uuid TEXT PRIMARY KEY, name TEXT, "name-zh-CN" TEXT, "name-zh-TW" TEXT, "name-ja-JP" TEXT, data TEXT, "data-zh-CN" TEXT, "data-zh-TW" TEXT, "data-ja-JP" TEXT)')	# 建表
+if 'ShooterGame/Content/Equippables/Melee/' in json.dumps(i):
+    try:
+        c.execute(f'INSERT INTO melee ([uuid], name, data) VALUES (?, ?, ?)', (
+            i["uuid"], i["displayName"], json.dumps(i)))
+        conn.commit()
+    except sqlite3.IntegrityError:
+        c.execute(f'UPDATE melee SET name = ?, data = ? WHERE uuid = ?',
+                  (i["displayName"], json.dumps(i), i["uuid"]))
+        conn.commit()
+    except sqlite3.OperationalError:
+        c.execute(
+            'CREATE TABLE melee (uuid TEXT PRIMARY KEY, name TEXT, "name-zh-CN" TEXT, "name-zh-TW" TEXT, "name-ja-JP" TEXT, data TEXT, "data-zh-CN" TEXT, "data-zh-TW" TEXT, "data-ja-JP" TEXT)')
+        c.execute(f'INSERT INTO melee ([uuid], name, data) VALUES (?, ?, ?)', (
+            i["uuid"], i["displayName"], json.dumps(i)))
+        conn.commit()
+
+```
+
+这样，我们把所有的数据存入`melee`表中，然后直接获取`melee`表中所有的数据就是我们的近战武器了
+
+```python
+if request.args.get('query') not in ['近战武器', '近戰武器', 'Melee', '近接武器']:
+    # 非近战武器，正常查询
+    if lang == 'en':
+        # Get all skins' uuid & name
+        c.execute(
+            'SELECT uuid, name, data FROM skins WHERE name LIKE ?', (query,))
+    elif lang == 'zh-CN' or lang == 'zh-TW':
+        c.execute(
+            f'SELECT uuid, "name-{dictlang}", "data-zh-TW" FROM skins WHERE "name-zh-CN" LIKE ? OR "name-zh-TW" LIKE ?', (query, query))
+    else:
+        c.execute(
+            f'SELECT uuid, "name-{dictlang}", "data-{dictlang}" FROM skins WHERE "name-{lang}" like ?', (query,))
+        conn.commit()
+else:
+	# 近战武器，直接获取melee表
+    if lang == 'en':
+        # Get all skins' uuid & name
+        c.execute(
+            'SELECT uuid, name, data FROM melee')
+    elif lang == 'zh-CN' or lang == 'zh-TW':
+        c.execute(
+            f'SELECT uuid, "name-{dictlang}", "data-zh-TW" FROM melee')
+    else:
+        c.execute(
+            f'SELECT uuid, "name-{dictlang}", "data-{dictlang}" FROM melee')
+        conn.commit()
+        skins = c.fetchall()
+```
+
+## 第四次踩坑：翻译问题
+
+做完了分类以后，我逐个去尝试，发现一个问题
+
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/WYY9RK3NMTZXVRAS50.jpg)
+
+没错，捍卫者这一分类下出现了一把R8，然后我去找是什么情况，结果一查才知道这把R8的翻译叫做`戍卫者`
+
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/navicat-20230516-162409.png)
+
+那没办法了，捍卫者这把枪的索引就只能换成繁中了（因为不冲突），想看看是啥情况的可以自己把`query`后面的参数改成`戍卫`去试试
+
+## （待更新）手动切换网站语言
+
 ## 结语
 
 这个项目真的是从我自己立项开始做到现在，做了两周有多，接下来还有其他的更新，但是也是慢更了，就是那种小小的更新，功能性的除了一个皮肤库还没写以外，我就想不到还能做什么功能了，如果你有好的建议可以在下面评论，我看到会去试试的
