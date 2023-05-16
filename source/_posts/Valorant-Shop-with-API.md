@@ -921,7 +921,64 @@ if __name__ == '__main__':
 
 然后我才把`Standard`给加进去，才可以正常处理这些默认皮肤
 
-## （待更新）皮肤库搜索功能
+## 皮肤库搜索功能
+
+说白了就是用sqlite3的搜索功能，这也是我最后选择数据库的原因，如果要手解json的话很麻烦，而且程序运行很耗时间，所以直接用数据库语句就行了
+
+```sqlite
+SELECT uuid, name, data FROM skins WHERE name = %?%
+```
+
+百分号的作用就是通配符，虽然大部分的皮肤名字都是在尾巴，但是也不排除在前面（例如国服翻译的`暴徒.exe`，国际服台版写的是`.exe 暴徒`）
+
+在html中新建一个搜索框（按钮里面当然少不了瓦的标标）
+
+```html
+  <section>
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-lg-7 mx-auto d-flex justify-content-center flex-column">
+          <form role="form" name="search" method="post" autocomplete="off" action="/library">
+            <div class="row">
+              <label>{{lang.library.form.search.title}}</label>
+              <div class="input-group">
+                {% if not query %}
+                <input type="text" class="form-control" placeholder="{{lang.library.form.search.placeholder}}"
+                  name="query">
+                {% else %}
+                <input type="text" class="form-control" placeholder="{{lang.library.form.search.placeholder}}" value={{query}}
+                  name="query">
+                {% endif %}
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-md-12">
+                <button type="submit" class="btn bg-gradient-dark w-100"><img
+                    src="/assets/img/img-navi-valorant-white.svg">{{lang.library.button.search}}</button>
+              </div>
+            </div>
+        </div>
+        </form>
+      </div>
+    </div>
+    </div>
+```
+
+也是用表单的方式，把搜索的内容提交到后端进行处理，后端进行字符串的拼接
+
+```python
+query = '%' + request.form.get('query') + '%'	# 加入通配符
+c.execute(f'SELECT uuid, "name-{dictlang}", "data-zh-TW" FROM skins WHERE "name-zh-CN" LIKE ? OR "name-zh-TW" LIKE ?', (query, query))	# 简中繁中一起搜索
+conn.commit()	# 提交语句运行
+skins = c.fetchall()	# 获取结果
+```
+
+因为武器内容的解析，搜索出来的结果因为语言的问题（简中繁中）所以不能用之前的`Weaponlib`类，我就直接把我那边的代码复制过来小改了一下，就丢进去用了
+
+把武器进行解析，然后返回给`render_template`进行渲染就行了
+
+附：数据库样本 -> [VSC/data.db at dev · GamerNoTitle/VSC · GitHub](https://github.com/GamerNoTitle/VSC/blob/dev/assets/db/data.db)
 
 ## 结语
 
