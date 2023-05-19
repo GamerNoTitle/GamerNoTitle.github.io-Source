@@ -60,6 +60,53 @@ ql repo https://github.com/GamerNoTitle/MHYY.git "main" "" ""
 
 然后点到环境变量，新建名为`config`的变量（可以改，请见[青龙面板不使用config作为变量名](#青龙面板不使用config作为变量名)）把我们的配置填进去，点击保存
 
+配置应该如下（单个账号）
+
+```json
+{
+    "token": "token1",
+    "type": 0,
+    "version": "3.0.0",
+    "android": "13",
+    "deviceid": "uuid",
+    "devicename": "device_name",
+    "devicemodel": "device_modal",
+    "appid": 1953439974,
+    "analytics": false
+}
+```
+
+程序已经支持多个账号了，多个账号你需要按照下面这个格式填写
+
+```json
+[
+  {
+      "token": "token1",
+      "type": 0,
+      "version": "3.0.0",
+      "android": "13",
+      "deviceid": "uuid",
+      "devicename": "device_name",
+      "devicemodel": "device_modal",
+      "appid": 1953439974,
+      "analytics": false
+  },
+  {
+      "token": "token2",
+      "type": 0,
+      "version": "3.0.0",
+      "android": "13",
+      "deviceid": "uuid",
+      "devicename": "device_name",
+      "devicemodel": "device_modal",
+      "appid": 1953439974,
+      "analytics": false
+  }
+]
+```
+
+
+
 ![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/msedge-20230303-172858.png)
 
 保存后你就可以在定时任务中运行试试看效果了~
