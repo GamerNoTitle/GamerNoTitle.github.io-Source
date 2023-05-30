@@ -1104,10 +1104,210 @@ else:
 
 那没办法了，捍卫者这把枪的索引就只能换成繁中了（因为不冲突），想看看是啥情况的可以自己把`query`后面的参数改成`戍卫`去试试
 
-## （待更新）手动切换网站语言
+## 翻译对照表
+
+做这个功能的原因是我现在游戏内用的英语，然后如果刚进游戏没看到是什么地图，而是在选英雄的时候看地图的时候，就会不知道是什么地图，所以加了这个功能
+
+因为加了地图的对照表，所以干脆就把所有的东西都加进去，用不同的端点区分
+
+现在更新缓存那里把其他的内容也加入数据库
+
+```python
+LinkAgentsmap = [
+    ('en', 'https://valorant-api.com/v1/agents'),
+    ('zh-CN', 'https://valorant-api.com/v1/agents?language=zh-CN'),
+    ('zh-TW', 'https://valorant-api.com/v1/agents?language=zh-TW'),
+    ('ja-JP', 'https://valorant-api.com/v1/agents?language=ja-JP'),
+]
+
+LinkMapsmap = [
+    ('en', 'https://valorant-api.com/v1/maps'),
+    ('zh-CN', 'https://valorant-api.com/v1/maps?language=zh-CN'),
+    ('zh-TW', 'https://valorant-api.com/v1/maps?language=zh-TW'),
+    ('ja-JP', 'https://valorant-api.com/v1/maps?language=ja-JP'),
+]
+
+LinkWeaponsmap = [
+    ('en', 'https://valorant-api.com/v1/weapons'),
+    ('zh-CN', 'https://valorant-api.com/v1/weapons?language=zh-CN'),
+    ('zh-TW', 'https://valorant-api.com/v1/weapons?language=zh-TW'),
+    ('ja-JP', 'https://valorant-api.com/v1/weapons?language=ja-JP'),
+]
+
+c.execute(
+    'CREATE TABLE agents (uuid TEXT PRIMARY KEY, name TEXT, "name-zh-CN" TEXT, "name-zh-TW" TEXT, "name-ja-JP" TEXT)')
+c.execute(
+    'CREATE TABLE weapons (uuid TEXT PRIMARY KEY, name TEXT, "name-zh-CN" TEXT, "name-zh-TW" TEXT, "name-ja-JP" TEXT)')
+c.execute(
+    'CREATE TABLE maps (uuid TEXT PRIMARY KEY, name TEXT, "name-zh-CN" TEXT, "name-zh-TW" TEXT, "name-ja-JP" TEXT)')
+
+    for lang, link in LinkAgentsmap:
+        print('Updating Agents Data of ' + lang)
+        conn = sqlite3.connect('db/data.db')
+        data = requests.get(link).json()
+
+        c = conn.cursor()
+        if lang == 'en':
+            for i in data['data']:
+                if i['isPlayableCharacter']:    # There's an unplayable SOVA in data
+                    try:
+                        c.execute(f'INSERT INTO agents ([uuid], name) VALUES (?, ?)', (
+                            i["uuid"], i["displayName"]))
+                        conn.commit()
+                    except sqlite3.IntegrityError:
+                        c.execute(f'UPDATE agents SET name = ? WHERE uuid = ?',
+                                  (i["displayName"], i["uuid"]))
+                        conn.commit()
+        else:
+            if i['isPlayableCharacter']:
+                for i in data['data']:
+                    c.execute(f'UPDATE agents SET "name-{lang}" = ? WHERE uuid = ?',
+                              (i["displayName"], i["uuid"]))
+                    conn.commit()
+    c.close()
+
+    for lang, link in LinkMapsmap:
+        print('Updating Maps Data of ' + lang)
+        conn = sqlite3.connect('db/data.db')
+        data = requests.get(link).json()
+
+        c = conn.cursor()
+        if lang == 'en':
+            for i in data['data']:
+                try:
+                    c.execute(f'INSERT INTO maps ([uuid], name) VALUES (?, ?)', (
+                        i["uuid"], i["displayName"]))
+                    conn.commit()
+                except sqlite3.IntegrityError:
+                    c.execute(f'UPDATE maps SET name = ? WHERE uuid = ?',
+                              (i["displayName"], i["uuid"]))
+                    conn.commit()
+        else:
+            for i in data['data']:
+                c.execute(f'UPDATE maps SET "name-{lang}" = ? WHERE uuid = ?',
+                          (i["displayName"], i["uuid"]))
+                conn.commit()
+    c.close()
+
+    for lang, link in LinkWeaponsmap:
+        print('Updating Weapons Data of ' + lang)
+        conn = sqlite3.connect('db/data.db')
+        data = requests.get(link).json()
+
+        c = conn.cursor()
+        if lang == 'en':
+            for i in data['data']:
+                try:
+                    c.execute(f'INSERT INTO weapons ([uuid], name) VALUES (?, ?)', (
+                        i["uuid"], i["displayName"]))
+                    conn.commit()
+                except sqlite3.IntegrityError:
+                    c.execute(f'UPDATE weapons SET name = ? WHERE uuid = ?',
+                              (i["displayName"], i["uuid"]))
+                    conn.commit()
+        else:
+            for i in data['data']:
+                c.execute(f'UPDATE weapons SET "name-{lang}" = ? WHERE uuid = ?',
+                          (i["displayName"], i["uuid"]))
+                conn.commit()
+    c.close()
+
+```
+
+说白了就是照葫芦画瓢，因为之前做过了
+
+在主程序里面加入数据库查询的功能就行了
+
+```python
+@app.route('/trans')
+def transDefault():
+    return redirect('/trans/maps')
+
+
+@app.route('/trans/<t>')
+def trans(t):
+    if request.args.get('lang'):
+        if request.args.get('lang') in app.config['BABEL_LANGUAGES']:
+            lang = request.args.get('lang')
+        else:
+            lang = str(request.accept_languages.best_match(
+                app.config['BABEL_LANGUAGES']))
+    elif request.accept_languages.best_match(app.config['BABEL_LANGUAGES']):
+        lang = str(request.accept_languages.best_match(
+            app.config['BABEL_LANGUAGES']))
+    else:
+        lang = 'en'
+    if t in ['agents', 'maps', 'weapons', 'skins']:
+        conn = sqlite3.connect('db/data.db')
+        datalist = []
+        if t == 'skins':
+            c = conn.cursor()
+            c.execute(
+                'SELECT name, "name-zh-CN", "name-zh-TW", "name-ja-JP", isMelee FROM {}'.format(t))
+            conn.commit()
+            data = c.fetchall()
+            c.execute(
+                'SELECT name, "name-zh-CN", "name-zh-TW", "name-ja-JP" FROM weapons')
+            conn.commit()
+            weapons = c.fetchall()
+        else:
+            c = conn.cursor()
+            c.execute(
+                'SELECT name, "name-zh-CN", "name-zh-TW", "name-ja-JP" FROM {}'.format(t))
+            conn.commit()
+            data = c.fetchall()
+        for i in data:
+            if t == 'skins':
+                en_name, zhCN_name, zhTW_name, jaJP_name, isMelee = i
+                if isMelee:
+                    continue
+                for en, zhCN, zhTW, jaJP in weapons:
+                    en_name = en_name.replace(en, '').strip()
+                    zhCN_name = zhCN_name.replace(zhCN, '').strip()
+                    zhTW_name = zhTW_name.replace(zhTW, '').strip()
+                    jaJP_name = jaJP_name.replace(jaJP, '').strip()
+                if {"en": en_name, "zhCN": zhCN_name, "zhTW": zhTW_name, "jaJP": jaJP_name} not in datalist:
+                    datalist.append(
+                        {"en": en_name, "zhCN": zhCN_name, "zhTW": zhTW_name, "jaJP": jaJP_name})
+            else:
+                if {"en": i[0], "zhCN": i[1], "zhTW": i[2], "jaJP": i[3]} not in datalist:
+                    datalist.append({"en": i[0], "zhCN": i[1],
+                                    "zhTW": i[2], "jaJP": i[3]})
+        return render_template('trans.html', data=list(datalist), lang=yaml.load(os.popen(
+            f'cat lang/{lang}.yml').read(), Loader=yaml.FullLoader))
+    else:
+        abort(404)
+
+```
+
+## 手动切换网站语言
+
+这个还是[@Vanilluv](https://github.com/Vanilluv)提出的，我就加了个`lang`参数用来切换语言
+
+如果是网站支持的语言中的一种，就显示指定的语言；如果非支持的语言，默认显示浏览器语言；如果浏览器没有合适的语言（例如用`curl`访问）就会显示英语
+
+按照这个逻辑，写了一个判断
+
+```python
+if request.args.get('lang'):
+    if request.args.get('lang') in app.config['BABEL_LANGUAGES']:
+        lang = request.args.get('lang')
+    elif request.accept_languages.best_match(app.config['BABEL_LANGUAGES']):
+        lang = str(request.accept_languages.best_match(
+            app.config['BABEL_LANGUAGES']))
+    else:
+        lang = 'en'
+elif request.accept_languages.best_match(app.config['BABEL_LANGUAGES']):
+    lang = str(request.accept_languages.best_match(
+        app.config['BABEL_LANGUAGES']))
+else:
+    lang = 'en'
+```
+
+然后使用语言文件的时候就直接调用`{lang}.yml`就可以了
 
 ## 结语
 
 这个项目真的是从我自己立项开始做到现在，做了两周有多，接下来还有其他的更新，但是也是慢更了，就是那种小小的更新，功能性的除了一个皮肤库还没写以外，我就想不到还能做什么功能了，如果你有好的建议可以在下面评论，我看到会去试试的
 
-如果你想给我赞助，除了访问[赞助页面](https://bili33.top/sponsors)以外，也可以给我的账号冲VP，DM（私聊）我我看到会给你发ID的，谢谢！
+如果你想给我赞助，除了访问[赞助页面](https://bili33.top/sponsors)以外，也可以给我的账号充VP（缅甸区），DM（私聊）我我看到会给你发ID的，谢谢！
