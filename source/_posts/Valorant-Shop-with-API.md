@@ -1306,6 +1306,219 @@ else:
 
 然后使用语言文件的时候就直接调用`{lang}.yml`就可以了
 
+## 库存查看功能
+
+这个功能是有人在小黑盒里面问到说“是否支持查看库存”（@Vanilluv发每日商店的时候有人问的），然后本来就想做这个功能，所以就花了三天的时间做了
+
+获取库存很简单，在参考文档里面就有这节内容
+
+| *获取玩家已拥有的物品* | /store/v1/entitlements/{userId}/{itemType} |
+| ---------------------- | ------------------------------------------ |
+
+所以获取是很好弄的，获取到的内容我也看了一下，是所有已经购买的武器的等级（需要找`skinlevels`表）
+
+```json
+{
+    "ItemTypeID": "e7c63390-eda7-46e0-bb7a-a6abdacd2433",
+    "Entitlements": [
+        {
+            "TypeID": "4e60e748-bce6-4faa-9327-ebbe6089d5fe",
+            "ItemID": "12831559-44ee-c708-b97c-29a43938e3cd"
+        },
+		... （此处省略）
+        {
+            "TypeID": "4e60e748-bce6-4faa-9327-ebbe6089d5fe",
+            "ItemID": "eaf52d49-4608-45d9-5f18-c8b12614e01f"
+        }
+    ]
+}
+```
+
+`ItemID`就是skinlevels表里面的uuid，所以直接跟着UUID找就行了
+
+而炫彩就没那么简单了，炫彩虽然也是uuid，但是我们没有构造炫彩的数据库表（下面是个例子）
+
+```json
+{
+    "ItemTypeID": "3ad1b2b2-acdb-4524-852f-954a76ddae0a",
+    "Entitlements": [
+        {
+            "TypeID": "4e60e748-bce6-4faa-9327-ebbe6089d5fe",
+            "ItemID": "2d0c7deb-4f5a-40ea-8fe8-288e060d02c6"
+        },
+        {
+            "TypeID": "4e60e748-bce6-4faa-9327-ebbe6089d5fe",
+            "ItemID": "7a68a469-4c7b-1c17-372d-2dbcd50fc114"
+        }
+    ]
+}
+```
+
+然后我是先把有的做了出来，就只要是获取到皮肤的UUID，发现是等级1的，就判断有这把枪，然后把这把枪的数据加入`weapon_list`中给网页进行渲染，就达到了查看库存的效果
+
+## 显示已购买的等级
+
+为什么我上面说花了三天，因为在想怎么给用户提示说这个等级已经用RP购买过了，上面我们不是说到过获取库存的时候是获取的所有皮肤等级嘛，我就把玩家拥有的皮肤等级的UUID给弄到一个列表，然后获取皮肤信息的时候，如果这个等级的UUID在我的列表里面，就给个FLAG叫`udpated`，设定为`True`，渲染的时候就只需要检查是否存在`updated`这个FLAG就可以了
+
+```python
+class player:
+    def getSkins(self):
+        data = requests.get(f'{self.server}{Api.owned}{self.user_id}/{Options.skins}', headers=self.__header, timeout=30).json()
+        skins = data['Entitlements']
+        owned_skins = []
+        for skin in skins:
+            owned_skins.append(skin['ItemID'].upper())
+        return skins, owned_skins	# 这里owned_skins就是已拥有的皮肤列表
+
+    def getChromas(self):
+        data = requests.get(f'{self.server}{Api.owned}{self.user_id}/{Options.chromas}', headers=self.__header, timeout=30).json()
+        chromas = data['Entitlements']
+        owned_chromas = []
+        for chroma in chromas:
+            owned_chromas.append(chroma['ItemID'].upper())
+        return chromas, owned_chromas	# 这里owned_chromas就是已拥有的炫彩列表
+
+```
+
+```django
+{% if level.updated %} <!-- If this level has been updated, set the color of the button to green -->
+<button type="button" class="btn bg-gradient-success" data-bs-toggle="modal"
+        data-bs-target="#WEAPON-{{level.uuid|escape}}">
+    {{level.displayName}}: {{level.levelItem}}
+</button>
+{% else %}
+<button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
+        data-bs-target="#WEAPON-{{level.uuid|escape}}">
+    {{level.displayName}}: {{level.levelItem}}
+</button>
+{% endif %}
+
+```
+
+这样就可以达到变绿的效果，而原来的紫色按钮就说明没有购买这个等级/炫彩
+
+## 在皮肤库/库存中显示价格
+
+首先这个价格的来源就很麻烦。我尝试使用拳头自己的Offer列表去解析价格，但是怎么弄价格都是错的（鬼刀4800那种错误），所以没办法。
+
+后来我找到了VALORANT FANDOM WIKI，里面有各种武器的价格
+
+然后就开始弄解析它那个价格表格的代码了
+
+```python
+def UpdatePriceCache():
+    print('Start Updating Price Cache')
+    weapons = [
+              "Classic", "Shorty", "Frenzy", "Ghost", "Sheriff",
+              "Stinger", "Spectre",
+              "Bucky", "Judge",
+              "Bulldog", "Guardian", "Phantom", "Vandal",
+              "Marshal", "Operator",
+              "Ares", "Odin",
+              "Tactical_Knife"]
+    base_url = 'https://valorant.fandom.com/wiki'  # Get price data from wiki
+    for weapon in weapons:
+        print(f'Updating {weapon.replace("_", " ")}')
+        res = requests.get(f'{base_url}/{weapon}')
+        html = res.text
+        soup = BeautifulSoup(html, 'html.parser')
+        tables = soup.find_all('table', class_='wikitable sortable')
+        if len(tables) > 0:
+            table = tables[0]
+            for row in table.find_all('tr'):
+                cells = row.find_all('td')
+                if len(cells) == 0:
+                    continue
+                content = [cell.text for cell in cells]
+                # Content Format: [Image, Edition, Collection, Source, Cost/Unlock, (Upgrades), (Chromas)]
+                if weapon != 'Tactical_Knife':
+                    collection = content[2].replace('\n', '')
+                    source = content[3].replace('\n', '')
+                    unlock = content[4].replace('\n', '')
+                    weapon_name = f'{collection} {weapon}'
+                else:
+                    collection = content[1].replace('\n', '')
+                    name = content[2].replace('\n', '')
+                    source = content[3].replace('\n', '')
+                    unlock = content[4].replace('\n', '')
+                    weapon_name = f'{collection} {name}'
+                conn = sqlite3.connect('db/data.db')
+                c = conn.cursor()
+                try:
+                    vp_img = '<img src="/assets/img/VP-black.png" width="32px" height="32px">'
+                    if source == 'Store':   # This skin can be unlocked through store
+                        c.execute('UPDATE skinlevels SET unlock = ? WHERE name LIKE ?', (f'{vp_img} {unlock}', weapon_name))
+                    else:
+                        c.execute('UPDATE skinlevels SET unlock = ? WHERE name LIKE ?', (f'{source} {unlock}', weapon_name))
+                except Exception as e:
+                    print(e)
+                conn.commit()
+        print(f'{weapon.replace("_", " ")} has been Updated.')
+
+```
+
+因为价格基本不会改，而且只有拳头出皮肤的时候才会有价格的变动，所以我设置为12小时更新一次了
+
+然后把价格/解锁方式给丢入数据库，渲染HTML的时候把数据取出渲染就是了
+
+## FAQ的编写
+
+这个是我去游泳的那天晚上在车上想到的，因为说白了EULA那个东西，是我用生成器弄出来的，其实并不标准，而且我们这个是开源项目，也不是公司什么的那种主体提供的服务，原则上我只需要写个免责声明就行了，但是写个免责声明吧，有感觉好像缺了点什么，最后就决定写个FAQ
+
+所以FAQ在这里啦：https://gamernotitle.notion.site/VALORA-FAQ-86f072f8cebf4a8d9453a795b24cd507
+
+## 改名风波
+
+嗯没错，VSC改名为了Valora，这是因为@Vanilluv给我发了张图
+
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/E740F55FDB3BECF8FD2CE2E2C127444C.jpg)
+
+也不知道是不是这个人开了还是咋的，反正就是被封了，但是本着开发者的态度，他说用了VSC我就去查查是不是我这个，我就去翻数据库（数据库有玩家的ID，小黑盒是可以查玩家的ID的），然后没发现，就说明咱们是清白的
+
+VSC这个名字确实很多东西用，我之前查到过（如图，这还是其中一个）
+
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/msedge-20230603-175217.png)
+
+所以说咱们为了不跟人冲突就改个名字嘛，我就去问ChatGPT了，改什么名字好
+
+- 我开发了一个查看瓦罗兰特每日商店的网站，请你帮我给这个网站想个名字，要英文的，越短越好，而且要有缩写版
+
+  - How about "ValShop" as the name for your website? It's short, easy to remember, and has a clear connection to the subject matter. For the abbreviation, you could use "VS" which is simple and recognizable.
+
+- 换一个
+
+  - Sure, here are a few more suggestions for the name of your website:
+
+    1. "DailyVault": This name combines "daily" to indicate that the site is updated every day, and "vault" to reference the setting of the game.
+    2. "ValoraMart": This name plays off the popular retail chain Walmart, and incorporates "Valora" to reference the game world.
+    3. "ValoraDeals": This name emphasizes the focus on shopping and finding good deals within the Valoran setting.
+
+    For abbreviations, you could use "DV" for "DailyVault," "VM" for "ValoraMart," and "VD" for "ValoraDeals."
+
+- 它的功能不只有看商店，也可以查看夜市、查看库存、还有完整的皮肤资料库，请你加上这些依据再想想
+
+  - Thank you for the additional information! Here are some more suggestions for the name of your website, taking into account the expanded functionality:
+
+    1. "ValoraHub": This name suggests that your website is a central hub or resource for all things related to Valoran commerce, including daily shops, night markets, inventories, and skin information.
+    2. "ValoraMarket": This name emphasizes the commerce aspect of your website, and can encompass both daily shops and night markets, as well as inventory and skin information.
+    3. "ValoraVault": This name plays off the idea of a vault or treasure trove, and suggests that your website is a valuable resource for all things Valoran, including commerce and skin information.
+
+    For abbreviations, you could use "VH" for "ValoraHub," "VM" for "ValoraMarket," and "VV" for "ValoraVault."
+
+- 缩写请增至三个字母 请你再想想
+
+  - Sure, here are revised names and abbreviations that are three letters long:
+
+    1. "ValHub" (VHB): This name is a shortened version of "ValoraHub" and still suggests that your website is a central resource for all things Valoran, including commerce and skin information.
+    2. "ValMar" (VLM): This name is a shortened version of "ValoraMarket" and still emphasizes the commerce aspect of your website, while also encompassing night markets, inventory, and skin information.
+    3. "ValVault" (VVT): This name is a shortened version of "ValoraVault" and still plays off the idea of a vault or treasure trove, suggesting that your website is a valuable resource for all things Valoran.
+
+    I hope these suggestions are helpful!
+
+嗯它给我的回答……我觉得很**不错**，然后最后选择了它在两个字母缩写那里给我起的前缀`Valora`，简称`VLR`
+
+## Cookie登录（待更新）
+
 ## 结语
 
 这个项目真的是从我自己立项开始做到现在，做了两周有多，接下来还有其他的更新，但是也是慢更了，就是那种小小的更新，功能性的除了一个皮肤库还没写以外，我就想不到还能做什么功能了，如果你有好的建议可以在下面评论，我看到会去试试的
