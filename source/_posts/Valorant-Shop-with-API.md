@@ -1517,7 +1517,84 @@ VSC这个名字确实很多东西用，我之前查到过（如图，这还是�
 
 嗯它给我的回答……我觉得很**不错**，然后最后选择了它在两个字母缩写那里给我起的前缀`Valora`，简称`VLR`
 
-## Cookie登录（待更新）
+## Access Token登录
+
+本来这一节是叫做Cookie登录的，但是后来发现再怎么弄Cookie都过不了Cloudflare的WAF那一关，所以还不如直接用access token
+
+确定用Access Token了以后就比较简单了，按照重新认证的思路做就是了，不过这样就会发现，跟账号密码登录出来的功能是有区别的：
+
+- 获取不到用户的基础信息（用户名和tag）
+- 无法重新获取access_token（即无法保活）
+
+那没办法了，想要安全那得有付出，至少在我能通过WAF之前，这两个东西都不可能做好了……
+
+## 按钮的点亮条件
+
+我之前是用后端进行限制的，如果没有填写用户名/密码或者不打钩的话就直接弹出提示且不让登陆，不过这样的话说实在的，东西都发出去了，服务器再弹回来，其实就没有发送的必要，然后我就让GPT给我写了对应的函数
+
+```javascript
+function checkInputs() {
+    const accessTokenInput = document.getElementById('accesstoken-input');
+    const userIdInput = document.getElementById('userid-input');
+    const regionInput = document.getElementById('region-input');
+    const checkedEULAInput = document.getElementById('checked-eula-input');
+    const submitButton = document.getElementById('tokenlogin-submit');
+
+    // 检查accessToken是否非空
+    if (accessTokenInput.value.trim() === '') {
+        submitButton.disabled = true;
+        return;
+    }
+
+    // 检查userId是否为UUID格式
+    const uuidRegex = /^[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}$/;
+    if (!uuidRegex.test(userIdInput.value)) {
+        submitButton.disabled = true;
+        return;
+    }
+
+    // 检查region是否为有效的地区代码
+    const validRegions = ['ap', 'kr', 'eu', 'na'];
+    if (!validRegions.includes(regionInput.value.toLowerCase())) {
+        submitButton.disabled = true;
+        return;
+    }
+
+    // 检查checkbox是否都勾选
+    if (!checkedEULAInput.checked) {
+        submitButton.disabled = true;
+        return;
+    }
+
+    // 如果所有条件都满足，则去掉按钮的disabled属性
+    submitButton.disabled = false;
+}
+function checkLoginInputs() {
+    const usernameInput = document.getElementsByName('Username')[0];
+    const passwordInput = document.getElementsByName('Password')[0];
+    const checkedRuleInput = document.getElementsByName('CheckedRule')[0];
+    const checkedEULAInput = document.getElementsByName('CheckedEULA')[0];
+    const submitButton = document.getElementById('login');
+
+    // 检查username和password是否非空
+    if (usernameInput.value.trim() === '' || passwordInput.value.trim() === '') {
+        submitButton.disabled = true;
+        return;
+    }
+
+    // 检查checkbox是否都勾选
+    if (!checkedRuleInput.checked || !checkedEULAInput.checked) {
+        submitButton.disabled = true;
+        return;
+    }
+
+    // 如果所有条件都满足，则去掉按钮的disabled属性
+    submitButton.disabled = false;
+}
+
+```
+
+然后把元素的ID一改，完事！
 
 ## 结语
 
