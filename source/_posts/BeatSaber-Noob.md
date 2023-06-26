@@ -7,6 +7,8 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/BeatSaber-Noob/
 ---
 
 > 本文只是通过我的各种经验，去讲述我玩Beat Saber的时候踩过的坑。如果你需要更完整的Beat Saber萌新教程，请访问[Beat Saber新手教程、问题解答、曲包网盘 - Steam / Oculus / Quest (wgzeyu.com)](https://bs.wgzeyu.com/)
+>
+> 转载：[VR设备参数对比表（BS中文站）](https://docs.qq.com/sheet/DQmxMZHNPQ1ljWVBE)
 
 我端午的时候，去了一趟SMU，然后从别人那里捞了一台Pico Neo 3回来玩，VR这个东西我一直是很粉的，自从高一那一年第一次玩就戒不掉了。既然捞到了一台PICO，那肯定要玩起来的嘛
 
