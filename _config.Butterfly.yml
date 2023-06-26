@@ -1055,6 +1055,7 @@ inject:
     # - <script src="https://cdn.bili33.top/gh/Vikutorika/assets@master/js/sakuraPlus.js"></script>   # 樱花飘落特效
     - <script src="//cdn.bili33.top/npm/matter-js@0.19.0"></script>
     - <script src="https://cdn.bili33.top/gh/Vikutorika/newassets@master/js/smooth-April-Fools.js"
+    - <script defer data-site="bili33.top" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
   bottom:
     # - <script src="xxxx"></script>
     # - <div class="circle"></div>
