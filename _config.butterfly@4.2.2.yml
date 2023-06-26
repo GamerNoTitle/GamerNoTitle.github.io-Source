@@ -1035,6 +1035,7 @@ inject:
     - <script src='https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/js/CTF-illegal-warning.js'></script>
     - <script src='https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/js/console.js'></script>
     - <script src="https://cdn.bilicdn.tk/npm/cardlink"></script>
+    - <script defer data-site="bili33.top" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
     # - <link rel="stylesheet" type="text/css" href="https://cdn.bilicdn.tk/gh/Vikutorika/newassets@master/css/R.I.P.css">  # 网站黑白
     # - <script src="https://cdn.bilicdn.tk/gh/Vikutorika/assets@master/js/sakuraPlus.js"></script>   # 樱花飘落特效
   bottom:
