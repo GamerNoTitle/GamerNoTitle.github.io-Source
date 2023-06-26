@@ -1,0 +1,179 @@
+<head>
+    <style>
+        @charset "UTF-8";
+
+        /* reset */
+        :root {
+            --max-width: 100vw;
+        }
+
+        @media screen and (max-width: 1400px) {
+            :root {
+                --max-width: 1400px;
+            }
+        }
+
+        /* index */
+        .loading-mask {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: #000;
+            z-index: 99999;
+        }
+
+        .loading-mask.on>* {
+            display: none !important;
+        }
+
+        .loading-mask img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            -o-object-fit: cover;
+            object-fit: cover;
+        }
+
+        .loading-center {
+            width: calc(972 / 1920 * var(--max-width));
+            height: calc(478 / 1920 * var(--max-width));
+            background: url(./loading-center.png) no-repeat 0 0/100% 100%;
+            -webkit-transform: scale(var(--scale));
+            transform: scale(var(--scale));
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: calc(-486 / 1920 * var(--max-width));
+            margin-top: calc(-239 / 1920 * var(--max-width));
+            z-index: 10;
+        }
+
+        .loading-center::after {
+            content: '';
+            width: calc(388 / 1920 * var(--max-width));
+            height: calc(446 / 1920 * var(--max-width));
+            background: url(./loading-out.png) no-repeat 0 0/100% 100%;
+            position: absolute;
+            top: 0;
+            left: calc(289 / 1920 * var(--max-width));
+            z-index: 1;
+            -webkit-animation: clockwise 4.8s linear infinite;
+            animation: clockwise 4.8s linear infinite;
+        }
+
+        .loading-center::before {
+            content: '';
+            width: calc(371 / 1920 * var(--max-width));
+            height: calc(371 / 1920 * var(--max-width));
+            background: url(./loading-in.png) no-repeat 0 0/100% 100%;
+            position: absolute;
+            top: calc(37 / 1920 * var(--max-width));
+            left: calc(297 / 1920 * var(--max-width));
+            z-index: 1;
+            -webkit-animation: anticlockwise 3.2s linear infinite;
+            animation: anticlockwise 3.2s linear infinite;
+        }
+
+        .loading-top {
+            width: calc(289 / 1920 * var(--max-width));
+            height: calc(289 / 1920 * var(--max-width));
+            position: absolute;
+            left: calc(338 / 1920 * var(--max-width));
+            top: calc(78 / 1920 * var(--max-width));
+            z-index: 5;
+            --clip: 0 0;
+        }
+
+        .loading-top::after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 5;
+            background: url(./loading-progress.png) no-repeat 0 0/100% 100%;
+            -webkit-clip-path: polygon(var(--clip));
+            clip-path: polygon(var(--clip));
+        }
+
+        .loading-progress {
+            position: absolute;
+            top: calc(364 / 1920 * var(--max-width));
+            left: 52%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            font-size: calc(32 / 1920 * var(--max-width));
+            line-height: calc(54 / 1920 * var(--max-width));
+            height: calc(54 / 1920 * var(--max-width));
+            color: #2c2c2c;
+            font-family: 'cgr';
+        }
+
+        @-webkit-keyframes clockwise {
+            0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes clockwise {
+            0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @-webkit-keyframes anticlockwise {
+            0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0);
+            }
+
+            100% {
+                -webkit-transform: rotate(-360deg);
+                transform: rotate(-360deg);
+            }
+        }
+
+        @keyframes anticlockwise {
+            0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0);
+            }
+
+            100% {
+                -webkit-transform: rotate(-360deg);
+                transform: rotate(-360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loading-mask">
+        <img src="./loading-bg.jpg">
+        <div class="loading-center">
+            <!-- ::before -->
+            <div class="loading-top" style="--clip: 50% 50%,50% 0,0 0,0 100%,100% 100%,100% 0,50% 0%;">
+                <!-- <div class="loading-progress">N/A</div> -->
+                <!-- ::after -->
+            </div>
+            <!-- ::after -->
+        </div>
+    </div>

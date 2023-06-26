@@ -36,6 +36,7 @@ jobs:
           npm install hexo-cli -g
           npm install
           npm install hexo-butterfly-extjs
+          # npm install hexo-tag-steamgame --save
           hexo -v
       - name: Deploy
         run: |

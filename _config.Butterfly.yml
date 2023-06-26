@@ -1057,6 +1057,9 @@ inject:
     - <script src="https://cdn.bili33.top/gh/Vikutorika/newassets@master/js/smooth-April-Fools.js"
   bottom:
     # - <script src="xxxx"></script>
+    # - <div class="circle"></div>
+    # - <style>.circle{position:fixed;width:10px;height:10px;border-radius:50%;background-color:#8e8cd8;transform:translate(-50%,-50%);transition:transform .2s ease-in-out;z-index:9999}.circle.active{transform:translate(-50%,-50%) scale(1.2)}</style>
+    # - <script>const e=document.querySelector(".circle");e.addEventListener("click",()=>{e.classList.add("active"),setTimeout(()=>{e.classList.remove("active")},200)}),document.addEventListener("mousemove",(o=>{e.style.left=o.clientX+"px",e.style.top=o.clientY+"px"}))</script>
 
 # CDN
 # Don't modify the following settings unless you know how they work

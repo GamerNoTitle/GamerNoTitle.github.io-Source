@@ -36,6 +36,7 @@
     "hexo-steam-games": "^1.2.1",
     "hexo-submit-urls-to-search-engine": "^2.1.0",
     "hexo-tag-aplayer": "^3.0.4",
+    "hexo-tag-steamgame": "^1.0.0",
     "hexo-util": "^2.6.1",
     "hexo-wordcount": "^6.0.1",
     "js-yaml": "^4.1.0",
