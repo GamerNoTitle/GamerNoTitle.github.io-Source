@@ -19,7 +19,7 @@ class:
       avatar: https://cdn.bili33.top/gh/Vikutorika/newassets@master/templates/Willy%20Wonka%20portfolio%20Template%20free/themes/custom/favicon.png
       descr: 嗶哩嗶哩
     4:
-      name: VSC
+      name: Valora
       link: https://val.bili33.top
       avatar: https://val.bili33.top/assets/img/img-navi-valorant-red.svg
       descr: 瓦商店查询站
@@ -468,8 +468,11 @@ class3:
       link: https://moeci.com
       avatar: https://moeci.com/images/avatar.png
       descr: The stupid one is me
-
-
+    79:
+      name: 萌 (//∇//) 贴士
+      link: https://moe.tips
+      avatar: https://img.cdn.18g.me/2022/02/19/d8d559274a2f6.jpg
+      descr: 愿你把酒执剑，归来仍是少年
 
 class4:
   class_name: NE 线下后宫
