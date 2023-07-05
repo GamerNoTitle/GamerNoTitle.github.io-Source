@@ -1,6 +1,7 @@
 class:
   class_name: EIN 个人项目
   class_desc: 个人部署在不同地方的项目，稳定性？不存在的╭(╯^╰)╮
+  flink_style: anzhiyu
   link_list:
     1:
       name: 哔哩CDN
@@ -32,6 +33,7 @@ class:
 class2:
   class_name: DOS 私人服务
   class_desc: 我个人在使用的不同网络服务，在这里列出(＾Ｕ＾)ノ~ＹＯ
+  flink_style: anzhiyu
   link_list:
     1:
       name: CloudFlare
@@ -67,6 +69,7 @@ class2:
 class3:
   class_name: TROIS 友人帐
   class_desc: 小伙伴们你们好鸭~ヾ(◍°∇°◍)ﾉﾞ
+  flink_style: anzhiyu
   link_list:
     1:
       name: さくら荘の白猫
@@ -471,6 +474,7 @@ class3:
 class4:
   class_name: NE 线下后宫
   class_desc: 家伙们海底捞约起！ヾ(^Д^*)/
+  flink_style: anzhiyu
   link_list:
     # 1:
     #   name: 87ouo
@@ -552,6 +556,7 @@ class4:
 class6:
   class_name: FEM 特别链接
   class_desc: 特别的东西，特别的链接(*❦ω❦)
+  flink_style: anzhiyu
   link_list:
     1:
       name: 5 A.M. 旧站
