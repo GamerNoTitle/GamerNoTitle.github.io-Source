@@ -1,0 +1,19 @@
+a span.top-group-text {
+  border-radius: 0px 0 12px 0;
+}
+
+div#bannerGroup {
+  width: calc(100% - 600px - 2rem);
+  height: 338px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1200px) {
+  div#bannerGroup {
+    width: auto;
+  }
+  #home_top ~ main {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,96 @@
+#web_container
+  background: var(--global-bg);
+  transition: all 0.3s ease-out;
+  position: relative;
+  z-index: 2;
+  max-height: 100vh;
+  -webkit-overflow-scrolling: touch;
+[data-theme="dark"] #web_container
+  background none
+#web_box
+  transition: all 0.3s ease-out;
+  position: relative;
+  z-index: 1;
+  max-height: 100vh;
+  -webkit-overflow-scrolling: touch;
+
+#body-wrap
+  display: flex
+  flex-direction: column
+  min-height: 100vh
+  +maxWidth768()
+    .layout
+      padding: 0;
+    #category,
+    #tag
+      padding: 40px 15px 20px;
+      // background: var(--anzhiyu-background)
+    +maxWidth768()
+      #tag
+        background: transparent;
+    #archive
+      background: var(--anzhiyu-background)
+  
+.layout
+  display: flex
+  flex: 1 auto
+  margin: 0 auto
+  padding: 20px 15px
+  max-width: 1200px
+  width: 100%
+
+  +maxWidth900()
+    flex-direction: column
+
+  +maxWidth768()
+    padding: 20px 15px;
+    z-index: 3
+
+  +minWidth2000()
+    max-width: 1500px
+
+  & > div:first-child:not(.recent-posts)
+    box-shadow: var(--anzhiyu-shadow-border);
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    background: var(--anzhiyu-card-bg);
+    border: var(--style-border);
+    width: calc(100% - 300px);
+    align-self: flex-start;
+    animation: slide-in 0.6s 0.1s backwards;
+
+    +maxWidth768()
+      padding: 1rem 1rem;
+      box-shadow: none;
+      background: var(--anzhiyu-background);
+
+  & > div:first-child
+    width: 74%
+    transition: all .3s
+
+    +maxWidth900()
+      width: 100% !important
+
+    if hexo-config('aside.position') == 'left'
+      +minWidth900()
+        order: 2
+
+  // 隱藏aside
+  &.hide-aside
+    max-width: 1000px
+
+    +minWidth2000()
+      max-width: 1200px
+
+    & > div
+      width: 100% !important
+
+// for apple device
+.apple
+  #page-header.full_page
+    background-attachment: scroll !important
+
+  .recent-post-item,
+  .avatar-img,
+  .flink-item-icon
+    transform: translateZ(0)

@@ -1,0 +1,27 @@
+if theme.post_copyright.enable && page.copyright !== false
+  - let author = page.copyright_author || config.author
+  - let authorHref = page.copyright_author_href || theme.post_copyright.author_href || config.url
+  - let url = page.copyright_url || page.permalink
+  - let info = page.copyright_info || _p('post.copyright.copyright_content', theme.post_copyright.license_url, theme.post_copyright.license, config.url, config.title)
+  .post-copyright
+    i.anzhiyufont.anzhiyu-icon-copyright
+    .post-copyright__author
+      if (page.copyright_author && page.copyright_author !== config.author)
+        a.post-copyright__reprint(title="该文章为转载文章，注意版权协议" href=url_for(url)) 转载
+      else
+        a.post-copyright__original(title="该文章为原创文章，注意版权协议" href=url_for(url)) 原创
+      a.post-copyright-title
+        span=pageTitle
+    .post-copyright-info-box
+      span.post-copyright-meta= _p('post.copyright.author') + ": "
+      span.post-copyright-info
+      a.link(href=authorHref)=author
+    .post-copyright__type
+      span.post-copyright-meta= _p('post.copyright.link') + ": "
+      span.post-copyright-info
+        a.link(href=url_for(url))= theme.post_copyright.decode ? decodeURI(url) : url
+      span.copy-button(onclick=`rm.copyPageUrl('${theme.post_copyright.decode ? decodeURI(url) : url}')`)
+        i.anzhiyufont.anzhiyu-icon-copy
+    .post-copyright__notice
+      span.post-copyright-meta= _p('post.copyright.copyright_notice') + ": "
+      span.post-copyright-info!= info

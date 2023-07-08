@@ -1056,6 +1056,7 @@ inject:
     - <script src="//cdn.bili33.top/npm/matter-js@0.19.0"></script>
     - <script>(new Date().getDate() === 1 && new Date().getMonth() === 3) && document.write('<script src="https://cdn.bili33.top/gh/Vikutorika/newassets@master/js/smooth-April-Fools.js"><\/script>')</script>
     - <script defer data-site="bili33.top" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
+    - <script src="https://cdnjs.cloudflare.com/ajax/libs/clientworker/2.8.1/dist/cw.js"></script>
   bottom:
     # - <script src="xxxx"></script>
     # - <div class="circle"></div>
