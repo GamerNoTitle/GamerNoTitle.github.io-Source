@@ -3,6 +3,8 @@ title: 本站文章统计
 date: 2023-07-09 11:23:07
 ---
 
+<!-- [Hexo 博客文章统计图 | Eurkon](https://blog.eurkon.com/post/1213ef82.html) -->
+
 <!-- 文章发布时间统计图 -->
 
 <div id="posts-chart" data-start="2021-07" style="border-radius: 8px; height: 300px; padding: 10px;"></div>
