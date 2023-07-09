@@ -32,7 +32,9 @@ menu:
     Gallery: /Gallery/ || fas fa-image
     Music: /Music/ || fas fa-music
     Dynamics: /Dynamics/ || fas fa-comment-dots
-  Link: /link/||fas fa-link
+  Link||fas fa-heart:
+    Friends: /link/ || fas fa-link
+    Charts: /charts/ || fas fa-chart-pie
   About: /About/||fas fa-heart
 
 # Hide the child menu items in mobile sidebar
@@ -1057,6 +1059,8 @@ inject:
     - <script>(new Date().getDate() === 1 && new Date().getMonth() === 3) && document.write('<script src="https://cdn.bili33.top/gh/Vikutorika/newassets@master/js/smooth-April-Fools.js"><\/script>')</script>
     - <script defer data-site="bili33.top" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
     - <script src="https://cdnjs.cloudflare.com/ajax/libs/clientworker/2.8.1/dist/cw.js"></script>
+    - <script src="https://npm.elemecdn.com/echarts@4.9.0/dist/echarts.min.js"></script>
+    - <script src="https://npm.elemecdn.com/echarts@4.9.0/map/js/china.js"></script>
   bottom:
     # - <script src="xxxx"></script>
     # - <div class="circle"></div>
