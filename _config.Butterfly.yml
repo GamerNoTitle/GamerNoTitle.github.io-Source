@@ -322,9 +322,9 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments
-  use: 
-    - twikoo
-    - Valine
+  use: Valine
+    # - twikoo
+    # - Valine
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to false, the comment count will be invalid
@@ -363,8 +363,8 @@ gitalk:
 
 # valine comment system. https://valine.js.org
 valine:
-  appId: IQaou0AJ5orgL4w1DEjxQd9U-gzGzoHsz  # leancloud application app id
-  appKey: HUIkpOczk1t5KgcfAjemKnXx  # leancloud application app key
+  appId: wRUW5fICAL8URzxXwJNSiwA7-MdYXbMMI  # leancloud application app id
+  appKey: LbtRzTQKxCWNpj30GLH3sw5j  # leancloud application app key
   notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
   verify: false # valine verify code (true/false)
   pageSize: 20 # comment list page size
@@ -372,7 +372,7 @@ valine:
   lang: zh-cn # i18n: zh-cn/en/tw
   guest_info: nick,mail,link #valine comment header inf
   recordIP: true # Record reviewer IP
-  serverURLs:  # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  serverURLs: https://valine.bili33.top # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: null # nick,mail # required fields nick/mail/link
   bg: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Settings/Valine-BG.jpg # valine background
