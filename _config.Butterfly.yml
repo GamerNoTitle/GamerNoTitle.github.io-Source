@@ -35,7 +35,7 @@ menu:
   Link||fas fa-heart:
     Friends: /link/ || fas fa-link
     Charts: /charts/ || fas fa-chart-pie
-  About: /About/||fas fa-heart
+  About: /About/||fas fa-user
 
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
