@@ -3,7 +3,7 @@ title: Raspberry 4B 折腾记录（持续更新）
 date: 2022-10-05 15:23:46
 tags: [IoT, Raspberry]
 categories: IoT
-cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Raspberry-4B-Log/cover.jpg
+cover: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Raspberry-4B-Log/cover.jpg
 ---
 
 ### 烧录系统
@@ -12,13 +12,13 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Raspberry-4B-Lo
 
 （↓没插读卡器所以用磁盘代替一下，千万别写入磁盘！）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Raspberry-4B-Log/balenaEtcher-20221005-225233.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Raspberry-4B-Log/balenaEtcher-20221005-225233.png)
 
 ### 对ext4格式的存储介质进行写入
 
 我用的是DiskGenius，但是不知道为什么在我的电脑上打开会提示这个……
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Raspberry-4B-Log/ntleah-20221005-151900.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Raspberry-4B-Log/ntleah-20221005-151900.png)
 
 `Err: NTLEAS may be lost connection with hook process.`
 
@@ -104,4 +104,4 @@ sudo apt install libossp-uuid-dev -y
 
 默认是`OpenSSL 1.1.1m`，所以建议先编译完再升级（没事别`sudo apt upgrade -y`）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Raspberry-4B-Log/Xshell-20221201-223944.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Raspberry-4B-Log/Xshell-20221201-223944.png)

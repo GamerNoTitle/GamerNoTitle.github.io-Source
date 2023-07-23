@@ -997,7 +997,7 @@ inject:
     - <script src='https://cdn.bili33.top/gh/Vikutorika/assets@master/js/CTF-illegal-warning.js'></script>
     - <script src='https://cdn.bili33.top/gh/Vikutorika/assets@master/js/console.js'></script>
     - <script src="https://cdn.bili33.top/npm/cardlink"></script>
-    # - <link rel="stylesheet" type="text/css" href="https://cdn.bili33.top/gh/Vikutorika/newassets@master/css/R.I.P.css">  # 网站黑白
+    # - <link rel="stylesheet" type="text/css" href="https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/css/R.I.P.css">  # 网站黑白
     # - <script src="https://cdn.bili33.top/gh/Vikutorika/assets@master/js/sakuraPlus.js"></script>   # 樱花飘落特效
   bottom:
     # - <script src="xxxx"></script>

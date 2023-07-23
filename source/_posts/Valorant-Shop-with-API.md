@@ -62,7 +62,7 @@ cover: https://cdn.bili33.top/gh/GamerNoTitle/VSC@master/assets/img/1159991.jpg
 
 我先Clone了下来，然后尝试用里面的`example.py`进行登录，不管是开了2FA（二步验证，下同）还是没开的都能够登上，并且返回`access_token`和`entitlement_token`，然后我就用它了（这里登录用的我朋友的号，不是我的）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/WindowsTerminal-20230510-160702.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/WindowsTerminal-20230510-160702.png)
 
 着手把这个轮子改一改，进行亿点点改动，首先登录操作改成一个函数，然后把二步验证也打包成函数，这样输入验证码的时候就调用这个函数就行了，改着改着就给我改成了现在的样子：[VSC/RiotLogin.py at master · GamerNoTitle/VSC · GitHub](https://github.com/GamerNoTitle/VSC/blob/master/utils/RiotLogin.py)
 
@@ -109,7 +109,7 @@ def RiotLogin():
 
 首先根据Ultronxr大佬的文档，有这样的一个API的端点表格（下图）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/msedge-20230510-161958.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/msedge-20230510-161958.png)
 
 表格里面写的很详细，我们用到的API为这个（以亚太服为例） -> `https://pd.ap.a.pvp.netstore/v2/storefront/`
 
@@ -271,17 +271,17 @@ _thread.start_new_thread(updateCache, ())
 
 在弄完电脑端的页面后，我发现图片太小了，而且帮我测试的同志（[@Vanilluv](https://github.com/Vanilluv)）给我提出了这个建议
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/QQ-20230510-164104.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/QQ-20230510-164104.png)
 
 我估计他说的是这种（图示为[Pixiv的一个浏览器插件 PixivBatchDownloader](https://github.com/xuejianxianzun/PixivBatchDownloader)）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/msedge-20230510-164249.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/msedge-20230510-164249.png)
 
 但是但是，我实在想不出什么库可以达到这个效果，我就想到我的Blog的主题[hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly)用的fancybox，可以做到点击查看大图的效果，所以我就想做成这种
 
 这个时候，我就开始求助ChatGPT了（因为懒得写html了，写起来真的很烦）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/msedge-20230510-164936.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/msedge-20230510-164936.png)
 
 直接按照它给我的做法，往里面写，不一会就做好了√
 
@@ -337,7 +337,7 @@ AttributeError: 'Flask' object has no attribute 'session_cookie_name'
 
 这一个提示直接给我干懵了，因为我在codespaces里面是调试成功的，就没遇到500的问题，结果部署就出了问题，最最最关键的事情是，我当时没有分`master`和`dev`分支，也没有分`production`和`dev`分支（指部署上），然后直接让我的服务炸裂，不管谁访问都是500。不过当时我也没有发出去，用的人也就我群里的老朋友们，然后我就在群里发了条消息
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/qTRMpDZVlw.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/qTRMpDZVlw.png)
 
 这个时候刚好准备回家了，我就收拾了一下东西，先回家去
 
@@ -345,7 +345,7 @@ AttributeError: 'Flask' object has no attribute 'session_cookie_name'
 
 接着我去问了ChatGPT（这个时候我就要划掉~~万能~~这两个字了，完全就是在胡说嘛）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/msedge-20230510-170648.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/msedge-20230510-170648.png)
 
 我就很懵逼，我明明是配置了`SECRET_KEY`的，怎么还出现这种问题呢，我以为是PaaS平台（[Zeabur](https://zeabur.com/zh-CN)）没有读入我的环境变量，我当时是这么写的
 
@@ -355,15 +355,15 @@ app.config['SECRET_KEY'] = 'A7C55959-3577-5F44-44B6-11540853E272' if not os.envi
 
 这里很明显就是说没有读取到`SECRET_KEY`也有一个缺省值，这样写了以后还是死活打不开，我甚至去问了Zeabur的管理员（真的要给他点赞他真的每次都在解答群友的问题）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/Telegram-20230510-171244.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/Telegram-20230510-171244.png)
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/Telegram-20230510-171315.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/Telegram-20230510-171315.png)
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/Telegram-20230510-171321.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/Telegram-20230510-171321.png)
 
 就是说我写法是没问题的，而且我后来开了个简单的应用试了一下，代码是这样的
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/photo_2023-05-02_22-35-28.jpg)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/photo_2023-05-02_22-35-28.jpg)
 
 实测这个变量`env`确实进去了，不过端口没有进去是因为它用了`Gunicorn`开服务，所以端口不是在这里设置的
 
@@ -375,7 +375,7 @@ app.config['SECRET_KEY'] = 'A7C55959-3577-5F44-44B6-11540853E272' if not os.envi
 
 后来我去翻`flask`的文档和`flask-session`的文档，结果在flask的文档里面找到了这个更新 -> [Update 2.3.0](https://flask.palletsprojects.com/en/2.3.x/changes/#version-2-3-0)
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/msedge-20230510-172149.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/msedge-20230510-172149.png)
 
 注意我选定的位置，没错flask `2.3.0`更新把`session_cookie_name`给删掉了，且`Flask-Session`没有对此进行适配，导致了这个错误
 
@@ -393,13 +393,13 @@ flask==2.2.4
 
 嗯没错，崩铁开服了，于是玩了一天的崩铁（开服冲级嘛），但我没想到8点就开服了，我是8点多准备开鼠标连点器抢UID的，因为当天九点半我要学车，月底要考科目二，结果本来想定位那个开服提示的确定键的，自己先点击了一下，然后进去了（捂脸），就变成UID前排了（100头，UID100201759，图为2023/5/10截的，崩铁我是手柄玩家）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/StarRail-20230510-173008.jpg)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/StarRail-20230510-173008.jpg)
 
 ## 更换皮肤的显示语言
 
 这个建议是[@Vanilluv](https://github.com/Vanilluv)提出的，因为这个网站毕竟是看国际服的，又不是看国服的，国际服最多是繁中而不是简中，所以推荐更换为繁中。这个也简单，更改了一下请求API的参数和访问缓存的语言就搞定了
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/msedge-20230510-172616.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/msedge-20230510-172616.png)
 
 ## 自动保活
 
@@ -415,13 +415,13 @@ data2 = {"language": "en_US","password": self.password,"remember": "true","type"
 
 本来我是不报什么希望了，然后在我翻Vshop（因为Vshop有自动更新token的机制，所以去翻了一下看看能不能找到什么线索）的时候，找到了它的官网，在它的[Credit](https://vshop.one/credits)页面，有一项引起了我的注意
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/msedge-20230510-173521.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/msedge-20230510-173521.png)
 
 因为我一开始在Github上没找到什么好的文档，找到的API就是他这里面写的这个`valorant-api.com`，而且我也用上了，但是这个库我是真的没有看见过，回到家我就直接查看这个库，果不其然里面有我们需要的东西
 
 在文档里面有一项叫做`Cookie Reauth`，就是利用Cookie进行重新认证
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/msedge-20230510-173725.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/msedge-20230510-173725.png)
 
 这里的cookie按照我的理解是登陆时用的cookie，我先用浏览器进行访问，直接GET这个链接
 
@@ -429,7 +429,7 @@ data2 = {"language": "en_US","password": self.password,"remember": "true","type"
 
 然后发现它会重定向到一个404页面（这404真好看哪天我要给他扒下来），**但是但是**，网址栏里面有我们需要的东西
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/kpLlOqVTD4.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/kpLlOqVTD4.png)
 
 完整链接如下（账号已登出，现在是无效的）
 
@@ -449,13 +449,13 @@ data2 = {"language": "en_US","password": self.password,"remember": "true","type"
 
 在上面提到的那个文档中，还有这样的一个项目
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/msedge-20230510-174754.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/msedge-20230510-174754.png)
 
 这个给我们展示了如何获取`entitlement_token`，这里headers是需要把认证用的token填进去的，这就是为什么要先获取`access_token`，访问后会获得文档给我们展示的json，从中提取`entitlement_token`就行了
 
 那么最后的问题来了，如果你是用Python直接访问拳头的链接，会被Cloudflare给挡住（因为你即使有Cookie，但也没有会话Session的存在），就像我调试的这样
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/WindowsTerminal-20230510-175459.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/WindowsTerminal-20230510-175459.png)
 
 所以非常有必要把之前的session给保留，然后我就把之前登录用的session存入用户与我的服务之间的Session里面了，方便调用
 
@@ -475,7 +475,7 @@ data2 = {"language": "en_US","password": self.password,"remember": "true","type"
 
 当我做好了以后，我发现一个问题就是，有的皮肤等级/炫彩点击就能弹出框框，有的就弹不出来，然后给我控制台报错
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/css-selector.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/css-selector.png)
 
 我一开始去问GPT，他说我可能是不存在id为这个东西的元素，我就奇了怪了，我说我命名有这东西，而且在F12控制台里面是能够找到对应的元素的，咋就不行
 
@@ -724,7 +724,7 @@ $ export REDIS_SSL=True # If your redis does not support this, please DO NOT con
 
 这样就可以在`filesystem`和`redis`中进行选择，我用了[upstash]()的免费Redis存储，一个月可以用1W条命令，但是但是，在我测试的过程中我发现，就我们群里的几个人用的情况下，一天都能去到300条命令，多的时候甚至去到了500，这算下来一个月根本不够用啊
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/msedge-20230510-182115.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/msedge-20230510-182115.png)
 
 于是我投向了Zeabur的Redis存储应用
 
@@ -732,13 +732,13 @@ $ export REDIS_SSL=True # If your redis does not support this, please DO NOT con
 
 我在Zeabur里面新建了一个Redis数据库后，就准备把数据库连接改过去了，反正原来的Redis里面没什么数据，尽早更换也不用迁移数据，让群友重新登陆一下就行了，不换还好，一换就出事了，直接timeout了，我以为是Zeabur的服务问题（因为它还在试运营阶段，平常确实有点小问题），就去问老板
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/Telegram-20230510-182336.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/Telegram-20230510-182336.png)
 
 我们排除了半个小时也没排出来问题，然后我也不好意思打扰人家，我就说明天再看吧，然后我自己又捣鼓了一会，然后突然想到一个很重要的问题：我让用户设置过SSL，而且我写的是**数据库支持再开，否则别开**，我就想Zeabur的数据库是不是不支持SSL（Upstash是支持的），然后我就关掉了SSL试了一下，果不其然就是SSL的问题
 
 然后我就跟老板汇报了这个问题，这事也就这么结了
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/Telegram-20230510-183436.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/Telegram-20230510-183436.png)
 
 ## 皮肤库功能
 
@@ -762,7 +762,7 @@ def lib_handler(page: int = 1):
 
 就做了大概一个下午就做完了，然后就发现了很多问题
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/library-bug.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/library-bug.png)
 
 对你没看错，这里面`个人喜爱随机选择`和`默认`（右下角那个叉叉）都没有被过滤掉，而且最恶心的是这个随机选择每个武器对应一个对象，也就是说有多少个武器就有多少个随机选择，我直接头大~
 
@@ -917,7 +917,7 @@ if __name__ == '__main__':
 
 一开始我没有加入`Standard`这个单词在里面的，当时没想到会有这个，结果发现还是没有被去掉，然后看了下后台的数据才发现是有标准这个字段的
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/navicat-20230515-232200.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/navicat-20230515-232200.png)
 
 然后我才把`Standard`给加进去，才可以正常处理这些默认皮肤
 
@@ -1096,11 +1096,11 @@ else:
 
 做完了分类以后，我逐个去尝试，发现一个问题
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/WYY9RK3NMTZXVRAS50.jpg)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/WYY9RK3NMTZXVRAS50.jpg)
 
 没错，捍卫者这一分类下出现了一把R8，然后我去找是什么情况，结果一查才知道这把R8的翻译叫做`戍卫者`
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/navicat-20230516-162409.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/navicat-20230516-162409.png)
 
 那没办法了，捍卫者这把枪的索引就只能换成繁中了（因为不冲突），想看看是啥情况的可以自己把`query`后面的参数改成`戍卫`去试试
 
@@ -1471,13 +1471,13 @@ def UpdatePriceCache():
 
 嗯没错，VSC改名为了Valora，这是因为@Vanilluv给我发了张图
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/E740F55FDB3BECF8FD2CE2E2C127444C.jpg)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/E740F55FDB3BECF8FD2CE2E2C127444C.jpg)
 
 也不知道是不是这个人开了还是咋的，反正就是被封了，但是本着开发者的态度，他说用了VSC我就去查查是不是我这个，我就去翻数据库（数据库有玩家的ID，小黑盒是可以查玩家的ID的），然后没发现，就说明咱们是清白的
 
 VSC这个名字确实很多东西用，我之前查到过（如图，这还是其中一个）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Valorant-Shop-with-API/msedge-20230603-175217.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Valorant-Shop-with-API/msedge-20230603-175217.png)
 
 所以说咱们为了不跟人冲突就改个名字嘛，我就去问ChatGPT了，改什么名字好
 

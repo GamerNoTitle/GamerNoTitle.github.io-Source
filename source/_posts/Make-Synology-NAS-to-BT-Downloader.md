@@ -3,7 +3,7 @@ title: 把群晖打造成BT自动下载服务器
 date: 2023-04-23 12:04:05
 tags: [Synology, BT, Download]
 categories: Tech
-cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Make-Synology-NAS-to-BT-Downloader/msedge-20230423-120744.png
+cover: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Make-Synology-NAS-to-BT-Downloader/msedge-20230423-120744.png
 ---
 
 前几天不是把家里的小霸王给改造成了NAS嘛，然后本来就是想架个EMBY然后在家里直接就看番了的，找了一圈发现BT下载是比较好用的，结果下载下来文件名格式又不一样，不符合EMBY的解析要求，于是就有了这篇文章
@@ -20,7 +20,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Make-Synology-N
 
 我一开始用的qbitorrent（群晖套件版的），但是那个配置起来超级麻烦，而且发现RSS订阅后不会自动下载（不知道是我的问题还是啥）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Make-Synology-NAS-to-BT-Downloader/msedge-20230423-123735.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Make-Synology-NAS-to-BT-Downloader/msedge-20230423-123735.png)
 
 然后我记得群晖里有一个自带的Download Station，启动后发现其实它是支持BT下载的
 
@@ -30,7 +30,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Make-Synology-N
 
 然后在下面下载过滤器新建一个过滤器，根据自己的需要填写过滤规则
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Make-Synology-NAS-to-BT-Downloader/msedge-20230423-124227.png)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Make-Synology-NAS-to-BT-Downloader/msedge-20230423-124227.png)
 
 设置完后，记得在RSS Feeds里面，把之前已经发出来的剧集先根据自己的需要下载好
 

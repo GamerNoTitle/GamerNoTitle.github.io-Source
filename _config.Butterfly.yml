@@ -122,22 +122,22 @@ index_img:
 # if the banner of page not setting,it will show the top_img
 top_img: 
   - https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Top-img/NEKO-Hackers-Edited.jpg
-  - https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Top/20230121.png
-  - https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Top/20230121-2323.png
-  - https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Top/20230121-2334.png
-  - https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00000.jpg
-  - https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00001.jpg
-  - https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00002.jpg
-  - https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00003.jpg
-  - https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00004.jpg
-  - https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00005.jpg
-  - https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00006.jpg
-  - https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00007.jpg
-  - https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00008.jpg
-  - https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00009.jpg
-  - https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00010.jpg
-  - https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00011.jpg
-  - https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00012.jpg
+  - https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Top/20230121.png
+  - https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Top/20230121-2323.png
+  - https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Top/20230121-2334.png
+  - https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/NovelAI/20230122/00000.jpg
+  - https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/NovelAI/20230122/00001.jpg
+  - https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/NovelAI/20230122/00002.jpg
+  - https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/NovelAI/20230122/00003.jpg
+  - https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/NovelAI/20230122/00004.jpg
+  - https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/NovelAI/20230122/00005.jpg
+  - https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/NovelAI/20230122/00006.jpg
+  - https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/NovelAI/20230122/00007.jpg
+  - https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/NovelAI/20230122/00008.jpg
+  - https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/NovelAI/20230122/00009.jpg
+  - https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/NovelAI/20230122/00010.jpg
+  - https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/NovelAI/20230122/00011.jpg
+  - https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/NovelAI/20230122/00012.jpg
   #- https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Top-img/NEKO-Hackers-Edited.jpg
   #- https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Top-img/77329543_p0.png
 # 以下鏈接是動態壁紙，每次刷新會更換
@@ -147,28 +147,28 @@ top_img:
 # https://api.dujin.org/bing/1366.php
 
 # if the banner of page not setting,it will show the top_img
-default_top_img: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Top/20230121-2323.png
+default_top_img: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Top/20230121-2323.png
 
 # the default cover of the post
-default_cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Top/20230121.png
+default_cover: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Top/20230121.png
 
 # the banner image of archive page
-archive_img: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/NovelAI/20230122/00011.jpg
+archive_img: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/NovelAI/20230122/00011.jpg
 
 # the banner image of tag page
-tag_img: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Top/20230121-2323.png
+tag_img: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Top/20230121-2323.png
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Top/20230121-2323.png
+tag_per_img: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Top/20230121-2323.png
 
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_img: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Top/20230121-2334.png
+category_img: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Top/20230121-2334.png
 
-category_per_img: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Top/20230121-2334.png
+category_per_img: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Top/20230121-2334.png
 
 cover:
   # 是否顯示文章封面
@@ -802,7 +802,7 @@ preloader:
   # 2. pace (progress bar)
   source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url: https://cdn.bili33.top/gh/Vikutorika/newassets@master/css/barber-shop.css
+  pace_css_url: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/css/barber-shop.css
 
 ####    側邊欄    ####
 #-------------------------------------
@@ -1053,10 +1053,10 @@ inject:
     - <script src='https://cdn.bili33.top/gh/Vikutorika/assets@master/js/CTF-illegal-warning.js'></script>
     - <script src='https://cdn.bili33.top/gh/Vikutorika/assets@master/js/console.js'></script>
     - <script src="https://cdn.bili33.top/npm/cardlink"></script>
-    # - <link rel="stylesheet" type="text/css" href="https://cdn.bili33.top/gh/Vikutorika/newassets@master/css/R.I.P.css">  # 网站黑白
+    # - <link rel="stylesheet" type="text/css" href="https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/css/R.I.P.css">  # 网站黑白
     # - <script src="https://cdn.bili33.top/gh/Vikutorika/assets@master/js/sakuraPlus.js"></script>   # 樱花飘落特效
     - <script src="//cdn.bili33.top/npm/matter-js@0.19.0"></script>
-    - <script>(new Date().getDate() === 1 && new Date().getMonth() === 3) && document.write('<script src="https://cdn.bili33.top/gh/Vikutorika/newassets@master/js/smooth-April-Fools.js"><\/script>')</script>
+    - <script>(new Date().getDate() === 1 && new Date().getMonth() === 3) && document.write('<script src="https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/js/smooth-April-Fools.js"><\/script>')</script>
     - <script defer data-site="bili33.top" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
     - <script src="https://cdnjs.cloudflare.com/ajax/libs/clientworker/2.8.1/dist/cw.js"></script>
     - <script src="https://npm.elemecdn.com/echarts@4.9.0/dist/echarts.min.js"></script>

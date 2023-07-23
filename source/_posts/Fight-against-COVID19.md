@@ -3,7 +3,7 @@ title: 与新冠肺炎搏斗的那些日子
 date: 2022-12-19 18:53:30
 tags: [Diary, COVID19, experience]
 categories: Diary
-cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Fight-against-COVID19/coronavirus.png
+cover: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Fight-against-COVID19/coronavirus.png
 ---
 
 2022年12月18日下午，我感到十分地不适，在那之前，我们学院里有出现过COVID19（新冠肺炎）病例，所以整个学院都是在疫情管控状态，当我感受到我不适的那一刻我就知道，我很有可能是中招了。我第一次测量体温是37.4（刚刚过发烧线37.3），然后就把我丢到了临时的隔离房间去隔离去，说观察一个晚上再决定是否把我拉去隔离。
@@ -22,13 +22,13 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Fight-against-C
 
 2022年12月23日，已经不怎么流鼻涕了，但是还是会咳嗽。晚上打了BF1，应该说其他小队太菜了嘛，我们四人小队拿第一（五人但是最后一个是几乎最后才加入的水友）。开了100个胶囊，发了俩视频，愉快的一天过去了
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Fight-against-COVID19/bf1-20221223-222832.jpg)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Fight-against-COVID19/bf1-20221223-222832.jpg)
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Fight-against-COVID19/bf1-20221223-222825.jpg)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Fight-against-COVID19/bf1-20221223-222825.jpg)
 
 2022年12月24日，没怎么流鼻涕了，但是咳嗽，难受得很，头不痛。早上听到了一首很好听的V家曲（在下面），等待中午吃饭……
 
-{% aplayer "ラヴィット (loveit)" "ピノキオピー / 初音ミク" "https://cdn.bili33.top/gh/Vikutorika/newassets@master/file/%E3%83%94%E3%83%8E%E3%82%AD%E3%82%AA%E3%83%94%E3%83%BC%3B%20%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF%20-%20%E3%83%A9%E3%83%B4%E3%82%A3%E3%83%83%E3%83%88.mp3" "http://p1.music.126.net/SJ8vHgu99V4FuZA1VjE8bg==/109951165780056107.jpg" %}
+{% aplayer "ラヴィット (loveit)" "ピノキオピー / 初音ミク" "https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/file/%E3%83%94%E3%83%8E%E3%82%AD%E3%82%AA%E3%83%94%E3%83%BC%3B%20%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF%20-%20%E3%83%A9%E3%83%B4%E3%82%A3%E3%83%83%E3%83%88.mp3" "http://p1.music.126.net/SJ8vHgu99V4FuZA1VjE8bg==/109951165780056107.jpg" %}
 
 2022年12月25日，除了咳嗽基本没有什么症状了，好烦啊周日还要上课= =，唉没办法，期末考试提前一周了，慢慢来吧
 
@@ -36,4 +36,4 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Fight-against-C
 
 2022年12月27日，抗原阴性，会楼里去了，早上玩了会死亡搁浅（键鼠玩的）。至此，我已经阳康啦！
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Fight-against-COVID19/9b50622522ff24d70da33aaa716637e.jpg)
+![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Fight-against-COVID19/9b50622522ff24d70da33aaa716637e.jpg)
