@@ -73,3 +73,75 @@ Waline用了没多久，发现这东西后端一直连接不上，然后就又�
 ![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-return-to-Valine/ApplicationFrameHost-20230723-220510.png)
 
 **对不起对不起对不起**！！！我没想到它会自己发出去
+
+## 加更：Twikoo合并入Valine并去重
+
+就像我上面说的，我的Valine数据是导入进去过Twikoo的，现在Twikoo导出的数据是json（用管理面板里面的那个导出），直接导入Leancloud是没问题的，但是珲面临下面的问题：
+
+- 时间格式不正确：Twikoo的时间格式是时间戳，而Valine用的是Leancloud的Date类型
+- Twikoo无用数据较多，`uid`、`master`、`top`什么的标记需要去除
+- 去重！去重！还是去重！
+
+经过我在火车上的一小时奋战，我终于弄出了这个脚本（Twikoo导入Leancloud后在Leancloud导出数据库）
+
+```python
+import json
+from datetime import datetime
+
+
+def timestamp_to_iso8601(timestamp):
+    # Convert timestamp to a datetime object
+    try:
+        dt_object = datetime.fromtimestamp(int(timestamp) / 1000)
+    except TypeError:
+        return timestamp
+
+    # Format the datetime object to ISO 8601 format
+    iso8601_format = dt_object.strftime('%Y-%m-%dT%H:%M:%S.%fZ')
+
+    return iso8601_format
+
+
+with open('comment.0.jsonl', 'rt', encoding='utf8') as f:
+    lines = f.readlines()
+
+
+def write_data(data):
+    with open('Comment.json', 'wt+', encoding='utf8') as f:
+        f.write(data)
+
+
+exist_data = []
+finaldata = []
+# write_data('#filetype:JSON-streaming {"type":"Class","class":"Comment"}\n')
+for line in lines:
+    if line.startswith('#'):
+        continue
+    data = json.loads(line)
+    if {"nick": data.get('nick'), "link": data.get('link'), 'comment': data.get('comment')} in exist_data: continue
+    if data.get('created'):
+        data['insertedAt'] = {"__type":"Date","iso":timestamp_to_iso8601(data.get('created'))}  # Valine的时间索引
+        data['createdAt'] = timestamp_to_iso8601(data.get('created'))   # Leancloud自带
+        data['updatedAt'] = timestamp_to_iso8601(data.get('created'))   # Leancloud自带
+    if data.get('top'):
+        del data['top']
+    if data.get('master'):
+        del data['master']
+    if data.get('uid'):
+        del data['uid']
+    if data.get('created'):
+        del data['created']
+    if data.get('mailMd5'):
+        del data['mailMd5']
+    finaldata.append(data)
+    exist_data.append({
+        "nick": data.get('nick'), "link": data.get('link'), 'comment': data.get('comment')
+    })
+
+write_data(json.dumps(finaldata, indent=4))
+print(len(finaldata))
+
+print('done')
+```
+
+运行完后在Leancloud导入`Comment.json`文件后，就完成了！
