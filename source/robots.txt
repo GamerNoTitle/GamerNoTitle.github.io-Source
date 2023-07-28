@@ -4,6 +4,7 @@ Disallow:/posts/CloudFlare-Workers
 Disallow:/posts/CloudFlare-Workers-Section1
 Disallow:/posts/CloudFlare-Workers-Section2
 Disallow:/posts/Heroku-V2ray
+Disallow:/posts/Why-I-Choose-to-Repeat-High-School/
 Sitemap: https://bili33.top/baidusitemap.xml
 
 User-agent: *
