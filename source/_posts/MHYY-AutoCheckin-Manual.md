@@ -8,6 +8,14 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/GenshinImpact/9014
 
 ## 米哈云游（云原神）自动签到脚本食用指南
 
+{% note danger %}
+
+**本文已过期！最新的文档请参阅[MHYY-AutoCheckin - 米哈云游（云原神）自动签到脚本食用指南（第二代）](/posts/MHYY-AutoCheckin-Manual-Gen2/)**
+
+**如果你正在使用旧版的脚本，请更新到新版！**
+
+{% endnote %}
+
 **在指南开始之前，请确保你有一颗聪明的头脑和可以折腾的时间，否则请等时机合适再进行配置！**
 
 **在使用过程中如果遇到什么问题，请前往[Issues · GamerNoTitle/MHYY (github.com)](https://github.com/GamerNoTitle/MHYY/issues)发起新的issue来提出，不要在本页面的评论区提出问题（因为追踪性太差了）**
@@ -410,4 +418,3 @@ x-rpc-sys_version: <iOS版本>
 #### 发现了bug/无法使用
 
 请前往[Issues · GamerNoTitle/MHYY (github.com)](https://github.com/GamerNoTitle/MHYY/issues)发起新的issue来提出，不要在本页面的评论区提出问题（因为追踪性太差了）
-
