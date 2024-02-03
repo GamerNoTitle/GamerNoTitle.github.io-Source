@@ -31,7 +31,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets/img/MHYY-AutoCheckin-Manua
 首先点开订阅管理，把这个命令粘贴进去
 
 ```
-ql repo http://git.bili33.top/GamerNoTitle/MHYY.git "master" "" ""
+ql repo http://git.bili33.top/GamerNoTitle/MHYY.git "main"
 ```
 
 然后他会自动识别，并填入相应的内容，你只需要修改定时规则即可，名称按照自己需要修改
@@ -39,7 +39,7 @@ ql repo http://git.bili33.top/GamerNoTitle/MHYY.git "master" "" ""
 你可以改成下面这个（Github链接，国内可能访问不了）
 
 ```
-ql repo https://github.com/GamerNoTitle/MHYY.git "master" "" ""
+ql repo https://github.com/GamerNoTitle/MHYY.git "main"
 ```
 
 保存以后点击运行按钮更新一下订阅
