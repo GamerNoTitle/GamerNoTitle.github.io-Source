@@ -48,9 +48,7 @@ ql repo https://github.com/GamerNoTitle/MHYY.git "main"
 
 在定时任务中你就能找到刚刚更新的内容，但是还不能够使用，我们还需要配置依赖和环境变量
 
-我们需要两个python3依赖，分别是`requests`和`sentry-sdk`，如图填写并安装
-
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/MHYY-AutoCheckin-Manual/msedge-20230303-172601.png)
+我们需要三个python3依赖，分别是`requests`、`sentry-sdk`和`pyyaml`，分别把他们装好
 
 然后点到环境变量，新建名为`MHYY_CONFIG`的变量，把我们的配置填进去，点击保存
 
