@@ -6,7 +6,9 @@ keywords: [GamerNoTitle,About,关于我]
 
 
 
-![](https://capsule-render.vercel.app/api?type=Waving&color=timeGradient&height=200&animation=fadeIn&section=header&text=GamerNoTitle&fontSize=60)
+<!-- ![](https://capsule-render.vercel.app/api?type=Waving&color=timeGradient&height=200&animation=fadeIn&section=header&text=GamerNoTitle&fontSize=60) -->
+
+![](https://github-widgetbox.vercel.app/api/profile?username=GamerNoTitle&data=followers,repositories,stars,commits)
 
 #### **BOSS名称：**GamerNoTitle
 
