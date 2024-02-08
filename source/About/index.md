@@ -26,33 +26,10 @@ keywords: [GamerNoTitle,About,关于我]
 
 #### 人格：[“执政官” 人格 (ESFJ) | 16Personalities](https://www.16personalities.com/ch/esfj-人格)
 
-##### 邮件方式：[admin@bili33.top](mailto:admin@bili33.top)（推荐）或者[GamerNoTitle@outlook.com](mailto:GamerNoTitle@outlook.com)
+#### 联系方式：
 
-##### QQ方式：3559869084（请注明是来自我的Blog的）
-
-##### 哔哩哔哩：请搜索GamerNoTitle或[点我~！](https://space.bilibili.com/44666814)
-
-##### 其他联系方式（可以一起开黑哦！）：
-
-###### 1、英雄联盟雷瑟守备大区搜索：喵呜初音（我是个SUP玩家）
-
-###### 2、暴雪战网（国服）搜索：喵呜初音#5400（SUP同上）
-
-###### 3、steam链接：[@GamerNoTitle](https://steamcommunity.com/id/bili33/)
-
-###### 4、Origin平台搜索：GamerNoTitle（来玩战地一呀~）
-
-###### 5、WARFRAME（国际服）内搜索：Gamer.bili（只是一个十几段的萌新罢了）
-
-###### 6、Minecraft（国际服ID）：GamerNoTitle （欢迎来到我的Hypixel辣鸡小屋啊！！！输入/housing join GamerNoTitle可以直达哦~）
-
-###### 7、ArkNights（B服）：喵呜初音#0717
-
-###### 8、新片场：[@GamerNoTitle](https://www.xinpianchang.com/u11126467)
-
-###### 9、CSDN：[@GamerNoTitle](https://blog.csdn.net/qq_34018668)
-
-###### 10、VRChat：GamerNoTitle（现在还没买VR，将来会有的）
+- ✉️Mail：[GamerNoTitle@outlook.com](mailto:GamerNoTitle@outlook.com)
+- 🎮Steam：[@GamerNoTitle](https://steamcommunity.com/id/bili33/)
 
 #### **BOSS据点（关于本站）：**
 
