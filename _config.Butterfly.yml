@@ -581,23 +581,41 @@ blackandwhite: false
 # Theme color for customize
 # Notice: color value must in double quotes like "#000" or may cause error!
 # ---------------
-# 范思齐的紫色配色
+# 紫色配色
 theme_color:
   enable: true
-  main: "#8e8cd8"
-  paginator: "#8e8cd8"
-  button_hover: "#F85536"
-  text_selection: "#8e8cd8"
-  link_color: "#99a9bf"
-  meta_color: '#858585'
-  hr_color: "#8e8cd8"
-  read-mode-bg_color: '#FAF9DE'
-  inline-code-color: '#8e8cd8'
+  main: "#eab897"
+  paginator: "#eab897"
+  button_hover: "#d89870"
+  text_selection: "#eab897"
+  link_color: "#d89870"
+  meta_color: '#d89870'
+  hr_color: "#eab897"
+  read-mode-bg_color: '#d89870'
+  inline-code-color: '#eab897'
   code_foreground: "#F47466"
   code_background: "rgba(27, 31, 35, .05)"
-  toc_color: "#8e8cd8"
-  blockquote_padding_color: "#8e8cd8"
-  blockquote_background_color: "#8e8cd8"
+  toc_color: "#eab897"
+  blockquote_padding_color: "#eab897"
+  blockquote_background_color: "#eab897"
+
+# 紫色配色
+# theme_color:
+#   enable: true
+#   main: "#8e8cd8"
+#   paginator: "#8e8cd8"
+#   button_hover: "#F85536"
+#   text_selection: "#8e8cd8"
+#   link_color: "#99a9bf"
+#   meta_color: '#858585'
+#   hr_color: "#8e8cd8"
+#   read-mode-bg_color: '#FAF9DE'
+#   inline-code-color: '#8e8cd8'
+#   code_foreground: "#F47466"
+#   code_background: "rgba(27, 31, 35, .05)"
+#   toc_color: "#8e8cd8"
+#   blockquote_padding_color: "#8e8cd8"
+#   blockquote_background_color: "#8e8cd8"
 
 # 原配置文件的配色
 # theme_color:
@@ -735,7 +753,8 @@ beautify:
   enable: false
   field: post # site/post
   title-prefix-icon: '\f192'
-  title-prefix-icon-color: "#8e8cd8"
+  #title-prefix-icon-color: "#8e8cd8"
+  title-prefix-icon-color: "#d89870"
 
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
@@ -789,7 +808,7 @@ preloader:
   # 2. pace (progress bar)
   source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/css/barber-shop.css
+  pace_css_url: https://registry.npmmirror.com/gamernotitle-oss/1.0.10/files/css/barber-shop.css
 
 ####    側邊欄    ####
 #-------------------------------------
