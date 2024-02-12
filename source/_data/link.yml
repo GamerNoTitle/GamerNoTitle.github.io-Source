@@ -10,8 +10,8 @@ class:
       descr: jsd镜像源
     2:
       name: 个人脚本库
-      link: https://gogs.console.bili33.top
-      avatar: https://gogs.console.bili33.top/img/favicon.png
+      link: https://git.bili33.top
+      avatar: https://git.bili33.top/img/favicon.png
       descr: 脚本备份
     3:
       name: 哔哩漫游服务器
