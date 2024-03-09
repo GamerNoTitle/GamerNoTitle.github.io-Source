@@ -5,7 +5,7 @@ class:
   link_list:
     1:
       name: 哔哩CDN
-      link: https://bilicdn.tk/
+      link: https://cdn.bili33.top/
       avatar: https://cdn.bili33.top/gh/biliCDN/bilicdn.github.io@master/images/favicon.png
       descr: jsd镜像源
     2:
@@ -488,6 +488,11 @@ class3:
       link: https://blog.atago.moe
       avatar: https://s2.loli.net/2023/07/22/RF8ZwtfLqhDWCBP.png
       descr: 驻足现实，仰望星空，率性而活
+    82:
+      name: 宿心·心灵归宿
+      link: https://ayya.top
+      avatar: https://cdn.ayya.top/CDN/aYYbsYYa.jpg
+      descr: 在【宿心】只愿每个人都能找到自己心灵的归宿
 
 class4:
   class_name: NE 线下后宫
