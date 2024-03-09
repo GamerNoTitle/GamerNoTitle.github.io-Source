@@ -74,7 +74,7 @@ ql repo https://github.com/GamerNoTitle/MHYY.git "main"
 
 ![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220419-190618.png?download=true)
 
-将配置填充入名字为`MHYY_SECERT`的Secret中（内容获取请参照[配置内容获取](#配置获取)一节）
+将配置填充入名字为`MHYY_SECRET`的Secret中（内容获取请参照[配置内容获取](#配置获取)一节）
 
 > [如何填写配置？手把手教你获取登录凭据！](#配置获取)
 
