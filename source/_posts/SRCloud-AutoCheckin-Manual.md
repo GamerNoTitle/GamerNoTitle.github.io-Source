@@ -206,6 +206,58 @@ accounts:
     appid: 
 ```
 
+### 什么样的变量配置内容是合法的？
+
+合法的配置内容是完全符合yaml的文档格式的，容易被忽略的一点是：**配置项的冒号后面需要带有空格**
+
+```yaml
+# 使用前请阅读文档：https://bili33.top/posts/SRCloud-AutoCheckin-Manual
+# 有问题请前往Github开启issue：https://github.com/GamerNoTitle/SRCloud-AutoCheckin/issues
+
+######## 以下为账号配置项，可以多账号，详情请参考文档 ########
+accounts:
+  # 第一个账号
+  - token: ai=8;ci=1;oi=bbs_id;ct=ct_token;si=si_token;bi=hk4e_cn
+    type: 2
+    sysver: 13
+    deviceid: device_uuid
+    devicename: device_name
+    devicemodel: device_model
+    appid: 1953439976
+```
+
+而冒号后不带有空格的是不符合要求的，如
+```yaml
+# 使用前请阅读文档：https://bili33.top/posts/SRCloud-AutoCheckin-Manual
+# 有问题请前往Github开启issue：https://github.com/GamerNoTitle/SRCloud-AutoCheckin/issues
+
+######## 以下为账号配置项，可以多账号，详情请参考文档 ########
+accounts:
+  # 第一个账号
+  - token:ai=8;ci=1;oi=bbs_id;ct=ct_token;si=si_token;bi=hk4e_cn
+    type:2
+    sysver:13
+    deviceid:device_uuid
+    devicename:device_name
+    devicemodel:device_model
+    appid:1953439976
+```
+
+当你在运行脚本的时候，如果看到了如下的提示
+
+```
+Traceback (most recent call last):
+File "/ql/data/scripts/GamerNoTitle_MHYY/main.py", line 35, in
+conf = ReadConf('SRC_CONFIG')['accounts']
+~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+Sentry is attempting to send 2 pending events
+Waiting up to 2 seconds
+Press Ctrl-C to quit
+```
+
+并且你确信自己已经加好了变量，那么请考虑一下你的的每个配置项的冒号后面是不是加上了空格
+
 ### 配置获取
 
 #### 从网页版云·星穹铁道获取
