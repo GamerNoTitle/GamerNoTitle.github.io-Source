@@ -44,7 +44,7 @@ ql repo https://github.com/GamerNoTitle/MHYY.git "main"
 
 保存以后点击运行按钮更新一下订阅
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/MHYY-AutoCheckin-Manual/msedge-20230303-172154.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/msedge-20230303-172154.png)
 
 在定时任务中你就能找到刚刚更新的内容，但是还不能够使用，我们还需要配置依赖和环境变量
 
@@ -60,7 +60,7 @@ ql repo https://github.com/GamerNoTitle/MHYY.git "main"
 
 **原仓库在2023/02/03收到Github通知封禁，镜像仓库在[GamerNoTitle/MHYY: Disabled Action, if you need it, enable it by yourself (github.com)](https://github.com/GamerNoTitle/MHYY)，本项目仓库的Github Action已经被我手动禁用，如果需要使用Action版本，请将`~/.github/workflows`文件夹内的两个文件后面的`.disabled`删掉！**
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/MHYY-AutoCheckin-Manual/ApplicationFrameHost-20230203-084848.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/ApplicationFrameHost-20230203-084848.png)
 
 {% endnote %}
 
@@ -317,11 +317,11 @@ Press Ctrl-C to quit
 
 具体如图所示，这个要得益于昨天Github的一个更新[GitHub Actions - Updating the default GITHUB_TOKEN permissions to read-only | GitHub Changelog](https://github.blog/changelog/2023-02-02-github-actions-updating-the-default-github_token-permissions-to-read-only/)
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/MHYY-AutoCheckin-Manual/ERRchrome-20230204-003058.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/ERRchrome-20230204-003058.png)
 
 在仓库里面点击`Settings` => `Actions` => `General`，往下拉找到`Workflow permissions`，把原来的`Read repository contents and packages permissions`改为上面的`Read and write permissions`，然后点击下面的`Save`键就可以了
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/MHYY-AutoCheckin-Manual/chrome-20230204-003338.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/chrome-20230204-003338.png)
 
 #### 发现了bug/无法使用
 

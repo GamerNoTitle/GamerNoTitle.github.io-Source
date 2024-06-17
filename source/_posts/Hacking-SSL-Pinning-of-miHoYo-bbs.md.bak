@@ -3,7 +3,7 @@ title: Hacking-SSL-Pinning-of-miHoYo-bbs
 date: 2022-12-22 08:05:24
 tags: [Reverse, CTF, SSL Pinning, SSL, HTTPS, Packet Capture]
 categories: Tech
-cover: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Hacking-SSL-Pinning-of-miHoYo-bbs/Certificate-Based.gif
+cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Hacking-SSL-Pinning-of-miHoYo-bbs/Certificate-Based.gif
 ---
 
 之前，我在[米哈云游自动签到脚本的教程](/posts/MHYY-AutoCheckin-Manual)里面说过"**一定要先登录并成功进去了再启动抓包软件！！！**"（配置内容获取那一节），这个主要是因为如果抓包软件开着，你会发现你根本登录不进去，完成不了米忽悠的身份验证，这也同时导致了米游社的包（手机上的）抓不到，因为抓包软件一开米游社就直接提示连接不到网络了（我本来还想自己撸一个米游社每日任务助手的来着，但是碍于这个原因一直没有做）
@@ -14,11 +14,11 @@ cover: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Hacking-S
 
 先在网上搜了一下，才知道这个东西叫做`SSL Pinning`（证书锁定），原理类似于下面这张图（网上下的）
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Hacking-SSL-Pinning-of-miHoYo-bbs/Certificate-Based.gif)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Hacking-SSL-Pinning-of-miHoYo-bbs/Certificate-Based.gif)
 
 大概意思就是说服务器和客户端都有证书，双方对对方给出的证书进行验证。而我们平时的SSL是下面这种（基于账号密码的验证）
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Hacking-SSL-Pinning-of-miHoYo-bbs/UserName-Password-Based.gif)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Hacking-SSL-Pinning-of-miHoYo-bbs/UserName-Password-Based.gif)
 
 服务器不对客户端进行验证，客户端也没有证书一说，只有客户端对服务端的证书验证，这就可以给我们抓包留下机会，毕竟要解开SSL连接是要安装抓包软件的证书的。
 

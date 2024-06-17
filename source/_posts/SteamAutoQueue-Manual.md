@@ -23,7 +23,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/SteamAutoQueue/mse
 
 先打开Steam商店，正常登陆，然后按下F12打开开发者工具，在选项卡里面找到网络（Network），刷新一下，在左侧找到`store.steampowered.com`，点击一下，然后在右侧下拉找到`Cookie`，把里面的东西复制出来
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/SteamAutoQueue-Manual/msedge-20221223-084012.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/SteamAutoQueue-Manual/msedge-20221223-084012.png)
 
 如果你选择用Action运行，，那么把Cookie复制下来后直接进入[Action环节](#在Github Action运行)
 
@@ -140,7 +140,7 @@ But I finish this too late, so when it comes to the Winter-Sale that I will prom
 
 You need to go to Steam website and Press <kbd>F12</kbd>, find network and refresh the page once. Then you can find `store.steampowered.com` on the left side. Click on it and scroll down on the right side, and you will find cookie string. 
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/SteamAutoQueue-Manual/msedge-20221223-084012.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/SteamAutoQueue-Manual/msedge-20221223-084012.png)
 
 If you run this script on Action, copy this then go to [Run on Github Action](#Run on Github Action) section
 

@@ -3,7 +3,7 @@ title: 在小霸王电脑上安装黑群晖
 date: 2023-04-13 18:18:35
 tags: [Synology, NAS]
 categories: Tech
-cover: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Install-black-synology-NAS-on-previous-PC/msedge-20230414-092910.jpg
+cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Install-black-synology-NAS-on-previous-PC/msedge-20230414-092910.jpg
 ---
 
 因为最近想看番，然后发现嗶哩嗶哩没有买几部番（如何看嗶哩嗶哩请见[这里](/posts/biliRoaming/)），就想着能不能直接用qbitorrent那一套自动订阅，但是吧，自己的电脑又不是天天开着，而且用来下番，游戏啥的还打不打了。这不转个头看到家里闲置的ASUS X455LD笔记本，就想着在上面按个黑群晖
@@ -12,13 +12,13 @@ cover: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Install-b
 
 这里用到的是Github上的一个项目：[fbelavenuto/arpl: Automated Redpill Loader (github.com)](https://github.com/fbelavenuto/arpl)
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Install-black-synology-NAS-on-previous-PC/BWEqUozwyv.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Install-black-synology-NAS-on-previous-PC/BWEqUozwyv.png)
 
 因为我是安装在物理机上面，所以下的是那个带 `img` tag的文件，剩下两个VM的是给虚拟机用的
 
 下载后解压，然后掏出我们的老朋友`balenaEtcher`来把img文件写入U盘（我这个U盘也是个小霸王，金士顿的经典DT 101 G2）
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Install-black-synology-NAS-on-previous-PC/balenaEtcher-20230413-182330.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Install-black-synology-NAS-on-previous-PC/balenaEtcher-20230413-182330.png)
 
 ## 通过引导来编译WIFI固件
 
@@ -26,7 +26,7 @@ cover: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Install-b
 
 启动的过程中，如果有弹出启动菜单，就直接选择`Configure Bootloader`就好了，然后会进入配置向导
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Install-black-synology-NAS-on-previous-PC/IMG_20230413_193740.jpg)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Install-black-synology-NAS-on-previous-PC/IMG_20230413_193740.jpg)
 
 获取到了IP以后，可以在其他电脑上输入这个地址进入配置，也可以直接输入`menu.sh`开始配置（我这里因为没有网线所以是插了手机用USB网络共享的）
 
@@ -36,7 +36,7 @@ cover: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Install-b
 
 这个程序会自动列出你的电脑可用的群晖型号，我这里给我列出了很多
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Install-black-synology-NAS-on-previous-PC/IMG_20230413_194405.jpg)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Install-black-synology-NAS-on-previous-PC/IMG_20230413_194405.jpg)
 
 选适合自己的就行了，我这里选了~~`DS3615xs`~~（后面换成`DS320+`了），这里要记住后面的那个字符串，在下载系统的时候会用到
 
@@ -68,11 +68,11 @@ cover: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Install-b
 
 在这里搜索在型号选择那一节让你记住的字符串，把系统下载下来
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Install-black-synology-NAS-on-previous-PC/msedge-20230413-195447.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Install-black-synology-NAS-on-previous-PC/msedge-20230413-195447.png)
 
 然后链接我们的黑群晖（开个浏览器访问IP就行），进入设置向导，安装系统的时候把你的系统导入进去安装就行了
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Install-black-synology-NAS-on-previous-PC/msedge-20230413-221307.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Install-black-synology-NAS-on-previous-PC/msedge-20230413-221307.png)
 
 更新后会自动重启，这个开机可能会有点慢，实测我的开机用了`2:25`
 
@@ -95,7 +95,7 @@ cover: https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Install-b
 
 点开套件中心，点击设置，然后添加自己的套件源就行了
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/Install-black-synology-NAS-on-previous-PC/msedge-20230414-092520.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Install-black-synology-NAS-on-previous-PC/msedge-20230414-092520.png)
 
 添加完了以后，左边会有一个社群，在社群里面就能找到来自第三方软件源的套件了
 

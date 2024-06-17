@@ -310,11 +310,11 @@ Press Ctrl-C to quit
 
 具体如图所示，这个要得益于昨天Github的一个更新[GitHub Actions - Updating the default GITHUB_TOKEN permissions to read-only | GitHub Changelog](https://github.blog/changelog/2023-02-02-github-actions-updating-the-default-github_token-permissions-to-read-only/)
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/MHYY-AutoCheckin-Manual/ERRchrome-20230204-003058.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/ERRchrome-20230204-003058.png)
 
 在仓库里面点击`Settings` => `Actions` => `General`，往下拉找到`Workflow permissions`，把原来的`Read repository contents and packages permissions`改为上面的`Read and write permissions`，然后点击下面的`Save`键就可以了
 
-![](https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/img/MHYY-AutoCheckin-Manual/chrome-20230204-003338.png)
+![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/chrome-20230204-003338.png)
 
 #### 发现了bug/无法使用
 
