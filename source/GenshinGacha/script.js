@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('StarRail.json')
+    fetch('GenshinImpact.json')
         .then(response => response.json())
         .then(data => {
             data.list.sort((a, b) => new Date(b.time) - new Date(a.time));
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const rankType = document.getElementById('rankTypeFilter').value;
                 const filteredData = data.list.filter(item => {
                     return (gachaType === 'all' || item.gacha_type === gachaType) &&
-                           (rankType === 'all' || item.rank_type === rankType);
+                           (rankType === 'all' || item.rank_type === rankType)
                 });
                 populateTable(filteredData);
                 drawCharts(filteredData);
@@ -21,10 +21,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 const gachaTypeMap = {
-    "1": "群星跃迁",
-    "11": "角色活动跃迁",
-    "12": "光锥活动跃迁",
-    "2": "新手跃迁"
+    "200": "常驻祈愿",
+    "301": "角色活动祈愿",
+    "302": "武器活动祈愿"
 };
 
 function populateTable(data) {
@@ -49,10 +48,9 @@ function populateTable(data) {
 
 function drawCharts(data) {
     const gachaCounts = {
-        "1": { "3": 0, "4": 0, "5": 0 },
-        "11": { "3": 0, "4": 0, "5": 0 },
-        "12": { "3": 0, "4": 0, "5": 0 },
-        "2": { "3": 0, "4": 0, "5": 0 }
+        "200": { "3": 0, "4": 0, "5": 0 },
+        "301": { "3": 0, "4": 0, "5": 0 },
+        "302": { "3": 0, "4": 0, "5": 0 }
     };
 
     data.forEach(item => {
@@ -62,10 +60,9 @@ function drawCharts(data) {
     });
 
     const chartConfigs = [
-        { id: "chart1", type: "1", label: "群星跃迁", infoId: "chart1-info" },
-        { id: "chart11", type: "11", label: "角色活动跃迁", infoId: "chart11-info" },
-        { id: "chart12", type: "12", label: "光锥活动跃迁", infoId: "chart12-info" },
-        { id: "chart2", type: "2", label: "新手跃迁", infoId: "chart2-info" }
+        { id: "chart200", type: "200", label: "常驻祈愿", infoId: "chart200-info" },
+        { id: "chart301", type: "301", label: "角色活动祈愿", infoId: "chart301-info" },
+        { id: "chart302", type: "302", label: "武器活动祈愿", infoId: "chart302-info" }
     ];
 
     chartConfigs.forEach(config => {
