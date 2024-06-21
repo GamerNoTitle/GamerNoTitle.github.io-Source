@@ -1,68 +1,79 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>崩坏：星穹铁道抽卡记录 | GamerNoTitle</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="https://cdn.bili33.top/npm/chart.js"></script>
     <script defer src="script.js"></script>
-</head>
-<body>
-    <h1><a href="https://bili33.top">@GamerNoTitle</a> 的崩坏：星穹铁道抽卡记录</h1>
+    <script>
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?1a9dfff1b560a523701cb01384373c75";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <h1>
+      <a href="https://bili33.top">@GamerNoTitle</a> 的崩坏：星穹铁道抽卡记录
+    </h1>
     <div align="center">
-        <h3>注：开服以来的数据都在这里，时不时更新一下</h3>
-        <h3>UID: 100201759</h3>
+      <h3>注：开服以来的数据都在这里，时不时更新一下</h3>
+      <h3>UID: 100201759</h3>
     </div>
     <!-- <blockquote>
         <p>如果看不到数据，请按Ctrl+F5刷新一下</p>
     </blockquote> -->
     <div class="chart-container">
-        <div class="chart-item">
-            <canvas id="chart1"></canvas>
-            <div id="chart1-info" class="chart-info"></div>
-        </div>
-        <div class="chart-item">
-            <canvas id="chart11"></canvas>
-            <div id="chart11-info" class="chart-info"></div>
-        </div>
-        <div class="chart-item">
-            <canvas id="chart12"></canvas>
-            <div id="chart12-info" class="chart-info"></div>
-        </div>
-        <div class="chart-item">
-            <canvas id="chart2"></canvas>
-            <div id="chart2-info" class="chart-info"></div>
-        </div>
+      <div class="chart-item">
+        <canvas id="chart1"></canvas>
+        <div id="chart1-info" class="chart-info"></div>
+      </div>
+      <div class="chart-item">
+        <canvas id="chart11"></canvas>
+        <div id="chart11-info" class="chart-info"></div>
+      </div>
+      <div class="chart-item">
+        <canvas id="chart12"></canvas>
+        <div id="chart12-info" class="chart-info"></div>
+      </div>
+      <div class="chart-item">
+        <canvas id="chart2"></canvas>
+        <div id="chart2-info" class="chart-info"></div>
+      </div>
     </div>
     <div id="filters">
-        <label for="gachaTypeFilter">卡池类型:</label>
-        <select id="gachaTypeFilter">
-            <option value="all">全部</option>
-            <option value="1">群星跃迁</option>
-            <option value="11">角色活动跃迁</option>
-            <option value="12">光锥活动跃迁</option>
-            <option value="2">始发跃迁</option>
-        </select>
-        <label for="rankTypeFilter">星级:</label>
-        <select id="rankTypeFilter">
-            <option value="all">全部</option>
-            <option value="3">3星</option>
-            <option value="4">4星</option>
-            <option value="5">5星</option>
-        </select>
-        <button id="filterButton">筛选</button>
+      <label for="gachaTypeFilter">卡池类型:</label>
+      <select id="gachaTypeFilter">
+        <option value="all">全部</option>
+        <option value="1">群星跃迁</option>
+        <option value="11">角色活动跃迁</option>
+        <option value="12">光锥活动跃迁</option>
+        <option value="2">始发跃迁</option>
+      </select>
+      <label for="rankTypeFilter">星级:</label>
+      <select id="rankTypeFilter">
+        <option value="all">全部</option>
+        <option value="3">3星</option>
+        <option value="4">4星</option>
+        <option value="5">5星</option>
+      </select>
+      <button id="filterButton">筛选</button>
     </div>
     <table id="dataTable">
-        <thead>
-            <tr>
-                <th>卡池类型</th>
-                <th>星级</th>
-                <th>名字</th>
-                <th>抽卡时间</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
+      <thead>
+        <tr>
+          <th>卡池类型</th>
+          <th>星级</th>
+          <th>名字</th>
+          <th>抽卡时间</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
     </table>
-</body>
+  </body>
 </html>
