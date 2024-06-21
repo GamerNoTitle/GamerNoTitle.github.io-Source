@@ -34,7 +34,14 @@ skip_render:
   - BB/BB.html
   - README.md
   - biliroaming/*
-  - StarRailGacha/*
+  - StarRailGacha/script.js
+  - StarRailGacha/styles.css
+  - StarRailGacha/StarRail.json
+  - GenshinGacha/script.js
+  - GenshinGacha/GenshinImpact.json
+  - GenshinGacha/styles.css
+  # - StarRailGacha/*
+  # - GenshinGacha/*
 
 # Writing
 new_post_name: :title.md # File name of new posts

@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const rankType = document.getElementById('rankTypeFilter').value;
                 const filteredData = data.list.filter(item => {
                     return (gachaType === 'all' || item.gacha_type === gachaType) &&
-                           (rankType === 'all' || item.rank_type === rankType)
+                           (rankType === 'all' || item.rank_type === rankType);
                 });
                 populateTable(filteredData);
                 drawCharts(filteredData);
@@ -24,7 +24,7 @@ const gachaTypeMap = {
     "1": "群星跃迁",
     "11": "角色活动跃迁",
     "12": "光锥活动跃迁",
-    "2": "始发跃迁"
+    "2": "新手跃迁"
 };
 
 function populateTable(data) {
@@ -56,14 +56,16 @@ function drawCharts(data) {
     };
 
     data.forEach(item => {
-        gachaCounts[item.gacha_type][item.rank_type]++;
+        if (gachaCounts[item.gacha_type]) {
+            gachaCounts[item.gacha_type][item.rank_type]++;
+        }
     });
 
     const chartConfigs = [
         { id: "chart1", type: "1", label: "群星跃迁", infoId: "chart1-info" },
         { id: "chart11", type: "11", label: "角色活动跃迁", infoId: "chart11-info" },
         { id: "chart12", type: "12", label: "光锥活动跃迁", infoId: "chart12-info" },
-        { id: "chart2", type: "2", label: "始发跃迁", infoId: "chart2-info" }
+        { id: "chart2", type: "2", label: "新手跃迁", infoId: "chart2-info" }
     ];
 
     chartConfigs.forEach(config => {

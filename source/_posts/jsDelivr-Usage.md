@@ -95,16 +95,3 @@ jsDelivr是一个比较好的CDN平台，官方号称``jsDelivr – Open Source 
 ![](https://gamernotitle.coding.net/p/BQB/d/BQB/git/raw/master/001Funny_滑稽大佬😏BQB/Funny00008.gif)
 
 ---
-
-题外话：
-
-但是还是有人要直接访问raw.githubusercontent.com域名，所以我在这里开放出我的反代
-
-当你访问了域名为raw.githubusercontent.com的文件后（后面应该有一大串的文件路径链接），把它改成下面任意一个域名
-
-``反代1：cdn.bili33.top``（每日请求上限较少，因为我的反代都在这里）
-
-``反代2：bilicdn.tk``（推荐）
-
-希望能够帮到大家吧~
-

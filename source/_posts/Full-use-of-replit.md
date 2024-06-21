@@ -54,7 +54,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Full-use-of-rep
 }
 ```
 
-我这里上传一个[biliCDN的主页](https://bilicdn.tk)作为演示，需要注意的是，可能是因为replit的nix路径配置问题，直接用pip安装的时候会出现权限不够的问题，所以我们要加入`--target=`这一个参数来指定安装的目录，我这里直接安装到了当前目录
+我这里上传一个[biliCDN的主页](https://cdn.bili33.top)作为演示，需要注意的是，可能是因为replit的nix路径配置问题，直接用pip安装的时候会出现权限不够的问题，所以我们要加入`--target=`这一个参数来指定安装的目录，我这里直接安装到了当前目录
 
 虽然右边还是报了错，但是左边的目录里面可以看到轮子已经安装完了
 
