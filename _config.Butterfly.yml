@@ -32,6 +32,7 @@ menu:
     Gallery: /Gallery/ || fas fa-image
     Music: /Music/ || fas fa-music
     Dynamics: /Dynamics/ || fas fa-comment-dots
+    StarRailGacha: /StarRailGacha/ || fa-solid fa-ticket
   Link||fas fa-heart:
     Friends: /link/ || fas fa-link
     Charts: /charts/ || fas fa-chart-pie
