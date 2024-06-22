@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>明日方舟抽卡记录 | GamerNoTitle</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.bili33.top/npm/chart.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h1><a href="https://bili33.top">@GamerNoTitle</a> 的明日方舟抽卡记录</h1>
+    <div align="center">
+        <h3>只有<a href="https://prts.wiki/w/%E5%8D%83%E7%A7%8B%E4%B8%80%E7%B2%9F">千秋一粟</a>池子（2024.2.1）之后的抽卡记录，时不时更新一下</h3>
+        <h3>B服：喵呜初音#0717</h3>
+    </div>
+    <div class="chart-container">
+        <div class="chart-item">
+            <canvas id="chartG"></canvas>
+            <div id="chartG-info" class="chart-info"></div>
+        </div>
+        <div class="chart-item">
+            <canvas id="chartC"></canvas>
+            <div id="chartC-info" class="chart-info"></div>
+        </div>
+    </div>
+    <!-- <div id="filters">
+        <label for="gachaTypeFilter">卡池类型:</label>
+        <select id="gachaTypeFilter">
+            <option value="all">全部</option>
+            <option value="干员寻访">干员寻访</option>
+            <option value="中坚寻访">中坚寻访</option>
+        </select>
+        <label for="rankTypeFilter">星级:</label>
+        <select id="rankTypeFilter">
+            <option value="all">全部</option>
+            <option value="3">3星</option>
+            <option value="4">4星</option>
+            <option value="5">5星</option>
+            <option value="6">6星</option>
+        </select>
+        <button id="filterButton">筛选</button>
+    </div> -->
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>卡池类型</th>
+                <th>星级</th>
+                <th>名字</th>
+                <th>抽卡时间</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+</html>

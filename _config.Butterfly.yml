@@ -34,6 +34,7 @@ menu:
     # Dynamics: /Dynamics/ || fas fa-comment-dots
     GenshinGacha: /GenshinGacha/ || fa-solid fa-star-of-david
     StarRailGacha: /StarRailGacha/ || fa-solid fa-ticket
+    ArknightsGacha: /ArknightsGacha/ || fa-solid fa-gem
   Link||fas fa-heart:
     Friends: /link/ || fas fa-link
     Charts: /charts/ || fas fa-chart-pie

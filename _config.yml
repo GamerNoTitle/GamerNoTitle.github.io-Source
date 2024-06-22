@@ -42,6 +42,7 @@ skip_render:
   # - GenshinGacha/styles.css
   - StarRailGacha/*
   - GenshinGacha/*
+  - ArknightsGacha/*
 
 # Writing
 new_post_name: :title.md # File name of new posts
