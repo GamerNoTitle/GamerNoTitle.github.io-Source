@@ -38,6 +38,8 @@ menu:
   Link||fas fa-heart:
     Friends: /link/ || fas fa-link
     Charts: /charts/ || fas fa-chart-pie
+    Telegram Group: https://t.me/DohnaNyan || fa-brands fa-telegram
+    Telegram Channel: https://t.me/PaffChannel || fas fa-bullhorn
   About: /About/||fas fa-user
 
 # Hide the child menu items in mobile sidebar
