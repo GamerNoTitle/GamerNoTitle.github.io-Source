@@ -25,11 +25,18 @@ function parseData(data, limitedPools) {
             if (limitedPools.includes(value.p)) {
                 gachaType = `【限定】${value.p}`;
             }
+            const date = new Date(parseInt(timestamp) * 1000);
+            const formattedDate = date.getFullYear() + '-' +
+                                  String(date.getMonth() + 1).padStart(2, '0') + '-' +
+                                  String(date.getDate()).padStart(2, '0') + ' ' +
+                                  String(date.getHours()).padStart(2, '0') + ':' +
+                                  String(date.getMinutes()).padStart(2, '0') + ':' +
+                                  String(date.getSeconds()).padStart(2, '0');
             parsedData.push({
                 gacha_type: gachaType,
                 rank_type: '★'.repeat(rankType + 1),
                 name: name,
-                time: new Date(parseInt(timestamp) * 1000).toISOString()
+                time: formattedDate
             });
         });
     }
