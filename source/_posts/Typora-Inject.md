@@ -26,7 +26,9 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets/img/Typora-Inject/Typora_4
 
 所以我就去找了这个更改的commit之前的那个版本，并成功编译出来了可以用于激活的文件
 
-[我把这些文件丢在了notion上面，有需要可以自行下载](https://gamernotitle.notion.site/Typora-bcf779e3cc22483aa80f9eeb6d52b4f4)
+[我把这些文件丢在了notion上面，有需要可以自行下载](https://gamernotitle.notion.site/Typora-bcf779e3cc22483aa80f9eeb6d52b4f4)，或者使用下面的链接下载
+
+> [Windows版](https://file.dohna.top/Typora-Inject/NodeInject-windows.7z.zip) | [Linux版](https://file.dohna.top/Typora-Inject/NodeInject-linux.tar.gz.zip)
 
 解压后能得到四个文件
 
