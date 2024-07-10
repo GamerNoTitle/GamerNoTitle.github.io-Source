@@ -499,8 +499,7 @@ footer:
     since: 2018
   custom_text: |
     All articles in this blog are licensed under CC BY-NC-SA 4.0 unless stating additionally.<br>
-    <a href="https://icp.gov.moe/?keyword=20213338" target="_blank"><img src='https://cdn.bili33.top/gh/Vikutorika/assets@master/img/GovMoe/icon120.png' width=20px height=20px></img> 萌ICP备 20213338号</a> | <a href="http://beian.miit.gov.cn/"; target=_blank><img src='https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png' width=20px height=20px> 沪ICP备 2021023713号</a><br>
-    <img src="https://cdn.bili33.top/gh/biliCDN/bilicdn.github.io@master/images/favicon.png" width="20px" height="20px"> 本站使用 <a href="https://cdn.bili33.top">哔哩CDN</a> 进行加速
+    <a href="https://icp.gov.moe/?keyword=20213338" target="_blank"><img src='https://cdn.bili33.top/gh/Vikutorika/assets@master/img/GovMoe/icon120.png' width=20px height=20px></img> 萌ICP备 20213338号</a> | <img src="https://cdn.bili33.top/gh/biliCDN/bilicdn.github.io@master/images/favicon.png" width="20px" height="20px"> 本站使用 <a href="https://cdn.bili33.top">哔哩CDN</a> 进行加速
   copyright: true # Copyright of theme and framework
 
 # Analysis
