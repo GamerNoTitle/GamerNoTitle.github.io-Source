@@ -3,7 +3,7 @@ title: Beat Saber 萌新踩坑记录
 date: 2023-06-25 18:19:33
 tags: [Beat Saber, Games, Mod, VR, Pico Neo 3, PicoVR]
 categories: Software
-cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/BeatSaber-Noob/steamwebhelper-20230624-150552.png
+cover: https://assets.bili33.top/img/BeatSaber-Noob/steamwebhelper-20230624-150552.png
 ---
 
 > 本文只是通过我的各种经验，去讲述我玩Beat Saber的时候踩过的坑。如果你需要更完整的Beat Saber萌新教程，请访问[Beat Saber新手教程、问题解答、曲包网盘 - Steam / Oculus / Quest (wgzeyu.com)](https://bs.wgzeyu.com/)
@@ -38,15 +38,15 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/BeatSaber-Noob/
 
 Oculus工作室这边因为升级了Unity的版本，所以他们把旧版本Unity打造的BS归档成了一个测试版，这个测试版的版本号是`1.29.1`，这个版本的mod是有适配的，所以我们可以直接安装这个版本
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/BeatSaber-Noob/steamwebhelper-20230624-150552.png)
+![](https://assets.bili33.top/img/BeatSaber-Noob/steamwebhelper-20230624-150552.png)
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/BeatSaber-Noob/steamwebhelper-20230626-122331.png)
+![](https://assets.bili33.top/img/BeatSaber-Noob/steamwebhelper-20230626-122331.png)
 
 右键你的Beat Saber，选择`属性` -> `测试版`，在`参与测试`里面选到`legacy1.29.1_unity_ver2019.4.28f1 - pre unity upgrade build`这一项，然后直接关闭这个窗口就行了
 
 接着按照正常的流程安装Beat Saber，你会看到你的库存里Beat Saber的后面有个中括号`[]`写着当前参与的测试
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/BeatSaber-Noob/steamwebhelper-20230626-122453.png)
+![](https://assets.bili33.top/img/BeatSaber-Noob/steamwebhelper-20230626-122453.png)
 
 装好了以后，先打开一次游戏，让BS初始化一下，然后再进入安装MOD的阶段
 
@@ -58,7 +58,7 @@ BS中文站的`ModAssistant`是经过了修改的，增加了两个国内源 [�
 
 我就直接用BS中文站的那个了，下载后打开是像下面这样的
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/BeatSaber-Noob/ModAssistant（增强版）-20230626-122843.png)
+![](https://assets.bili33.top/img/BeatSaber-Noob/ModAssistant（增强版）-20230626-122843.png)
 
 在左下角那里先切换一下自己的下载源，换好了以后先阅读一下首页的内容，阅读后点`同意`（不同意的可以我的网页了，不同意咋装mod）
 
@@ -68,7 +68,7 @@ BS中文站的`ModAssistant`是经过了修改的，增加了两个国内源 [�
 
 点击`ModAssistant`左边的选项，设置一下`OneClick`安装，如果你想手动安装也可以，请阅读BS中文站的指引
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/BeatSaber-Noob/ModAssistant-20230626-123138.png)
+![](https://assets.bili33.top/img/BeatSaber-Noob/ModAssistant-20230626-123138.png)
 
 #### 安装光剑/人物模型
 
@@ -92,13 +92,13 @@ BS中文站的`ModAssistant`是经过了修改的，增加了两个国内源 [�
 
 按下扳机键就相当于点一下，建议按照里面的指引进行设置，设置的效果是这样的
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/BeatSaber-Noob/Screenshot_com.picovr.picostreamassistant_2023.06.26-09.05.01.406_803.jpeg)
+![](https://assets.bili33.top/img/BeatSaber-Noob/Screenshot_com.picovr.picostreamassistant_2023.06.26-09.05.01.406_803.jpeg)
 
 当然因为我直播的时候是捕获的Beat Saber窗口，所以观众是看不到我这三个窗口的
 
 OVR的优先级高于VR游戏，也就是说在窗口叠加的时候，它会叠在最高层
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/BeatSaber-Noob/Screenshot_com.picovr.picostreamassistant_2023.06.26-11.29.04.510_868.jpeg)
+![](https://assets.bili33.top/img/BeatSaber-Noob/Screenshot_com.picovr.picostreamassistant_2023.06.26-11.29.04.510_868.jpeg)
 
 ## 串流相关
 
@@ -108,19 +108,19 @@ OVR的优先级高于VR游戏，也就是说在窗口叠加的时候，它会叠
 
 我是直接下载了跟Pico 4一起的那个版本（事实证明如果Neo 3下错了版本的话会爆音，虽然到最后我都没有解决音频问题）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/BeatSaber-Noob/msedge-20230626-120624.png)
+![](https://assets.bili33.top/img/BeatSaber-Noob/msedge-20230626-120624.png)
 
 下载好了安装就是了，然后打开就是像我这样的东西
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/BeatSaber-Noob/Streaming_Assistant-20230626-120739.png)
+![](https://assets.bili33.top/img/BeatSaber-Noob/Streaming_Assistant-20230626-120739.png)
 
 根据自己的需要选择串流的方式就行了（个人观点：优先有线连接），在头显里面要打开串流助手去连接（注：PICO内置截图出来的图片不清晰，凑合着看吧）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/BeatSaber-Noob/Screenshot_com.picovr.picostreamassistant_2023.06.25-18.29.03.186_425.jpeg)
+![](https://assets.bili33.top/img/BeatSaber-Noob/Screenshot_com.picovr.picostreamassistant_2023.06.25-18.29.03.186_425.jpeg)
 
 连接好了会自动打开SteamVR，然后就会看到经典的SteamVR空间（性能面板是PICO的）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/BeatSaber-Noob/Screenshot_com.picovr.picostreamassistant_2023.06.25-18.32.21.634_42.jpeg)
+![](https://assets.bili33.top/img/BeatSaber-Noob/Screenshot_com.picovr.picostreamassistant_2023.06.25-18.32.21.634_42.jpeg)
 
 到这里，你已经完成串流的连接啦！
 

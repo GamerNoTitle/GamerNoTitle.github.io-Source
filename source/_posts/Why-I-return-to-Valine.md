@@ -3,7 +3,7 @@ title: 为什么我选择用回了Valine？
 date: 2023-07-23 20:40:43
 tags: [Valine, Comments, Tech, Website]
 categories: Software
-cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-return-to-Valine/msedge-20230723-211512.png
+cover: https://assets.bili33.top/img/Why-I-return-to-Valine/msedge-20230723-211512.png
 ---
 
 熟悉我的小伙伴应该知道，我的网站的评论系统经历了几次更换，最开始我用的是Gitalk，但是因为要登录Github账户，而且不是所有人都有Github账户，所以就更换了
@@ -28,7 +28,7 @@ Waline用了没多久，发现这东西后端一直连接不上，然后就又�
 
 我不能说Zeabur不好用，他确实很好用，非常好用，几乎完美解决了我的容器需求，但是凡事都有个但是，Zeabur在2023年七月初上线了签到延长使用期限的功能，也就是说如果我不签到，我的应用会自动被停机
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-return-to-Valine/msedge-20230723-213632.png)
+![](https://assets.bili33.top/img/Why-I-return-to-Valine/msedge-20230723-213632.png)
 
 我在Zeabur部署Twikoo的时候，那还是Zeabur平台的早期，当时的设定是MongoDB会部署在Twikoo容器的内部，这就导致了但凡Twikoo进行了一次重启，所有的数据都会丢失
 
@@ -36,7 +36,7 @@ Waline用了没多久，发现这东西后端一直连接不上，然后就又�
 
 或许你会问我：现在Zeabur的付费机制可以绑定支付宝，为什么不用呢？我只能说数据丢了一次以后，我在想尽各种办法来避免这种情况，所以目前Zeabur不在考虑范围内
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-return-to-Valine/msedge-20230723-220737.png)
+![](https://assets.bili33.top/img/Why-I-return-to-Valine/msedge-20230723-220737.png)
 
 ## Twikoo Render部署 程序底层导致的无法发送邮件
 
@@ -54,13 +54,13 @@ Waline用了没多久，发现这东西后端一直连接不上，然后就又�
 
 这里我用了Vercel作为反代，然后把serverURL设置为了我的反代域名，才解决了国内访问不了的问题
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-return-to-Valine/msedge-20230723-211512.png)
+![](https://assets.bili33.top/img/Why-I-return-to-Valine/msedge-20230723-211512.png)
 
 ## 测试Valine邮件
 
 我重新部署了一次Valine-Admin，来避免一些遗留下来的问题，部署完成后，在我的网站匿名发送了一条测试评论，邮件顺利送达
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-return-to-Valine/ApplicationFrameHost-20230723-220702.png)
+![](https://assets.bili33.top/img/Why-I-return-to-Valine/ApplicationFrameHost-20230723-220702.png)
 
 最后我恢复了Valine的使用，尽管它现在已经不更新了，但是它能够满足我的基本需求，所以我还是选用它
 
@@ -70,7 +70,7 @@ Waline用了没多久，发现这东西后端一直连接不上，然后就又�
 
 导入以后发现……这个邮件它以前没发的全给我发了
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-return-to-Valine/ApplicationFrameHost-20230723-220510.png)
+![](https://assets.bili33.top/img/Why-I-return-to-Valine/ApplicationFrameHost-20230723-220510.png)
 
 **对不起对不起对不起**！！！我没想到它会自己发出去
 

@@ -3,7 +3,7 @@ title: 复盘：我是怎么被毛子黑客给黑了的
 date: 2024-06-18 21:23:07
 tags: [Hack]
 categories: diary
-cover: https://cdn.bili33.top/gh/Vikutorika/newassets/img/How-I-Get-Hacked-by-Russian/olk_JK9UAoTfTp.png
+cover: https://assets.bili33.top/img/How-I-Get-Hacked-by-Russian/olk_JK9UAoTfTp.png
 ---
 
 ## 事件回顾
@@ -12,7 +12,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets/img/How-I-Get-Hacked-by-Ru
 
 在五月劳动节放假后的一天中午，我像日常一样，打开了OPPO Watch 2上的Outlook，看看今天有没有新的issue发过来，结果就看到了令人窒息的东西（手表重置了，用电脑端Outlook代替）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/How-I-Get-Hacked-by-Russian/olk_JK9UAoTfTp.png)
+![](https://assets.bili33.top/img/How-I-Get-Hacked-by-Russian/olk_JK9UAoTfTp.png)
 
 我第一反应就是：完了，肯定是Steam给人盗号了。于是我立马飞奔找到宿管，找她拿我的手机（复读的时候我的手机除了第一个月给了班主任，后面都是给的宿管，因为有急事可以找她拿）
 
@@ -20,7 +20,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets/img/How-I-Get-Hacked-by-Ru
 
 我当时就在Telegram频道里发了我的吐槽和我的各种猜想
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/How-I-Get-Hacked-by-Russian/Untitled.png)
+![](https://assets.bili33.top/img/How-I-Get-Hacked-by-Russian/Untitled.png)
 
 不过猜想归猜想，也没时间去看是怎么一回事，我以为这就结束了
 
@@ -28,7 +28,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets/img/How-I-Get-Hacked-by-Ru
 
 在这天，我打开了Outlook，首先看到的是来自facebook的消息
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/How-I-Get-Hacked-by-Russian/olk_YbzAdRmTBU.png)
+![](https://assets.bili33.top/img/How-I-Get-Hacked-by-Russian/olk_YbzAdRmTBU.png)
 
 我心想：不对啊，它好像不只是Session劫持，它可能连我的Edge密码库都拿走了（我用的是Edge自带的密码管理+手机的Microsoft Authenticator管理密码）
 
@@ -46,17 +46,17 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets/img/How-I-Get-Hacked-by-Ru
 
 我心想不对啊，我五月回去没打瓦而且也没买东西啊，立马叫人帮我改密码，上我的号去看情况，心想别拿我的号去开了，但是最坏的结果还是来了
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/How-I-Get-Hacked-by-Russian/Valorant-Banned.png)
+![](https://assets.bili33.top/img/How-I-Get-Hacked-by-Russian/Valorant-Banned.png)
 
 （损失+2000RMB）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/How-I-Get-Hacked-by-Russian/msedge_LvTnlmUjRV.png)
+![](https://assets.bili33.top/img/How-I-Get-Hacked-by-Russian/msedge_LvTnlmUjRV.png)
 
 去查了看了一下，估计是当黑号卖出去了，拿我的号打了几把排位（顶上这四把）
 
 我当时我就在Telegram频道里面开骂了
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/How-I-Get-Hacked-by-Russian/Telegram_jiFJ0M2FuA.png)
+![](https://assets.bili33.top/img/How-I-Get-Hacked-by-Russian/Telegram_jiFJ0M2FuA.png)
 
 最痛恨毛子的一集……我并不是地域黑，只是很难受，当时是两周后就进行三模，没办法啊只能调整自己的心态
 
@@ -66,7 +66,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets/img/How-I-Get-Hacked-by-Ru
 
 只能说我不能百分百确定，但是我觉得大差不差，Steam语言被改成了毛子语，结合一下毛子的计算机教育水平（毛子那边从小就接受计算机教育的，不像国内比较滞后），所以我觉得应该是毛子干的活
 
-![我改密码时的邮件都是毛子语](https://cdn.bili33.top/gh/Vikutorika/newassets/img/How-I-Get-Hacked-by-Russian/olk_wpL1G2zsHX.png)
+![我改密码时的邮件都是毛子语](https://assets.bili33.top/img/How-I-Get-Hacked-by-Russian/olk_wpL1G2zsHX.png)
 
 ## 攻击方式
 
@@ -96,7 +96,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets/img/How-I-Get-Hacked-by-Ru
 
 其实上面说过了一部分，我改了密码，至于瓦，这个真没办法，我用原生的美国主机发工单，都能被拳头检测出来是中国大陆
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/How-I-Get-Hacked-by-Russian/olk_eT1fxGsaOJ.png)
+![](https://assets.bili33.top/img/How-I-Get-Hacked-by-Russian/olk_eT1fxGsaOJ.png)
 
 只能说损失已定，没法挽回，后面又去螃蟹买了个瓦的号来玩
 

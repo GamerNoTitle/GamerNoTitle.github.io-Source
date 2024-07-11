@@ -3,7 +3,7 @@ title: 与新冠肺炎搏斗的那些日子
 date: 2022-12-19 18:53:30
 tags: [Diary, COVID19, experience]
 categories: Diary
-cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Fight-against-COVID19/coronavirus.png
+cover: https://assets.bili33.top/img/Fight-against-COVID19/coronavirus.png
 ---
 
 2022年12月18日下午，我感到十分地不适，在那之前，我们学院里有出现过COVID19（新冠肺炎）病例，所以整个学院都是在疫情管控状态，当我感受到我不适的那一刻我就知道，我很有可能是中招了。我第一次测量体温是37.4（刚刚过发烧线37.3），然后就把我丢到了临时的隔离房间去隔离去，说观察一个晚上再决定是否把我拉去隔离。
@@ -22,9 +22,9 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Fight-against-C
 
 2022年12月23日，已经不怎么流鼻涕了，但是还是会咳嗽。晚上打了BF1，应该说其他小队太菜了嘛，我们四人小队拿第一（五人但是最后一个是几乎最后才加入的水友）。开了100个胶囊，发了俩视频，愉快的一天过去了
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Fight-against-COVID19/bf1-20221223-222832.jpg)
+![](https://assets.bili33.top/img/Fight-against-COVID19/bf1-20221223-222832.jpg)
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Fight-against-COVID19/bf1-20221223-222825.jpg)
+![](https://assets.bili33.top/img/Fight-against-COVID19/bf1-20221223-222825.jpg)
 
 2022年12月24日，没怎么流鼻涕了，但是咳嗽，难受得很，头不痛。早上听到了一首很好听的V家曲（在下面），等待中午吃饭……
 
@@ -36,4 +36,4 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Fight-against-C
 
 2022年12月27日，抗原阴性，会楼里去了，早上玩了会死亡搁浅（键鼠玩的）。至此，我已经阳康啦！
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Fight-against-COVID19/9b50622522ff24d70da33aaa716637e.jpg)
+![](https://assets.bili33.top/img/Fight-against-COVID19/9b50622522ff24d70da33aaa716637e.jpg)

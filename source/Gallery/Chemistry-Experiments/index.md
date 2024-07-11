@@ -15,11 +15,11 @@ date: 2020-06-13 18:27:00
 
 
 {% gallery %}
-![苯酚的溶解](https://cdn.bili33.top/gh/Vikutorika/assets@master/gallery/img/Chemistry-Experiments/Dissolution-of-phenol.JPG)
-![乙醇的蒸馏提纯](https://cdn.bili33.top/gh/Vikutorika/assets@master/gallery/img/Chemistry-Experiments/Distillation-and-purification-of-ethanol.JPG)
-![乙酸和乙醇制备乙酸乙酯（一股胶水味）](https://cdn.bili33.top/gh/Vikutorika/assets@master/gallery/img/Chemistry-Experiments/Ethanol-and-Acetic-acid-make-Ethyl-acetate.JPG)
-![乙醛的氢氧化铜的氧化实验](https://cdn.bili33.top/gh/Vikutorika/assets@master/gallery/img/Chemistry-Experiments/Oxidation-of-acetaldehyde-with-copper-hydroxide.JPG)
-![甲基苯的重结晶](https://cdn.bili33.top/gh/Vikutorika/assets@master/gallery/img/Chemistry-Experiments/Recrystallization-of-methylbenzene.JPG)
-![乙醛与银氨溶液的银镜反应](https://cdn.bili33.top/gh/Vikutorika/assets@master/gallery/img/Chemistry-Experiments/Silver-mirror-reaction-of-acetaldehyde.JPG)
+![苯酚的溶解](https://assets.bili33.top/gallery/img/Chemistry-Experiments/Dissolution-of-phenol.JPG)
+![乙醇的蒸馏提纯](https://assets.bili33.top/gallery/img/Chemistry-Experiments/Distillation-and-purification-of-ethanol.JPG)
+![乙酸和乙醇制备乙酸乙酯（一股胶水味）](https://assets.bili33.top/gallery/img/Chemistry-Experiments/Ethanol-and-Acetic-acid-make-Ethyl-acetate.JPG)
+![乙醛的氢氧化铜的氧化实验](https://assets.bili33.top/gallery/img/Chemistry-Experiments/Oxidation-of-acetaldehyde-with-copper-hydroxide.JPG)
+![甲基苯的重结晶](https://assets.bili33.top/gallery/img/Chemistry-Experiments/Recrystallization-of-methylbenzene.JPG)
+![乙醛与银氨溶液的银镜反应](https://assets.bili33.top/gallery/img/Chemistry-Experiments/Silver-mirror-reaction-of-acetaldehyde.JPG)
 {% endgallery %}
 

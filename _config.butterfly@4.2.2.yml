@@ -104,12 +104,12 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/AboutMe/logo-mini.png
+favicon: https://assets.bili33.top/img/AboutMe/logo-mini.png
 
 # Post info settings
 # ---------------
 avatar: 
-  img: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/AboutMe/logo-mini.png
+  img: https://assets.bili33.top/img/AboutMe/logo-mini.png
   effect: false # 頭像會一直轉圈
 
 # Disable all banner image
@@ -118,9 +118,9 @@ disable_top_img: false
 # The banner image of home page
 index_img:
 # if the banner of page not setting,it will show the top_img
-top_img: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Top-img/NEKO-Hackers-Edited.jpg
-  #- https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Top-img/NEKO-Hackers-Edited.jpg
-  #- https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Top-img/77329543_p0.png
+top_img: https://assets.bili33.top/img/Top-img/NEKO-Hackers-Edited.jpg
+  #- https://assets.bili33.top/img/Top-img/NEKO-Hackers-Edited.jpg
+  #- https://assets.bili33.top/img/Top-img/77329543_p0.png
 # 以下鏈接是動態壁紙，每次刷新會更換
 # https://source.unsplash.com/collection/collectionid/1600x900
 # https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
@@ -128,26 +128,26 @@ top_img: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Top-img/NEKO-Hac
 # https://api.dujin.org/bing/1366.php
 
 # if the banner of page not setting,it will show the top_img
-default_top_img: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Top-img/NEKO-Hackers-Edited.jpg
+default_top_img: https://assets.bili33.top/img/Top-img/NEKO-Hackers-Edited.jpg
 
 # the default cover of the post
-default_cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Top-img/NEKO-Hackers-Edited.jpg
+default_cover: https://assets.bili33.top/img/Top-img/NEKO-Hackers-Edited.jpg
 
 # the banner image of archive page
-archive_img: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Top-img/NEKO-Hackers-Edited.jpg
+archive_img: https://assets.bili33.top/img/Top-img/NEKO-Hackers-Edited.jpg
 
 # the banner image of tag page
-tag_img: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Top-img/NEKO-Hackers-Edited.jpg
+tag_img: https://assets.bili33.top/img/Top-img/NEKO-Hackers-Edited.jpg
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Top-img/NEKO-Hackers-Edited.jpg
+tag_per_img: https://assets.bili33.top/img/Top-img/NEKO-Hackers-Edited.jpg
 
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_img: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Top-img/NEKO-Hackers-Edited.jpg
+category_img: https://assets.bili33.top/img/Top-img/NEKO-Hackers-Edited.jpg
 
 category_per_img:
 
@@ -161,12 +161,12 @@ cover:
   position: both
   # 當沒有設置cover時，默認的封面顯示
   default_cover:
-    - https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Top-img/NEKO-Hackers-Edited.jpg
+    - https://assets.bili33.top/img/Top-img/NEKO-Hackers-Edited.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
-  flink: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/link/Akarin.webp
-  post_page: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/404/404.png
+  flink: https://assets.bili33.top/img/link/Akarin.webp
+  post_page: https://assets.bili33.top/img/404/404.png
 
 # A simple 404 page
 error_404:
@@ -236,10 +236,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Payments/WeChat.png
+    - img: https://assets.bili33.top/img/Payments/WeChat.png
       link:
       text: 微信
-    - img: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Payments/AliPay.jpg
+    - img: https://assets.bili33.top/img/Payments/AliPay.jpg
       link:
       text: 支付宝
 
@@ -354,7 +354,7 @@ valine:
   serverURLs:  # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   enableQQ: true # enable the Nickname box to automatically get QQ Nickname and QQ Avatar
   requiredFields: null # nick,mail # required fields nick/mail/link
-  bg: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Settings/Valine-BG.jpg # valine background
+  bg: https://assets.bili33.top/img/Settings/Valine-BG.jpg # valine background
   count: true # top_img顯示評論數
   option:
     emojiCDN: https://cdn.bili33.top/gh/GamerNoTitle/ValineCDN@master/ # https://gamernotitle.coding.net/p/ValineCDN/d/ValineCDN/git/raw/master/ # emoji CDN
@@ -372,7 +372,7 @@ valine:
 # https://waline.js.org/
 waline:
   serverURL: https://waline.bili33.top # Waline server address url
-  bg: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Settings/Valine-BG.jpg # waline background
+  bg: https://assets.bili33.top/img/Settings/Valine-BG.jpg # waline background
   pageview: true
   option:
     avatar: mp # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
@@ -488,7 +488,7 @@ footer:
     since: 2018
   custom_text: |
     All articles in this blog are licensed under CC BY-NC-SA 4.0 unless stating additionally.<br>
-    <a href="https://icp.gov.moe/?keyword=20213338" target="_blank"><img src='https://cdn.bili33.top/gh/Vikutorika/assets@master/img/GovMoe/icon120.png' width=20px height=20px></img> 萌ICP备 20213338号</a> | <a href="http://beian.miit.gov.cn/"; target=_blank><img src='https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png' width=20px height=20px> 沪ICP备 2021023713号</a>
+    <a href="https://icp.gov.moe/?keyword=20213338" target="_blank"><img src='https://assets.bili33.top/img/GovMoe/icon120.png' width=20px height=20px></img> 萌ICP备 20213338号</a> | <a href="http://beian.miit.gov.cn/"; target=_blank><img src='https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png' width=20px height=20px> 沪ICP备 2021023713号</a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -1023,21 +1023,21 @@ inject:
     - <script async defer src="https://buttons.github.io/buttons.js"></script>
     - <meta name="referrer" content="no-referrer-when-downgrade" />
     - <meta itemprop="name" content="GamerNoTitle">
-    - <meta itemprop="image" content="https://cdn.bili33.top/gh/Vikutorika/assets@master/img/AboutMe/logo-mini.png">
+    - <meta itemprop="image" content="https://assets.bili33.top/img/AboutMe/logo-mini.png">
     - <meta name="description" itemprop="description" content="欢迎来到GamerNoTitle的博客~">
-    - <link rel="stylesheet" type="text/css" href="https://cdn.bili33.top/gh/Vikutorika/assets@master/css/twikoo-height.css">
-    - <link rel="stylesheet" type="text/css" href="https://cdn.bili33.top/gh/Vikutorika/assets@master/css/BB.css">
-    - <link rel="stylesheet" type="text/css" href="https://cdn.bili33.top/gh/Vikutorika/assets@master/css/twikoo-emotion.css">
-    - <link rel="stylesheet" type="text/css" href="https://cdn.bili33.top/gh/Vikutorika/assets@master/css/Valine-Emotion.css">
-    - <script src="https://cdn.bili33.top/gh/Vikutorika/assets@master/js/IPblock.js"></script>
-    # - <script src="https://cdn.bili33.top/gh/Vikutorika/assets@master/js/Redirect-to-real-site.js"></script>
-    - <script src='https://cdn.bili33.top/gh/Vikutorika/assets@master/js/jsdelivr-auto-fallback.min.js'></script>
-    - <script src='https://cdn.bili33.top/gh/Vikutorika/assets@master/js/CTF-illegal-warning.js'></script>
-    - <script src='https://cdn.bili33.top/gh/Vikutorika/assets@master/js/console.js'></script>
+    - <link rel="stylesheet" type="text/css" href="https://assets.bili33.top/css/twikoo-height.css">
+    - <link rel="stylesheet" type="text/css" href="https://assets.bili33.top/css/BB.css">
+    - <link rel="stylesheet" type="text/css" href="https://assets.bili33.top/css/twikoo-emotion.css">
+    - <link rel="stylesheet" type="text/css" href="https://assets.bili33.top/css/Valine-Emotion.css">
+    - <script src="https://assets.bili33.top/js/IPblock.js"></script>
+    # - <script src="https://assets.bili33.top/js/Redirect-to-real-site.js"></script>
+    - <script src='https://assets.bili33.top/js/jsdelivr-auto-fallback.min.js'></script>
+    - <script src='https://assets.bili33.top/js/CTF-illegal-warning.js'></script>
+    - <script src='https://assets.bili33.top/js/console.js'></script>
     - <script src="https://cdn.bili33.top/npm/cardlink"></script>
     - <script defer data-site="bili33.top" src="https://api.nepcha.com/js/nepcha-analytics.js"></script>
     # - <link rel="stylesheet" type="text/css" href="https://registry.npmmirror.com/gamernotitle-oss/1.0.4/files/css/R.I.P.css">  # 网站黑白
-    # - <script src="https://cdn.bili33.top/gh/Vikutorika/assets@master/js/sakuraPlus.js"></script>   # 樱花飘落特效
+    # - <script src="https://assets.bili33.top/js/sakuraPlus.js"></script>   # 樱花飘落特效
   bottom:
     # - <script src="xxxx"></script>
 

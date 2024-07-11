@@ -3,7 +3,7 @@ title: SRCloud-AutoCheckin-Manual - 云·星穹铁道自动签到脚本食用指
 date: 2024-02-06 15:41:16
 tags: [Tech, Tutorial, Python, Script]
 categories: Tech
-cover: https://cdn.bili33.top/gh/Vikutorika/newassets/img/SRCloud-AutoCheckin-Manual/cover.jpg
+cover: https://assets.bili33.top/img/SRCloud-AutoCheckin-Manual/cover.jpg
 ---
 
 ## SRCloud-AutoCheckin-Manual - 云·星穹铁道自动签到脚本食用指南
@@ -16,7 +16,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets/img/SRCloud-AutoCheckin-Ma
 
 原图链接：https://t.me/PaffChannel/253
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/SRCloud-AutoCheckin-Manual/cover.jpg)
+![](https://assets.bili33.top/img/SRCloud-AutoCheckin-Manual/cover.jpg)
 
 ### 用前必读
 
@@ -46,7 +46,7 @@ ql repo https://github.com/GamerNoTitle/SRCloud-AutoCheckin.git "main"
 
 保存以后点击运行按钮更新一下订阅
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/SRCloud-AutoCheckin-Manual/msedge-20240206-154802.png)
+![](https://assets.bili33.top/img/SRCloud-AutoCheckin-Manual/msedge-20240206-154802.png)
 
 在定时任务中你就能找到刚刚更新的内容，但是还不能够使用，我们还需要配置依赖和环境变量
 
@@ -66,7 +66,7 @@ ql repo https://github.com/GamerNoTitle/SRCloud-AutoCheckin.git "main"
 
 首先你需要先打开本脚本的仓库[GamerNoTitle/SRCloud-AutoCheckin: 云·星穹铁道自动签到脚本 (github.com)](https://github.com/GamerNoTitle/SRCloud-AutoCheckin)，点击右上角的fork按钮，接着点击下面绿色的`Create fork`来创建一个分支
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/SRCloud-AutoCheckin-Manual/msedge-20240206-160004.png)
+![](https://assets.bili33.top/img/SRCloud-AutoCheckin-Manual/msedge-20240206-160004.png)
 
 然后点击上面的`Settings`，导航到`Secrets`->`Actions`页面下，点击`New repository secret`
 
@@ -88,15 +88,15 @@ ql repo https://github.com/GamerNoTitle/SRCloud-AutoCheckin.git "main"
 
 右上角点击自己的头像，然后点击`Settings`，然后在左侧的导航栏找到`Developer Settings`
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220822-204614.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220822-204614.png)
 
 然后在左边找到`Personal Access Tokens`，点击`Generate new token`生成一个token，名字填写为`GITHUB_TOKEN`
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220822-204757.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220822-204757.png)
 
 把过期时间设置为`No expiration`，然后依次勾选下面内容
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220822-205002.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220822-205002.png)
 
 然后点最下面的绿色按钮`Generate token`即可
 
@@ -264,7 +264,7 @@ Press Ctrl-C to quit
 
 打开云原神网页版的链接[云·星穹铁道 (mihoyo.com)](https://sr.mihoyo.com/cloud/#/)，完成登录，完成后应该会是下图的样子
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/SRCloud-AutoCheckin-Manual/msedge-20240206-160246.jpg)
+![](https://assets.bili33.top/img/SRCloud-AutoCheckin-Manual/msedge-20240206-160246.jpg)
 
 这时候按一下键盘上的<kbd>F12</kbd>把开发者工具打开，然后点击顶上的网络（`Network`），按下键盘上的<kbd>F5</kbd>进行刷新页面操作
 
@@ -272,7 +272,7 @@ Press Ctrl-C to quit
 
 在右侧会显示很多的信息，拉到最底下，就可以看到我们所需要的信息了
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/SRCloud-AutoCheckin-Manual/msedge-20240206-160345.png)
+![](https://assets.bili33.top/img/SRCloud-AutoCheckin-Manual/msedge-20240206-160345.png)
 
 里面的内容具有以下对应关系
 
@@ -290,11 +290,11 @@ Press Ctrl-C to quit
 
 **一定要记得装抓包软件提供的证书，要不然解不了SSL连接，一定要先登录并成功进去了再启动抓包软件！！！**
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/SRCloud-AutoCheckin-Manual/Screenshot_2024-02-06-16-06-31-811_com.guoshi.htt.jpg)
+![](https://assets.bili33.top/img/SRCloud-AutoCheckin-Manual/Screenshot_2024-02-06-16-06-31-811_com.guoshi.htt.jpg)
 
 这里面只要是个HTTP链接，随便一个里面都有我们所需要的东西
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/SRCloud-AutoCheckin-Manual/Screenshot_2024-02-06-16-07-00-900_com.guoshi.htt.png)
+![](https://assets.bili33.top/img/SRCloud-AutoCheckin-Manual/Screenshot_2024-02-06-16-07-00-900_com.guoshi.htt.png)
 
 >- `token` 是里面的 `x-rpc-combo_token`
 >- `type` 是里面的 `x-rpc-client_type`
@@ -310,11 +310,11 @@ Press Ctrl-C to quit
 
 具体如图所示，这个要得益于昨天Github的一个更新[GitHub Actions - Updating the default GITHUB_TOKEN permissions to read-only | GitHub Changelog](https://github.blog/changelog/2023-02-02-github-actions-updating-the-default-github_token-permissions-to-read-only/)
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/ERRchrome-20230204-003058.png)
+![](https://assets.bili33.top/img/MHYY-AutoCheckin-Manual/ERRchrome-20230204-003058.png)
 
 在仓库里面点击`Settings` => `Actions` => `General`，往下拉找到`Workflow permissions`，把原来的`Read repository contents and packages permissions`改为上面的`Read and write permissions`，然后点击下面的`Save`键就可以了
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/chrome-20230204-003338.png)
+![](https://assets.bili33.top/img/MHYY-AutoCheckin-Manual/chrome-20230204-003338.png)
 
 #### 发现了bug/无法使用
 

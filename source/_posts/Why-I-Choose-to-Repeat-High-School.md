@@ -3,7 +3,7 @@ title: 杂谈：为什么我选择了复读
 date: 2023-07-23 23:59:59
 tags: [diary, High School, Repetition, Military]
 categories: diary
-cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-Choose-to-Repeat-High-School/acae94e8cf93260e5e144c0582197ba.png
+cover: https://assets.bili33.top/img/Why-I-Choose-to-Repeat-High-School/acae94e8cf93260e5e144c0582197ba.png
 ---
 
 > 省流：一年不活动的原因是复读，如果你还想详细了解的话请往下看
@@ -44,7 +44,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-Choose-to
 
 在填志愿上，我们花费了很长时间，但是在这里，容我先插入一小段内容
 
-<img src="https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-Choose-to-Repeat-High-School/9000bad0e94e0220853957e0fa1dcad.png" style="zoom:50%;" />
+<img src="https://assets.bili33.top/img/Why-I-Choose-to-Repeat-High-School/9000bad0e94e0220853957e0fa1dcad.png" style="zoom:50%;" />
 
 ## 插入：政审二三事
 
@@ -88,7 +88,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-Choose-to
 
 那没办法，录取都录取了，就只能去了
 
-<img src="https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-Choose-to-Repeat-High-School/84dca8c0abd3ec56534cd3ffff01cb7.png" style="zoom:50%;" />
+<img src="https://assets.bili33.top/img/Why-I-Choose-to-Repeat-High-School/84dca8c0abd3ec56534cd3ffff01cb7.png" style="zoom:50%;" />
 
 ## 录取通知书
 
@@ -96,7 +96,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-Choose-to
 
 就如大家看到的平时的我，一个标准的二次元OTAKU（肥宅），然后研究着自己的代码，身体真的不硬朗，而“特战”两个字，说明这个东西纯纯靠身体吃饭，我还是很担忧……
 
-<img src="https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-Choose-to-Repeat-High-School/acae94e8cf93260e5e144c0582197ba.png" style="zoom:50%;" />
+<img src="https://assets.bili33.top/img/Why-I-Choose-to-Repeat-High-School/acae94e8cf93260e5e144c0582197ba.png" style="zoom:50%;" />
 
 ## 喜事：延迟开学
 
@@ -186,7 +186,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-Choose-to
 
 说是ACM比赛，其实就是蓝桥杯。我们队里的`L某H`还是很支持下面人的爱好的，所以当时我去参加，人也没有说阻止。因为我这个学校的总部是在广西，所以当时参加蓝桥杯是参加广西省的省赛。也是运气好，当时拿了一个广西省的二等奖。
 
-<img src="https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-Choose-to-Repeat-High-School/2022年蓝桥杯省二.jpg" style="zoom:33%;" />
+<img src="https://assets.bili33.top/img/Why-I-Choose-to-Repeat-High-School/2022年蓝桥杯省二.jpg" style="zoom:33%;" />
 
 ### Hello CTF!
 
@@ -209,7 +209,7 @@ CTF这个东西，其实是在我高考完的第二天，我那天在打第三�
 
 ##### 复赛
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/CTF-20220619/Cover.jpg)
+![](https://assets.bili33.top/img/CTF-20220619/Cover.jpg)
 
 复赛那就是大佬的舞台了，不过复赛是分区域的，我们算作华南赛区。
 
@@ -223,7 +223,7 @@ CTF这个东西，其实是在我高考完的第二天，我那天在打第三�
 
 在`Try2ReadFlag`这个题目，我就逮着SSRF来修，然后没想到真给我修到了。fix环节的机制是修好的记为100分，有3次检测环节，在第一环节检测修复后，后面默认为修复完成，直接+100，也就是这个机制，最后让我们拿到了**300**分的“高分”，拿了一个华南赛区三等奖
 
-<img src="https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-Choose-to-Repeat-High-School/CISCN2022获奖证书.jpg" style="zoom:33%;" />
+<img src="https://assets.bili33.top/img/Why-I-Choose-to-Repeat-High-School/CISCN2022获奖证书.jpg" style="zoom:33%;" />
 
 然后他们后来就开玩笑说：这把是我carry全场，事实上也确实，初赛是用我1k出头的分数拉上去的，复赛是我修的:<
 
@@ -297,7 +297,7 @@ CTF这个东西，其实是在我高考完的第二天，我那天在打第三�
 
 我还是报了个计算机二级来考的，反正一定能过，拿个证呗
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Why-I-Choose-to-Repeat-High-School/NCR二级合格证书.png)
+![](https://assets.bili33.top/img/Why-I-Choose-to-Repeat-High-School/NCR二级合格证书.png)
 
 ### `K子`的两面派
 

@@ -108,11 +108,11 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/AboutMe/logo-mini.png
+favicon: https://assets.bili33.top/img/AboutMe/logo-mini.png
 
 # Avatar (头像)
 avatar:
-  img: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/AboutMe/logo-mini.png
+  img: https://assets.bili33.top/img/AboutMe/logo-mini.png
   effect: false
 
 # Disable all banner image

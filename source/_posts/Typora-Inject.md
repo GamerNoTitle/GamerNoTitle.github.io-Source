@@ -3,7 +3,7 @@ title: 使用Typora-Inject激活Typora
 date: 2024-07-10 12:10:47
 tags: [Typora, Crack]
 categories: Tech
-cover: https://cdn.bili33.top/gh/Vikutorika/newassets/img/Typora-Inject/Typora_4XWzIX68g7.png
+cover: https://assets.bili33.top/img/Typora-Inject/Typora_4XWzIX68g7.png
 ---
 
 {% note danger %}
@@ -22,7 +22,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets/img/Typora-Inject/Typora_4
 
 一开始我是使用了这个仓库Action中的版本，但是一直激活不通过，直到我看到了[issue](https://github.com/DiamondHunters/NodeInject_Hook_example/issues/1#issuecomment-1784011014)
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/Typora-Inject/msedge_saTSxmwUBp.png)
+![](https://assets.bili33.top/img/Typora-Inject/msedge_saTSxmwUBp.png)
 
 所以我就去找了这个更改的commit之前的那个版本，并成功编译出来了可以用于激活的文件
 
@@ -32,13 +32,13 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets/img/Typora-Inject/Typora_4
 
 解压后能得到四个文件
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/Typora-Inject/Bandizip.x64_hpv2ndSeU.png)
+![](https://assets.bili33.top/img/Typora-Inject/Bandizip.x64_hpv2ndSeU.png)
 
 把两个exe丢在Typora的安装目录下，然后在当前目录打开一个命令行（我这里拿我的Windows Server做演示）
 
 先运行`node_inject.exe`，让它先劫持激活过程，运行的时候应该会弹出一些提示（如图）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Typora-Inject/080235b6-4f7b-427e-92f6-42614257137.png)
+![](https://assets.bili33.top/img/Typora-Inject/080235b6-4f7b-427e-92f6-42614257137.png)
 
 然后我们再运行`license-gen.exe`，它会给我们生成一个激活码
 
@@ -49,15 +49,15 @@ License for you: Y2TC8Y-FHPQPS-BE68XH-S6D26W
 
 我们再打开Typora，进行激活过程，激活码填程序给我们生成的这个，邮箱可以随便填
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Typora-Inject/f4e42409-fbc0-4f33-a9bf-0c530741213e.png)
+![](https://assets.bili33.top/img/Typora-Inject/f4e42409-fbc0-4f33-a9bf-0c530741213e.png)
 
 因为我的服务器在国内（家用服务器当然在国内啦），所以会弹出这个提示，我们点`确认`就行
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Typora-Inject/df48ad69-381d-430f-9ea3-e07f28933fff.png)
+![](https://assets.bili33.top/img/Typora-Inject/df48ad69-381d-430f-9ea3-e07f28933fff.png)
 
 然后我们就激活成功了
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Typora-Inject/358ea9d0-22b9-47bf-b173-b0d77afe67ee.png)
+![](https://assets.bili33.top/img/Typora-Inject/358ea9d0-22b9-47bf-b173-b0d77afe67ee.png)
 
 ---
 

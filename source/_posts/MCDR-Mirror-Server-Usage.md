@@ -3,7 +3,7 @@ title: MCDR-Mirror-Server使用手册和例子 | The usage and example of MCDR-M
 date: 2020-07-18 12:44:51
 tags: Tech
 categories: Tech
-cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/MCDR-Mirror-Server-Usage/cover.jpg
+cover: https://assets.bili33.top/img/MCDR-Mirror-Server-Usage/cover.jpg
 ---
 
 # 简体中文
@@ -108,7 +108,7 @@ MCDReforged
 
 在mirror文件夹里面，我的文件大概如图所示（注：我开服的系统是linux，只是这里用Windows来浏览文件）
 
-![Mirror文件夹的文件](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/MCDR-Mirror-Server-Usage/Mirror-Files.png)
+![Mirror文件夹的文件](https://assets.bili33.top/img/MCDR-Mirror-Server-Usage/Mirror-Files.png)
 
 我的镜像服`server.properties`的内容如下
 
@@ -281,7 +281,7 @@ My mirror server folder inside MCDReforged is the folder called `mirror`, and I 
 
 My file in mirror folder like the picture below (PS: I use linux to hold the server, and I just use Windows to explore my files)
 
-![All my files in mirror folder](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/MCDR-Mirror-Server-Usage/Mirror-Files.png)
+![All my files in mirror folder](https://assets.bili33.top/img/MCDR-Mirror-Server-Usage/Mirror-Files.png)
 
 and my `server.properties` of my mirror like this
 

@@ -3,20 +3,20 @@ title: 音灵INVAXION解锁工具制作全纪录
 date: 2021-06-15 22:17:55
 tags: [Tech, Regedit, Save, Game]
 categories: Tech
-cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/INVAXION-Unlock-Log/Cover.png
+cover: https://assets.bili33.top/img/INVAXION-Unlock-Log/Cover.png
 ---
 
 > PS：音灵解锁补丁是我在高考前1个月左右的时候摸的，具体可以看Commit记录√
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/INVAXION-Unlock-Log/Announcement.png)
+![](https://assets.bili33.top/img/INVAXION-Unlock-Log/Announcement.png)
 
 音灵在2021.2.5宣布停运，我直到五月左右上游戏的时候才发现，我卡在了加载页面，翻了一下讨论区才发现，游戏停运了
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/INVAXION-Unlock-Log/Loading.png)
+![](https://assets.bili33.top/img/INVAXION-Unlock-Log/Loading.png)
 
 但是我还在讨论区里找到了这个
 
-[![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/INVAXION-Unlock-Log/Unlock-Level.png)](steamcommunity.com/app/921630/discussions/0/5350815203296872967/)
+[![](https://assets.bili33.top/img/INVAXION-Unlock-Log/Unlock-Level.png)](steamcommunity.com/app/921630/discussions/0/5350815203296872967/)
 
 然后我就下了这个使用了，发现，诶，我的铺面确实全解锁了，于是我开始了我的星舰解锁工具和角色解锁工具的制作
 
@@ -24,7 +24,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/INVAXION-Unlock-Lo
 
 星舰这个东西，我翻了一下我自己的存档（在注册表）
 
-![注：本图是解锁完成后的注册表](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/INVAXION-Unlock-Log/Regedit-Theme.png)
+![注：本图是解锁完成后的注册表](https://assets.bili33.top/img/INVAXION-Unlock-Log/Regedit-Theme.png)
 
 发现数字都在个位数，而我数了一下星舰的数量是13，我就在想，星舰的编号是不是从1~13，然后我就开始了我的解锁之旅
 
@@ -58,11 +58,11 @@ cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/INVAXION-Unlock-Lo
 
 人物当然也一样啦，但是人物那么多，而且ID还不是像主题这样连着的
 
-![注：本图是解锁完成后的注册表](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/INVAXION-Unlock-Log/Regedit-Char.png)
+![注：本图是解锁完成后的注册表](https://assets.bili33.top/img/INVAXION-Unlock-Log/Regedit-Char.png)
 
 我就去翻了一下文件，在`音灵 INVAXION\INVAXION_Data\StreamingAssets`这个目录下找到了所有的角色文件，在文件名上附有ID
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/INVAXION-Unlock-Log/File-Char.png)
+![](https://assets.bili33.top/img/INVAXION-Unlock-Log/File-Char.png)
 
 再次掏出工具（Python），生成对应的列表，然后导入，果然不出所料，所有角色都已经解锁了
 

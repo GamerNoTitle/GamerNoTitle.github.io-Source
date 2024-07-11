@@ -3,7 +3,7 @@ title: MHYY-AutoCheckin - 米哈云游（云原神）自动签到脚本食用指
 date: 2022-04-19 18:57:44
 tags: [Tech, Tutorial, Python, Script]
 categories: Tech
-cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/GenshinImpact/90149781_p0_small.png?download=true
+cover: https://assets.bili33.top/img/GenshinImpact/90149781_p0_small.png?download=true
 ---
 
 ## 米哈云游（云原神）自动签到脚本食用指南
@@ -58,13 +58,13 @@ ql repo https://github.com/GamerNoTitle/MHYY.git "main" "" ""
 
 保存以后点击运行按钮更新一下订阅
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/msedge-20230303-172154.png)
+![](https://assets.bili33.top/img/MHYY-AutoCheckin-Manual/msedge-20230303-172154.png)
 
 在定时任务中你就能找到刚刚更新的内容，但是还不能够使用，我们还需要配置依赖和环境变量
 
 我们需要两个python3依赖，分别是`requests`和`sentry-sdk`，如图填写并安装
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/msedge-20230303-172601.png)
+![](https://assets.bili33.top/img/MHYY-AutoCheckin-Manual/msedge-20230303-172601.png)
 
 然后点到环境变量，新建名为`config`的变量（可以改，请见[青龙面板不使用config作为变量名](#青龙面板不使用config作为变量名)）把我们的配置填进去，点击保存
 
@@ -115,7 +115,7 @@ ql repo https://github.com/GamerNoTitle/MHYY.git "main" "" ""
 
 
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/msedge-20230303-172858.png)
+![](https://assets.bili33.top/img/MHYY-AutoCheckin-Manual/msedge-20230303-172858.png)
 
 保存后你就可以在定时任务中运行试试看效果了~
 
@@ -130,7 +130,7 @@ config = json.loads(os.environ.get('config'))
 
 把括号里的`config`改成你想要的名字，然后配置环境变量的时候就直接改成你配置的名字就可以了~
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/msedge-20230303-173220.png)
+![](https://assets.bili33.top/img/MHYY-AutoCheckin-Manual/msedge-20230303-173220.png)
 
 #### Github Action 版本
 
@@ -138,19 +138,19 @@ config = json.loads(os.environ.get('config'))
 
 **原仓库在2023/02/03收到Github通知封禁，镜像仓库在[GamerNoTitle/MHYY: Disabled Action, if you need it, enable it by yourself (github.com)](https://github.com/GamerNoTitle/MHYY)，本项目仓库的Github Action已经被我手动禁用，如果需要使用Action版本，请将`~/.github/workflows`文件夹内的两个文件后面的`.disabled`删掉！**
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/ApplicationFrameHost-20230203-084848.png)
+![](https://assets.bili33.top/img/MHYY-AutoCheckin-Manual/ApplicationFrameHost-20230203-084848.png)
 
 {% endnote %}
 
 首先你需要先打开本脚本的仓库[GamerNoTitle/MHYY: 米哈云游（云原神）自动签到脚本，让你每天都拿到15分钟~ (github.com)](https://github.com/GamerNoTitle/MHYY)，点击右上角的fork按钮，接着点击下面绿色的`Create fork`来创建一个分支
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220419-190358.png?download=true)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220419-190358.png?download=true)
 
 然后点击上面的`Settings`，导航到`Secrets`->`Actions`页面下，点击`New repository secret`（如图）
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220419-190537.png?download=true)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220419-190537.png?download=true)
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220419-190618.png?download=true)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220419-190618.png?download=true)
 
 将以下内容进行填充后加入名字为`config`的Secret中（内容获取请参照[配置内容获取](#配置内容获取)一节）
 
@@ -176,19 +176,19 @@ config = json.loads(os.environ.get('config'))
 
 点击创建服务来建立一个新的服务
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/Github/MHYY-AutoCheckin/msedge-20221112-084539.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20221112-084539.png)
 
 紧接着创建一个新的函数，设置方法如下面几张图
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/Github/MHYY-AutoCheckin/msedge-20221112-084551.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20221112-084551.png)
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/Github/MHYY-AutoCheckin/msedge-20221112-084716.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20221112-084716.png)
 
 
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/Github/MHYY-AutoCheckin/msedge-20221112-084807.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20221112-084807.png)
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets/img/Github/MHYY-AutoCheckin/msedge-20221112-084913.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20221112-084913.png)
 
 创建后会自动打开阿里云函数的vscode，在这里，点击上面的`Terminal`，点击`New Terminal`（也可以直接快捷键<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>`</kbd>）
 
@@ -212,23 +212,23 @@ chmod +x ./preinstall.sh && ./preinstall.sh
 
 点击新建来建立一个新的函数
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220421-170743.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220421-170743.png)
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220421-170829.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220421-170829.png)
 
 函数的名称可以随便填，但是你也得符合腾讯云指定的规则；但是运行环境**一定一定**要选择**Python 3.6**（因为Python 3.7不带我们需要的环境，还需要自己装非常麻烦）
 
 接着往下，提交方法选择`本地上传文件夹`，然后选择你刚刚解压的文件夹里面的`SCF`文件夹，接着重点来啦：执行方法里面填写为`index.handler`（一定要改）
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220421-170913.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220421-170913.png)
 
 接着点击下面的触发器配置，选择`自定义创建`，触发方式选择`定时触发`，触发周期选择`每1天`，下面的`启用`要打勾，点击完成
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220421-170929.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220421-170929.png)
 
 创建完成后进入配置界面，先点击顶上的`函数配置`，点击`编辑`，往下面拉找到`初始化超时时间`和`执行超时时间`，把这两个数字往高了调
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220421-171310.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220421-171310.png)
 
 然后点击顶上的`函数代码`，等底下加载完后点击`config.json`，把你的信息填进去
 
@@ -238,15 +238,15 @@ chmod +x ./preinstall.sh && ./preinstall.sh
 chmod +x ./preinstall.sh && ./preinstall.sh
 ```
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220421-171008.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220421-171008.png)
 
 **一定要先把配置丢进`config.json`再部署代码！一定要先把配置丢进`config.json`再部署代码！一定要先把配置丢进`config.json`再部署代码！**
 
 往下拉，先点击`部署`，然后点`测试`，只要测试成功了就是部署完成了
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220421-171039.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220421-171039.png)
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220421-171404.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220421-171404.png)
 
 #### 其他云函数
 
@@ -273,15 +273,15 @@ chmod +x ./preinstall.sh && ./preinstall.sh
 
 配置完成后，我们点开顶上的Actions，然后点绿色的那个按钮
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220419-194540.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220419-194540.png)
 
 然后点击左侧列表中的两个脚本，点`Enable workflow`来启用
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220419-194659.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220419-194659.png)
 
 然后我们点开左侧的`AutoCheckin`，然后点`Run workflow`来运行，只要运行结果打了绿色的勾勾就一般就没啥问题
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220419-194812.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220419-194812.png)
 
 ### 自动保活
 
@@ -297,15 +297,15 @@ chmod +x ./preinstall.sh && ./preinstall.sh
 
 右上角点击自己的头像，然后点击`Settings`，然后在左侧的导航栏找到`Developer Settings`
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220822-204614.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220822-204614.png)
 
 然后在左边找到`Personal Access Tokens`，点击`Generate new token`生成一个token，名字填写为`GITHUB_TOKEN`
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220822-204757.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220822-204757.png)
 
 把过期时间设置为`No expiration`，然后依次勾选下面内容
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220822-205002.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220822-205002.png)
 
 然后点最下面的绿色按钮`Generate token`即可
 
@@ -317,11 +317,11 @@ chmod +x ./preinstall.sh && ./preinstall.sh
 
 **一定要记得装抓包软件提供的证书，要不然解不了SSL连接，一定要先登录并成功进去了再启动抓包软件！！！**
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/HTTPCANARY-Result.jpg?download=true)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/HTTPCANARY-Result.jpg?download=true)
 
 这里面只要是个HTTP链接，随便一个里面都有我们所需要的东西，这里我就点开了一个链接，在请求里面有所有我们需要的东西，而解释我都写在图片里面了
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/HTTPS-REQUEST-RESULT.png?download=true)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/HTTPS-REQUEST-RESULT.png?download=true)
 
 其中，这里面的东西与变量有如下的对应关系
 
@@ -356,7 +356,7 @@ chmod +x ./preinstall.sh && ./preinstall.sh
 
 堆积的信息可以在运行结果中查看
 
-![](https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Github/MHYY-AutoCheckin/msedge-20220515-065323.png)
+![](https://assets.bili33.top/img/Github/MHYY-AutoCheckin/msedge-20220515-065323.png)
 
 ### iOS设备用户须知
 
@@ -409,11 +409,11 @@ x-rpc-sys_version: <iOS版本>
 
 具体如图所示，这个要得益于昨天Github的一个更新[GitHub Actions - Updating the default GITHUB_TOKEN permissions to read-only | GitHub Changelog](https://github.blog/changelog/2023-02-02-github-actions-updating-the-default-github_token-permissions-to-read-only/)
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/ERRchrome-20230204-003058.png)
+![](https://assets.bili33.top/img/MHYY-AutoCheckin-Manual/ERRchrome-20230204-003058.png)
 
 在仓库里面点击`Settings` => `Actions` => `General`，往下拉找到`Workflow permissions`，把原来的`Read repository contents and packages permissions`改为上面的`Read and write permissions`，然后点击下面的`Save`键就可以了
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/MHYY-AutoCheckin-Manual/chrome-20230204-003338.png)
+![](https://assets.bili33.top/img/MHYY-AutoCheckin-Manual/chrome-20230204-003338.png)
 
 #### 发现了bug/无法使用
 

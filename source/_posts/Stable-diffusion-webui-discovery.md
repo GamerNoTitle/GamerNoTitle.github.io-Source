@@ -3,14 +3,14 @@ title: 关于我玩Stable-diffusion-webui的那些事
 date: 2023-01-21 13:54:02
 tags: Tech
 categories: Tech
-cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Stable-diffusion-webui-discovery/msedge-20230121-164109.png
+cover: https://assets.bili33.top/img/Stable-diffusion-webui-discovery/msedge-20230121-164109.png
 ---
 
 前段时间AI制图不是很火嘛，说NovelAI的制图效果可以比得上一些画师，然后当时B站就有很多的用[AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)加上一堆模型来生成自己的图片
 
 其实我一开始用的是naifu那一套，就是深紫色UI的那一个（图片在下面），而且是跑在colab上面的，这个跟stable-diffusion比的话没有负面Tag这个说法，就是给想要的图片的关键词，然后生成自己想要的图片
 
-![naifu版本](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Stable-diffusion-webui-discovery/naifu.png)
+![naifu版本](https://assets.bili33.top/img/Stable-diffusion-webui-discovery/naifu.png)
 
 后来看到了Stable-diffusion这一套，换模型啥的会比naifu版更加方便，而且功能也更全面，于是果断转向naifu版
 
@@ -18,9 +18,9 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Stable-diffusio
 
 要是你想在Colab或者Kaggle上面跑的话，我这里也提供下载链接
 
-> stable-diffusion-webui 版本：[下载链接](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Stable-diffusion-webui-discovery/StableDiffusionUI_(adapted_to_NovelAILeaks).ipynb)
+> stable-diffusion-webui 版本：[下载链接](https://assets.bili33.top/img/Stable-diffusion-webui-discovery/StableDiffusionUI_(adapted_to_NovelAILeaks).ipynb)
 >
-> naifu-NovelAI 版本：[下载链接](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Stable-diffusion-webui-discovery/NovelAILeaks_API_Backend_TCH.ipynb)
+> naifu-NovelAI 版本：[下载链接](https://assets.bili33.top/img/Stable-diffusion-webui-discovery/NovelAILeaks_API_Backend_TCH.ipynb)
 
 ## 安装基本组件
 
@@ -98,7 +98,7 @@ graph TD;
 
 在webui中能直接选择的其实就是`models/Stable-diffusion`里面的模型，在左上角有个选择框，如果你放进去了选择框里没有的话，你可以点一下左边的刷新
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Stable-diffusion-webui-discovery/msedge-20230121-195037.png)
+![](https://assets.bili33.top/img/Stable-diffusion-webui-discovery/msedge-20230121-195037.png)
 
 在这里选择我们想要的模型以后，我们就可以开始成图了
 
@@ -106,7 +106,7 @@ graph TD;
 
 刚访问自己的webui，里面应该是像我这个这样
 
-![软件主界面](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Stable-diffusion-webui-discovery/msedge-20230121-164109.png)
+![软件主界面](https://assets.bili33.top/img/Stable-diffusion-webui-discovery/msedge-20230121-164109.png)
 
 左上角显示目前选择的模型，下面有两个大框框，上面输入的是正面tag（就是你想要的图片里面应该是什么样的），下面的是负面tag（就是避免什么样的图）
 
@@ -130,11 +130,11 @@ graph TD;
 
 然后点击右边的generate，等待大约两分钟，看到右边生成了一张图片（生成的图片取决于模型以及随机生成的种子，所以每次生成基本都是不一样的）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Stable-diffusion-webui-discovery/msedge-20230121-200317.png)
+![](https://assets.bili33.top/img/Stable-diffusion-webui-discovery/msedge-20230121-200317.png)
 
 恭喜你！你已经会使用基本的SD功能了！生成的图片可以在`outputs/txt2img-images`里面找到！
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Stable-diffusion-webui-discovery/explorer-20230121-200441.png)
+![](https://assets.bili33.top/img/Stable-diffusion-webui-discovery/explorer-20230121-200441.png)
 
 ## 启动项详解
 
@@ -164,13 +164,13 @@ SD是可以安装插件的，而安装插件的方式很简单，在上方找到
 
 我这里装了一个`image browser`用于看图
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Stable-diffusion-webui-discovery/msedge-20230121-201811.png)
+![](https://assets.bili33.top/img/Stable-diffusion-webui-discovery/msedge-20230121-201811.png)
 
 ## 报错以及相关的解决方式
 
 ### 生成图片时控制台报`modules.devices.NansException`
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Stable-diffusion-webui-discovery/ShareX-20230121-200850.png)
+![](https://assets.bili33.top/img/Stable-diffusion-webui-discovery/ShareX-20230121-200850.png)
 
 在启动参数里面加入`--no-half-vae`即可
 

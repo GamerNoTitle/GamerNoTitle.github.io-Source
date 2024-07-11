@@ -2,7 +2,7 @@
 title: Valine-Magic - Valine表情仓库
 date: 2020-04-19 19:01:30
 tags: [Tech, Customize, meme, emoji]
-cover: https://cdn.bili33.top/gh/Vikutorika/assets@master/img/Valine-Magic/Cover.png
+cover: https://assets.bili33.top/img/Valine-Magic/Cover.png
 categories: Tech
 ---
 

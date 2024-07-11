@@ -3,7 +3,7 @@ title: 从外网访问Windows服务器上WSL的服务
 date: 2023-07-08 14:46:40
 tags: [Tech, WSL, Windows, Server]
 categories: Tech
-cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Access-WSL-through-Windows/cover.png
+cover: https://assets.bili33.top/img/Access-WSL-through-Windows/cover.png
 ---
 
 之前因为[Valora](https://github.com/GamerNoTitle/Valora)这个东西部署在Zeabur上面，然后Zeabur被我用超了，给我发邮件了，让我升级我的套餐，那既然这样我肯定得寻找更好的服务器去搭建Valora了；前些阵子我问了[@CyanFalse](https://github.com/ChenYFan)想问问有没有什么好的服务器，结果人家很大气啊，直接给了一台12H48G的**Windows**服务器（没错是Windows不是Linux），虽然说Windows做服务器没啥问题，又不是不会用，天天用着这个视窗11怎么可能不会用，不过Windows还是有点不方便，然后我就装了WSL来跑我的服务
@@ -18,7 +18,7 @@ cover: https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Access-WSL-thro
 
 直接在设置里面找到自己当前使用的网络驱动器，里面就有（这里用我自己电脑截个图，我自己电脑是设置了静态IP的，一般来说上面IP分配那里会写自动，要看下面那个IPv4地址的IP）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Access-WSL-through-Windows/ApplicationFrameHost-20230708-150548.png)
+![](https://assets.bili33.top/img/Access-WSL-through-Windows/ApplicationFrameHost-20230708-150548.png)
 
 当然如果你更习惯用命令行（例如我），那可以使用以下命令获取
 
@@ -79,7 +79,7 @@ Windows IP 配置
 
 我这里网卡是用的`以太网适配器 以太网`，所以我的IP就是`192.168.0.233`
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Access-WSL-through-Windows/mstsc-20230708-144616.png)
+![](https://assets.bili33.top/img/Access-WSL-through-Windows/mstsc-20230708-144616.png)
 
 ### 找到WSL的IP
 
@@ -120,13 +120,13 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 
 这里要看的是`eth0`，看里面的`inet`写的啥，这里可以得到IP地址为`xxx.xx.xx.123`（因为用的是公网服务器，所以码一下）
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Access-WSL-through-Windows/mstsc-20230708-144549.png)
+![](https://assets.bili33.top/img/Access-WSL-through-Windows/mstsc-20230708-144549.png)
 
 ## 让访问流量通过防火墙
 
 这里就得打开一个管理员终端了，按下<kbd>Win</kbd> + <kbd>X</kbd>，选择`终端（管理员）`
 
-![](https://cdn.bili33.top/gh/Vikutorika/newassets@master/img/Access-WSL-through-Windows/explorer-20230708-151300.png)
+![](https://assets.bili33.top/img/Access-WSL-through-Windows/explorer-20230708-151300.png)
 
 然后输入以下命令，添加防火墙规则，放行两端访问的流量
 
