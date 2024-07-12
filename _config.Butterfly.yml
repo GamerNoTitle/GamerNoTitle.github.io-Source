@@ -835,10 +835,9 @@ aside:
   card_announcement:  # 使用<br />来换行，可以用html语法
     enable: true
     content: |
-      <div align="center"><a href="https://cdn.bili33.top"><img src="https://cdn.bili33.top/gh/biliCDN/bilicdn.github.io@master/images/favicon.png"></a></br><p><h3>本站使用<a href="https://cdn.bili33.top">哔哩CDN</a>进行加速</h3></p></div>
-    # <div class="social-button">
-    # <a class="button--animated" href="https://jq.qq.com/?_wv=1027&k=KU9105XR" target="_blank">QQ 1 群 👍</a>  # 按钮链接可以这样写
-    # </div>
+      本站的所有图片文件已迁移至Cloudflare R2，除了必要的js和css，其他文件不再使用Github托管jsdelivr访问的业务逻辑<br>
+      如果你也想使用Cloudflare R2，可以点击下面的链接查看如何使用<br>
+      <a class="btn-beautify pink larger" href="/posts/Sync-Github-Repo-to-Clouflare-R2-Bucket-with-Action/" title="Butterfly" data-pjax-state=""><i class="far fa-hand-point-right"></i> <span>Cloudflare R2部署指北</span></a>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
