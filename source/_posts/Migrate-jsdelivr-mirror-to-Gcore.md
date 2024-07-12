@@ -8,7 +8,7 @@ cover: https://assets.bili33.top/img/Migrate-jsdelivr-mirror-to-Gcore/msedge-202
 
 {% note info %}
 
-哔哩CDN官网：[哔哩CDN - 你的CDN镜像源好帮手 | GamerNoTitle (bilicdn.tk)](https://bilicdn.tk/)
+哔哩CDN官网：[哔哩CDN - 你的CDN镜像源好帮手 | GamerNoTitle (bili33.top)](https://bili33.top/)
 
 {% endnote %}
 
