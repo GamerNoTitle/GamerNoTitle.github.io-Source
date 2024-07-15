@@ -24,6 +24,47 @@ cover: https://assets.bili33.top/img/Sync-Github-Repo-to-Clouflare-R2-Bucket-wit
 
 ![Cloudflare R2页面——免费用量](https://assets.bili33.top/img/Sync-Github-Repo-to-Clouflare-R2-Bucket-with-Action/msedge_KkNqo7uDml.png)
 
+> ### Class A操作
+>
+> Class A操作包括：
+>
+> - ListBuckets（列出存储桶）
+> - PutBucket（创建存储桶）
+> - ListObjects（列出对象）
+> - PutObject（上传对象）
+> - CopyObject（复制对象）
+> - CompleteMultipartUpload（完成分段上传）
+> - CreateMultipartUpload（创建分段上传）
+> - LifecycleStorageTierTransition（生命周期存储层转换）
+> - ListMultipartUploads（列出分段上传）
+> - UploadPart（上传分段）
+> - UploadPartCopy（复制上传分段）
+> - ListParts（列出分段）
+> - PutBucketEncryption（设置存储桶加密）
+> - PutBucketCors（设置存储桶跨域资源共享）
+> - PutBucketLifecycleConfiguration（设置存储桶生命周期配置）
+>
+> ### Class B操作
+>
+> Class B操作包括：
+>
+> - HeadBucket（获取存储桶元数据）
+> - HeadObject（获取对象元数据）
+> - GetObject（获取对象）
+> - UsageSummary（使用情况摘要）
+> - GetBucketEncryption（获取存储桶加密配置）
+> - GetBucketLocation（获取存储桶位置）
+> - GetBucketCors（获取存储桶跨域资源共享配置）
+> - GetBucketLifecycleConfiguration（获取存储桶生命周期配置）
+>
+> ### 免费操作
+>
+> 免费操作包括：
+>
+> - DeleteObject（删除对象）
+> - DeleteBucket（删除存储桶）
+> - AbortMultipartUpload（终止分段上传）
+
 # 使用Cloudflare R2
 
 ## 开通
