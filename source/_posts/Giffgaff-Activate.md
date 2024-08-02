@@ -1,8 +1,8 @@
 ---
 title: 英国Giffgaff卡激活记录
 date: 2024-08-02 15:15:19
-tags: [Daily, Giffgaff, SIM]
-categories: Daily
+tags: [Diary, Giffgaff, SIM]
+categories: Diary
 cover: https://assets.bili33.top/img/Giffgaff-Activate/msedge_JO6DoNlusm.png
 ---
 
