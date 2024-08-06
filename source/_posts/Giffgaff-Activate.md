@@ -94,7 +94,7 @@ cover: https://assets.bili33.top/img/Giffgaff-Activate/msedge_JO6DoNlusm.png
 
 ## eSIM
 
-Giffgaff已经支持eSIM了 => [How to get a giffgaff eSIM | giffgaff | giffgaff](https://www.giffgaff.com/blog/giffgaff-news/how-to-get-a-giffgaff-esim/#:~:text=The eSIM has officially landed,directly to any compatible handset.)
+Giffgaff已经支持eSIM了 => [How to get a giffgaff eSIM | giffgaff | giffgaff](https://www.giffgaff.com/blog/giffgaff-news/how-to-get-a-giffgaff-esim)
 
 但是国内手机没有eSIM，如果有需要我的建议是买一个5ber的eSIM或者是买个9eSIM的卡，我手上没有，这部分我就不多赘述了，我在下面放一个别人的教程
 
