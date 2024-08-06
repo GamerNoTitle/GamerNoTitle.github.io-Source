@@ -24,10 +24,10 @@ class:
       avatar: https://val.bili33.top/assets/img/favicon.png
       descr: 瓦罗兰特查商店
     5:
-      name: Valora-CN
-      link: https://val.bili33.top
-      avatar: https://val.bili33.top/assets/img/favicon.png
-      descr: 无畏契约查商店
+      name: 动态
+      link: https://moment.bili33.top/
+      avatar: https://moment.bili33.top/favicon.svg
+      descr: 基于TG频道的动态
     # 10000:
     #   name: N/A
     #   link: ./#
