@@ -168,7 +168,6 @@ cp /vmlinux /boot/vmlinuz
 
 ### 缺点
 
-- 没有平板模式
 - Surface Pen无法使用
 - 蓝牙、摄像头仍然无法使用
 - VPN不互通，需要使用SwitchyOmega来打通
