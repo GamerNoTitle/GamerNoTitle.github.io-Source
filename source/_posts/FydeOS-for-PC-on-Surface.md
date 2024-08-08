@@ -58,7 +58,7 @@ B站HD看1080P60会卡顿，估计最高就1080P30了
 
 ### Bug
 
-就算是FydeOS for YOU，专门为了Surface Pro 5做的系统，从我知道这个系统开始，已经进行了3年的迭代，但是你的蓝牙和摄像头还是不能用啊！！！你是真的要[linux-surface](https://github.com/linux-surface/linux-surface)项目给你适配了你才能加进去是吧
+就算是FydeOS for YOU，专门为了Surface Pro 5做的系统，从我知道这个系统开始，已经进行了3年的迭代，但是你的蓝牙和摄像头还是不能用啊！！！
 
 ![蓝牙不适配，无法搜索到设备](https://assets.bili33.top/img/FydeOS-for-PC-on-Surface/Screenshot%202024-08-08%2014.10.40.png)
 
