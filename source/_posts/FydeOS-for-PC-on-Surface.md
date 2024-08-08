@@ -179,3 +179,17 @@ cp /vmlinux /boot/vmlinuz
 没事不要更新系统，更新过程中可能会把我们替换好的内核换掉！！
 
 如果再更换完内核后再安装OpenGapps，需要重新替换内核！
+
+## Google 设备认证
+
+如果你登录Google的时候，提示设备未通过Play认证，我们就需要自己给我们的设备注册
+
+先在设备上安装[deviceID（Apkpure）](https://apkpure.net/cn/device-id/com.evozi.deviceid)这个软件，然后打开能看到我们的GSF ID
+
+![](https://assets.bili33.top/img/FydeOS-for-PC-on-Surface/Screenshot%202024-08-08%2016.32.56.png)
+
+我们再访问谷歌设备注册页面 https://www.google.com/android/uncertified/
+
+![](https://assets.bili33.top/img/FydeOS-for-PC-on-Surface/Screenshot%202024-08-08%2016.33.27.png)
+
+将我们的GSF ID贴进去，框框闪红色不用管，直接打一个验证码然后注册就可以了
