@@ -183,31 +183,6 @@ class3:
       link: https://www.yuzhang.wang
       descr: 两岸猿声啼不住 轻舟已过万重山
       avatar: https://cdn.bili33.top/gh/YuZhangWang/Creative_pictures01@main/img/20210907012640.png
-    # 71:
-    #   name: GoogTech
-    #   link: https://goog.tech
-    #   avatar: https://avatars.githubusercontent.com/u/43493852?v=4
-    #   descr: Developer, hacker, blogger, guitarist, marathoner and vlogger.
-    # 72:
-    #   name: Plaudern’s的跑路小站
-    #   descr: 今天跑路了么，还没有哦。
-    #   link: https://plaudern.net
-    #   avatar: https://s.gravatar.com/avatar/f6dc79785e7e3c16074b21bb9f0bb671?s=80
-    # 73:
-    #   name: Py’s Whisper
-    #   link: https://whisper.pyliubaolin.top/
-    #   avatar: https://pic.baixiongz.com/uploads/2021/06/06/229f9548755cd.jpg
-    #   descr: 那一瞬，我们也是星辰
-    74:
-      name: Dylech30th
-      link: https://sora.ink
-      avatar: https://sora.ink/wp-content/uploads/2021/11/BQN@YDLDQ7LFIMI566.png
-      descr: dc的胡言乱语
-    75:
-      name: 阿米糯
-      avatar: https://s1.ax1x.com/2022/03/06/bD20SJ.jpg
-      link: https://icecoke.top/ 
-      descr: less is more
     76:
       name: ZhaoQuinn's Blog
       descr: 热爱科技，热爱生活.
@@ -273,6 +248,11 @@ class3:
       descr: 只喝可乐
       link: https://blog.rimuruchan.tech
       avatar: https://blog.rimuruchan.tech/images/favicon.jpg
+    89:
+      name: Xingcy
+      link: https://xingcy08.github.io
+      avatar: https://xingcy08.github.io/images/avatar.jpg
+      descr: 永远相信美好的事情即将发生
 
 class4:
   class_name: NE 线下后宫
