@@ -48,7 +48,7 @@ B站HD看1080P60会卡顿，估计最高就1080P30了
 
 ![](https://assets.bili33.top/img/FydeOS-for-PC-on-Surface/Screenshot%202024-08-08%2014.11.45.png)
 
-~~不知道是ArcWelder的特性还是ChromeOS+ArcWelder的组合技~~（注：FydeOS不是ArcWelder，查不到是ArcVM还是Arc++），在Android开的VPN服务能够在ChromeOS中正常使用，也就是说，我打开了Surfboard后，我的FydeOS本体是可以正常搭梯子的
+在Android开的VPN服务能够在ChromeOS中正常使用，也就是说，我打开了Surfboard后，我的FydeOS本体是可以正常搭梯子的
 
 ![](https://assets.bili33.top/img/FydeOS-for-PC-on-Surface/Screenshot%202024-08-08%2014.12.29.png)
 
@@ -67,8 +67,6 @@ B站HD看1080P60会卡顿，估计最高就1080P30了
 ### 收费
 
 是的你没听错，这个系统是订阅制，一年120RMB，新机自安装后第一次联网进入试用期90天（大版本更新会重置试用期，例如 `v17 -> v18` 会记`v18`的试用期为90天）
-
-~~但它的适配就是把linux-surface项目搬过来替换掉内核，实在是不值得付费，但凡你把linux-surface的蓝牙和摄像头驱动问题修了我都觉得你有干活，而且你这个订阅信息页面真的做好了吗？关系到你自己赚钱的东西你UI都没有做好（下面这个图），底下留那么大一块黑色给我停飞机嘛？综上，我选择拒绝它的订阅~~
 
 ![](https://assets.bili33.top/img/FydeOS-for-PC-on-Surface/Screenshot%202024-08-08%2014.10.28.png)
 
