@@ -94,7 +94,7 @@ FydeOS这个系统我以前用过v17，用的也是FydeOS for You，但当时系
 
 {% note warning %}
 
-如果你还没有安装FydeOS，我推荐你先选择使用FydeOS并使用本地账户登录后，先进行这一节的操作，确定这一节的操作对你的电脑有效再安装，能有效降低数据暴毙的概率（另外，通过现在安装程序进行替换，再进行安装的时候，不需要再次更换内核）
+如果你还没有安装FydeOS，我推荐你先选择使用FydeOS并使用本地账户登录后，先进行这一节的操作，确定这一节的操作对你的电脑有效再安装，能有效降低数据暴毙的概率
 
 请先初始化你的FydeOS后再看这一节，因为这一节不好截图，所以就基本上只有文字了
 
@@ -152,7 +152,7 @@ rm -rf /lib/firmware
 # 下面这行请替换为你实际存放两个tar.gz位置的目录！！
 cd /home/chronos/user/Downloads
 
-tar -xvf chromebook-6.6.tar.gz -C /
+tar -xvf surface-6.6.tar.gz -C /
 tar -xvf firmware.tar.gz -C /
 
 cp /vmlinux /efi/syslinux/vmlinuz.A
