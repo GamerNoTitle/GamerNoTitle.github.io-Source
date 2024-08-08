@@ -195,6 +195,8 @@ cp /vmlinux /boot/vmlinuz
 
 [![](https://assets.bili33.top/img/FydeOS-for-PC-on-Surface/msedge_WEZ6bIG3Rt.png)](https://community.fydeos.com/t/topic/39713/167)
 
+> 请不要去攻击人家的评论区，做一个系统是很难的，做好更难
+
 首先第一，我的观点就是好产品值得付费，但是FydeOS for You目前没有达到我付费的标准
 
 本身FydeOS这个产品我就是偶尔使用，并不是说我一直要用着它，我主用还是Windows，纯粹是想要另外一种体验才装的
