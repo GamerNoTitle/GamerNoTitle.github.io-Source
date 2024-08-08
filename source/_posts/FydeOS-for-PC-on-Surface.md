@@ -192,3 +192,15 @@ cp /vmlinux /boot/vmlinuz
 ![](https://assets.bili33.top/img/FydeOS-for-PC-on-Surface/Screenshot%202024-08-08%2016.33.27.png)
 
 将我们的GSF ID贴进去，框框闪红色不用管，直接打一个验证码然后注册就可以了
+
+## [关于有人在FydeOS的论坛吐槽我](https://community.fydeos.com/t/topic/39713/167)
+
+[![](https://assets.bili33.top/img/FydeOS-for-PC-on-Surface/msedge_WEZ6bIG3Rt.png)](https://community.fydeos.com/t/topic/39713/167)
+
+首先第一，我的观点就是好产品值得付费，但是FydeOS for You目前没有达到我付费的标准
+
+本身FydeOS这个产品我就是偶尔使用，并不是说我一直要用着它，我主用还是Windows，纯粹是想要另外一种体验才装的
+
+其次，我上面说“它的适配就是把linux-surface项目搬过来替换掉内核”确实缺乏考证，就因为我看它跟linux-surface项目有同样的问题，我就如此断定，这点确实是我的不对，还请大家理性看待
+
+如果将来，FydeOS for You能够成为真正能够日常使用的，没有较大槽点的产品，我愿意为之付费，当然我是持着`未来可期`的态度的
