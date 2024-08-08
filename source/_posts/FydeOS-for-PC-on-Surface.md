@@ -48,7 +48,7 @@ B站HD看1080P60会卡顿，估计最高就1080P30了
 
 ![](https://assets.bili33.top/img/FydeOS-for-PC-on-Surface/Screenshot%202024-08-08%2014.11.45.png)
 
-~~不知道是ArcWelder的特性还是ChromeOS+ArcWelder的组合技~~ 更正：FydeOS用的是ArcVM，在Android开的VPN服务能够在ChromeOS中正常使用，也就是说，我打开了Surfboard后，我的FydeOS本体是可以正常搭梯子的
+~~不知道是ArcWelder的特性还是ChromeOS+ArcWelder的组合技~~（注：FydeOS不是ArcWelder，查不到是ArcVM还是Arc++），在Android开的VPN服务能够在ChromeOS中正常使用，也就是说，我打开了Surfboard后，我的FydeOS本体是可以正常搭梯子的
 
 ![](https://assets.bili33.top/img/FydeOS-for-PC-on-Surface/Screenshot%202024-08-08%2014.12.29.png)
 
