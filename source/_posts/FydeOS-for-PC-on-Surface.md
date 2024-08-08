@@ -160,7 +160,7 @@ cp /vmlinux /efi/syslinux/vmlinuz.B
 cp /vmlinux /boot/vmlinuz
 ```
 
-换完以后我们重启电脑，再次进行测试，这个时候我的触屏和WIFI就已经恢复正常了，同时也没有了烦人的FydeOS订阅0
+换完以后我们重启电脑，再次进行测试，这个时候我的触屏和WIFI就已经恢复正常了，同时也没有了烦人的FydeOS订阅
 
 ![](https://assets.bili33.top/img/FydeOS-for-PC-on-Surface/Screenshot%202024-08-08%2015.37.01.png)
 
