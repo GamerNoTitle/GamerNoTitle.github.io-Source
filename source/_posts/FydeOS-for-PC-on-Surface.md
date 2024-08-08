@@ -148,7 +148,10 @@ mount -o remount,rw /
 [ -d /efi ] || mkdir /efi
 rm -rf /lib/modules/* 
 rm -rf /lib/firmware
+
+# 下面这行请替换为你实际存放两个tar.gz位置的目录！！
 cd /home/chronos/user/Downloads
+
 tar -xvf chromebook-6.6.tar.gz -C /
 tar -xvf firmware.tar.gz -C /
 
