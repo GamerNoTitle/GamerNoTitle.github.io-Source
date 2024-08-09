@@ -72,6 +72,14 @@ B站HD看1080P60会卡顿，估计最高就1080P30了
 
 ## FydeOS for PC
 
+{% note warning %}
+
+不可否认的是，官方调教过的FydeOS for You肯定是要比没有经过条件的FydeOS for PC更好用，如果你是要平常长时间使用这个系统，我更推荐你去用FydeOS for You而不是瞎折腾用FydeOS for PC
+
+如果你执意要用FydeOS for PC，请确保你拥有能自己解决问题的能力
+
+{% endnote %}
+
 这个版本的系统是没有付费的，FydeOS的付费只针对于它的YOU服务，那么就很简单了
 
 > 我只要装个FydeOS for PC，然后把内核一换不就行了？
